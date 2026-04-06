@@ -2,67 +2,67 @@
 <rss version="2.0">
     <channel>
       <title>고도</title>
-      <link>https://qodot.me</link>
+      <link>https://qodot.github.io/obsidian-public</link>
       <description>최근 10 건 on 고도</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>고도</title>
-    <link>https://qodot.me/</link>
-    <guid>https://qodot.me/</guid>
+    <link>https://qodot.github.io/obsidian-public/</link>
+    <guid>https://qodot.github.io/obsidian-public/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 06 Apr 2026 11:27:02 GMT</pubDate>
+    <pubDate>Mon, 06 Apr 2026 11:28:35 GMT</pubDate>
   </item><item>
     <title>20210411 I did it my way</title>
-    <link>https://qodot.me/2021/20210411-I-did-it-my-way</link>
-    <guid>https://qodot.me/2021/20210411-I-did-it-my-way</guid>
+    <link>https://qodot.github.io/obsidian-public/2021/20210411-I-did-it-my-way</link>
+    <guid>https://qodot.github.io/obsidian-public/2021/20210411-I-did-it-my-way</guid>
     <description><![CDATA[ 생각 ‘나 답다’는건 뭘까? 나름의 정의가 있을 수 있겠지만, 소위 ‘내 안의 목소리에 귀 기울이고 그대로 삶을 만들어 나가는 것’이라는 정의도 충분히 사람들에게 동의를 얻을만 할 것 같다. 하지만 또 천천히 생각해보면 이런저런 질문들이 떠오르게 된다. ]]></description>
     <pubDate>Mon, 06 Apr 2026 06:47:30 GMT</pubDate>
   </item><item>
     <title>20260302 자연어는 코드의 추상화 계층이 아니다</title>
-    <link>https://qodot.me/2026/20260302-%EC%9E%90%EC%97%B0%EC%96%B4%EB%8A%94-%EC%BD%94%EB%93%9C%EC%9D%98-%EC%B6%94%EC%83%81%ED%99%94-%EA%B3%84%EC%B8%B5%EC%9D%B4-%EC%95%84%EB%8B%88%EB%8B%A4</link>
-    <guid>https://qodot.me/2026/20260302-%EC%9E%90%EC%97%B0%EC%96%B4%EB%8A%94-%EC%BD%94%EB%93%9C%EC%9D%98-%EC%B6%94%EC%83%81%ED%99%94-%EA%B3%84%EC%B8%B5%EC%9D%B4-%EC%95%84%EB%8B%88%EB%8B%A4</guid>
+    <link>https://qodot.github.io/obsidian-public/2026/20260302-%EC%9E%90%EC%97%B0%EC%96%B4%EB%8A%94-%EC%BD%94%EB%93%9C%EC%9D%98-%EC%B6%94%EC%83%81%ED%99%94-%EA%B3%84%EC%B8%B5%EC%9D%B4-%EC%95%84%EB%8B%88%EB%8B%A4</link>
+    <guid>https://qodot.github.io/obsidian-public/2026/20260302-%EC%9E%90%EC%97%B0%EC%96%B4%EB%8A%94-%EC%BD%94%EB%93%9C%EC%9D%98-%EC%B6%94%EC%83%81%ED%99%94-%EA%B3%84%EC%B8%B5%EC%9D%B4-%EC%95%84%EB%8B%88%EB%8B%A4</guid>
     <description><![CDATA[ 최근 LLM과의 프로그래밍에 ‘고수준 언어의 등장으로 대부분의 프로그래머는 특별한 경우가 아니면 어셈블리를 알 필요가 없게 되었다’는 예시를 적용해 ‘LLM 등장 이후 이제 자연어가 기존 프로그래밍 언어의 새 추상화 계층’이라고 말하는 사람들을 종종 봤다. ]]></description>
     <pubDate>Mon, 06 Apr 2026 06:47:30 GMT</pubDate>
   </item><item>
     <title>20260320 충분히 상세한 스펙은 곧 코드다</title>
-    <link>https://qodot.me/2026/20260320-%EC%B6%A9%EB%B6%84%ED%9E%88-%EC%83%81%EC%84%B8%ED%95%9C-%EC%8A%A4%ED%8E%99%EC%9D%80-%EA%B3%A7-%EC%BD%94%EB%93%9C%EB%8B%A4</link>
-    <guid>https://qodot.me/2026/20260320-%EC%B6%A9%EB%B6%84%ED%9E%88-%EC%83%81%EC%84%B8%ED%95%9C-%EC%8A%A4%ED%8E%99%EC%9D%80-%EA%B3%A7-%EC%BD%94%EB%93%9C%EB%8B%A4</guid>
+    <link>https://qodot.github.io/obsidian-public/2026/20260320-%EC%B6%A9%EB%B6%84%ED%9E%88-%EC%83%81%EC%84%B8%ED%95%9C-%EC%8A%A4%ED%8E%99%EC%9D%80-%EA%B3%A7-%EC%BD%94%EB%93%9C%EB%8B%A4</link>
+    <guid>https://qodot.github.io/obsidian-public/2026/20260320-%EC%B6%A9%EB%B6%84%ED%9E%88-%EC%83%81%EC%84%B8%ED%95%9C-%EC%8A%A4%ED%8E%99%EC%9D%80-%EA%B3%A7-%EC%BD%94%EB%93%9C%EB%8B%A4</guid>
     <description><![CDATA[ haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code#user-content-fnref-3 상당히 재밌다. ]]></description>
     <pubDate>Mon, 06 Apr 2026 06:47:30 GMT</pubDate>
   </item><item>
     <title>20260305 단순함으로는 승진하지 못한다</title>
-    <link>https://qodot.me/2026/20260305-%E1%84%83%E1%85%A1%E1%86%AB%E1%84%89%E1%85%AE%E1%86%AB%E1%84%92%E1%85%A1%E1%86%B7%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%92%E1%85%A1%E1%84%8C%E1%85%B5-%E1%84%86%E1%85%A9%E1%86%BA%E1%84%92%E1%85%A1%E1%86%AB%E1%84%83%E1%85%A1</link>
-    <guid>https://qodot.me/2026/20260305-%E1%84%83%E1%85%A1%E1%86%AB%E1%84%89%E1%85%AE%E1%86%AB%E1%84%92%E1%85%A1%E1%86%B7%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%92%E1%85%A1%E1%84%8C%E1%85%B5-%E1%84%86%E1%85%A9%E1%86%BA%E1%84%92%E1%85%A1%E1%86%AB%E1%84%83%E1%85%A1</guid>
+    <link>https://qodot.github.io/obsidian-public/2026/20260305-%E1%84%83%E1%85%A1%E1%86%AB%E1%84%89%E1%85%AE%E1%86%AB%E1%84%92%E1%85%A1%E1%86%B7%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%92%E1%85%A1%E1%84%8C%E1%85%B5-%E1%84%86%E1%85%A9%E1%86%BA%E1%84%92%E1%85%A1%E1%86%AB%E1%84%83%E1%85%A1</link>
+    <guid>https://qodot.github.io/obsidian-public/2026/20260305-%E1%84%83%E1%85%A1%E1%86%AB%E1%84%89%E1%85%AE%E1%86%AB%E1%84%92%E1%85%A1%E1%86%B7%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%89%E1%85%B3%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%92%E1%85%A1%E1%84%8C%E1%85%B5-%E1%84%86%E1%85%A9%E1%86%BA%E1%84%92%E1%85%A1%E1%86%AB%E1%84%83%E1%85%A1</guid>
     <description><![CDATA[ terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/ 공감하면서 읽었다. ]]></description>
     <pubDate>Thu, 05 Mar 2026 04:17:33 GMT</pubDate>
   </item><item>
     <title>20211011 한편 - 일</title>
-    <link>https://qodot.me/2021/20211011-%E1%84%92%E1%85%A1%E1%86%AB%E1%84%91%E1%85%A7%E1%86%AB---%E1%84%8B%E1%85%B5%E1%86%AF</link>
-    <guid>https://qodot.me/2021/20211011-%E1%84%92%E1%85%A1%E1%86%AB%E1%84%91%E1%85%A7%E1%86%AB---%E1%84%8B%E1%85%B5%E1%86%AF</guid>
+    <link>https://qodot.github.io/obsidian-public/2021/20211011-%E1%84%92%E1%85%A1%E1%86%AB%E1%84%91%E1%85%A7%E1%86%AB---%E1%84%8B%E1%85%B5%E1%86%AF</link>
+    <guid>https://qodot.github.io/obsidian-public/2021/20211011-%E1%84%92%E1%85%A1%E1%86%AB%E1%84%91%E1%85%A7%E1%86%AB---%E1%84%8B%E1%85%B5%E1%86%AF</guid>
     <description><![CDATA[ 책 에세이 www.aladin.co.kr/shop/wproduct.aspx 개미투자자가 하는 일 - 김수현 손실에도 불구하고 계속해서 주식투자를 하는 이유는 돈이 쉽게 벌려서가 아니라, 이제는 일해서는 필요한 만큼, 원하는 만큼 버는 게 너무 어렵기 때문이다. ]]></description>
     <pubDate>Sun, 01 Mar 2026 15:47:04 GMT</pubDate>
   </item><item>
     <title>20211004 책, 이게 뭐라고 - 장강명</title>
-    <link>https://qodot.me/2021/20211004-%E1%84%8E%E1%85%A2%E1%86%A8,-%E1%84%8B%E1%85%B5%E1%84%80%E1%85%A6-%E1%84%86%E1%85%AF%E1%84%85%E1%85%A1%E1%84%80%E1%85%A9---%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%80%E1%85%A1%E1%86%BC%E1%84%86%E1%85%A7%E1%86%BC</link>
-    <guid>https://qodot.me/2021/20211004-%E1%84%8E%E1%85%A2%E1%86%A8,-%E1%84%8B%E1%85%B5%E1%84%80%E1%85%A6-%E1%84%86%E1%85%AF%E1%84%85%E1%85%A1%E1%84%80%E1%85%A9---%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%80%E1%85%A1%E1%86%BC%E1%84%86%E1%85%A7%E1%86%BC</guid>
+    <link>https://qodot.github.io/obsidian-public/2021/20211004-%E1%84%8E%E1%85%A2%E1%86%A8,-%E1%84%8B%E1%85%B5%E1%84%80%E1%85%A6-%E1%84%86%E1%85%AF%E1%84%85%E1%85%A1%E1%84%80%E1%85%A9---%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%80%E1%85%A1%E1%86%BC%E1%84%86%E1%85%A7%E1%86%BC</link>
+    <guid>https://qodot.github.io/obsidian-public/2021/20211004-%E1%84%8E%E1%85%A2%E1%86%A8,-%E1%84%8B%E1%85%B5%E1%84%80%E1%85%A6-%E1%84%86%E1%85%AF%E1%84%85%E1%85%A1%E1%84%80%E1%85%A9---%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%80%E1%85%A1%E1%86%BC%E1%84%86%E1%85%A7%E1%86%BC</guid>
     <description><![CDATA[ 책 에세이 www.aladin.co.kr/shop/wproduct.aspx 크게 기대하지 않고 펼쳤는데 너무 재미있었다. ]]></description>
     <pubDate>Sun, 01 Mar 2026 15:47:02 GMT</pubDate>
   </item><item>
     <title>20211001 책 대 담배 - 조지 오웰</title>
-    <link>https://qodot.me/2021/20211001-%E1%84%8E%E1%85%A2%E1%86%A8-%E1%84%83%E1%85%A2-%E1%84%83%E1%85%A1%E1%86%B7%E1%84%87%E1%85%A2---%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5-%E1%84%8B%E1%85%A9%E1%84%8B%E1%85%B0%E1%86%AF</link>
-    <guid>https://qodot.me/2021/20211001-%E1%84%8E%E1%85%A2%E1%86%A8-%E1%84%83%E1%85%A2-%E1%84%83%E1%85%A1%E1%86%B7%E1%84%87%E1%85%A2---%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5-%E1%84%8B%E1%85%A9%E1%84%8B%E1%85%B0%E1%86%AF</guid>
+    <link>https://qodot.github.io/obsidian-public/2021/20211001-%E1%84%8E%E1%85%A2%E1%86%A8-%E1%84%83%E1%85%A2-%E1%84%83%E1%85%A1%E1%86%B7%E1%84%87%E1%85%A2---%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5-%E1%84%8B%E1%85%A9%E1%84%8B%E1%85%B0%E1%86%AF</link>
+    <guid>https://qodot.github.io/obsidian-public/2021/20211001-%E1%84%8E%E1%85%A2%E1%86%A8-%E1%84%83%E1%85%A2-%E1%84%83%E1%85%A1%E1%86%B7%E1%84%87%E1%85%A2---%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%B5-%E1%84%8B%E1%85%A9%E1%84%8B%E1%85%B0%E1%86%AF</guid>
     <description><![CDATA[ 책 에세이 www.aladin.co.kr/shop/wproduct.aspx 조지 오웰의 짧은 산문집. 평소 조지 오웰을 그렇게 좋아하던건 아니어서 큰 기대를 안 했는데, 생각보다 재밌었다. 짧은 산문집 치고 이런저런 생각을 많이 하기도 했다. ]]></description>
     <pubDate>Sun, 01 Mar 2026 15:46:59 GMT</pubDate>
   </item><item>
     <title>20210606 속초는 어때?</title>
-    <link>https://qodot.me/2021/20210606-%E1%84%89%E1%85%A9%E1%86%A8%E1%84%8E%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%A5%E1%84%84%E1%85%A2</link>
-    <guid>https://qodot.me/2021/20210606-%E1%84%89%E1%85%A9%E1%86%A8%E1%84%8E%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%A5%E1%84%84%E1%85%A2</guid>
+    <link>https://qodot.github.io/obsidian-public/2021/20210606-%E1%84%89%E1%85%A9%E1%86%A8%E1%84%8E%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%A5%E1%84%84%E1%85%A2</link>
+    <guid>https://qodot.github.io/obsidian-public/2021/20210606-%E1%84%89%E1%85%A9%E1%86%A8%E1%84%8E%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%A5%E1%84%84%E1%85%A2</guid>
     <description><![CDATA[ 생각 속초에 온지 2주차에 접어들었다. 1주차에는 맛있는 물회, 미역국, 국밥, 그에 비해 너무 그지같은 닭강정, 바다, 호수들, 시장 튀김을 먹고 얻은 배탈, 피곤해서 도진 헤르페스(1형임;;) 등이 있었다. 특히 영랑호는 정말 좋았다. ]]></description>
     <pubDate>Sun, 01 Mar 2026 15:46:55 GMT</pubDate>
   </item><item>
     <title>20210530 혼자서도 행복하기</title>
-    <link>https://qodot.me/2021/20210530-%E1%84%92%E1%85%A9%E1%86%AB%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A5%E1%84%83%E1%85%A9-%E1%84%92%E1%85%A2%E1%86%BC%E1%84%87%E1%85%A9%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5</link>
-    <guid>https://qodot.me/2021/20210530-%E1%84%92%E1%85%A9%E1%86%AB%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A5%E1%84%83%E1%85%A9-%E1%84%92%E1%85%A2%E1%86%BC%E1%84%87%E1%85%A9%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5</guid>
+    <link>https://qodot.github.io/obsidian-public/2021/20210530-%E1%84%92%E1%85%A9%E1%86%AB%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A5%E1%84%83%E1%85%A9-%E1%84%92%E1%85%A2%E1%86%BC%E1%84%87%E1%85%A9%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5</link>
+    <guid>https://qodot.github.io/obsidian-public/2021/20210530-%E1%84%92%E1%85%A9%E1%86%AB%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A5%E1%84%83%E1%85%A9-%E1%84%92%E1%85%A2%E1%86%BC%E1%84%87%E1%85%A9%E1%86%A8%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5</guid>
     <description><![CDATA[ 생각 우리는 홀로 행복한 인간이 되어 건강한 관계를 맺기를 꿈꾼다. 그 꿈은 자유, 독립, 의존하지 않음, 고독 같은 단어로 모습을 바꾸기도 한다. 사람들은 이런 개념들을 꽤나 성스럽게 다루는 것 같아 보인다. ]]></description>
     <pubDate>Sun, 01 Mar 2026 15:46:53 GMT</pubDate>
   </item>
