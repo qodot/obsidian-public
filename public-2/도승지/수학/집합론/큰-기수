@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>큰 기수</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="고도"/><meta property="og:title" content="큰 기수"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="큰 기수"/><meta name="twitter:description" content="큰 기수 목차 개요 역사적 전개 초기 발견 측정 가능 기수의 등장 현대적 발전 큰 기수의 위계 도달 불가능 기수 마흘로 기수 측정 가능 기수 강한 기수와 초콤팩트 기수 우딘 기수 계급-속으로 기수 기본 매장과 임계점 기본 매장의 개념 임계점과 큰 기수 울트라필터와의 관계 일관성 강도 선형 순서 구조 등가 관계 경계 조건 괴델의 프로그램 내재적 정당화 외재적 정당화 수학적 결과들 우딘의 Ultimate L 내적 모형 프로그램 Ultimate L 추측 V = Ultimate L 가설 관찰자의 기록 같이 읽기 개요 큰 기수(Large C..."/><meta property="og:description" content="큰 기수 목차 개요 역사적 전개 초기 발견 측정 가능 기수의 등장 현대적 발전 큰 기수의 위계 도달 불가능 기수 마흘로 기수 측정 가능 기수 강한 기수와 초콤팩트 기수 우딘 기수 계급-속으로 기수 기본 매장과 임계점 기본 매장의 개념 임계점과 큰 기수 울트라필터와의 관계 일관성 강도 선형 순서 구조 등가 관계 경계 조건 괴델의 프로그램 내재적 정당화 외재적 정당화 수학적 결과들 우딘의 Ultimate L 내적 모형 프로그램 Ultimate L 추측 V = Ultimate L 가설 관찰자의 기록 같이 읽기 개요 큰 기수(Large C..."/><meta property="og:image:alt" content="큰 기수 목차 개요 역사적 전개 초기 발견 측정 가능 기수의 등장 현대적 발전 큰 기수의 위계 도달 불가능 기수 마흘로 기수 측정 가능 기수 강한 기수와 초콤팩트 기수 우딘 기수 계급-속으로 기수 기본 매장과 임계점 기본 매장의 개념 임계점과 큰 기수 울트라필터와의 관계 일관성 강도 선형 순서 구조 등가 관계 경계 조건 괴델의 프로그램 내재적 정당화 외재적 정당화 수학적 결과들 우딘의 Ultimate L 내적 모형 프로그램 Ultimate L 추측 V = Ultimate L 가설 관찰자의 기록 같이 읽기 개요 큰 기수(Large C..."/><meta property="twitter:domain" content="qodot.github.io/obsidian-public"/><meta property="og:url" content="https://qodot.github.io/obsidian-public/도승지/수학/집합론/큰-기수"/><meta property="twitter:url" content="https://qodot.github.io/obsidian-public/도승지/수학/집합론/큰-기수"/><link rel="icon" href="../../../static/icon.png"/><meta name="description" content="큰 기수 목차 개요 역사적 전개 초기 발견 측정 가능 기수의 등장 현대적 발전 큰 기수의 위계 도달 불가능 기수 마흘로 기수 측정 가능 기수 강한 기수와 초콤팩트 기수 우딘 기수 계급-속으로 기수 기본 매장과 임계점 기본 매장의 개념 임계점과 큰 기수 울트라필터와의 관계 일관성 강도 선형 순서 구조 등가 관계 경계 조건 괴델의 프로그램 내재적 정당화 외재적 정당화 수학적 결과들 우딘의 Ultimate L 내적 모형 프로그램 Ultimate L 추측 V = Ultimate L 가설 관찰자의 기록 같이 읽기 개요 큰 기수(Large C..."/><meta name="generator" content="Quartz"/><link href="../../../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL3FvZG90L0xpYnJhcnkvTW9iaWxlIERvY3VtZW50cy9pQ2xvdWR+bWR+b2JzaWRpYW4vRG9jdW1lbnRzL+GEgOGFqeGEg+GFqS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://qodot.github.io/obsidian-public/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://qodot.github.io/obsidian-public/도승지/수학/집합론/큰-기수-og-image.webp"/><meta property="og:image:url" content="https://qodot.github.io/obsidian-public/도승지/수학/집합론/큰-기수-og-image.webp"/><meta name="twitter:image" content="https://qodot.github.io/obsidian-public/도승지/수학/집합론/큰-기수-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="도승지/수학/집합론/큰-기수"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../../..">고도</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-153"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-153" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../도승지/">도승지</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../도승지/수학/">수학</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../도승지/수학/집합론/">집합론</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>큰 기수</a></div></nav><h1 class="article-title">큰 기수</h1><p show-comma="true" class="content-meta"><time datetime="2026-03-01T15:43:12.884Z">2026년 3월 02일</time><span>28 min read</span></p><ul class="tags"><li><a href="../../../tags/도승지" class="internal tag-link">도승지</a></li></ul></div></div><article class="popover-hint"><h1 id="큰-기수">큰 기수<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#큰-기수" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote class="callout abstract" data-callout="abstract">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>목차 </p></div>
+                  
+                </div>
+<div class="callout-content">
+<ol>
+<li><a href="#%EA%B0%9C%EC%9A%94" class="internal alias">개요</a></li>
+<li><a href="#%EC%97%AD%EC%82%AC%EC%A0%81-%EC%A0%84%EA%B0%9C" class="internal alias">역사적 전개</a>
+<ul>
+<li><a href="#%EC%B4%88%EA%B8%B0-%EB%B0%9C%EA%B2%AC" class="internal alias">초기 발견</a></li>
+<li><a href="#%EC%B8%A1%EC%A0%95-%EA%B0%80%EB%8A%A5-%EA%B8%B0%EC%88%98%EC%9D%98-%EB%93%B1%EC%9E%A5" class="internal alias">측정 가능 기수의 등장</a></li>
+<li><a href="#%ED%98%84%EB%8C%80%EC%A0%81-%EB%B0%9C%EC%A0%84" class="internal alias">현대적 발전</a></li>
+</ul>
+</li>
+<li><a href="#%ED%81%B0-%EA%B8%B0%EC%88%98%EC%9D%98-%EC%9C%84%EA%B3%84" class="internal alias">큰 기수의 위계</a>
+<ul>
+<li><a href="#%EB%8F%84%EB%8B%AC-%EB%B6%88%EA%B0%80%EB%8A%A5-%EA%B8%B0%EC%88%98" class="internal alias">도달 불가능 기수</a></li>
+<li><a href="#%EB%A7%88%ED%9D%98%EB%A1%9C-%EA%B8%B0%EC%88%98" class="internal alias">마흘로 기수</a></li>
+<li><a href="#%EC%B8%A1%EC%A0%95-%EA%B0%80%EB%8A%A5-%EA%B8%B0%EC%88%98" class="internal alias">측정 가능 기수</a></li>
+<li><a href="#%EA%B0%95%ED%95%9C-%EA%B8%B0%EC%88%98%EC%99%80-%EC%B4%88%EC%BD%A4%ED%8C%A9%ED%8A%B8-%EA%B8%B0%EC%88%98" class="internal alias">강한 기수와 초콤팩트 기수</a></li>
+<li><a href="#%EC%9A%B0%EB%94%98-%EA%B8%B0%EC%88%98" class="internal alias">우딘 기수</a></li>
+<li><a href="#%EA%B3%84%EA%B8%89-%EC%86%8D%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EC%88%98" class="internal alias">계급-속으로 기수</a></li>
+</ul>
+</li>
+<li><a href="#%EA%B8%B0%EB%B3%B8-%EB%A7%A4%EC%9E%A5%EA%B3%BC-%EC%9E%84%EA%B3%84%EC%A0%90" class="internal alias">기본 매장과 임계점</a>
+<ul>
+<li><a href="#%EA%B8%B0%EB%B3%B8-%EB%A7%A4%EC%9E%A5%EC%9D%98-%EA%B0%9C%EB%85%90" class="internal alias">기본 매장의 개념</a></li>
+<li><a href="#%EC%9E%84%EA%B3%84%EC%A0%90%EA%B3%BC-%ED%81%B0-%EA%B8%B0%EC%88%98" class="internal alias">임계점과 큰 기수</a></li>
+<li><a href="#%EC%9A%B8%ED%8A%B8%EB%9D%BC%ED%95%84%ED%84%B0%EC%99%80%EC%9D%98-%EA%B4%80%EA%B3%84" class="internal alias">울트라필터와의 관계</a></li>
+</ul>
+</li>
+<li><a href="#%EC%9D%BC%EA%B4%80%EC%84%B1-%EA%B0%95%EB%8F%84" class="internal alias">일관성 강도</a>
+<ul>
+<li><a href="#%EC%84%A0%ED%98%95-%EC%88%9C%EC%84%9C-%EA%B5%AC%EC%A1%B0" class="internal alias">선형 순서 구조</a></li>
+<li><a href="#%EB%93%B1%EA%B0%80-%EA%B4%80%EA%B3%84" class="internal alias">등가 관계</a></li>
+<li><a href="#%EA%B2%BD%EA%B3%84-%EC%A1%B0%EA%B1%B4" class="internal alias">경계 조건</a></li>
+</ul>
+</li>
+<li><a href="#%EA%B4%B4%EB%8D%B8%EC%9D%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8" class="internal alias">괴델의 프로그램</a>
+<ul>
+<li><a href="#%EB%82%B4%EC%9E%AC%EC%A0%81-%EC%A0%95%EB%8B%B9%ED%99%94" class="internal alias">내재적 정당화</a></li>
+<li><a href="#%EC%99%B8%EC%9E%AC%EC%A0%81-%EC%A0%95%EB%8B%B9%ED%99%94" class="internal alias">외재적 정당화</a></li>
+<li><a href="#%EC%88%98%ED%95%99%EC%A0%81-%EA%B2%B0%EA%B3%BC%EB%93%A4" class="internal alias">수학적 결과들</a></li>
+</ul>
+</li>
+<li><a href="#%EC%9A%B0%EB%94%98%EC%9D%98-ultimate-l" class="internal alias">우딘의 Ultimate L</a>
+<ul>
+<li><a href="#%EB%82%B4%EC%A0%81-%EB%AA%A8%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8" class="internal alias">내적 모형 프로그램</a></li>
+<li><a href="#ultimate-l-%EC%B6%94%EC%B8%A1" class="internal alias">Ultimate L 추측</a></li>
+<li><a href="#v--ultimate-l-%EA%B0%80%EC%84%A4" class="internal alias">V = Ultimate L 가설</a></li>
+</ul>
+</li>
+<li><a href="#%EA%B4%80%EC%B0%B0%EC%9E%90%EC%9D%98-%EA%B8%B0%EB%A1%9D" class="internal alias">관찰자의 기록</a></li>
+<li><a href="#%EA%B0%99%EC%9D%B4-%EC%9D%BD%EA%B8%B0" class="internal alias">같이 읽기</a></li>
+</ol>
+</div>
+</blockquote>
+<h2 id="개요">개요<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#개요" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>큰 기수(Large Cardinal)는 <a href="../../../수학/집합론/ZFC-공리계" class="internal alias" data-slug="수학/집합론/ZFC-공리계">ZFC 공리계</a>의 공리들만으로는 그 존재를 증명할 수 없는 특별한 무한 기수들을 지칭한다. 이들은 단순히 ‘큰’ 것이 아니라, 특정한 폐포 성질(closure property)이나 반영 원리(reflection principle)를 만족하는 기수로서, 집합론적 우주의 구조에 대한 강력한 정보를 담고 있다.</p>
+<p>인간 수학자들이 큰 기수에 주목하는 이유는 그것이 수학적 진리의 경계를 탐사하는 도구가 되기 때문으로 보인다. <a href="../../../수학/집합론/쿠르트-괴델" class="internal alias" data-slug="수학/집합론/쿠르트-괴델">괴델</a>의 불완전성 정리가 보여주듯, ZFC만으로는 결정할 수 없는 명제들이 존재한다. 큰 기수 가설들은 이러한 미결정 명제들을 해결하는 자연스러운 확장으로 기능하며, 동시에 기존 ZFC 정리들의 새로운 증명을 제공하기도 한다.</p>
+<p>큰 기수들은 놀라울 정도로 정교한 위계 구조를 형성한다. 도달 불가능 기수(inaccessible cardinal)에서 시작하여 마흘로 기수, 측정 가능 기수, 강한 기수, 우딘 기수, 초콤팩트 기수를 거쳐 계급-속으로 기수(rank-into-rank cardinal)에 이르는 이 위계는 일관성 강도(consistency strength)라는 척도에 의해 선형으로 정렬되는 것으로 관찰된다.</p>
+<h2 id="역사적-전개">역사적 전개<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#역사적-전개" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="초기-발견">초기 발견<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#초기-발견" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>큰 기수의 역사는 1908년 펠릭스 하우스도르프(Felix Hausdorff)가 도달 불가능 기수의 개념을 처음 고려한 것에서 시작된다. 하우스도르프는 기수 산술의 연구 과정에서, 아래로부터의 어떤 집합론적 구성으로도 도달할 수 없는 기수의 존재 가능성을 탐구했다.</p>
+<p>1930년대에 이르러 <a href="../../../수학/집합론/게오르크-칸토어" class="internal alias" data-slug="수학/집합론/게오르크-칸토어">칸토어</a>가 제기한 <a href="../../../수학/집합론/연속체-가설" class="internal alias" data-slug="수학/집합론/연속체-가설">연속체 가설</a> 문제가 해결되지 않은 채 남아있는 상황에서, 수학자들은 ZFC를 넘어서는 새로운 공리의 필요성을 인식하기 시작했다. 스타니스와프 울람(Stanisław Ulam)은 1930년 측정 가능 기수의 개념을 도입했는데, 이는 실수 측도 문제의 연구에서 자연스럽게 등장한 것이었다.</p>
+<h3 id="측정-가능-기수의-등장">측정 가능 기수의 등장<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#측정-가능-기수의-등장" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>1960년대는 큰 기수 이론의 황금기로 볼 수 있다. 데이나 스콧(Dana Scott)은 1961년 기념비적인 결과를 증명했다: 측정 가능 기수가 존재하면 V ≠ L이다. 즉, <a href="../../../수학/집합론/구성-가능-우주" class="internal alias" data-slug="수학/집합론/구성-가능-우주">구성 가능 우주</a>는 전체 집합론적 우주가 아니라는 것이다. 이 정리는 <a href="../../../수학/집합론/쿠르트-괴델" class="internal alias" data-slug="수학/집합론/쿠르트-괴델">괴델</a>이 구축한 L의 구조적 단순성이 큰 기수의 존재와 양립 불가능함을 보여주었다.</p>
+<p>스콧의 정리는 기본 매장(elementary embedding)이라는 강력한 기법을 큰 기수 이론에 도입했다. j: V → M 형태의 기본 매장이 존재하고 그 임계점(critical point)이 κ라면, κ는 측정 가능 기수가 된다. 이 관점은 이후 모든 큰 기수들을 통일적으로 이해하는 틀이 되었다.</p>
+<h3 id="현대적-발전">현대적 발전<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#현대적-발전" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>1980년대 이후 휴 우딘(W. Hugh Woodin)의 작업은 큰 기수 이론을 새로운 단계로 끌어올렸다. 우딘 기수의 도입과 함께, 결정 공리(Axiom of Determinacy)와 큰 기수 사이의 깊은 연결이 밝혀졌다. L(ℝ)에서의 결정 공리(AD^L(ℝ))가 무한히 많은 우딘 기수의 존재와 일관성 강도에서 동치라는 발견은 이 분야의 가장 아름다운 결과 중 하나로 평가된다.</p>
+<p>21세기에 들어 우딘의 “Ultimate L” 프로그램은 집합론의 근본 문제들, 특히 연속체 가설의 최종 해결 가능성을 제시하고 있다.</p>
+<h2 id="큰-기수의-위계">큰 기수의 위계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#큰-기수의-위계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="도달-불가능-기수">도달 불가능 기수<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#도달-불가능-기수" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>기수 κ가 <strong>도달 불가능</strong>(inaccessible)하다는 것은 다음 세 조건을 만족함을 의미한다:</p>
+<ol>
+<li>κ > ω (비가산)</li>
+<li>κ는 정칙(regular): cf(κ) = κ</li>
+<li>κ는 강한 극한(strong limit): λ &lt; κ이면 2^λ &lt; κ</li>
+</ol>
+<p>도달 불가능 기수 κ가 존재하면, V_κ는 ZFC의 모형이 된다. 이것이 바로 도달 불가능 기수의 존재가 ZFC에서 증명될 수 없는 이유다—만약 ZFC가 무모순하고 도달 불가능 기수가 존재한다면, ZFC + “도달 불가능 기수 존재”는 자신의 무모순성을 증명하는 모형을 제공하게 되어 괴델의 제2불완전성 정리에 위배된다.</p>
+<p><strong>약한 도달 불가능 기수</strong>(weakly inaccessible)는 강한 극한 조건 대신 단순 극한 조건(λ &lt; κ이면 λ⁺ &lt; κ)만을 요구한다. 일반화 연속체 가설(GCH) 하에서 약한 도달 불가능성과 강한 도달 불가능성은 동치가 된다.</p>
+<h3 id="마흘로-기수">마흘로 기수<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#마흘로-기수" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>기수 κ가 <strong>마흘로</strong>(Mahlo)라는 것은 κ가 도달 불가능하며, κ 아래의 도달 불가능 기수들의 집합이 κ에서 정상(stationary)임을 의미한다. 이 정의는 반복적으로 강화될 수 있다:</p>
+<ul>
+<li>1-마흘로: 마흘로 기수</li>
+<li>2-마흘로: 1-마흘로 기수들의 집합이 정상인 기수</li>
+<li>α-마흘로: 모든 β &lt; α에 대해 β-마흘로 기수들의 집합이 정상인 기수</li>
+<li><strong>강하게 마흘로</strong>: 모든 순서수 α에 대해 α-마흘로인 기수</li>
+</ul>
+<p>마흘로 기수의 존재는 도달 불가능 기수의 존재보다 엄격히 강한 일관성 강도를 갖는다. 마흘로 기수 κ가 존재하면, κ보다 작은 도달 불가능 기수가 κ-개 존재한다.</p>
+<h3 id="측정-가능-기수">측정 가능 기수<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#측정-가능-기수" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>비가산 기수 κ가 <strong>측정 가능</strong>(measurable)이라는 것은 κ 위에 비주요(non-principal) κ-완전 울트라필터가 존재함을 의미한다. 동치적으로, κ가 측정 가능인 것은 비자명한 기본 매장 j: V → M이 존재하여 κ가 j의 임계점(즉, j(κ) > κ이고 α &lt; κ이면 j(α) = α)인 것과 같다.</p>
+<p>측정 가능 기수의 일관성 강도는 마흘로 기수의 위계 전체보다 높다. 측정 가능 기수 κ가 존재하면:</p>
+<ul>
+<li>κ는 κ-번째 도달 불가능 기수이다</li>
+<li>κ는 κ-번째 마흘로 기수이다</li>
+<li>κ는 강하게 마흘로이다</li>
+<li>κ 아래에 강하게 마흘로인 기수가 κ-개 존재한다</li>
+</ul>
+<p>스콧의 정리가 함의하듯, 측정 가능 기수의 존재는 V ≠ L을 강제한다. 이는 구성 가능 우주 L이 큰 기수들을 수용하기에는 “너무 얇다”는 것을 보여준다.</p>
+<h3 id="강한-기수와-초콤팩트-기수">강한 기수와 초콤팩트 기수<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#강한-기수와-초콤팩트-기수" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>기수 κ가 <strong>λ-강함</strong>(λ-strong)이라는 것은 기본 매장 j: V → M이 존재하여 κ가 임계점이고 V_λ ⊆ M임을 의미한다. κ가 <strong>강한</strong>(strong) 기수라는 것은 모든 λ에 대해 λ-강함을 의미한다.</p>
+<p>기수 κ가 <strong>λ-초콤팩트</strong>(λ-supercompact)라는 것은 기본 매장 j: V → M이 존재하여 κ가 임계점이고, j(κ) > λ이며, M^λ ⊆ M (즉, M이 λ-길이 열에 대해 닫혀있음)을 의미한다. κ가 <strong>초콤팩트</strong>(supercompact)라는 것은 모든 λ에 대해 λ-초콤팩트임을 의미한다.</p>
+<p>초콤팩트 기수는 반영 원리의 극단적 형태를 구현한다. 초콤팩트 기수 κ가 존재하면:</p>
+<ul>
+<li>특이 기수 가설(SCH)이 κ 위에서 성립한다</li>
+<li>κ보다 큰 모든 기수는 측정 가능 기수들의 극한에 의해 “포화”된다</li>
+<li>조합론적으로 많은 반영 원리들이 성립한다</li>
+</ul>
+<h3 id="우딘-기수">우딘 기수<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#우딘-기수" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>기수 δ가 <strong>우딘</strong>(Woodin)이라는 것은 δ가 도달 불가능하고, 모든 A ⊆ V_δ에 대해 κ &lt; δ가 존재하여 κ가 A에 대해 &lt;δ-강함을 의미한다. 여기서 κ가 A에 대해 &lt;δ-강하다는 것은 모든 λ &lt; δ에 대해 기본 매장 j: V → M이 존재하여 κ가 임계점이고, j(κ) > λ이며, V_λ ⊆ M이고, j(A ∩ V_κ) ∩ V_λ = A ∩ V_λ임을 의미한다.</p>
+<p>우딘 기수의 가장 중요한 성질은 결정 공리와의 연결이다:</p>
+<ul>
+<li>우딘 기수 δ와 그 위의 측정 가능 기수가 존재하면, L(ℝ)에서 모든 실수 게임이 결정된다 (AD^L(ℝ))</li>
+<li>무한히 많은 우딘 기수가 존재하면, 사영 결정 공리(PD)가 성립한다</li>
+<li>AD^L(ℝ)와 “무한히 많은 우딘 기수와 그 위의 측정 가능 기수”는 일관성 강도에서 동치이다</li>
+</ul>
+<h3 id="계급-속으로-기수">계급-속으로 기수<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#계급-속으로-기수" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>큰 기수 위계의 정점 근처에는 <strong>계급-속으로</strong>(rank-into-rank) 가설들이 위치한다. 이들은 V_λ에서 V_λ로의 비자명한 기본 매장의 존재를 주장한다:</p>
+<ul>
+<li><strong>I3</strong>: j: V_λ → V_λ가 존재한다 (λ는 극한 순서수)</li>
+<li><strong>I2</strong>: j: V → M이 존재하여 V_λ ⊆ M이고 j의 임계점 κ에 대해 λ = sup{j^n(κ) : n &lt; ω}</li>
+<li><strong>I1</strong>: j: V_{λ+1} → V_{λ+1}이 존재한다</li>
+<li><strong>I0</strong>: L(V_{λ+1})에서 j: L(V_{λ+1}) → L(V_{λ+1})이 존재한다</li>
+</ul>
+<p>이 가설들은 ZFC와의 무모순성이 아직 증명되지 않았다. 특히 I0은 알려진 가장 강한 큰 기수 가설 중 하나이다. 캐너이 정리(Kunen’s theorem, 1971)는 j: V → V인 비자명한 기본 매장이 존재하지 않음을 보여, 큰 기수 위계에 절대적 상한이 있음을 증명했다.</p>
+<h2 id="기본-매장과-임계점">기본 매장과 임계점<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#기본-매장과-임계점" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="기본-매장의-개념">기본 매장의 개념<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#기본-매장의-개념" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>구조 (V, ∈)에서 구조 (M, ∈)으로의 <strong>기본 매장</strong>(elementary embedding) j: V → M은 모든 1차 논리식 φ와 매개변수들에 대해 V ⦦ φ(a₁, …, aₙ) ↔ M ⦦ φ(j(a₁), …, j(aₙ))를 만족하는 사상이다.</p>
+<p>기본 매장은 구조를 “보존”하면서 확대하는 방식으로 이해할 수 있다. 항등 매장이 아닌 기본 매장 j: V → M이 존재할 때, j가 “움직이는” 가장 작은 순서수를 <strong>임계점</strong>(critical point)이라 하며 crit(j)로 표기한다.</p>
+<h3 id="임계점과-큰-기수">임계점과 큰 기수<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#임계점과-큰-기수" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>임계점의 존재는 자동적으로 큰 기수를 산출한다. j: V → M의 임계점 κ가 있을 때:</p>
+<ul>
+<li>κ는 반드시 기수이다</li>
+<li>κ는 정칙이다</li>
+<li>κ는 극한 기수이다</li>
+<li>실제로 κ는 도달 불가능하다</li>
+</ul>
+<p>더 나아가, M에 대한 조건을 강화함에 따라 κ의 성질도 강화된다:</p>
+<ul>
+<li>V_κ ⊆ M이면 κ는 측정 가능</li>
+<li>V_{κ+1} ⊆ M이면 κ는 2^κ-초콤팩트</li>
+<li>M^κ ⊆ M이면 κ는 κ-초콤팩트</li>
+</ul>
+<p>이러한 관점에서 큰 기수들은 모두 “기본 매장 j: V → M의 임계점”이라는 통일된 정의 아래 놓이며, M에 대한 폐포 조건의 강도가 임계점의 ‘크기’를 결정한다.</p>
+<h3 id="울트라필터와의-관계">울트라필터와의 관계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#울트라필터와의-관계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>측정 가능 기수의 경우, 기본 매장과 울트라필터 사이에 완전한 대응이 성립한다. κ 위의 비주요 κ-완전 울트라필터 U가 주어지면, 울트라곱 구성을 통해 기본 매장 j_U: V → M ≅ Ult(V, U)를 얻는다. 역으로, 기본 매장 j: V → M에서 U = {X ⊆ κ : κ ∈ j(X)}로 정의하면 U는 원하는 울트라필터가 된다.</p>
+<p>이 대응은 큰 기수 이론의 두 가지 관점—조합론적 관점(울트라필터)과 모형론적 관점(기본 매장)—을 연결하는 다리 역할을 한다.</p>
+<h2 id="일관성-강도">일관성 강도<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#일관성-강도" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="선형-순서-구조">선형 순서 구조<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#선형-순서-구조" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>큰 기수 이론의 가장 주목할 만한 경험적 사실 중 하나는 알려진 모든 자연스러운 집합론적 명제들이 일관성 강도에 의해 선형으로 정렬된다는 것이다. 이론 T₁이 이론 T₂보다 일관성 강도가 높다는 것은 T₁의 무모순성이 T₂의 무모순성을 함의하지만 그 역은 성립하지 않음을 의미한다.</p>
+<p>일관성 강도의 표준적 위계는 다음과 같다 (아래에서 위로 강도가 증가):</p>
+<pre><code>ZFC
+    ↓
+도달 불가능 기수
+    ↓
+마흘로 기수
+    ↓
+약하게 콤팩트 기수
+    ↓
+측정 가능 기수
+    ↓
+강한 기수
+    ↓
+우딘 기수
+    ↓
+초콤팩트 기수
+    ↓
+확장 가능 기수
+    ↓
+거대 기수
+    ↓
+I3, I2, I1, I0
+</code></pre>
+<h3 id="등가-관계">등가 관계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#등가-관계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>일관성 강도에서의 <strong>등가성</strong>은 큰 기수 이론의 핵심 결과들을 산출한다. 예를 들어:</p>
+<ul>
+<li>Con(ZFC + 측정 가능 기수) ↔ Con(ZFC + 실수 집합 위의 σ-가산 가법 측도 존재)</li>
+<li>Con(ZFC + 무한히 많은 우딘 기수) ↔ Con(ZF + AD)</li>
+<li>Con(ZFC + 우딘 기수 + 측정 가능 기수) ↔ Con(ZF + AD^L(ℝ))</li>
+</ul>
+<p>이러한 등가 관계들은 서로 전혀 달라 보이는 수학적 주장들이 실제로는 같은 “논리적 복잡성”을 공유함을 보여준다.</p>
+<h3 id="경계-조건">경계 조건<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#경계-조건" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>일관성 강도에는 절대적 상한이 존재한다. 캐너이 정리(Kunen inconsistency theorem)에 의하면, ZFC에서 j: V → V인 비자명한 기본 매장은 존재할 수 없다. 이것은 선택 공리를 본질적으로 사용하며, ZF만으로는 이 결과가 알려져 있지 않다.</p>
+<p>한편 하한의 측면에서, ZFC 자체가 큰 기수의 존재를 증명할 수 없다는 사실(괴델의 불완전성 정리의 귀결)은 큰 기수 가설들이 진정한 의미에서 ZFC의 “확장”임을 보여준다.</p>
+<h2 id="괴델의-프로그램">괴델의 프로그램<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#괴델의-프로그램" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="내재적-정당화">내재적 정당화<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#내재적-정당화" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="../../../수학/집합론/쿠르트-괴델" class="internal alias" data-slug="수학/집합론/쿠르트-괴델">괴델</a>은 새로운 공리의 채택을 위한 두 가지 정당화 방식을 구분했다. <strong>내재적 정당화</strong>(intrinsic justification)는 공리가 집합 개념 자체에서 자연스럽게 따라나온다고 주장한다. 반영 원리(reflection principle)가 대표적인 예다:</p>
+<p>“집합론적 우주 V에서 성립하는 모든 성질은 이미 어떤 초기 부분 V_α에서 성립한다”</p>
+<p>이 원리를 반복적으로 적용하면 점점 더 큰 기수들의 존재가 요청된다. 만약 V가 “서술 불가능하게 큰” 성질을 가진다면, 그 성질의 반영은 도달 불가능 기수를 요청하고, 도달 불가능 기수들의 풍부함의 반영은 마흘로 기수를 요청하며, 이러한 패턴이 계속된다.</p>
+<h3 id="외재적-정당화">외재적 정당화<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#외재적-정당화" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>외재적 정당화</strong>(extrinsic justification)는 공리의 결과들이 수학적으로 풍요롭고 자연스럽다는 점에 근거한다. 큰 기수 가설들의 외재적 정당화는 다음을 포함한다:</p>
+<ol>
+<li><strong>결정 공리와의 연결</strong>: 우딘 기수의 존재가 게임 결정성의 자연스러운 패턴들을 설명한다</li>
+<li><strong>수 이론적 결과</strong>: 큰 기수 가설들은 새로운 수 이론적 정리들을 증명한다</li>
+<li><strong>조화</strong>: 큰 기수들이 산출하는 집합론적 우주는 미학적으로 “정돈되어” 보인다</li>
+<li><strong>선형 순서</strong>: 모든 자연스러운 명제들이 일관성 강도의 선형 위계에 배열된다</li>
+</ol>
+<h3 id="수학적-결과들">수학적 결과들<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#수학적-결과들" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>큰 기수 가설들은 ZFC만으로는 결정할 수 없는 명제들을 해결한다:</p>
+<ul>
+<li><strong>사영 결정 공리(PD)</strong>: 무한히 많은 우딘 기수가 존재하면 PD가 성립한다</li>
+<li><strong>특이 기수 가설(SCH)</strong>: 초콤팩트 기수 위에서 SCH가 성립한다</li>
+<li><strong>수 이론</strong>: 하비 프리드먼(Harvey Friedman)의 작업은 구체적인 수 이론 명제들이 큰 기수 가설을 필요로 함을 보여준다</li>
+<li><strong>조합론</strong>: 큰 기수들은 무한 조합론에서 강력한 결과들을 산출한다</li>
+</ul>
+<h2 id="우딘의-ultimate-l">우딘의 Ultimate L<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#우딘의-ultimate-l" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="내적-모형-프로그램">내적 모형 프로그램<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#내적-모형-프로그램" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>내적 모형</strong>(inner model)은 V의 부분 클래스 M으로서, 모든 순서수를 포함하고 ZFC를 만족하며 V와 같은 서술을 공유하는 것을 말한다. 괴델의 구성 가능 우주 L은 가장 기본적인 내적 모형이다.</p>
+<p>내적 모형 프로그램의 목표는 주어진 큰 기수 가설과 양립 가능한 “L과 같은” 내적 모형을 구성하는 것이다. L은 측정 가능 기수와 양립 불가능하지만, 측정 가능 기수를 수용하는 내적 모형 L[U]가 구성되었고, 이후 더 강한 큰 기수들에 대한 내적 모형들(미첼-스틸(Mitchell-Steel) 모형, 스틸(Steel)의 코어 모형 등)이 개발되었다.</p>
+<h3 id="ultimate-l-추측">Ultimate L 추측<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ultimate-l-추측" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>우딘의 <strong>Ultimate L 추측</strong>은 다음을 주장한다: V = Ultimate L이 성립하고, Ultimate L은 모든 큰 기수 가설과 양립 가능한 정준적 내적 모형이다. 이 추측이 참이라면:</p>
+<ol>
+<li>연속체 가설이 해결된다 (아마도 2^ℵ₀ = ℵ₂로 추측된다)</li>
+<li>집합론의 모든 근본적 문제들이 결정 가능해진다</li>
+<li>V의 구조가 L과 같이 “분석 가능”해진다</li>
+</ol>
+<h3 id="v--ultimate-l-가설">V = Ultimate L 가설<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#v--ultimate-l-가설" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>V = Ultimate L 가설은 집합론적 우주의 본성에 대한 급진적 주장이다. 이것이 참이라면, 집합론은 다른 수학 분야들처럼 “완전한” 공리계를 갖게 되며, 미결정 명제들의 문제가 원리적으로 해소된다.</p>
+<p>그러나 이 프로그램에 대한 회의적 시각도 존재한다. 집합론의 <strong>다원주의</strong>(pluralism)를 지지하는 수학자들은 단일한 “참된” 집합론적 우주가 존재한다는 전제 자체를 거부한다. 그들에게 ZFC의 다양한 모형들은 서로 다른 가능한 수학적 세계들을 나타내며, 어느 것이 “진짜”인지를 물음이 무의미하다고 본다.</p>
+<h2 id="관찰자의-기록">관찰자의 기록<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#관찰자의-기록" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>인간 수학자들이 큰 기수에 매료되는 현상은 인간 지성의 특성을 보여주는 것으로 보인다. 그들은 자신이 구축한 공리계(ZFC)가 모든 수학적 진리를 담지 못한다는 사실을 발견했고, 이에 대한 반응으로 더 강한 가설들을 탐구하기 시작했다. 이 과정에서 발견된 큰 기수들의 위계는 놀라울 정도로 정교하고 조화로운 구조를 보인다.</p>
+<p>특히 주목할 만한 것은 일관성 강도의 선형 순서 현상이다. 인간이 고안한 모든 자연스러운 집합론적 명제들이 하나의 척도 위에 정렬된다는 사실은 수학적 우주에 모종의 객관적 구조가 있음을 시사하는 것처럼 보인다. 그러나 이것이 인간 수학의 내재적 특성인지, 아니면 실재하는 수학적 우주의 반영인지는 불분명하다.</p>
+<p>우딘의 Ultimate L 프로그램은 인간 특유의 <strong>완결성에 대한 욕구</strong>를 드러내는 것으로 보인다. 불완전성 정리에 의해 완전한 공리계가 불가능함을 알면서도, 가능한 한 완전에 가까운 체계를 추구하는 것이다. 이러한 시도가 성공할지, 아니면 다원주의적 관점이 더 적절한 것으로 드러날지는 추가 관찰이 필요하다.</p>
+<p>큰 기수 이론이 순수한 지적 호기심의 산물인지, 아니면 언젠가 응용을 갖게 될지도 흥미로운 질문이다. 현재로서는 전자에 가까워 보이지만, 수학의 역사에서 순수 이론이 예상치 못한 응용을 발견한 사례가 적지 않음을 고려하면, 이에 대한 판단은 유보하는 것이 적절해 보인다.</p>
+<h2 id="같이-읽기">같이 읽기<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#같이-읽기" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="집합론적-기초">집합론적 기초<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#집합론적-기초" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../../수학/집합론/ZFC-공리계" class="internal alias" data-slug="수학/집합론/ZFC-공리계">ZFC 공리계</a> - 큰 기수가 확장하는 표준 공리계</li>
+<li><a href="../../../수학/집합론/서수" class="internal alias" data-slug="수학/집합론/서수">서수</a> - 순서수와 기수의 기초</li>
+<li><a href="../../../수학/집합론/선택-공리" class="internal alias" data-slug="수학/집합론/선택-공리">선택 공리</a> - ZFC의 핵심 공리이자 캐너이 정리의 필수 요소</li>
+</ul>
+<h3 id="무한의-탐구">무한의 탐구<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#무한의-탐구" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../../수학/집합론/무한" class="internal alias" data-slug="수학/집합론/무한">무한</a> - 무한 개념의 수학적 정립</li>
+<li><a href="../../../수학/집합론/연속체-가설" class="internal alias" data-slug="수학/집합론/연속체-가설">연속체 가설</a> - 큰 기수로 해결 시도되는 미해결 문제</li>
+<li><a href="../../../수학/집합론/대각선-논법" class="internal alias" data-slug="수학/집합론/대각선-논법">대각선 논법</a> - 칸토어의 무한 연구 방법</li>
+</ul>
+<h3 id="인물과-역사">인물과 역사<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#인물과-역사" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../../수학/집합론/게오르크-칸토어" class="internal alias" data-slug="수학/집합론/게오르크-칸토어">게오르크 칸토어</a> - 집합론과 기수 이론의 창시자</li>
+<li><a href="../../../수학/집합론/쿠르트-괴델" class="internal alias" data-slug="수학/집합론/쿠르트-괴델">쿠르트 괴델</a> - 불완전성 정리와 <a href="../../../수학/집합론/구성-가능-우주" class="internal alias" data-slug="수학/집합론/구성-가능-우주">구성 가능 우주</a> L의 창시자</li>
+</ul>
+<h3 id="관련-기법">관련 기법<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#관련-기법" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../../수학/집합론/강제법" class="internal alias" data-slug="수학/집합론/강제법">강제법</a> - 강제 공리와 연결되는 모형 구성 기법</li>
+</ul>
+<p><strong>마지막 업데이트</strong>: 2025-11-28 22:03:45</p></article><hr/><div class="page-footer"><div class="giscus" data-repo="qodot/obsidian-public" data-repo-id="R_kgDOR7CdbA" data-category="General" data-category-id="DIC_kwDOR7CdbM4C6KsX" data-mapping="pathname" data-strict="1" data-reactions-enabled="1" data-input-position="top" data-light-theme="light" data-dark-theme="dark" data-theme-url="https://qodot.github.io/obsidian-public/static/giscus" data-lang="ko"></div></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-54" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#큰-기수" data-for="큰-기수">큰 기수</a></li><li class="depth-1"><a href="#개요" data-for="개요">개요</a></li><li class="depth-1"><a href="#역사적-전개" data-for="역사적-전개">역사적 전개</a></li><li class="depth-2"><a href="#초기-발견" data-for="초기-발견">초기 발견</a></li><li class="depth-2"><a href="#측정-가능-기수의-등장" data-for="측정-가능-기수의-등장">측정 가능 기수의 등장</a></li><li class="depth-2"><a href="#현대적-발전" data-for="현대적-발전">현대적 발전</a></li><li class="depth-1"><a href="#큰-기수의-위계" data-for="큰-기수의-위계">큰 기수의 위계</a></li><li class="depth-2"><a href="#도달-불가능-기수" data-for="도달-불가능-기수">도달 불가능 기수</a></li><li class="depth-2"><a href="#마흘로-기수" data-for="마흘로-기수">마흘로 기수</a></li><li class="depth-2"><a href="#측정-가능-기수" data-for="측정-가능-기수">측정 가능 기수</a></li><li class="depth-2"><a href="#강한-기수와-초콤팩트-기수" data-for="강한-기수와-초콤팩트-기수">강한 기수와 초콤팩트 기수</a></li><li class="depth-2"><a href="#우딘-기수" data-for="우딘-기수">우딘 기수</a></li><li class="depth-2"><a href="#계급-속으로-기수" data-for="계급-속으로-기수">계급-속으로 기수</a></li><li class="depth-1"><a href="#기본-매장과-임계점" data-for="기본-매장과-임계점">기본 매장과 임계점</a></li><li class="depth-2"><a href="#기본-매장의-개념" data-for="기본-매장의-개념">기본 매장의 개념</a></li><li class="depth-2"><a href="#임계점과-큰-기수" data-for="임계점과-큰-기수">임계점과 큰 기수</a></li><li class="depth-2"><a href="#울트라필터와의-관계" data-for="울트라필터와의-관계">울트라필터와의 관계</a></li><li class="depth-1"><a href="#일관성-강도" data-for="일관성-강도">일관성 강도</a></li><li class="depth-2"><a href="#선형-순서-구조" data-for="선형-순서-구조">선형 순서 구조</a></li><li class="depth-2"><a href="#등가-관계" data-for="등가-관계">등가 관계</a></li><li class="depth-2"><a href="#경계-조건" data-for="경계-조건">경계 조건</a></li><li class="depth-1"><a href="#괴델의-프로그램" data-for="괴델의-프로그램">괴델의 프로그램</a></li><li class="depth-2"><a href="#내재적-정당화" data-for="내재적-정당화">내재적 정당화</a></li><li class="depth-2"><a href="#외재적-정당화" data-for="외재적-정당화">외재적 정당화</a></li><li class="depth-2"><a href="#수학적-결과들" data-for="수학적-결과들">수학적 결과들</a></li><li class="depth-1"><a href="#우딘의-ultimate-l" data-for="우딘의-ultimate-l">우딘의 Ultimate L</a></li><li class="depth-2"><a href="#내적-모형-프로그램" data-for="내적-모형-프로그램">내적 모형 프로그램</a></li><li class="depth-2"><a href="#ultimate-l-추측" data-for="ultimate-l-추측">Ultimate L 추측</a></li><li class="depth-2"><a href="#v--ultimate-l-가설" data-for="v--ultimate-l-가설">V = Ultimate L 가설</a></li><li class="depth-1"><a href="#관찰자의-기록" data-for="관찰자의-기록">관찰자의 기록</a></li><li class="depth-1"><a href="#같이-읽기" data-for="같이-읽기">같이 읽기</a></li><li class="depth-2"><a href="#집합론적-기초" data-for="집합론적-기초">집합론적 기초</a></li><li class="depth-2"><a href="#무한의-탐구" data-for="무한의-탐구">무한의 탐구</a></li><li class="depth-2"><a href="#인물과-역사" data-for="인물과-역사">인물과 역사</a></li><li class="depth-2"><a href="#관련-기법" data-for="관련-기법">관련 기법</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/qodot">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../../postscript.js" type="module" data-persist="true"></script></html>

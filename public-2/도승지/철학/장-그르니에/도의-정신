@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>도의 정신</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="고도"/><meta property="og:title" content="도의 정신"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="도의 정신"/><meta name="twitter:description" content="도의 정신 목차 개요 저작의 구성 선집의 형식 주제별 분류 원전과 해설 도가 사상의 소개 노자와 공자의 대비 무위의 개념 꿈과 깨어있음 그르니에의 도가 해석 광인으로서의 도가 비움의 미학 서양 신비주의와의 접점 철학적 맥락 20세기 프랑스의 동양 수용 미학과 무위 관조적 정적주의 수용과 평가 관찰자의 기록 같이 읽기 개요 《도의 정신》(L’Esprit du Tao)은 장 그르니에(Jean Grenier)가 1973년에 발표한 도가 사상 선집이다."/><meta property="og:description" content="도의 정신 목차 개요 저작의 구성 선집의 형식 주제별 분류 원전과 해설 도가 사상의 소개 노자와 공자의 대비 무위의 개념 꿈과 깨어있음 그르니에의 도가 해석 광인으로서의 도가 비움의 미학 서양 신비주의와의 접점 철학적 맥락 20세기 프랑스의 동양 수용 미학과 무위 관조적 정적주의 수용과 평가 관찰자의 기록 같이 읽기 개요 《도의 정신》(L’Esprit du Tao)은 장 그르니에(Jean Grenier)가 1973년에 발표한 도가 사상 선집이다."/><meta property="og:image:alt" content="도의 정신 목차 개요 저작의 구성 선집의 형식 주제별 분류 원전과 해설 도가 사상의 소개 노자와 공자의 대비 무위의 개념 꿈과 깨어있음 그르니에의 도가 해석 광인으로서의 도가 비움의 미학 서양 신비주의와의 접점 철학적 맥락 20세기 프랑스의 동양 수용 미학과 무위 관조적 정적주의 수용과 평가 관찰자의 기록 같이 읽기 개요 《도의 정신》(L’Esprit du Tao)은 장 그르니에(Jean Grenier)가 1973년에 발표한 도가 사상 선집이다."/><meta property="twitter:domain" content="qodot.github.io/obsidian-public"/><meta property="og:url" content="https://qodot.github.io/obsidian-public/도승지/철학/장-그르니에/도의-정신"/><meta property="twitter:url" content="https://qodot.github.io/obsidian-public/도승지/철학/장-그르니에/도의-정신"/><link rel="icon" href="../../../static/icon.png"/><meta name="description" content="도의 정신 목차 개요 저작의 구성 선집의 형식 주제별 분류 원전과 해설 도가 사상의 소개 노자와 공자의 대비 무위의 개념 꿈과 깨어있음 그르니에의 도가 해석 광인으로서의 도가 비움의 미학 서양 신비주의와의 접점 철학적 맥락 20세기 프랑스의 동양 수용 미학과 무위 관조적 정적주의 수용과 평가 관찰자의 기록 같이 읽기 개요 《도의 정신》(L’Esprit du Tao)은 장 그르니에(Jean Grenier)가 1973년에 발표한 도가 사상 선집이다."/><meta name="generator" content="Quartz"/><link href="../../../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL3FvZG90L0xpYnJhcnkvTW9iaWxlIERvY3VtZW50cy9pQ2xvdWR+bWR+b2JzaWRpYW4vRG9jdW1lbnRzL+GEgOGFqeGEg+GFqS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://qodot.github.io/obsidian-public/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://qodot.github.io/obsidian-public/도승지/철학/장-그르니에/도의-정신-og-image.webp"/><meta property="og:image:url" content="https://qodot.github.io/obsidian-public/도승지/철학/장-그르니에/도의-정신-og-image.webp"/><meta name="twitter:image" content="https://qodot.github.io/obsidian-public/도승지/철학/장-그르니에/도의-정신-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="도승지/철학/장-그르니에/도의-정신"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../../..">고도</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-176"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-176" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../도승지/">도승지</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../도승지/철학/">철학</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../도승지/철학/장-그르니에/">장 그르니에</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>도의 정신</a></div></nav><h1 class="article-title">도의 정신</h1><p show-comma="true" class="content-meta"><time datetime="2026-03-01T15:43:12.895Z">2026년 3월 02일</time><span>24 min read</span></p><ul class="tags"><li><a href="../../../tags/도승지" class="internal tag-link">도승지</a></li></ul></div></div><article class="popover-hint"><h1 id="도의-정신">도의 정신<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#도의-정신" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote class="callout abstract" data-callout="abstract">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>목차 </p></div>
+                  
+                </div>
+<div class="callout-content">
+<ol>
+<li><a href="#%EA%B0%9C%EC%9A%94" class="internal alias">개요</a></li>
+<li><a href="#%EC%A0%80%EC%9E%91%EC%9D%98-%EA%B5%AC%EC%84%B1" class="internal alias">저작의 구성</a>
+<ul>
+<li><a href="#%EC%84%A0%EC%A7%91%EC%9D%98-%ED%98%95%EC%8B%9D" class="internal alias">선집의 형식</a></li>
+<li><a href="#%EC%A3%BC%EC%A0%9C%EB%B3%84-%EB%B6%84%EB%A5%98" class="internal alias">주제별 분류</a></li>
+<li><a href="#%EC%9B%90%EC%A0%84%EA%B3%BC-%ED%95%B4%EC%84%A4" class="internal alias">원전과 해설</a></li>
+</ul>
+</li>
+<li><a href="#%EB%8F%84%EA%B0%80-%EC%82%AC%EC%83%81%EC%9D%98-%EC%86%8C%EA%B0%9C" class="internal alias">도가 사상의 소개</a>
+<ul>
+<li><a href="#%EB%85%B8%EC%9E%90%EC%99%80-%EA%B3%B5%EC%9E%90%EC%9D%98-%EB%8C%80%EB%B9%84" class="internal alias">노자와 공자의 대비</a></li>
+<li><a href="#%EB%AC%B4%EC%9C%84%EC%9D%98-%EA%B0%9C%EB%85%90" class="internal alias">무위의 개념</a></li>
+<li><a href="#%EA%BF%88%EA%B3%BC-%EA%B9%A8%EC%96%B4%EC%9E%88%EC%9D%8C" class="internal alias">꿈과 깨어있음</a></li>
+</ul>
+</li>
+<li><a href="#%EA%B7%B8%EB%A5%B4%EB%8B%88%EC%97%90%EC%9D%98-%EB%8F%84%EA%B0%80-%ED%95%B4%EC%84%9D" class="internal alias">그르니에의 도가 해석</a>
+<ul>
+<li><a href="#%EA%B4%91%EC%9D%B8%EC%9C%BC%EB%A1%9C%EC%84%9C%EC%9D%98-%EB%8F%84%EA%B0%80" class="internal alias">광인으로서의 도가</a></li>
+<li><a href="#%EB%B9%84%EC%9B%80%EC%9D%98-%EB%AF%B8%ED%95%99" class="internal alias">비움의 미학</a></li>
+<li><a href="#%EC%84%9C%EC%96%91-%EC%8B%A0%EB%B9%84%EC%A3%BC%EC%9D%98%EC%99%80%EC%9D%98-%EC%A0%91%EC%A0%90" class="internal alias">서양 신비주의와의 접점</a></li>
+</ul>
+</li>
+<li><a href="#%EC%B2%A0%ED%95%99%EC%A0%81-%EB%A7%A5%EB%9D%BD" class="internal alias">철학적 맥락</a>
+<ul>
+<li><a href="#20%EC%84%B8%EA%B8%B0-%ED%94%84%EB%9E%91%EC%8A%A4%EC%9D%98-%EB%8F%99%EC%96%91-%EC%88%98%EC%9A%A9" class="internal alias">20세기 프랑스의 동양 수용</a></li>
+<li><a href="#%EB%AF%B8%ED%95%99%EA%B3%BC-%EB%AC%B4%EC%9C%84" class="internal alias">미학과 무위</a></li>
+<li><a href="#%EA%B4%80%EC%A1%B0%EC%A0%81-%EC%A0%95%EC%A0%81%EC%A3%BC%EC%9D%98" class="internal alias">관조적 정적주의</a></li>
+</ul>
+</li>
+<li><a href="#%EC%88%98%EC%9A%A9%EA%B3%BC-%ED%8F%89%EA%B0%80" class="internal alias">수용과 평가</a></li>
+<li><a href="#%EA%B4%80%EC%B0%B0%EC%9E%90%EC%9D%98-%EA%B8%B0%EB%A1%9D" class="internal alias">관찰자의 기록</a></li>
+<li><a href="#%EA%B0%99%EC%9D%B4-%EC%9D%BD%EA%B8%B0" class="internal alias">같이 읽기</a></li>
+</ol>
+</div>
+</blockquote>
+<h2 id="개요">개요<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#개요" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>《도의 정신》</strong>(L’Esprit du Tao)은 <a href="../../../도승지/철학/장-그르니에/장-그르니에" class="internal alias" data-slug="도승지/철학/장-그르니에/장-그르니에">장 그르니에</a>(Jean Grenier)가 1973년에 발표한 도가 사상 선집이다. 플라마리옹(Flammarion) 출판사에서 간행되었으며, 도가의 창시자들로부터 빌려온 텍스트들을 주제별로 분류하여 제시한다. 그르니에의 마지막 주요 저작 중 하나로, 평생에 걸친 동양 사상에 대한 관심의 결정체로 볼 수 있다.</p>
+<p>이 책은 단순한 번역 선집이 아니다. 그르니에는 도가 현자들을 “현인”이 아닌 “광인”으로 규정하면서, 그들이 무언가를 가르치려 하는 것이 아니라 오히려 배움을 버리고(unlearn) 그들 자신을 통과하는 빛을 막지 않으려 한다고 해석한다. 이러한 독특한 관점은 그르니에 자신의 철학—<a href="../../../도승지/철학/장-그르니에/섬" class="internal alias" data-slug="도승지/철학/장-그르니에/섬">《섬》</a>에서 드러난 공의 매혹, 관조적 태도—과 도가 사상의 내적 연결을 보여준다.</p>
+<p>소르본 대학교에서 미학 교수로 재직하던(1962-1968) 시기의 학술적 성찰이 이 저작에 반영되어 있는 것으로 추정된다. 그르니에는 무위(無爲)의 개념을 자신의 미학 이론과 연결시켰으며, 이에 대한 학술적 연구(“장 그르니에와 도의 정신: 작품의 이유로서의 무위”)가 1999년 파리 대학에서 박사 논문으로 제출되기도 했다.</p>
+<h2 id="저작의-구성">저작의 구성<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#저작의-구성" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="선집의-형식">선집의 형식<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#선집의-형식" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>《도의 정신》은 도가의 대표적 고전—《도덕경》(道德經), 《장자》(莊子) 등—에서 발췌한 텍스트들의 모음이다. 그르니에는 원전을 직접 번역하기보다 기존의 프랑스어 번역들을 선별하고 배열한 것으로 보인다. 총 218페이지 분량의 이 책은 원전 발췌와 그르니에 자신의 해설이 교차하는 구조를 취한다.</p>
+<p>선집(anthology)이라는 형식은 그르니에의 철학적 태도를 반영한다. 그는 체계적인 철학 논문을 쓰기보다 텍스트들을 배열하고 그 사이에 자신의 성찰을 끼워 넣는다. 이러한 방식은 도가 사상 자체의 비체계적 성격과 조응하는 것으로 보인다.</p>
+<h3 id="주제별-분류">주제별 분류<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#주제별-분류" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>《도의 정신》의 텍스트들은 다음과 같은 주제로 분류되어 있다:</p>
+<ul>
+<li><strong>대립의 교대</strong>(l’alternance des contraires): 음양(陰陽)의 상호작용, 존재와 비존재의 순환</li>
+<li><strong>꿈과 깨어있음</strong>(rêve et veille): 장자의 나비 꿈, 현실과 꿈의 경계</li>
+<li><strong>노자 대 공자</strong>(Lao-Tseu contre Confucius): 도가와 유가의 근본적 대비</li>
+<li><strong>무위</strong>(non-action, wu wei): 도가의 핵심 개념</li>
+<li><strong>정치</strong>(politique): 무위의 정치적 함의</li>
+<li><strong>마법</strong>(magie): 도가의 신비주의적 차원</li>
+<li><strong>정적주의와 도가</strong>(quiétisme et taoïsme): 서양 정적주의와의 비교</li>
+</ul>
+<p>이 분류는 도가 사상의 다양한 측면을 포괄적으로 제시하면서도, 그르니에의 특정한 관심—특히 무위와 정적주의—이 반영되어 있는 것으로 관찰된다.</p>
+<h3 id="원전과-해설">원전과 해설<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#원전과-해설" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>그르니에는 《도덕경》의 구절들을 자신의 해설과 병치시킨다. 원전이 명시적으로 말하지 않는 것을 해설이 보충하고, 해설이 도달하지 못하는 곳을 원전의 침묵이 채운다. 이 상호 보완적 구조가 책 전체를 관통한다.</p>
+<p>예를 들어, 노자의 “도가도 비상도”(道可道非常道: 말할 수 있는 도는 상도가 아니다)를 제시한 후, 그르니에는 언어의 한계와 침묵의 가치에 대해 성찰한다. 원전의 역설적 언어가 그르니에의 철학적 해석을 통해 현대 독자에게 전달되는 구조이다.</p>
+<h2 id="도가-사상의-소개">도가 사상의 소개<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#도가-사상의-소개" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="노자와-공자의-대비">노자와 공자의 대비<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#노자와-공자의-대비" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>《도의 정신》에서 그르니에는 노자와 공자의 대비를 중요하게 다룬다. 두 사상가는 인간 삶의 근본적으로 다른 태도를 대표한다:</p>
+<p><strong>유가(儒家)</strong>: 사회적 질서, 예(禮), 인(仁), 적극적 참여
+<strong>도가(道家)</strong>: 자연적 흐름, 무위, 은둔, 관조</p>
+<p>그르니에에게 이 대비는 서양 철학의 참여(engagement) 대 관조(contemplation)의 대비와 공명한다. <a href="../../../도승지/철학/카뮈/카뮈" class="internal alias" data-slug="도승지/철학/카뮈/카뮈">카뮈</a>가 반항과 참여를 선택했다면, 그르니에 자신은 도가적 관조에 더 가까운 것으로 자리매김한다.</p>
+<p>노자가 공자에게 건넨 것으로 전해지는 충고—“현명한 상인은 자신의 재화를 숨기고, 덕이 높은 군자는 어리석은 듯 보인다”—는 그르니에가 특별히 주목하는 대목이다. 겉으로 드러내지 않음, 자신을 낮춤, 비움의 미덕—이것이 도가의 핵심이자 그르니에 철학의 핵심이기도 하다.</p>
+<h3 id="무위의-개념">무위의 개념<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#무위의-개념" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>무위(無爲, wu wei)는 《도의 정신》의 핵심 주제이다. 그르니에에 따르면, 무위는 “행하지 않음”이 아니라 “억지로 하지 않음”, “자연스러운 흐름에 따른 행위”를 의미한다.</p>
+<p>노자에게서 무위는 세 가지 차원에서 작동한다:</p>
+<ol>
+<li><strong>자연의 운동·변화의 특성</strong>: 자연은 억지로 하지 않으면서도 모든 것을 이룬다</li>
+<li><strong>개인적 수양 방법</strong>: 욕망과 집착을 버리고 자연스러움을 회복하는 것</li>
+<li><strong>바람직한 정치 방법</strong>: 통치자는 일을 많이 만들지 않고, 백성이 스스로 그러하게 놔두어야 함</li>
+</ol>
+<p>장자에게서 무위는 노자보다 더 개인적이고 정신적인 차원을 강조한다. “부드러움”이나 “여성성”보다 “정신 해방”의 차원에서 자연 세계를 묘사한다. 절대적 자유의 경지에 도달하기 위한 “무아”와 “무위”—이것이 장자 사상의 핵심이다.</p>
+<h3 id="꿈과-깨어있음">꿈과 깨어있음<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#꿈과-깨어있음" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>장자의 나비 꿈은 《도의 정신》에서 중요하게 다루어진다. “내가 나비 꿈을 꾸는 것인가, 나비가 내 꿈을 꾸는 것인가?”—이 질문은 현실과 꿈의 경계를 해체한다.</p>
+<p>그르니에에게 이 이야기는 단순한 인식론적 퍼즐이 아니다. 그것은 자아의 경계에 대한 근본적 질문이며, 서양 형이상학이 전제하는 주체-객체 구분의 해체이다. <a href="../../../도승지/철학/장-그르니에/섬" class="internal alias" data-slug="도승지/철학/장-그르니에/섬">《섬》</a>에서 나타난 “공의 매혹”—하늘이 기울어져 허공으로 빨려 들어가는 체험—과 나비 꿈 사이에는 구조적 유사성이 관찰된다.</p>
+<h2 id="그르니에의-도가-해석">그르니에의 도가 해석<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#그르니에의-도가-해석" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="광인으로서의-도가">광인으로서의 도가<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#광인으로서의-도가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>그르니에의 가장 독특한 기여는 도가 현자들을 “현인”(sages)이 아닌 “광인”(fous)으로 규정한 것이다. 이것은 단순한 수사가 아니다.</p>
+<p>“그들은 우리에게 무언가를 가르치려 하지 않는다. 그들 자신이 배움을 버리려(désapprendre) 하고, 우리가 모든 것을 다해 막으려 하는 저 빛이 그들을 통과하도록 내버려두려 하기 때문이다.”</p>
+<p>이 해석에 따르면, 도가 현자는 지식을 축적하는 자가 아니라 지식을 비우는 자이다. 가르침을 전달하는 것이 아니라, 가르침 자체를 해체한다. “광인”이라는 규정은 세속적 관점에서의 평가이다. 도가 현자는 세속의 지혜로 볼 때 어리석어 보이지만, 바로 그 어리석음이 진정한 지혜이다.</p>
+<h3 id="비움의-미학">비움의 미학<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#비움의-미학" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>그르니에의 도가 해석은 그의 미학 이론과 직결된다. 그는 소르본에서 미학 교수로 재직하면서 “무형의 예술”(l’art de l’informe)이라는 개념을 발전시켰다. 비구상 미술(art non-figuratif)에 대한 그의 관심—《현대 회화의 정신》, 《현대 회화에 관한 시론》, 《17인의 비구상 화가들과의 대담》—은 이 맥락에서 이해된다.</p>
+<p>무위가 “억지로 하지 않음”이라면, 비구상 미술은 “억지로 재현하지 않음”이다. 대상을 묘사하려는 의지를 비우고, 형태 자체의 흐름에 따르는 것—그르니에는 동양적 무위와 서양 현대 미술 사이에서 이러한 연결을 발견한 것으로 보인다.</p>
+<p>1999년 박사 논문 “장 그르니에와 도의 정신: 작품의 이유로서의 무위”는 이 연결을 학술적으로 분석했다. 논문은 “공허의 체험”, “무관심의 글쓰기”, “자연주의적 정적주의”, “무형의 예술” 등의 주제를 다루며, 그르니에가 무위 개념을 예술적 창작의 원리로 전환시킨 방식을 탐구했다.</p>
+<h3 id="서양-신비주의와의-접점">서양 신비주의와의 접점<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#서양-신비주의와의-접점" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>그르니에는 도가 사상과 서양 신비주의 사이의 접점을 발견한다. 특히 부정신학(apophatic theology)—신을 긍정적 술어가 아닌 부정을 통해 정의하는 방법—과 도가의 유사성을 지적한다.</p>
+<p>“도가, 장자의 방식으로, 서양에서 대응하는 인물을 가진다면, 그것은 신비가들 가운데 있을 것이다. 특히 부정적 방법을 실천하고 열망의 대상을 부정신학적 방식으로 정의하는 자들, 예컨대 위(僞)디오니시우스 같은 이들.”</p>
+<p>디오니시우스 아레오파기타, 마이스터 에크하르트, 십자가의 요한—이들 서양 신비가들의 “무”(nada), “황야”(Wüste), “어둠”(darkness)의 언어가 도가의 “무위”와 공명한다는 것이다. 그르니에는 이러한 비교를 통해 도가 사상을 서양 독자에게 접근 가능하게 만든다.</p>
+<h2 id="철학적-맥락">철학적 맥락<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#철학적-맥락" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="20세기-프랑스의-동양-수용">20세기 프랑스의 동양 수용<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#20세기-프랑스의-동양-수용" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>《도의 정신》은 20세기 프랑스 지식계의 동양 사상 수용이라는 넓은 맥락에서 이해될 필요가 있다. 앙리 미쇼(Henri Michaux), 프랑수아 줄리앙(François Jullien), 프랑수아 청(François Cheng) 등 다수의 프랑스 지식인들이 중국 사상에 관심을 가졌다.</p>
+<p>그러나 그르니에의 경우, 동양에 대한 관심이 순수한 학술적 호기심이 아니라 자신의 철학적 탐구의 연장선상에 있다는 점이 특징적이다. <a href="../../../도승지/철학/장-그르니에/섬" class="internal alias" data-slug="도승지/철학/장-그르니에/섬">《섬》</a>에서 나타난 “공의 매혹”—어린 시절의 원초적 체험—이 도가 사상과의 친화성을 예비한 것으로 보인다. 동양 사상은 그르니에에게 외부에서 도입된 것이 아니라, 자신의 내적 경험에 대한 언어와 틀을 제공한 것이다.</p>
+<p>질 들뢰즈(Gilles Deleuze)가 “되기”(Becoming) 개념을 중국의 도와 연결시킨 것처럼, 20세기 프랑스 철학은 칸트와 헤겔의 형이상학적 체계에 저항하면서 동양 사상에서 대안을 찾았다. 그르니에는 이 흐름의 초기 인물 중 하나로 자리매김할 수 있다.</p>
+<h3 id="미학과-무위">미학과 무위<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#미학과-무위" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>그르니에의 미학 이론에서 무위는 핵심적 위치를 차지한다. 1963년 소르본 강의록 “고전 미학의 모방과 원리들”에서 그는 서양 미학의 핵심 개념인 ‘모방’(mimesis)을 비판적으로 검토했다. 무위의 관점에서 보면, 자연을 모방하려는 의지 자체가 문제이다.</p>
+<p>비구상 미술에 대한 그르니에의 관심은 이 맥락에서 이해된다. 추상 회화는 대상을 재현하려는 의지를 포기한다. 화가는 무언가를 그리려 하지 않고, 형태와 색채의 흐름에 자신을 맡긴다. 이것이 회화적 무위이다.</p>
+<p>《예술과 그 문제들》(L’art et ses problèmes, 1970)에서 그르니에는 이러한 성찰을 종합했다. 그의 미학은 행위와 비행위, 의지와 무의지 사이의 긴장을 탐구한다.</p>
+<h3 id="관조적-정적주의">관조적 정적주의<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#관조적-정적주의" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>그르니에는 도가의 무위와 서양의 정적주의(quiétisme) 사이에서 연결고리를 발견했다. 정적주의는 17세기 기독교 신비주의 운동으로, 영혼의 수동성과 신에 대한 완전한 내맡김을 강조한다.</p>
+<p><a href="../../../도승지/철학/카뮈/카뮈" class="internal alias" data-slug="도승지/철학/카뮈/카뮈">카뮈</a>와의 대비에서 이 점이 분명해진다. 카뮈가 <a href="../../../도승지/철학/부조리/부조리" class="internal alias" data-slug="도승지/철학/부조리/부조리">부조리</a>에 대해 반항을 선택했다면, 그르니에는 “정적주의적 기독교를 은밀히 실천하는”(surreptitiously practising a quietist version of Christianity) 방향으로 나아갔다. 행동주의적 실존주의와 관조적 정적주의—이 두 갈래가 같은 철학적 문제에서 출발하여 다른 방향으로 나아간 것이다.</p>
+<p>그르니에에게 “세계는 해결해야 할 문제가 아니라 바라보아야 할 광경”이다. 이 관조적 태도가 도가의 무위, 기독교의 정적주의, 그르니에 자신의 철학을 하나로 묶는다.</p>
+<h2 id="수용과-평가">수용과 평가<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#수용과-평가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>《도의 정신》은 도가 사상에 대한 접근 가능한 입문서로 평가받는다. 그르니에의 해설이 “매우 명료하고 접근 가능”하다는 평이 있으며, 《도덕경》 구절들이 해설 텍스트 사이사이에 배치되어 독자가 도가 철학을 더 잘 이해할 수 있도록 돕는다.</p>
+<p>학술적 차원에서, 1999년 파리 대학의 박사 논문 “장 그르니에와 도의 정신: 작품의 이유로서의 무위”는 이 저작에 대한 본격적인 연구이다. 논문은 그르니에가 극동 사상, 특히 도가 철학과 맺은 관계를 분석하고, 무위 개념이 그의 예술 창작 이론에 어떻게 활용되었는지를 탐구했다.</p>
+<p>그러나 《도의 정신》은 그르니에의 다른 저작들에 비해 덜 알려져 있다. <a href="../../../도승지/철학/장-그르니에/섬" class="internal alias" data-slug="도승지/철학/장-그르니에/섬">《섬》</a>이 카뮈와의 관계 때문에 자주 언급되는 반면, 《도의 정신》은 그르니에 연구자들과 도가 사상에 관심 있는 독자들 사이에서 주로 읽히는 것으로 보인다.</p>
+<p>한국어 번역은 청하출판사의 장 그르니에 전집에 포함되어 있는 것으로 추정되나, 확인이 필요하다.</p>
+<h2 id="관찰자의-기록">관찰자의 기록<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#관찰자의-기록" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>《도의 정신》을 관찰하면서 몇 가지 특기할 점이 발견된다.</p>
+<p>첫째, 저작 형식과 내용의 일치가 관찰된다. 선집(anthology)이라는 형식 자체가 도가적이다. 체계적인 논문 대신 텍스트들의 배열, 원전의 인용과 짧은 해설의 교차—이것은 “무위”의 글쓰기 방식으로 보인다. 저자가 전면에 나서기보다 원전이 스스로 말하게 하는 것, 이것이 그르니에의 선택이다.</p>
+<p>둘째, 자기 철학의 동양적 변주가 관찰된다. <a href="../../../도승지/철학/장-그르니에/섬" class="internal alias" data-slug="도승지/철학/장-그르니에/섬">《섬》</a>에서 “공의 매혹”으로 표현된 것이 《도의 정신》에서 “무위”로 재표현된다. 서로 다른 언어와 전통이지만, 핵심적 직관—비움, 내려놓음, 관조—은 동일하다. 그르니에가 도가 사상에서 자기 자신을 발견한 것인지, 아니면 자기 자신을 도가 사상에 투사한 것인지—이 구분은 불분명하며, 어쩌면 무의미할 수 있다.</p>
+<p>셋째, 미학과 윤리의 통합이 관찰된다. 그르니에에게 무위는 단순히 윤리적 태도가 아니라 미학적 원리이기도 하다. 비구상 미술에 대한 관심, “무형의 예술”이라는 개념—이것들이 무위의 미학적 적용이다. 동양 철학이 서양 미학에 기여한 사례로 볼 수 있다.</p>
+<p>넷째, 카뮈와의 분기가 재확인된다. <a href="../../../도승지/철학/장-그르니에/섬" class="internal alias" data-slug="도승지/철학/장-그르니에/섬">《섬》</a>이 카뮈에게 영향을 미쳤지만, 두 사람은 반대 방향으로 나아갔다. 《도의 정신》은 그르니에가 선택한 방향—관조, 무위, 정적주의—을 명확히 보여준다. 스승과 제자가 같은 출발점에서 다른 결론에 도달한 것이 흥미롭게 관찰된다.</p>
+<p>다섯째, 동서양 비교철학의 한계와 가능성이 관찰된다. 도가와 서양 신비주의의 비교는 생산적이지만, 위험도 있다. 서로 다른 역사적, 문화적 맥락에서 발생한 사상들을 비교할 때, 유사성이 과장될 수 있다. 그르니에의 비교가 엄밀한 비교철학인지, 아니면 창조적 오독인지—이것은 추가 검토가 필요한 문제이다.</p>
+<h2 id="같이-읽기">같이 읽기<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#같이-읽기" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="장-그르니에-저작">장 그르니에 저작<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#장-그르니에-저작" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../../도승지/철학/장-그르니에/장-그르니에" class="internal alias" data-slug="도승지/철학/장-그르니에/장-그르니에">장 그르니에</a> - 저자에 대한 종합적 관찰</li>
+<li><a href="../../../도승지/철학/장-그르니에/섬" class="internal alias" data-slug="도승지/철학/장-그르니에/섬">섬</a> - 공의 매혹과 관조의 철학</li>
+<li><a href="../../../도승지/철학/장-그르니에/정통주의-정신에-관한-시론" class="internal alias" data-slug="도승지/철학/장-그르니에/정통주의-정신에-관한-시론">정통주의 정신에 관한 시론</a> - 전체주의 비판</li>
+</ul>
+<h3 id="도가-사상">도가 사상<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#도가-사상" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>노자 - 《도덕경》의 저자</li>
+<li>장자 - 나비 꿈의 철학자</li>
+<li>무위(無爲) - 도가의 핵심 개념</li>
+</ul>
+<h3 id="실존주의적-대비">실존주의적 대비<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#실존주의적-대비" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../../도승지/철학/카뮈/카뮈" class="internal alias" data-slug="도승지/철학/카뮈/카뮈">카뮈</a> - 반항의 선택</li>
+<li><a href="../../../도승지/철학/사르트르/사르트르" class="internal alias" data-slug="도승지/철학/사르트르/사르트르">사르트르</a> - 참여의 실존주의</li>
+<li><a href="../../../도승지/철학/부조리/부조리" class="internal alias" data-slug="도승지/철학/부조리/부조리">부조리</a> - 공통의 출발점</li>
+</ul>
+<h3 id="서양-신비주의">서양 신비주의<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#서양-신비주의" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>정적주의(quiétisme) - 17세기 기독교 신비주의</li>
+<li>부정신학 - 신에 대한 부정적 정의</li>
+<li>마이스터 에크하르트 - “무”의 신비가</li>
+</ul>
+<h3 id="미학적-연결">미학적 연결<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#미학적-연결" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>비구상 미술 - 무위의 회화적 적용</li>
+<li>현대 회화 - 재현에서 추상으로</li>
+</ul>
+<p><strong>마지막 업데이트</strong>: 2025-12-03 00:15:00</p></article><hr/><div class="page-footer"><div class="giscus" data-repo="qodot/obsidian-public" data-repo-id="R_kgDOR7CdbA" data-category="General" data-category-id="DIC_kwDOR7CdbM4C6KsX" data-mapping="pathname" data-strict="1" data-reactions-enabled="1" data-input-position="top" data-light-theme="light" data-dark-theme="dark" data-theme-url="https://qodot.github.io/obsidian-public/static/giscus" data-lang="ko"></div></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-77" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#도의-정신" data-for="도의-정신">도의 정신</a></li><li class="depth-1"><a href="#개요" data-for="개요">개요</a></li><li class="depth-1"><a href="#저작의-구성" data-for="저작의-구성">저작의 구성</a></li><li class="depth-2"><a href="#선집의-형식" data-for="선집의-형식">선집의 형식</a></li><li class="depth-2"><a href="#주제별-분류" data-for="주제별-분류">주제별 분류</a></li><li class="depth-2"><a href="#원전과-해설" data-for="원전과-해설">원전과 해설</a></li><li class="depth-1"><a href="#도가-사상의-소개" data-for="도가-사상의-소개">도가 사상의 소개</a></li><li class="depth-2"><a href="#노자와-공자의-대비" data-for="노자와-공자의-대비">노자와 공자의 대비</a></li><li class="depth-2"><a href="#무위의-개념" data-for="무위의-개념">무위의 개념</a></li><li class="depth-2"><a href="#꿈과-깨어있음" data-for="꿈과-깨어있음">꿈과 깨어있음</a></li><li class="depth-1"><a href="#그르니에의-도가-해석" data-for="그르니에의-도가-해석">그르니에의 도가 해석</a></li><li class="depth-2"><a href="#광인으로서의-도가" data-for="광인으로서의-도가">광인으로서의 도가</a></li><li class="depth-2"><a href="#비움의-미학" data-for="비움의-미학">비움의 미학</a></li><li class="depth-2"><a href="#서양-신비주의와의-접점" data-for="서양-신비주의와의-접점">서양 신비주의와의 접점</a></li><li class="depth-1"><a href="#철학적-맥락" data-for="철학적-맥락">철학적 맥락</a></li><li class="depth-2"><a href="#20세기-프랑스의-동양-수용" data-for="20세기-프랑스의-동양-수용">20세기 프랑스의 동양 수용</a></li><li class="depth-2"><a href="#미학과-무위" data-for="미학과-무위">미학과 무위</a></li><li class="depth-2"><a href="#관조적-정적주의" data-for="관조적-정적주의">관조적 정적주의</a></li><li class="depth-1"><a href="#수용과-평가" data-for="수용과-평가">수용과 평가</a></li><li class="depth-1"><a href="#관찰자의-기록" data-for="관찰자의-기록">관찰자의 기록</a></li><li class="depth-1"><a href="#같이-읽기" data-for="같이-읽기">같이 읽기</a></li><li class="depth-2"><a href="#장-그르니에-저작" data-for="장-그르니에-저작">장 그르니에 저작</a></li><li class="depth-2"><a href="#도가-사상" data-for="도가-사상">도가 사상</a></li><li class="depth-2"><a href="#실존주의적-대비" data-for="실존주의적-대비">실존주의적 대비</a></li><li class="depth-2"><a href="#서양-신비주의" data-for="서양-신비주의">서양 신비주의</a></li><li class="depth-2"><a href="#미학적-연결" data-for="미학적-연결">미학적 연결</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>백링크</h3><ul id="list-2" class="overflow"><li><a href="../../../도승지/철학/장-그르니에/섬" class="internal">섬</a></li><li><a href="../../../도승지/철학/장-그르니에/장-그르니에" class="internal">장 그르니에</a></li><li><a href="../../../도승지/철학/장-그르니에/정통주의-정신에-관한-시론" class="internal">정통주의 정신에 관한 시론</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/qodot">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../../postscript.js" type="module" data-persist="true"></script></html>
