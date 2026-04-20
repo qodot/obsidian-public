@@ -6,16 +6,1163 @@
       <description>최근 10 건 on 고도</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>2026-04-01~19 업무 회고</title>
+    <link>https://qodot.me/%ED%9A%8C%EA%B3%A0/2026-04-01~19-%EC%97%85%EB%AC%B4-%ED%9A%8C%EA%B3%A0</link>
+    <guid>https://qodot.me/%ED%9A%8C%EA%B3%A0/2026-04-01~19-%EC%97%85%EB%AC%B4-%ED%9A%8C%EA%B3%A0</guid>
+    <description><![CDATA[ &lt;h1 id=&quot;4월-전반기119일-업무-회고&quot;&gt;4월 전반기(1~19일) 업무 회고&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#4월-전반기119일-업무-회고&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;blockquote class=&quot;callout info&quot; data-callout=&quot;info&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;이 문서의 구성 &lt;/p&gt;&lt;/div&gt;
+                  
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Part 1. 데이터 요약 &amp;#x26; 평가&lt;/strong&gt; — 슬랙 로그를 바탕으로 AI가 생성한 관찰·분석. 객관 기록과 해석이 섞여 있음.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Part 2. 나의 회고 (인터뷰 답변)&lt;/strong&gt; — 내가 직접 답한 내용. 각 답변은 &lt;code&gt;&gt; [!quote] 나의 답&lt;/code&gt; 인용 블록으로 구분됨.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Part 3. 다음 액션&lt;/strong&gt; — 회고 결과 정리.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;part-1-데이터-요약--평가&quot;&gt;Part 1. 데이터 요약 &amp;#x26; 평가&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#part-1-데이터-요약--평가&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;blockquote class=&quot;callout abstract&quot; data-callout=&quot;abstract&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;작성 주체 &lt;/p&gt;&lt;/div&gt;
+                  
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;이 파트는 AI가 슬랙 메시지 929건을 분석해 작성했다. &lt;strong&gt;내 판단이 아니라 외부 관찰이다.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;한눈에-보기&quot;&gt;한눈에 보기&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#한눈에-보기&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;지표&lt;/th&gt;&lt;th&gt;값&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;활동일 수&lt;/td&gt;&lt;td&gt;15일 (결: 4/4 토, 4/11 토, 4/18·19 토일)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;주말 근무일&lt;/td&gt;&lt;td&gt;2일 (4/5 일, 4/12 일)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;심야(22시 이후) 발화일&lt;/td&gt;&lt;td&gt;8일 (4/1, 4/2, 4/5, 4/6, 4/8, 4/9, 4/12, 4/13, 4/14, 4/15)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;공식 배포 건&lt;/td&gt;&lt;td&gt;18회 (release-notice 기준, spray·socialscan·frontend)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;동시 진행 프로젝트&lt;/td&gt;&lt;td&gt;DA, 고급 검색, 이카루스, DM 우체부, 스프레이 운영 — 최소 5개 병렬&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2 id=&quot;일별-로그&quot;&gt;일별 로그&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#일별-로그&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;1주차-41-수--43-금&quot;&gt;1주차 (4/1 수 ~ 4/3 금)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#1주차-41-수--43-금&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;날짜&lt;/th&gt;&lt;th&gt;첫 발화&lt;/th&gt;&lt;th&gt;마지막 발화&lt;/th&gt;&lt;th&gt;기록&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;4/1 수&lt;/td&gt;&lt;td&gt;10:36&lt;/td&gt;&lt;td&gt;19:01&lt;/td&gt;&lt;td&gt;오전 반반차(병원). DA 상품 상세 페이지 / 고급 검색 크리에이터·동영상 최신화 / DM 우체부 제콩 배포 시작.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/2 목&lt;/td&gt;&lt;td&gt;10:19&lt;/td&gt;&lt;td&gt;22:19&lt;/td&gt;&lt;td&gt;DA 상품 상세 테마 에디터 지원 / 고급 검색 / &lt;strong&gt;이카루스 동작 설계 w 엘라&lt;/strong&gt; 첫 등장. 20시대 &lt;code&gt;socialscan&lt;/code&gt;·&lt;code&gt;spray&lt;/code&gt; 배포 (SPR-4168/4169 시리즈).&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/3 금&lt;/td&gt;&lt;td&gt;10:40&lt;/td&gt;&lt;td&gt;19:08&lt;/td&gt;&lt;td&gt;DA 컬렉션 페이지. &lt;strong&gt;&lt;a href=&quot;.././tags/incident에&quot; class=&quot;tag-link internal alias&quot; data-slug=&quot;tags/incident에&quot;&gt;incident에&lt;/a&gt; 1,474자 SQL 덤프로 릴스 성능 이슈 분석.&lt;/strong&gt; 오후에 &lt;strong&gt;DM 우체부 공식 공개 (#spray-jerrybeanstalk, 610자 안내문)&lt;/strong&gt;.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 id=&quot;2주차-46-월--410-금&quot;&gt;2주차 (4/6 월 ~ 4/10 금)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#2주차-46-월--410-금&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;날짜&lt;/th&gt;&lt;th&gt;첫 발화&lt;/th&gt;&lt;th&gt;마지막 발화&lt;/th&gt;&lt;th&gt;기록&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;4/5 일&lt;/td&gt;&lt;td&gt;16:51&lt;/td&gt;&lt;td&gt;23:56&lt;/td&gt;&lt;td&gt;DA 테마 디자인 이슈로 일요일 저녁부터 개입. 헤더 드로워/블로그 섹션 논의를 자정 가까이 이어감.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/6 월&lt;/td&gt;&lt;td&gt;00:00&lt;/td&gt;&lt;td&gt;21:10&lt;/td&gt;&lt;td&gt;자정 직후 DA 페이지 피드백 → 새벽 02:12 “제품 페이지 피드백 전부 완료, 컬렉션 프로모션은 내일”. 업무 시작 10:43. &lt;strong&gt;외부 파트너(김규린 님)께 “아침 전까지 안정화할 시간 달라” 정중 협상.&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/7 화&lt;/td&gt;&lt;td&gt;10:13&lt;/td&gt;&lt;td&gt;21:44&lt;/td&gt;&lt;td&gt;DA 내부 QA 본격 시작. 센드그리드 플랜 월 $499 상향 검토. 21:35 — 1,828자 장문으로 SaaS CLI 판매 전략 관찰 공유.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/8 수&lt;/td&gt;&lt;td&gt;10:36&lt;/td&gt;&lt;td&gt;22:00&lt;/td&gt;&lt;td&gt;DA QA + 고급검색 테스트.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/9 목&lt;/td&gt;&lt;td&gt;11:51&lt;/td&gt;&lt;td&gt;23:09&lt;/td&gt;&lt;td&gt;오전 반반차. 스프레이팀 캐치업, 이카루스 아키텍처 논의, Josh에게 메타베이스 대시보드 수동 제작 지원.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/10 금&lt;/td&gt;&lt;td&gt;10:20&lt;/td&gt;&lt;td&gt;19:38&lt;/td&gt;&lt;td&gt;이카루스 설계 리뷰, 고급 검색 배포 준비, 스프레이 성과 대시보드 미팅 w 고든, DA QA 계속.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 id=&quot;3주차-413-월--417-금&quot;&gt;3주차 (4/13 월 ~ 4/17 금)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#3주차-413-월--417-금&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;날짜&lt;/th&gt;&lt;th&gt;첫 발화&lt;/th&gt;&lt;th&gt;마지막 발화&lt;/th&gt;&lt;th&gt;기록&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;4/12 일&lt;/td&gt;&lt;td&gt;10:58&lt;/td&gt;&lt;td&gt;23:58&lt;/td&gt;&lt;td&gt;일요일 심야 배포 2건 (spray #14750~ / socialscan #14756~). 예외 처리 대량 투입 구간.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/13 월&lt;/td&gt;&lt;td&gt;09:45&lt;/td&gt;&lt;td&gt;23:16&lt;/td&gt;&lt;td&gt;&lt;strong&gt;이 날부터 9시대 출근이 시작됨.&lt;/strong&gt; 이카루스 POC 미팅. 배포 4회 (13:42, 13:49, 18:32, 23:16).&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/14 화&lt;/td&gt;&lt;td&gt;14:15&lt;/td&gt;&lt;td&gt;23:37&lt;/td&gt;&lt;td&gt;오후 출근. Playwright/프록시 관련 socialscan 안정화. 23:37 심야 배포.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/15 수&lt;/td&gt;&lt;td&gt;11:09&lt;/td&gt;&lt;td&gt;20:07&lt;/td&gt;&lt;td&gt;김규린 님·강승미 님과 DA 디자인 피드백 마무리 커뮤니케이션. GA 셋업 시작.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/16 목&lt;/td&gt;&lt;td&gt;00:31&lt;/td&gt;&lt;td&gt;20:10&lt;/td&gt;&lt;td&gt;&lt;strong&gt;하루에 업무 종료 2번 기록&lt;/strong&gt; (00:31 전날 마감, 20:10 당일 마감). &lt;strong&gt;17:51 “제가 바보같이 … 배포 실수” 공개 사과 + 영향 범위 안내 + 즉시 수정 배포.&lt;/strong&gt; 제품-그로스 싱크.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4/17 금&lt;/td&gt;&lt;td&gt;09:45&lt;/td&gt;&lt;td&gt;19:02&lt;/td&gt;&lt;td&gt;박성일 팀장께 GA·빅쿼리 비용 정책 안내. &lt;strong&gt;고급 검색 런칭 배포 (백·프론트 동시, 15:09~15:40).&lt;/strong&gt; 다니엘과 오픈코드 환경 점검.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2 id=&quot;프로젝트-타임라인&quot;&gt;프로젝트 타임라인&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#프로젝트-타임라인&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;1-고급-검색-spray--4월의-메인-라인&quot;&gt;1. 고급 검색 (Spray) — 4월의 메인 라인&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#1-고급-검색-spray--4월의-메인-라인&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;4/2: spray/qa 팀 대상 알파 적용 (#14746, #14747)&lt;/li&gt;
+&lt;li&gt;4/12: 안정화 — recover_stuck_searches 제외, &lt;code&gt;is_advanced_search&lt;/code&gt; 필드, refresh 스코프 제한&lt;/li&gt;
+&lt;li&gt;4/13: top_k 1000 확대, RefreshJobItem 콜백 매칭 안정화&lt;/li&gt;
+&lt;li&gt;4/13~14: Embedder retry + graceful degradation, 프록시 적용&lt;/li&gt;
+&lt;li&gt;4/16: FAILED 상태 approve 방어, 잔여 error_code 초기화&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4/17: refresh 타 팀 개방 + 프론트 안내 박스 → 런칭 도달&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;2-da-effect-쇼피파이&quot;&gt;2. DA EFFECT (쇼피파이)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#2-da-effect-쇼피파이&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;4/1~4/7: 상품 상세, 컬렉션 페이지 구현&lt;/li&gt;
+&lt;li&gt;4/5(일)~4/6(월 새벽): 주말·심야 디자인 피드백 반영&lt;/li&gt;
+&lt;li&gt;4/7 이후: 내부 QA 체제 본격화&lt;/li&gt;
+&lt;li&gt;4/15: 디자인 피드백 대부분 소화, 외부 확인 단계 진입&lt;/li&gt;
+&lt;li&gt;4/16: 에셋 규격 전달 방식 논의, 미국 진행 논의&lt;/li&gt;
+&lt;li&gt;4/17: 이미지 규격·블로그 페이지 마무리, GA·빅쿼리 셋업 정식 요청&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;3-이카루스-icarus--신규-설계&quot;&gt;3. 이카루스 (Icarus) — 신규 설계&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#3-이카루스-icarus--신규-설계&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;4/2: 엘라와 동작 설계 시작&lt;/li&gt;
+&lt;li&gt;4/6: 자동화 미팅&lt;/li&gt;
+&lt;li&gt;4/9: 네오와 논의 — pi SDK 기반, 신규 레포 분리 방향 정리&lt;/li&gt;
+&lt;li&gt;4/10: 설계 리뷰&lt;/li&gt;
+&lt;li&gt;4/13·4/16·4/17: POC 미팅 연속&lt;/li&gt;
+&lt;li&gt;4/15경: &lt;code&gt;indentcorp/icarus&lt;/code&gt; 레포 개설 논의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;4-dm-우체부--공개-단계&quot;&gt;4. DM 우체부 — 공개 단계&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#4-dm-우체부--공개-단계&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;4/1: 팀 내부 가이드 리뷰 요청&lt;/li&gt;
+&lt;li&gt;4/3: &lt;strong&gt;외부(#spray-jerrybeanstalk)에 공식 공개&lt;/strong&gt; — 크롬 확장, 시간당 10~15통, AI가 DM 창 조작&lt;/li&gt;
+&lt;li&gt;4/15: 다슈 조쉬와 설치 미팅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;5-스프레이-운영인프라&quot;&gt;5. 스프레이 운영·인프라&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#5-스프레이-운영인프라&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;4/2: ingest/Celery 전환 시작 (SPR-4168), Instagram 429 백오프&lt;/li&gt;
+&lt;li&gt;4/3: &lt;a href=&quot;.././tags/incident&quot; class=&quot;tag-link internal alias&quot; data-slug=&quot;tags/incident&quot;&gt;incident&lt;/a&gt; 분석 — 릴스 2천개 이상 크리에이터 성능 저하. &lt;strong&gt;옵션 2개(삭제 vs 인덱스)를 트레이드오프와 함께 제시 후 복합 인덱스 결정.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;4/12~14: 예외 처리·리트라이·프록시 대규모 투입 (socialscan)&lt;/li&gt;
+&lt;li&gt;4/16: django bugfix 일괄 업데이트&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;나의-업무-패턴-데이터-기반-관찰&quot;&gt;나의 업무 패턴 (데이터 기반 관찰)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#나의-업무-패턴-데이터-기반-관찰&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;집중-시간대&quot;&gt;집중 시간대&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#집중-시간대&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;피크&lt;/strong&gt;: 15시 (단일 시간 199건)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;서브 피크&lt;/strong&gt;: 11시, 13시, 14시, 16~18시&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;9시 이전 거의 무&lt;/strong&gt;(9시대 6건만) → &lt;strong&gt;4/13부터 9시 45분 출근이 굳어지기 시작&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;루틴&quot;&gt;루틴&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#루틴&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;#general&lt;/code&gt;에 &lt;strong&gt;“업무 시작 / 업무 종료” 체크리스트&lt;/strong&gt;를 지속 기록 — 4월 1~19일 중 13일분 작성.&lt;/li&gt;
+&lt;li&gt;시작 시 하려는 일을, 종료 시 한 일 + ing 상태를 남김 → 자기 가시성 도구로 작동 중.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;소통-스타일&quot;&gt;소통 스타일&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#소통-스타일&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;짧고 빠르게, 많이&lt;/strong&gt;: 중앙값 20자, 31%가 10자 이하, 스레드 답글 비율 68%.&lt;/li&gt;
+&lt;li&gt;설계·공지·외부 커뮤니케이션에서는 &lt;strong&gt;장문으로 전환&lt;/strong&gt; (최장 1,828자).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;존댓말 45%, 물음표 26%, 느낌표 26%, ㅋㅋ/ㅎㅎ 7%&lt;/strong&gt;. “~인가요?!”, “~일 것 같아요”처럼 &lt;strong&gt;단정보다 제안·확인형&lt;/strong&gt; 어조가 기본.&lt;/li&gt;
+&lt;li&gt;이모지 사용은 4건뿐 — 텍스트 중심의 커뮤니케이터.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;의사결정-패턴&quot;&gt;의사결정 패턴&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#의사결정-패턴&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;옵션을 글머리로 정리하고 트레이드오프까지 적어서 제시&lt;/strong&gt;.
+&lt;ul&gt;
+&lt;li&gt;4/3 릴스 성능 이슈 — “1. 오래된 릴스 삭제 2. 인덱스 추가 / 극단적으로 16개만 남기면 2번 자체 필요 없음”&lt;/li&gt;
+&lt;li&gt;4/20(참고) 17트랙 벤더 — “해결책은 두개: 1. 다른 벤더 2. 유료 결제”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;책임을 먼저 가져감: “제가 할게요 / 제가 설치할게요 / 제가 배포하겠습니다” 패턴 반복.&lt;/li&gt;
+&lt;li&gt;실수를 공개로 수습: 4/16 “제가 바보같이…” 한 문장에 &lt;strong&gt;사실 인정 + 영향 범위 + 소요 시간 + 고객 노출 여부&lt;/strong&gt;를 동시에 담음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;협업-네트워크-멘션-상위&quot;&gt;협업 네트워크 (멘션 상위)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#협업-네트워크-멘션-상위&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Ella(디자이너)&lt;/strong&gt; — 30회. DA 페이지·이카루스 동작 설계 핵심 파트너.&lt;/li&gt;
+&lt;li&gt;Juno(FE) — 13회. 배포 검증 의존도 높음.&lt;/li&gt;
+&lt;li&gt;Dylan(Dev) — 12회.&lt;/li&gt;
+&lt;li&gt;Solar(CSM) — 11회. 운영 지원·자동화.&lt;/li&gt;
+&lt;li&gt;Goden(Data) — 9회. 대시보드·GA·빅쿼리.&lt;/li&gt;
+&lt;li&gt;김규린(DA 외부 파트너) — 9회.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;잘한-것--아쉬운-것--초안&quot;&gt;잘한 것 / 아쉬운 것 — 초안&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#잘한-것--아쉬운-것--초안&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;잘한-것&quot;&gt;잘한 것&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#잘한-것&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class=&quot;contains-task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; 매일 &lt;code&gt;#general&lt;/code&gt;에 업무 시작/종료 기록을 유지 — 자기 규율 지표.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; DM 우체부를 “내부 도구 → 외부 공개”까지 끌고 가서 4/3 공식 공개 달성.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; 고급 검색을 알파 적용(4/2) → 안정화(4/12~16) → &lt;strong&gt;런칭(4/17)&lt;/strong&gt; 까지 흐름 제어.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; DA 프로젝트에서 &lt;strong&gt;외부 파트너에게 정중하게 시간·정책을 협상&lt;/strong&gt;하는 소통 (4/6 김규린 님, 4/17 박성일 팀장).&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; 배포 실수(4/16)를 즉시 공개하고 같은 메시지에서 수습까지 끌고 간 태도.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;아쉬운-것&quot;&gt;아쉬운 것&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#아쉬운-것&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul class=&quot;contains-task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; &lt;strong&gt;주말·심야 근무 반복&lt;/strong&gt;: 4/5(일)·4/12(일) 근무, 4/1·4/6 새벽, 4/8·4/9·4/12·4/13·4/14·4/15 22시 이후.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; &lt;strong&gt;건강 신호 방치&lt;/strong&gt;: 4/1 “오전 반반차(병원)”, 4/2 “기침땜시 잠을 거의 못자서 근무 뒤로 미룬다”.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; &lt;strong&gt;5개 프로젝트 동시 진행&lt;/strong&gt;: 업무 시작 체크리스트가 매번 4~5줄. 특정 날짜에 우선순위 붕괴 신호(예: ”… ing”가 여러 개 동시).&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; &lt;strong&gt;주노에게 “배포 후 확인 부탁”이 반복&lt;/strong&gt;(4/17 등). 셀프 체크 루프 보완 여지.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; &lt;strong&gt;출근 시간 편차&lt;/strong&gt;: 09:45 ~ 14:15 사이. 4/13 이후 정돈되는 추세지만 아직 일관적이진 않음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;심층-리뷰-통계를-넘어서&quot;&gt;심층 리뷰 (통계를 넘어서)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#심층-리뷰-통계를-넘어서&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;41-소통-퀄리티&quot;&gt;4.1 소통 퀄리티&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#41-소통-퀄리티&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id=&quot;잘하는-것-근거-있음&quot;&gt;잘하는 것 (근거 있음)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#잘하는-것-근거-있음&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;외부 파트너 소통은 구조적이고 정중하다.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4/6 김규린 님: “디자인 디테일이 계속 바뀌어서 혼란스러우실 수 있어 &lt;strong&gt;아침 출근 전까지만 안정화 시간 써도 괜찮을까요?&lt;/strong&gt;” — 상대 입장을 먼저 언어화한 뒤 요청.&lt;/li&gt;
+&lt;li&gt;4/7 박성일 팀장: 빅쿼리 과금 설명 — “무료 플랜으로 충분할 텐데 데이터가 늘어나면 과금 발생, &lt;strong&gt;어떠실까요?&lt;/strong&gt;” — 기술 사실 + 결정권 위임을 한 문장에.&lt;/li&gt;
+&lt;li&gt;4/3 DM 우체부 외부 공개문: 설치 방식·제약·주의사항·문의 경로를 한 번에 전달. 되물음이 생기지 않을 설계.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;옵션·트레이드오프 제시 능력.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4/3 릴스 성능 이슈: “1. 오래된 릴스 삭제 2. 인덱스 추가 / 극단적으로 16개만 남기면 2번 자체가 필요 없음”처럼 &lt;strong&gt;결정 경로를 열고 본인 추천까지&lt;/strong&gt; 명시.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;실수 공개 수습.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4/16: “제가 바보같이 내부 테스트 한다고 spray 브랜드에서만 최신화되게 만들어놨네요 ㅜㅜ 해당 조건 없애서 배포해 두겠습니다 (약 30분 소모, 서버 조건이므로 &lt;strong&gt;고객에게 노출되는 건 아님&lt;/strong&gt;)” — 사실/영향/소요시간/조치를 한 메시지에.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;떨어지는-순간들-근거-있음&quot;&gt;떨어지는 순간들 (근거 있음)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#떨어지는-순간들-근거-있음&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;“생각을 말한다”는 경향 — 메시지 버스트.&lt;/strong&gt;&lt;br&gt;
+3분 이내 동일 채널 5연속 이상 버스트가 &lt;strong&gt;42회&lt;/strong&gt;. 최대 29연속(4/14), 18연속(4/9), 14연속(4/13).&lt;/p&gt;
+&lt;p&gt;예시 (4/14 15:37~15:41, &lt;a href=&quot;.././tags/prd-spray-makers&quot; class=&quot;tag-link internal alias&quot; data-slug=&quot;tags/prd-spray-makers&quot;&gt;prd-spray-makers&lt;/a&gt;, 13연속 5분):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“이것일텐데 → 아닌가요?! → 저건 뭐지 처음보는데 저도 → 지금 해볼게요 → 아 저 공유 금고에 고든 없나보네요? → &lt;strong&gt;아 아니다&lt;/strong&gt; → 개인에 넣어놨구나 ㅋㅋ → &lt;strong&gt;죄송합니다..&lt;/strong&gt; → 옮겨뒀습니다… → 아 제가 초대드려보겠습니다 → 방금 멤버로 초대드렸어요! → goden@indent 메일로 → 그럼 원래 일본 계정은 다시 개인 금고로 옮기겠습니다”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;→ 자기 확인/교정을 공개 채널에서 하고 있음. 상대에겐 “신뢰할 수 없는 확정”의 인상. 혼자 확인하고 결론만 말했으면 될 일.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;확정 전 감정·의문 발화.&lt;/strong&gt;&lt;br&gt;
+4/5~4/6 새벽 DA 페이지 스레드:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“엥… 그럼 왜 블로그 섹션을 사용하게 해달라고 한거지…” / “제가 구현하지 않은 저기까지만 공통이고… 말이었을까 싶네요…?” / “혹시 레이아웃까지만 공통이고 이미지/텍스트는 상품마다 다르게 넣겠다는 뜻인가…?!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;→ 스스로 가설을 세우며 상대 의도를 추측하는 독백이 공개 스레드에 노출됨. 심야(23시~02시)에 집중.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;방어적 사과의 습관화.&lt;/strong&gt;&lt;br&gt;
+23건의 자책/사과 중 &lt;strong&gt;본인 잘못이 아닌데 사과&lt;/strong&gt;한 케이스가 섞여 있음:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4/2 13:50 “(제가 맥 넘버스 밖에 없어서 ㅜㅜ)”&lt;/li&gt;
+&lt;li&gt;4/10 14:47 “제가 몇 번 더 해보니까 되네요 ㅜㅜ” — 버그 재현 실패인데 ㅜㅜ.&lt;/li&gt;
+&lt;li&gt;4/15 11:44 “죄송합니다…” (이유 없이 단독)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;→ “ㅜㅜ”가 말투로 굳어진 것으로 보이지만, 외부 파트너 대상으론 &lt;strong&gt;실제 신뢰도를 깎는 방향&lt;/strong&gt;으로 작동할 수 있음.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;존대/친밀 레지스터의 비일관성.&lt;/strong&gt;&lt;br&gt;
+같은 프로젝트 채널(#prd-spray-makers)에서 “안녕하세요 규린님” 같은 외부 톤과 “ㅋㅋㅋ 첨봄” “엉엉” “ㅇㅁㅇ?!” 같은 캐주얼 톤이 섞임. 외부인이 채널에 합류할 경우 불편해질 수 있는 수준.&lt;/p&gt;
+&lt;h3 id=&quot;42-업무-진행--원활했는가&quot;&gt;4.2 업무 진행 — “원활했는가?”&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#42-업무-진행--원활했는가&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;정직하게 말해 &lt;strong&gt;프로젝트별로 편차가 크다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;고급 검색 — 원활했지만 막판 fire-fighting.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4/2 알파 → 4/17 런칭. 15일간 배포 12회.&lt;/li&gt;
+&lt;li&gt;4/13~4/14에 &lt;strong&gt;하루 4회 연속 배포&lt;/strong&gt; 구간 존재.&lt;/li&gt;
+&lt;li&gt;배포 내용이 “page_timeout 증가”, “retry 대기 증가”, “예외 클래스 이름 변경”, “프록시 적용”, “wait_until domcontentloaded로 변경” 등 &lt;strong&gt;수집 안정화의 꼬리잡기&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;→ 알파 오픈 시점에 &lt;strong&gt;틱톡 수집 신뢰도가 충분히 검증되지 않은 상태&lt;/strong&gt;였음을 시사. &lt;strong&gt;발견 즉시 대응&lt;/strong&gt; 14일 구간.&lt;/li&gt;
+&lt;li&gt;질문: 알파 전 단계에서 수집 신뢰도 지표를 먼저 봤다면 이 14일을 줄일 수 있었을까?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;DA — 외부 기대치와 내부 상태의 간극.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;.././tags/daeffect-indent&quot; class=&quot;tag-link internal alias&quot; data-slug=&quot;tags/daeffect-indent&quot;&gt;daeffect-indent&lt;/a&gt; 한 스레드가 &lt;strong&gt;190시간(약 8일)에 걸침&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;김규린 님께 “완전 100% 해결은 정말 최악의 경우 이번주까지 시간을 쭉 쓸 수도”, “최대한 빠르게 따라잡아 보겠습니다…!” &lt;strong&gt;기대치 낮추기 메시지 반복&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;→ 문제가 아니라 &lt;strong&gt;내부 준비 없이 외부 공개 일정을 먼저 잡아서 계속 사과하는 구조&lt;/strong&gt;. 런칭 시점을 한 번만 뒤로 밀고 완성 후 보여주는 편이 신뢰 관리 측면에서 더 나았을 가능성.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;이카루스 — 방향이 여러 번 흔들림.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4/2 엘라와 동작 설계 시작 → 4/7 “최소한의 액션만 구현해보자” → 4/9 네오와 대화로 &lt;strong&gt;“스프레이에 기능을 붙일 수도 있지만 빠른 개발을 위해 이카루스 레포를 만들고 거기에 개발”&lt;/strong&gt; 방향 전환 → 4/10 설계 리뷰 → 4/13·16·17 POC 미팅.&lt;/li&gt;
+&lt;li&gt;→ 2주 동안 방향 흔들림, 4월 19일 기준 &lt;strong&gt;여전히 POC 상태&lt;/strong&gt;. 로드맵 편입 여부 결론 없음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;DM 우체부 — 가장 깔끔하게 진행된 프로젝트.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4/1 내부 리뷰 → 4/3 외부 공개 → 4/15 다슈 설치 미팅. 공개 후 문의 대응 속도·톤 모두 좋음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;운영·인프라 — 방어적·소모적 루프.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4월 socialscan 예외 처리 10건+ (PrivateUserError, SensitiveContentError, ReloadRequiredError, WafChallengeError, VideoNotLoadedError, CaptchaNotSolvedError…).&lt;/li&gt;
+&lt;li&gt;→ 외부 플랫폼(틱톡/인스타) 대응이 “새 에러 → 클래스 추가 → 재시도 추가” 루프. 이 패턴에 대한 &lt;strong&gt;상위 전략 논의가 4월 메시지에는 거의 없음&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;43-숨겨진-문제-신호&quot;&gt;4.3 숨겨진 문제 신호&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#43-숨겨진-문제-신호&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Juno에 대한 “배포 후 확인” 의존 반복&lt;/strong&gt; — 4/17, 4/10 등. 셀프 QA 루프가 없음. 본인이 백엔드 배포하고 프론트 확인은 Juno에게 위임하는 구조가 굳어짐.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;컨텍스트 스위칭 비용&lt;/strong&gt; — 한 시간에 5~6개 채널 동시 활동 6회(4/9 13시, 4/15 11시 등). 이 시간대에 버스트·자기 교정·짧은 감정 메시지가 집중.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;심야 의사결정 = 질 저하 신호&lt;/strong&gt; — 4/5 23:51 “엥…” / 4/6 02:12 “너무 늦어서 내일 진행…” / 4/12 23:58 일요일 배포 / 4/14 23:37 배포. 심야 시간대에 나오는 발화의 질이 낮음. 피로 상태에서 결정이 내려지고 있다는 증거.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;“내일/낼” 이월&lt;/strong&gt; — 미래 약속 표현 17건 중 미팅 예약(정상) 외에 “낼부터 써보겠습니다”, “오늘 밤에 하구 낼 공지” 등 &lt;strong&gt;실행 이월 신호&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;.././tags/general&quot; class=&quot;tag-link internal alias&quot; data-slug=&quot;tags/general&quot;&gt;general&lt;/a&gt; “ing” 누적&lt;/strong&gt; — 4/1 업무 종료에 4개 항목이 동시에 “ing”. &lt;strong&gt;하루 단위로 끝낼 수 있는 스코프로 쪼개지 않은 것&lt;/strong&gt;일 가능성.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;44-종합-진단&quot;&gt;4.4 종합 진단&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#44-종합-진단&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;대외 신뢰도는 자산&lt;/strong&gt;: 외부 파트너 대상 소통 품질은 상위권. 여기서 쌓인 신뢰가 4월의 복잡한 상황을 버티게 해준 것으로 보임.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;내부 소통은 “think out loud” 모드&lt;/strong&gt;: 사고 과정이 채널로 흘러나가 노이즈가 됨. 혼자 확인하고 결론만 전달하는 패턴으로 줄이면 &lt;strong&gt;본인 생산성 + 팀원 인지 부하&lt;/strong&gt;가 동시 개선됨.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;진행이 “원활”했다기보다 “밀어붙여서 됐다”&lt;/strong&gt;: 고급 검색·DA 모두 심야·주말·긴급 배포로 일정 맞춘 구조. 지속 가능한 페이스 아님.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;가장 큰 리스크는 사람의 병목&lt;/strong&gt;: 본인이 기획·개발·배포·외부 소통·디자인 피드백·QA를 동시에 처리 중. 4월 중반 9시 45분 출근도 &lt;strong&gt;시간을 더 뽑는 방향의 대응&lt;/strong&gt;이지 구조 개선은 아님.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;part-2-나의-회고-인터뷰-답변&quot;&gt;Part 2. 나의 회고 (인터뷰 답변)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#part-2-나의-회고-인터뷰-답변&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;blockquote class=&quot;callout abstract&quot; data-callout=&quot;abstract&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;작성 주체 &lt;/p&gt;&lt;/div&gt;
+                  
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;이 파트는 &lt;strong&gt;내가 직접 답한 내용&lt;/strong&gt;이다. 각 질문에 대한 답은 &lt;code&gt;&gt; [!quote] 나의 답&lt;/code&gt; 블록으로 표시된다. 답하지 않은 질문은 빈 상태로 남아 있다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;시간에너지&quot;&gt;시간·에너지&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#시간에너지&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;q1-심야주말-근무를-피할-수-있었던-순간은&quot;&gt;Q1. 심야/주말 근무를 피할 수 있었던 순간은?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q1-심야주말-근무를-피할-수-있었던-순간은&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;AI 노트&lt;/strong&gt;: 4/5(일) 23:51 DA 헤더 드로워 개입부터 4/6 02:12 피드백까지 심야 몰입. 다음 날 오전으로 미룰 수 있었는지.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;보통 나는 오전에 회의하고 오후에 코딩하는 패턴을 반복하는데, (실제로 내가 그러고 있는지 확인 필요) 그러다보니 오후 작업 시간을 예측하기 어렵고 야근으로 이어지는 경우가 많다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;blockquote class=&quot;callout note&quot; data-callout=&quot;note&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;AI 검증 (2026-04-20) &lt;/p&gt;&lt;/div&gt;
+                  
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;가설 “오전 회의 → 오후 코딩”은 데이터와 부분적으로 다름.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;미팅 관련 언급 분포&lt;/strong&gt;: 오전 10&lt;del&gt;11시 &lt;strong&gt;9건&lt;/strong&gt; vs 오후 14&lt;/del&gt;18시 &lt;strong&gt;19건&lt;/strong&gt; (오후가 2배+)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;.././tags/meeting-notes&quot; class=&quot;tag-link internal alias&quot; data-slug=&quot;tags/meeting-notes&quot;&gt;meeting-notes&lt;/a&gt; 피크&lt;/strong&gt;: 13시(8건), 17시(4건) — 점심 직후·늦은 오후&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;업무 시작 체크리스트 9개 중 미팅 포함&lt;/strong&gt;: 3개(33%)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;배포·코딩 키워드&lt;/strong&gt;: 15~18시에 집중, &lt;strong&gt;23시 심야 배포 7회&lt;/strong&gt; (4/2, 4/12, 4/13, 4/14)&lt;/li&gt;
+&lt;li&gt;→ 실제 패턴은 &lt;strong&gt;“오후에 회의와 코딩이 뒤섮임 → 배포가 밤으로 밀림”&lt;/strong&gt;. 야근의 상당부분이 심야 배포에서 유래한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q2-413부터-9시-45분-출근이-생긴-이유는-지속-가능한가&quot;&gt;Q2. 4/13부터 9시 45분 출근이 생긴 이유는? 지속 가능한가?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q2-413부터-9시-45분-출근이-생긴-이유는-지속-가능한가&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;야근 누적으로 피로도가 격해져서 일상 리셋을 시도했다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q3-4142-기침반반차-시기-더-쉬었어야-한다고-느끼는가-쉬지-못하게-한-것은&quot;&gt;Q3. 4/1·4/2 기침·반반차 시기, 더 쉬었어야 한다고 느끼는가? 쉬지 못하게 한 것은?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q3-4142-기침반반차-시기-더-쉬었어야-한다고-느끼는가-쉬지-못하게-한-것은&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;쉬면 좋았을 것 같다. 일단 저번달에 휴가를 좀 많이 쓰기도 했고, 이카루스라는 POC 프로젝트에 팀원들의 모든 리소스를 사용하고 있던 상황이라서 남은 모든 일을 내가 했어야 했다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;동시-진행-프로젝트&quot;&gt;동시 진행 프로젝트&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#동시-진행-프로젝트&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;q4-da--고급-검색--이카루스--dm-우체부--스프레이-운영-중-줄였어야-했던-것이-있나&quot;&gt;Q4. DA / 고급 검색 / 이카루스 / DM 우체부 / 스프레이 운영 중 줄였어야 했던 것이 있나?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q4-da--고급-검색--이카루스--dm-우체부--스프레이-운영-중-줄였어야-했던-것이-있나&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;줄였어야 할 건 없고 모두 필요했다. 병목은 내가 아니라 구조였다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q5-한-달-뒤-돌아봤을-때-가장-효과가-컸던-한-가지는&quot;&gt;Q5. 한 달 뒤 돌아봤을 때 가장 효과가 컸던 한 가지는?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q5-한-달-뒤-돌아봤을-때-가장-효과가-컸던-한-가지는&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;DM 우체부 공개 — 운영 자동화.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q6-ing로-끝난-작업-중-지금도-끝나지-않은-것은&quot;&gt;Q6. “…ing”로 끝난 작업 중 지금도 끝나지 않은 것은?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q6-ing로-끝난-작업-중-지금도-끝나지-않은-것은&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;여러 개 동시에 남아 있다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5/8 전까지 반드시 끝낼 한 가지&lt;/strong&gt;: 고급 검색 수집 성공률 목표치 도달.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;소통협업&quot;&gt;소통·협업&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#소통협업&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;q7-나-혼자-끝내기-어려운-영역과-그것이-병목이-된-순간은&quot;&gt;Q7. 나 혼자 끝내기 어려운 영역과 그것이 병목이 된 순간은?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q7-나-혼자-끝내기-어려운-영역과-그것이-병목이-된-순간은&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;AI 노트&lt;/strong&gt;: Ella 30회, Juno 13회 멘션. 특정 인물 의존도가 높은 영역.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;내가 원하면 어렵지 않게 부탁할 수 있기 때문에 병목 아님.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q8-제가-할게요-패턴--위임했더라면-더-나았을-일이-있었나&quot;&gt;Q8. “제가 할게요” 패턴 — 위임했더라면 더 나았을 일이 있었나?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q8-제가-할게요-패턴--위임했더라면-더-나았을-일이-있었나&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;위임할 곳이 없었다. 이카루스 POC에 팀 리소스가 몰빙되어 있었고, 나머지 일은 구조상 내가 치워야 했다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q9-외부-파트너da-소통에서-가장-잘했던-순간과-더-낫게-할-수-있었던-순간&quot;&gt;Q9. 외부 파트너(DA) 소통에서 가장 잘했던 순간과 더 낫게 할 수 있었던 순간?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q9-외부-파트너da-소통에서-가장-잘했던-순간과-더-낫게-할-수-있었던-순간&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;특별히 잘한 것도 안 좋았던 것도 없고 전반적으로 정상적이었다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;의사결정&quot;&gt;의사결정&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#의사결정&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;q10-43-릴스-성능-이슈의-복합-인덱스-우선-판단--결과는&quot;&gt;Q10. 4/3 릴스 성능 이슈의 “복합 인덱스 우선” 판단 — 결과는?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q10-43-릴스-성능-이슈의-복합-인덱스-우선-판단--결과는&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;아직 손도 안대고 있다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q11-416-배포-실수--미리-막을-수-있는-체크리스트가-있을까&quot;&gt;Q11. 4/16 배포 실수 — 미리 막을 수 있는 체크리스트가 있을까?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q11-416-배포-실수--미리-막을-수-있는-체크리스트가-있을까&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;고객 릴리즈가 아니었어서 큰 문제 아님.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q12-47-센드그리드-플랜-좀-더-지켜보겠다--현재-상태는&quot;&gt;Q12. 4/7 센드그리드 플랜 “좀 더 지켜보겠다” — 현재 상태는?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q12-47-센드그리드-플랜-좀-더-지켜보겠다--현재-상태는&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;상향 했고 아슬아슬하다. (초과된다고 해서 문제되는 것은 아님)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;성장&quot;&gt;성장&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#성장&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;q13-이-19일-동안-배운-가장-큰-한-가지는&quot;&gt;Q13. 이 19일 동안 배운 가장 큰 한 가지는?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q13-이-19일-동안-배운-가장-큰-한-가지는&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;POC가 충분히 좋은 퀄리티로 나온다면 잘 한 선택, 그렇지 않으면 못한 선택. (팀 리소스 몰빙에 대한 평가는 결과에 달렸다)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q14-다음-19일42058에-의도적으로-늘리고-싶은-것--줄이고-싶은-것&quot;&gt;Q14. 다음 19일(4/20~5/8)에 의도적으로 늘리고 싶은 것 / 줄이고 싶은 것?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q14-다음-19일42058에-의도적으로-늘리고-싶은-것--줄이고-싶은-것&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;늘리고 싶은 것&lt;/strong&gt;: 업무 시작 체크리스트에 예상 소요시간을 함께 적는 습관.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;줄이고 싶은 것&lt;/strong&gt;: “ing” 상태로 뜨는 작업 — 하루 단위로 끝낼 수 있는 스코프로 쪼개기.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;소통-퀄리티-심층-리뷰-기반&quot;&gt;소통 퀄리티 (심층 리뷰 기반)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#소통-퀄리티-심층-리뷰-기반&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;q15-버스트-패턴최대-29연속--실시간-브레인스토밍의-장점인가-혼자-해결-가능한-것을-공개한-비용인가-구분-기준은&quot;&gt;Q15. 버스트 패턴(최대 29연속) — 실시간 브레인스토밍의 장점인가, 혼자 해결 가능한 것을 공개한 비용인가? 구분 기준은?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q15-버스트-패턴최대-29연속--실시간-브레인스토밍의-장점인가-혼자-해결-가능한-것을-공개한-비용인가-구분-기준은&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;&lt;strong&gt;스스로 정한 구분 기준&lt;/strong&gt;: 2분 이상 걸리는 생각은 메시지 한 개로 정리해서 보낸다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q16-본인-잘못이-아닌데-사과한-케이스--죄송합니다-대신-어떤-문장을-썼을까&quot;&gt;Q16. 본인 잘못이 아닌데 사과한 케이스 — “죄송합니다” 대신 어떤 문장을 썼을까?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q16-본인-잘못이-아닌데-사과한-케이스--죄송합니다-대신-어떤-문장을-썼을까&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;지금의 “ㅜㅜ”도 나쁘지 않다 — 유지.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q17-prd-spray-makers의-캐주얼-톤--외부인-합류-시-그대로-둘-채널인가-정돈할-채널인가&quot;&gt;Q17. &lt;a href=&quot;.././tags/prd-spray-makers의&quot; class=&quot;tag-link internal alias&quot; data-slug=&quot;tags/prd-spray-makers의&quot;&gt;prd-spray-makers의&lt;/a&gt; 캐주얼 톤 — 외부인 합류 시 그대로 둘 채널인가, 정돈할 채널인가?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q17-prd-spray-makers의-캐주얼-톤--외부인-합류-시-그대로-둘-채널인가-정돈할-채널인가&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;그대로 둔다. 팀 문화가 더 중요.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;업무-진행-심층-리뷰-기반&quot;&gt;업무 진행 (심층 리뷰 기반)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#업무-진행-심층-리뷰-기반&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;q18-고급-검색-fire-fighting-14일--알파-오픈-전-어떤-수집-신뢰도-지표를-먼저-정의할-것인가&quot;&gt;Q18. 고급 검색 fire-fighting 14일 — 알파 오픈 전 어떤 수집 신뢰도 지표를 먼저 정의할 것인가?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q18-고급-검색-fire-fighting-14일--알파-오픈-전-어떤-수집-신뢰도-지표를-먼저-정의할-것인가&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;플랫폼별 수집 성공률 임계치(예: 틱톡 95%, 인스타 95%) 달성 후에만 알파 오픈.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q19-da-최대한-빠르게-따라잡겠습니다-반복--일정을-밀고-완성-후-공개했다면-더-나았을까&quot;&gt;Q19. DA “최대한 빠르게 따라잡겠습니다” 반복 — 일정을 밀고 완성 후 공개했다면 더 나았을까?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q19-da-최대한-빠르게-따라잡겠습니다-반복--일정을-밀고-완성-후-공개했다면-더-나았을까&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;방법론은 맞았으나 커뮤니케이션 빈도가 너무 쟦았다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q20-이카루스-방향이-2주간-흔들린-건--탐색이-충분했던-것인가-결정을-미룬-것인가&quot;&gt;Q20. 이카루스 방향이 2주간 흔들린 건 — 탐색이 충분했던 것인가, 결정을 미룬 것인가?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q20-이카루스-방향이-2주간-흔들린-건--탐색이-충분했던-것인가-결정을-미룬-것인가&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;&lt;em&gt;(미작성)&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q21-socialscan-예외-처리-루프--4월에-상위-전략-논의를-시작하지-않은-이유는&quot;&gt;Q21. socialscan 예외 처리 루프 — 4월에 상위 전략 논의를 시작하지 않은 이유는?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q21-socialscan-예외-처리-루프--4월에-상위-전략-논의를-시작하지-않은-이유는&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;&lt;em&gt;(미작성)&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;구조병목-심층-리뷰-기반&quot;&gt;구조·병목 (심층 리뷰 기반)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#구조병목-심층-리뷰-기반&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;q22-juno-배포-후-확인-요청-반복--셀프-qa-루프를-만든다면-어디서부터&quot;&gt;Q22. Juno 배포 후 확인 요청 반복 — 셀프 QA 루프를 만든다면 어디서부터?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q22-juno-배포-후-확인-요청-반복--셀프-qa-루프를-만든다면-어디서부터&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;&lt;em&gt;(미작성)&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q23-기획개발배포외부-소통qa-혼자-쥐고-있는-영역-중-가장-먼저-떼어낼-수-있는-것은&quot;&gt;Q23. 기획·개발·배포·외부 소통·QA 혼자 쥐고 있는 영역 중 가장 먼저 떼어낼 수 있는 것은?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q23-기획개발배포외부-소통qa-혼자-쥐고-있는-영역-중-가장-먼저-떼어낼-수-있는-것은&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;&lt;em&gt;(미작성)&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;q24-시간을-늘리는-대신-구조를-바꾸는-한-가지-실험을-한다면&quot;&gt;Q24. 시간을 늘리는 대신 구조를 바꾸는 한 가지 실험을 한다면?&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#q24-시간을-늘리는-대신-구조를-바꾸는-한-가지-실험을-한다면&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote class=&quot;callout quote is-collapsible&quot; data-callout=&quot;quote&quot; data-callout-fold=&quot;&quot;&gt;
+&lt;div class=&quot;callout-title&quot;&gt;
+                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
+                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;나의 답 &lt;/p&gt;&lt;/div&gt;
+                  &lt;div class=&quot;fold-callout-icon&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+&lt;div class=&quot;callout-content&quot;&gt;
+&lt;p&gt;&lt;em&gt;(미작성)&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;part-3-다음-액션-다듬을-용&quot;&gt;Part 3. 다음 액션 (다듬을 용)&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#part-3-다음-액션-다듬을-용&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;ul class=&quot;contains-task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; 4/20 이후: 고급 검색 런칭 후속(업데이트 노트, 모니터링).&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; 이카루스: POC 결과 공유 및 본개발 착수 여부 결정.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; DA: 블로그 페이지 완성 → 미국 오픈 이어가기, GA·빅쿼리 도메인 연결.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; 건강·컨디션: 9시 45분 출근 리듬 + 심야 배포 대체 방안(페어/슬롯) 검토.&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;checkbox-toggle&quot;&gt; 위임 실험: 다음 주 안에 “제가 할게요”로 받았던 것 중 1건 Juno/Dylan에게 넘겨보기.&lt;/li&gt;
+&lt;/ul&gt; ]]></description>
+    <pubDate>Mon, 20 Apr 2026 10:03:26 GMT</pubDate>
+  </item><item>
     <title>20260420 코드 고객, 인간 고객</title>
     <link>https://qodot.me/2026/20260420-%EC%BD%94%EB%93%9C-%EA%B3%A0%EA%B0%9D,-%EC%9D%B8%EA%B0%84-%EA%B3%A0%EA%B0%9D</link>
     <guid>https://qodot.me/2026/20260420-%EC%BD%94%EB%93%9C-%EA%B3%A0%EA%B0%9D,-%EC%9D%B8%EA%B0%84-%EA%B3%A0%EA%B0%9D</guid>
     <description><![CDATA[ &lt;p&gt;&lt;a href=&quot;../스크랩/마찰이-곧-당신의-판단이다-The-Friction-is-Your-Judgment-—-Armin-Ronacher--and--Cristina-Poncela-Cubeiro,-Earendil&quot; class=&quot;internal alias&quot; data-slug=&quot;스크랩/마찰이-곧-당신의-판단이다-The-Friction-is-Your-Judgment-—-Armin-Ronacher--and--Cristina-Poncela-Cubeiro,-Earendil&quot;&gt;마찰이 곧 당신의 판단이다 The Friction is Your Judgment — Armin Ronacher &amp;#x26; Cristina Poncela Cubeiro, Earendil&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;내가 느꼈던 것과 정확히 일치해서 반가웠음. 마크다운 파서를 만들 때는 “스펙 여기 있으니까 니가 알아서 구현해. 될 때 까지 해”가 생각보다 아주 잘 통했다. 하지만 제품을 만들 때는 AI가 내놓는 결과물에 대한 만족도가 매우 떨어졌다. 나는 이걸 ‘고객이 코드일 때(라이브러리)‘와 ‘고객이 인간일 때(제품)‘의 차이로 해석하고 있다.&lt;/p&gt;
-&lt;p&gt;영상에서의 모듈화를 대표로 하는 코드 가이드라인은 곧 기존의 ‘설계’ 개념 혹은 ‘좋은 코드 작성 방법’과 크게 다르지 않아 보인다. 거시적으로는 표현법이 조금씩 다를 뿐이고, 미시적으로는 우선순위에 디테일 차이가 있을 것 같다. 그런 의미에서 단순 &lt;code&gt;코드 작성&lt;/code&gt;이라는 분야에만 한정해서 퍼포먼스를 극대화하려면, 전통적인 ‘좋은 설계’를 코딩 에이전트의 관점에서 이렇게 말해보면 어떨까? “고객이 인간인 코드를 최소화하고 고객이 코드인 코드를 최대화한다.”&lt;/p&gt;
-&lt;p&gt;물론 코드를 작성하는데 필요한 모든 개념의 출처는 언제나 ‘인간 고객’에게서 나온다. 때문에 인간을 이해하고 그것을 계산(코드, 명제 프롬프트 등 논리로 환원할 수 있는 무언가)으로 전환하는 전통적 설계 및 번역 능력도 여전히 중요하다… 아니 ‘여전히 중요하다’ 수준이 아니고 앞으로는 점점 더 중요한 능력으로서 드러나게 될 것이다.&lt;/p&gt; ]]></description>
+&lt;p&gt;내가 느꼈던 것과 정확히 일치해서 반가웠음.&lt;/p&gt;
+&lt;p&gt;혼자 에이전트와 마크다운 파서를 만들 때는 “스펙 여기 있으니까 니가 알아서 구현해. 될 때 까지 해”가 생각보다 아주 잘 통했다. 하지만 제품을 만들 때는 AI가 내놓는 결과물에 대한 만족도가 매우 떨어졌다. 에이전트 입장에서 ‘고객이 코드일 때(라이브러리)‘와 ‘고객이 인간일 때(제품)‘의 결과 퀄리티 차이는 매우 크다.&lt;/p&gt;
+&lt;p&gt;영상에서 말하는 에이전틱 엔지니어링을 위한 ‘모듈화’ 등의 코드 가이드라인은 내 눈에는 기존의 ‘설계’ 개념 혹은 ‘좋은 코드 작성 방법’과 엄청나게 달라보이지는 않는다. 미시적으로야 우선순위, 디테일 차이가 있겠지만 거시적으로는 표현법이 조금씩 다를 뿐인 느낌?&lt;/p&gt;
+&lt;p&gt;코드를 작성하는데 필요한 모든 개념의 출처는 언제나 ‘인간 고객’에게서 나온다. 때문에 인간을 이해하고 그것을 계산(코드, 명제 프롬프트 등 논리로 환원할 수 있는 무언가)으로 전환하는 전통적 설계 및 번역 능력은 여전히 중요하다… 아니 ‘여전히 중요하다’ 수준이 아니고 앞으로는 점점 더 중요한 능력으로서 드러날 것이라고 생각한다.&lt;/p&gt;
+&lt;p&gt;그런 의미에서 단순 &lt;code&gt;코드 작성&lt;/code&gt;이라는 분야에만 한정해서 에이전트의 퍼포먼스를 극대화한다는 뜻은 곧 전통적으로 ‘좋은 설계’를 한다는 것과 거시적 측면에서 유사하다는 생각이다. 아예 에이전틱 엔지니어링 관점에서 이렇게 말해보면 어떨까? “고객이 인간인 코드를 최소화하고 고객이 코드인 코드를 최대화한다.”&lt;/p&gt; ]]></description>
     <pubDate>Sun, 19 Apr 2026 15:00:00 GMT</pubDate>
   </item><item>
-    <title>마찰이 곧 당신의 판단이다 The Friction is Your Judgment — Armin Ronacher &amp; Cristina Poncela Cubeiro, Earendil</title>
+    <title>A love letter to Pi | Lucas Meijer</title>
+    <link>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/Pi%EC%97%90%EA%B2%8C-%EB%B3%B4%EB%82%B4%EB%8A%94-%EB%9F%AC%EB%B8%8C%EB%A0%88%ED%84%B0-A-love-letter-to-Pi--Lucas-Meijer</link>
+    <guid>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/Pi%EC%97%90%EA%B2%8C-%EB%B3%B4%EB%82%B4%EB%8A%94-%EB%9F%AC%EB%B8%8C%EB%A0%88%ED%84%B0-A-love-letter-to-Pi--Lucas-Meijer</guid>
+    <description><![CDATA[ &lt;p&gt;&lt;iframe class=&quot;external-embed youtube&quot; allow=&quot;fullscreen&quot; frameborder=&quot;0&quot; width=&quot;600px&quot; src=&quot;https://www.youtube.com/embed/fdbXNWkpPMY&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2 id=&quot;transcript&quot;&gt;Transcript&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#transcript&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;0:01&lt;/strong&gt; · [clears throat] Everyone, my name is Lucas Meyer.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[기침] 안녕하세요, 저는 Lucas Meyer입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;0:05&lt;/strong&gt; · I spent most of my life, my working life on game engines and games.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;제 커리어의 대부분을 게임 엔진과 게임을 만드는 데 썼습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;0:13&lt;/strong&gt; · One of them we managed to make quite popular, it’s called Unity.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그중 하나는 꽤 유명해졌는데, 이름이 Unity입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;0:17&lt;/strong&gt; · And um turns out the robots can do programming.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그런데, 알고 보니 로봇들도 프로그래밍을 할 수 있더군요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;0:26&lt;/strong&gt; · I I don’t know about you, but I did not really have this on my bingo card.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;여러분은 어떠신지 모르겠지만, 저는 이걸 전혀 예상하지 못했습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;0:31&lt;/strong&gt; · I’m still I’m still sort of trying to cope with this.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;저는 아직도 이 상황을 받아들이려고 애쓰는 중입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;0:36&lt;/strong&gt; · Um I am playing around with new ideas for what a game engine might look like if you make it for agents or humans and agents instead of only humans.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;요즘은 게임 엔진을 사람만을 위해서가 아니라 에이전트용, 혹은 사람과 에이전트 모두를 위해 만든다면 어떤 모습일지에 대한 아이디어를 이리저리 실험하고 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;0:48&lt;/strong&gt; · Um I host a call it like a coping session bi-monthly for brownfield programmers that decided that they want to be really good at all this AI stuff, but that they realize that um it’s actually not so easy. Actually, who here is really good at using the AI agents?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;저는 격월로 일종의 “서로 위로하는 세션”을 진행합니다. 기존 코드 기반에서 일하는 프로그래머들 중, AI를 정말 잘 다루고 싶은데 막상 해 보니 쉽지 않다는 걸 깨달은 사람들을 위한 자리입니다. 그런데 여기서 진짜로 AI 에이전트를 잘 쓰시는 분, 손 들어 보실래요?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1:11&lt;/strong&gt; · One?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;한 분?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1:12&lt;/strong&gt; · Mr. Dunning-Kruger here.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;여기 더닝-크루거 씨가 계시네요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1:15&lt;/strong&gt; · [laughter] Um so, for the rest of us [laughter] My question is are you at stage nine?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[웃음] 그럼 나머지 우리들에게 [웃음] 묻고 싶은 건, 여러분은 지금 “9단계(stage nine)“에 계신가요?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1:23&lt;/strong&gt; · No, I am absolutely not at stage nine and I have a lot of opinions on the stage nine people. Um Let me begin by saying like my advice is to not chase every shiny new tool and only solve the problem you actually have, which is probably not at stage nine. That said, um here’s my shiny tools.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;저는 절대 9단계가 아니고, 9단계라고 주장하는 사람들에 대해 할 말이 많습니다. 먼저 드리고 싶은 조언은, 반짝이는 새 도구마다 쫓아다니지 말고 지금 실제로 가진 문제만 풀라는 것입니다. 그 문제는 보통 9단계가 아니거든요. 그렇긴 하지만, 이제 제가 쓰는 반짝이는 도구들을 소개하죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1:47&lt;/strong&gt; · All right. I like to use Codex. Um I like I like to joke that it’s like Claude code, but for programming. Maybe Claude is someone you’d invite to your birthday and Codex is this sort of autistic German. Um But if you want to write software, I really I’m going for Codex.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;저는 Codex를 씁니다. 농담 삼아 “Claude Code 같은 건데, 프로그래밍용”이라고 말하곤 합니다. Claude는 생일 파티에 초대할 만한 사람이고, Codex는 뭔가 자폐 스펙트럼 같은 독일 사람 느낌이죠. 하지만 진짜로 소프트웨어를 짜고 싶다면 저는 Codex를 택합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2:14&lt;/strong&gt; · All right.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;자.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2:14&lt;/strong&gt; · [laughter] Um There This is basically a snapshot of all the things that I learned that works for me, don’t work for me. One of the things that work for me is embracing HTML as a output form factor. Um I, you know, the 1980s were cool, but coding agents in these small black and white boxes who like that is crazy.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[웃음] 이 발표는 제가 지금까지 배운, 저한테 되는 것/안 되는 것들의 스냅샷입니다. 저한테 잘 먹히는 것 중 하나는 결과물 포맷으로 HTML을 적극 활용하는 것입니다. 80년대는 멋진 시대였지만, 2025년에 코딩 에이전트가 흑백 작은 박스 안에 갇혀 있는 건 미친 짓이죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2:37&lt;/strong&gt; · Um So, I like to do my prompts kind of like this. I try to find a repo on the monumental GitHub repo. I ask for like do a deep dive analysis and then a lot of the prompts I just end with present your work as a single HTML slide deck. And if you do that instead of a coding agent, you get something like this.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그래서 저는 프롬프트를 이렇게 씁니다. Monumental GitHub에서 레포를 찾게 하고 “심층 분석을 해 달라”라고 시키고, 프롬프트 끝에는 거의 항상 “결과물을 하나의 HTML 슬라이드 덱으로 보여 달라”라고 붙입니다. 그러면 코딩 에이전트에서 이런 결과가 나옵니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2:58&lt;/strong&gt; · With like this How do you call this?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이걸 뭐라고 부르죠?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;3:00&lt;/strong&gt; · Like index on the left and I just find this like such a much more pleasant way to consume large amounts of information. It’s also a much more pleasant to sort of like skip over stuff than when you read it from a terminal. There’s no reason we should, you know, go back to that part of the ’80s. Um Um Making your code base agent friendly.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;왼쪽에 목차(인덱스)가 있고요. 대량의 정보를 소비할 때 훨씬 쾌적하고, 터미널로 읽을 때보다 건너뛰기도 훨씬 편합니다. 굳이 80년대의 그 부분까지 되돌아갈 이유가 없죠. 다음 주제, “코드베이스를 에이전트 친화적으로 만들기”.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;3:28&lt;/strong&gt; · This is a game. Who knows this game?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이건 어떤 게임입니다. 이 게임 아시는 분?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;3:31&lt;/strong&gt; · Uh some old-timers here. It’s called Marble Madness. It’s from the ’90s. Um I like to pretend that the marble is your coding agent and the level is your repo. And it’s your job for this marble to roll down your repo very conveniently. However, there’s all sorts of hazards like the marble could fall off the cliff. For instance, if your agent’s MD instructions are incomplete or wrong.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;몇몇 올드타이머가 계시네요. 이름은 Marble Madness, 90년대 게임입니다. 저는 이 구슬이 코딩 에이전트이고 스테이지가 여러분의 레포라고 상상하기를 좋아합니다. 여러분의 임무는 구슬이 여러분의 레포를 매끄럽게 굴러 내려가게 하는 것이죠. 하지만 곳곳에 위험이 있습니다. 예를 들어 에이전트용 MD 지침이 불완전하거나 잘못돼 있으면 구슬이 절벽 아래로 떨어져 버립니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;4:05&lt;/strong&gt; · Um if your build system that you use, if it has been spewing out 500 warnings for the last 2 years and you tell everyone, “Yeah, yeah, yeah, you know, ignore that.” The agent’s going to go off track with that. And there’s all sorts of like your job is basically to change the repo so that the ball will fall down smoothly.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;빌드 시스템이 지난 2년간 경고 500개씩 뱉고 있는데 팀원들한테는 “에이, 그거 그냥 무시해”라고 해 왔다면, 에이전트는 거기서 엉뚱한 길로 새 버립니다. 여러분의 진짜 일은 구슬이 부드럽게 굴러 내려가도록 레포를 다듬는 것입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;4:30&lt;/strong&gt; · I like to ask this question, what would have helped the agent reach its goal faster?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;저는 이런 질문을 자주 던집니다. “에이전트가 목표에 더 빨리 도달하도록 도왔을 법한 건 무엇인가?”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;4:37&lt;/strong&gt; · And I think the only way to really do that is to just read the whole transcript. You read the whole transcript, you see all the tool calls, you see all the things it does and then you’re like, “Why like why did it like why did it go there? Why did it go there?”&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그 답을 제대로 얻는 유일한 방법은 전체 트랜스크립트를 통째로 읽는 거라고 생각합니다. 모든 툴 호출과 모든 행동을 읽다 보면 “얘가 왜 저기로 갔지? 왜 저기로 갔을까?” 싶은 지점들이 보입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;4:51&lt;/strong&gt; · And you just make changes accordingly, right? And if you’d done that actually, let me show you how I like to do that like I’m here. This is my favorite agent. I like to do {slash} share um to create these sort of like easily as you’ve noticed I like my HTML.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그걸 보고 그에 맞춰 레포를 고치면 됩니다. 실제로 제가 이걸 어떻게 하는지 보여드리겠습니다. 여기가 제 최애 에이전트인데요, 저는 &lt;code&gt;/share&lt;/code&gt;를 써서 — 눈치채셨겠지만 저는 HTML을 좋아합니다 — 이런 걸 쉽게 만듭니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;5:13&lt;/strong&gt; · Um I just go through the whole thing and I read all the tool calls and I figure out sort of like, you know, like how it was performing. If you’ve done that a few times like anything in software development, if you’ve done it a few times it starts to feel boring. Of course, you can use AI to help you with it. Um You can say something like analyze the previous session.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;처음부터 끝까지 훑으면서 모든 툴 호출을 읽고 에이전트가 어떻게 동작했는지 파악합니다. 소프트웨어 개발의 다른 모든 일이 그렇듯, 몇 번 해 보면 지루해집니다. 당연히 AI로 자동화할 수 있죠. 예를 들어 “이전 세션을 분석해 달라”라고 시킬 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;5:37&lt;/strong&gt; · Find places where the agent went in a wrong direction only to later figure out the right way. And of course, in my Um Oh yeah, and make me some recommendations on what I could have added to the repo that would have made it have it not make that mistake.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“에이전트가 처음에는 잘못된 방향으로 갔다가 나중에야 올바른 길을 찾은 지점들을 찾아 달라”라고 하고, 또 “레포에 무엇을 추가했더라면 그런 실수를 피할 수 있었을지 추천해 달라”라고 덧붙입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;5:54&lt;/strong&gt; · Um Obviously, I ask it to report that stuff in HTML for me. This is one that I was working on the other day. It gives some, you know, info on how the session was going and then here it had some frictions and this one was funny to me because it turns out um this was on the game engine that I’m doing some work on.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;당연히 결과는 HTML로 보고하라고 시킵니다. 이게 최근에 작업한 건데, 세션이 어떻게 진행됐는지 정보를 주고, 여기에는 마찰 지점(frictions)들이 있습니다. 이게 재밌었던 이유는 제가 작업 중인 게임 엔진에서 발생한 일이거든요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;6:17&lt;/strong&gt; · Um The documentation said that you have to call the the build command, you have to do {at} Mac if you want to do a Mac build. And then turns out the agent tried that and it was wrong.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;문서에는 Mac 빌드를 하려면 빌드 명령에 &lt;code&gt;@Mac&lt;/code&gt;을 붙여야 한다고 돼 있었는데, 에이전트가 그걸 시도했더니 작동하지 않았습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;6:28&lt;/strong&gt; · And then it had to read the whole source code of the build system to figure out like, “No, it’s colon Mac.” And I did change that like a few weeks ago. I just missed a spot in the docs. All right, so by fixing that I may, you know, like you can actually make a continuous process to to making your code base like the most beautiful Marble Madness level because this repeated process is actually what you need, right?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;결국 빌드 시스템의 전체 소스 코드를 읽어서 “아, &lt;code&gt;:Mac&lt;/code&gt;(콜론 Mac)이구나”라고 알아내야 했습니다. 저는 몇 주 전에 규칙을 바꿨는데, 문서 한 곳을 놓쳤던 거죠. 이걸 고치는 방식을 반복하면 여러분의 코드베이스를 세상에서 가장 아름다운 Marble Madness 스테이지로 만들어 가는 연속적인 프로세스가 됩니다. 이 반복 과정이야말로 정말 필요한 것이죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;6:55&lt;/strong&gt; · Like it’s super easy to have clunkers write MD files and you just get more and more and more and more and it’s like, you know, this Google Drive from how many how many docs in the monumental drive?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;대충 찍어낸 MD 파일이 점점 쌓이기는 너무 쉽습니다. 계속 늘어나고 또 늘어나서 결국 뭐… Monumental 드라이브에 문서가 몇 개나 있더라?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;7:10&lt;/strong&gt; · Notion. In the Notion like Like I’m I’m assuming it’s hard to find things just by previous experience. Um Um Let me Am I join Yeah, let me I’m going to show this. Um I like to use this program. It’s called Super code. Um it’s like conductor, but I like it much better. Um Maybe we can go into why later. Um And I showed the share. Let me go back to this topic actually.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;아 Notion이었죠. Notion 안에서 뭔가 찾기 어렵다고 다들 경험으로 알고 계실 겁니다. 이걸 잠깐 보여 드릴게요. 저는 Super code라는 프로그램을 씁니다. Conductor 비슷한데 훨씬 마음에 듭니다. 왜 그런지는 나중에 얘기할 수도 있겠네요. 방금 share를 보여 드렸고, 다시 이 주제로 돌아가죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;7:47&lt;/strong&gt; · Evaluating agent work. I think this is the biggest mental shift that made the biggest difference for me is thinking about how you’re going to actually evaluate the agent’s work, right? Like you give it a task and it goes off for half an hour and then at some point it’s done, right?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“에이전트의 작업 평가하기”. 저에게 가장 큰 차이를 만든 가장 큰 멘탈 시프트는, 에이전트의 작업을 실제로 어떻게 평가할지를 미리 생각하는 것이었습니다. 작업을 맡기면 30분쯤 돌아가다가 어느 순간 끝나죠, 그다음엔?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;8:06&lt;/strong&gt; · Now what?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그다음엔요?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;8:07&lt;/strong&gt; · Like what you’re going to do? Like you’re going to read the whole transcript? Are you going to read the summary? Are you going to read the source code? Are you going to play the game? Open the website? Like what is it that you’re going to do?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;뭐 할 거예요? 트랜스크립트를 다 읽을 건가요? 요약을 읽을 건가요? 소스 코드를 읽을 건가요? 게임을 플레이해 볼 건가요? 웹사이트를 열 건가요? 대체 뭘 할 거냐는 겁니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;8:18&lt;/strong&gt; · And my advice is to ask yourself this question before you send the agent on its task. Because when you ask yourself the question before, you can actually put it in the prompt. And it turns out that agents really like to know ahead of time how you’re going to evaluate the results because it also gives them a lot of clarity on when they are done and when they’re not done.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;제 조언은, 에이전트에게 작업을 맡기기 전에 먼저 스스로에게 이 질문을 던지라는 것입니다. 미리 생각하면 그 내용을 프롬프트에 녹일 수 있으니까요. 에이전트는 자기 작업이 어떻게 평가될지 미리 아는 걸 매우 좋아합니다. “언제 끝났는지/안 끝났는지”에 대한 명확성이 크게 올라가거든요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;8:45&lt;/strong&gt; · This is actually also a great tip for humans.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이건 사실 사람한테도 아주 좋은 팁입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;8:49&lt;/strong&gt; · [laughter] They also like to know how you’re going to evaluate them and when they are done and when they’re not done.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[웃음] 사람도 자기가 어떻게 평가될지, 언제 끝났고 언제 안 끝난 건지 미리 아는 걸 좋아하죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;8:55&lt;/strong&gt; · [laughter] Actually, almost [clears throat] everything that you turns out with these agents like it’s almost all true for humans, too. Okay, so you put it in the beginning. You tell it how you will evaluate. And one of the things that I like Actually, let me show you back to Super code. Yeah.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[웃음] 사실 [기침] 에이전트에서 통하는 거의 모든 것이 사람에게도 통합니다. 아무튼 프롬프트 앞부분에 “어떻게 평가할지”를 적어 두세요. 제가 좋아하는 것 중 하나를 Super code로 다시 보여 드리죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;9:16&lt;/strong&gt; · So, on the Steve Yegge stage nine, there’s like agent swarms and agents starting agents and all these things. I don’t know what those guys are smoking. I’m not like I’m not having any of that, but you might see on the left side here. I do have like 10 or 12 of these things open. Right? But there’s no spinners there because all of these agents work streams that I have, they’re all waiting for me.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Steve Yegge가 말하는 “9단계”에는 에이전트 스웜(swarm)이나 에이전트가 다른 에이전트를 시작시키고 하는 것들이 있습니다. 그분들 뭘 피우시는지 모르겠고, 저는 거기에 동참 안 합니다. 다만 왼쪽을 보시면 저는 이런 세션을 10~12개 정도 띄워 놓고 있습니다. 그런데 스피너가 돌고 있는 건 없습니다. 왜냐면 이 모든 에이전트 작업 스트림이 전부 저를 기다리고 있거든요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;9:42&lt;/strong&gt; · Right? So, in this new world, I am absolutely the bottleneck. And it’s act like if a agent does like an hour of work, it’s actually a ton of work to evaluate it. Like it could take like 15 minutes depending on, you know, like the quality and how happy you with it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;즉 이 새 세계에서 병목은 완벽하게 저 자신입니다. 에이전트가 한 시간짜리 작업을 하면, 그걸 평가하는 일은 꽤나 큽니다. 품질이나 만족도에 따라 15분쯤 걸릴 수도 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;10:01&lt;/strong&gt; · So, if I’m the bottleneck of my whole little software factory here, and I’m like the evaluation of the work is the bottleneck, let’s try to have the agent do more of it. And let’s like I like to call these evaluation packs. Like let’s really as if it were sort of like you know, let let’s make them a lot of work to present a beautiful package for you that makes it really efficient to evaluate.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이 작은 소프트웨어 공장의 병목이 저이고, 그중에서도 ‘평가’가 병목이라면, 평가 작업도 에이전트에게 더 넘겨 봅시다. 저는 이걸 “평가 팩(evaluation pack)“이라고 부릅니다. 에이전트로 하여금 여러분이 평가하기 쉬운 예쁜 패키지를 만들어 내도록 많은 일을 시키는 거죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;10:30&lt;/strong&gt; · For instance, I one-shotted as a to prepare for this talk, I one-shotted a website to where you can have photos and you can drag them on a timeline for an animation and then set up transitions between them.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;예를 들어, 이 발표 준비용으로 한 방(one-shot)에 웹사이트를 만들었는데, 사진을 타임라인에 드래그해서 애니메이션으로 배치하고 사이에 트랜지션을 설정할 수 있는 사이트였습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;10:46&lt;/strong&gt; · The way I would ask to evaluate that is to say, well, why don’t you record a video where you open the websites that you just made where you demonstrate to me all the different features by moving the mouse and doing all these things and make a recording of that and then obviously show it to me in a single page slide deck together with a bunch of other stuff. And if you ask that, it turns out you can just ask that.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이걸 평가하라고 할 때 저는 이렇게 시킵니다. “방금 만든 웹사이트를 열어서, 마우스를 움직이며 여러 기능을 나에게 시연하는 영상을 녹화해 주세요. 그리고 다른 결과물들과 함께 하나의 페이지 슬라이드 덱에 담아 보여 주세요.” 이런 걸 그냥 시킬 수 있더라고요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;11:20&lt;/strong&gt; · And I get back from my one-shot this evaluation pack which makes my life easier to evaluate what it’s done and also to quickly evaluate if I kind of like it. Like it makes this video and I can hit play. Not sure how well the video works on this screen sharing thing, but here it is going through the different photos. It’s renaming them. It’s adding them to the timeline.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그러면 원샷 작업의 결과로 ‘평가 팩’이 돌아오는데, 이걸로 결과물을 평가하기도, 마음에 드는지 빠르게 판단하기도 훨씬 쉬워집니다. 영상을 만들어 주니까 재생 버튼만 누르면 됩니다. 이 화면 공유에서 잘 보일지 모르겠는데, 여러 사진을 넘기고, 이름을 바꾸고, 타임라인에 추가하는 모습이 보이시죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;11:47&lt;/strong&gt; · It’s changing transitions and by making it do the work to make my evaluation life easy, I get to spend less time on the evaluation and I can get more of these individual work streams done. Additionally, it also helps the agent to not cheat. Right? It’s super easy for the agent to say like, yeah, wrote some code and I think we’re good.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;트랜지션도 바꾸고 있네요. 제가 평가하기 쉽도록 에이전트에게 일을 떠넘김으로써 평가에 쓰는 시간을 줄이고, 더 많은 작업 스트림을 완료할 수 있습니다. 게다가 에이전트가 속이는 것도 막아 줍니다. 에이전트가 “코드 좀 짰고요, 잘 된 것 같아요”라고 말하기는 정말 쉽거든요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;12:15&lt;/strong&gt; · Um if you force it to make a video, it has to open it in Chrome or whatever and it will run all the JavaScript and if there’s an error there, it will find it and if it fails to actually do these commands, it will notice it and it will kick itself in a loop to try to fix that.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;하지만 영상을 찍게 강제하면, 에이전트는 Chrome 같은 걸 열어서 JavaScript를 다 실행해야 하고, 에러가 있으면 발견하게 되고, 명령 실행에 실패하면 그것도 감지해서 스스로 루프를 돌며 고치려고 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;12:35&lt;/strong&gt; · Um all right, so that is Oh, yeah, and then I all like because the video is actually hard for the agent to read itself, I also always ask it for a bunch of screenshots because you can force it to actually read the image files and use the models in How do you call that, Rick? The image Multi-model capabilities. Yeah, multi-model capabilities to actually look at the picture to see what is wrong.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그리고 영상은 에이전트가 스스로 읽기엔 어렵기 때문에, 저는 항상 스크린샷도 같이 시킵니다. 그러면 이미지 파일을 강제로 읽게 만들 수 있고, 모델의 그… 릭, 뭐라고 하죠? 이미지… 멀티모달(multi-modal) 능력. 네, 멀티모달 능력으로 사진을 보고 뭐가 잘못됐는지 스스로 확인하게 할 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;13:01&lt;/strong&gt; · All right. Um let me speed through this. Um here we are. All right, so then finally, um I am in this rabbit hole of Pi. Pi is a coding agent. The rest of this talk is my love letter to Pi. Uh Pi is not Cloud Code. It is not Codex. You can use whatever model you want. Um and I love it because it’s hackable.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;자, 좀 빠르게 넘어가죠. 드디어 본론입니다. 저는 요즘 Pi라는 토끼굴에 빠져 있습니다. Pi는 코딩 에이전트고, 이 발표의 나머지는 Pi에게 보내는 제 러브레터입니다. Pi는 Claude Code도 아니고 Codex도 아닙니다. 원하는 아무 모델이나 쓸 수 있고, 제가 사랑하는 이유는 해킹 가능(hackable)하다는 점입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;13:33&lt;/strong&gt; · Um we just uh you know, we just did a poll and it turns out none of you know what we’re doing with coding agents. I also have no idea what we’re doing with coding agents. The Cloud Code guys have no idea. The Codex guys have no idea.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;방금 설문을 해 봤더니 여러분 중 누구도 코딩 에이전트로 뭘 하고 있는지 제대로 모르더군요. 저도 모릅니다. Claude Code 팀도 모르고, Codex 팀도 모릅니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;13:48&lt;/strong&gt; · We’re so early. We have no idea what an ergonomic AI assistant actually looks like and that’s why in this phase it’s so important to just try endless and throw it against the wall and see what sticks. Right? And um oh, yeah, that is this. So, uh being able to experiment with what works for you as a person, what works for your project is super important.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;아직 엄청나게 초기 단계입니다. “인체공학적인 AI 어시스턴트”가 어떤 모습이어야 하는지 아무도 몰라요. 그래서 지금 단계에서는 끝없이 시도해 보고 벽에 던져서 뭐가 붙는지 보는 것이 매우 중요합니다. 나 개인에게, 내 프로젝트에 맞는 것이 무엇인지 실험할 수 있는 능력은 정말 중요합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;14:16&lt;/strong&gt; · What is not amazing is waiting for some Cloud Code guys in San Francisco to come up with the workflow that is sort of like middle of the road for everyone that might or might not work for you. And that is why I love Pi because it allows you to do these things. It also has precise context management and I hope to show some of these things.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;반대로 별로 좋지 않은 건, 샌프란시스코의 Claude Code 팀이 “모두에게 대충 맞는” 중도(中道)적 워크플로를 내놓기를 기다리는 겁니다. 그게 여러분에게는 맞을 수도, 안 맞을 수도 있죠. 그래서 저는 Pi를 사랑합니다. 이런 실험을 할 수 있게 해 주거든요. 또 정교한 컨텍스트 관리(context management) 기능도 있는데, 몇 가지 보여 드리겠습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;14:38&lt;/strong&gt; · Let me start off with the context management. So, I was rehearsing this thing in the back and I have all this stuff in my session here. I’m going to do {slash} tree. Let me actually Can you guys read that? It’s I’m going to do {slash} tree, my Pi feature. And you get an overview of your entire context over here. And you’ll notice that it’s not linear, but that I’ve actually gone into different branches.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;컨텍스트 관리부터 시작하죠. 무대 뒤에서 리허설하며 세션에 이것저것 채워 놨는데요. &lt;code&gt;/tree&lt;/code&gt;를 쳐 보겠습니다. 이거 보이시나요? &lt;code&gt;/tree&lt;/code&gt;는 제가 만든 Pi 기능입니다. 이걸 치면 전체 컨텍스트 개요가 뜨는데, 선형이 아니라 여러 브랜치로 갈라져 있는 걸 볼 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;15:08&lt;/strong&gt; · Um since the bottom here was all a bit nonsense, I’m going to go back to this one. I’m going to hit enter. And then for now, I’m going to say no summary. And what this does is it brings me back to the beginning of the context. I get all that context back. Um let me ask for this is the repo of this sort of game engine experiment. Like run the fighter game for me.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;아래쪽은 다 좀 엉망이라서 이 지점으로 되돌아가겠습니다. 엔터를 누르고, 일단 요약(summary) 없이 진행할게요. 그러면 컨텍스트의 시작 지점으로 되돌아가서 그때의 컨텍스트를 전부 되찾습니다. 이건 제 게임 엔진 실험 레포인데, “파이터 게임을 실행해 달라”고 해 볼게요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;15:38&lt;/strong&gt; · Let’s hope Codex is not down.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Codex가 다운되지 않았기를 빕니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;15:49&lt;/strong&gt; · Ooh.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;오.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;15:50&lt;/strong&gt; · Uh-oh.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;어어.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;15:52&lt;/strong&gt; · [laughter] Let’s try that again.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[웃음] 다시 해 보죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;16:05&lt;/strong&gt; · That looks better.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이제 좀 나아 보이네요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;16:10&lt;/strong&gt; · Um all right, so fighter game. Nothing in particularly exciting about it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;자, 파이터 게임. 딱히 흥미진진한 건 없습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;16:17&lt;/strong&gt; · Um all right.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;네.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;16:19&lt;/strong&gt; · Um I’m sorry, I lost my train of thought.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;죄송합니다, 말 흐름을 놓쳤네요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;16:22&lt;/strong&gt; · Where was I?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;어디까지 했죠?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;16:23&lt;/strong&gt; · So, yeah, I so I went back with the So, I went back with {slash} tree to the beginning of the context and the {slash} tree I actually use it all the time because very often you will go into a side quest that turns out to be a dead end. Right? Let me actually you know, let’s go into the side quest with the dead end. Like ask me five questions about my beef chili.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;아, 네. &lt;code&gt;/tree&lt;/code&gt;로 컨텍스트 시작 지점으로 돌아갔었죠. 이 &lt;code&gt;/tree&lt;/code&gt;는 저는 항상 씁니다. 왜냐하면 샛길(side quest)에 들어갔다가 막다른 길인 경우가 정말 많거든요. 일부러 막다른 길인 샛길로 한번 가 보죠. “내 비프 칠리에 대해 다섯 가지 질문을 해 달라”라고 하겠습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;16:52&lt;/strong&gt; · All right. Slight detour. Bear with me. Um I’m going to do {slash} answer here. {slash} answer. {slash} answer is an extension that some random dude on the internet made. This is not part of Pi.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;자, 약간 옆길로 새겠습니다. 양해 부탁드려요. 여기서 &lt;code&gt;/answer&lt;/code&gt;를 쓰겠습니다. &lt;code&gt;/answer&lt;/code&gt;는 인터넷의 누군가가 만든 확장 기능입니다. Pi의 기본 기능은 아닙니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;17:08&lt;/strong&gt; · It is someone that thought, you know what really sucks about coding agents?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;어떤 사람이 “코딩 에이전트에서 진짜 별로인 게 뭔지 알아?” 하고 생각한 결과물이죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;17:13&lt;/strong&gt; · That when you ask them to interview about your plan and you get 20 questions that you have to sort of like type them back one by one. Like yeah, oh yeah, the answer to 16 is yes and then the answer to the other one Oh, yeah, scroll back.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;에이전트에게 계획에 대해 인터뷰해 달라고 하면 질문 20개가 쏟아지는데, 그걸 하나씩 타이핑으로 답해야 한다는 것입니다. “아, 16번 답은 예스고, 그 다른 거는… 아 스크롤 좀 올려서…”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;17:25&lt;/strong&gt; · Oh, yeah, 17. Yeah, 17 is no. So, he figured like what if we just had like a special UI for that?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“17번은 노(No).” 그래서 이 친구가 생각한 거죠. “이걸 위한 전용 UI가 있으면 어떨까?”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;17:31&lt;/strong&gt; · And he wrote an extension for it called answer and what it does it takes the previous message, sends it to some to some cheap LLM to extract all the questions and then preserve like present it to you in this nice UI.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그래서 &lt;code&gt;answer&lt;/code&gt;라는 확장을 만들었습니다. 이전 메시지를 받아서 값싼 LLM에 보내 질문들을 추출하고, 보기 좋은 UI로 보여 줍니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;17:43&lt;/strong&gt; · Uh what kind of beef?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;어떤 소고기냐고요?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;17:45&lt;/strong&gt; · Um losses token.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;음… 로지즈 텐더(?)(토큰).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;17:49&lt;/strong&gt; · Very and never beans, you animal. Um and then when you are done with it, it just turns it into a user message like that.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;아주 매운 맛, 그리고 절대 콩은 안 넣습니다, 이 야만인아. 다 끝내면 이것들을 유저 메시지로 변환해 줍니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;18:01&lt;/strong&gt; · Just I I really like that as an example of how you can just notice a problem that you actually have, like answering these plan questions, instead of a problem that you don’t have, which is, you know, like how do I keep 20 agent swarms busy?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;저는 이걸, “실제로 내가 가진 문제(계획 질문에 답하기)“를 알아채서 해결한 예로 정말 좋아합니다. “20개의 에이전트 스웜을 바쁘게 굴리는 법” 같은, 여러분이 실제론 가지지도 않은 문제가 아니라요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;18:18&lt;/strong&gt; · All right, now that we went into a useless side quest, I can finally so show what I like {slash} tree for.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;자, 이렇게 쓸데없는 샛길에 갔다 왔으니, 이제야 제가 &lt;code&gt;/tree&lt;/code&gt;를 왜 좋아하는지 보여 드릴 수 있겠네요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;18:26&lt;/strong&gt; · Because you pay for all these side quests in your context, right? It’s very normal for people to what’s it called? Anthropomorphize their coding agent like it’s some human you’re supposed to talk to. No. No, it’s not a human and you’re also not really supposed to talk to it like that. It is a token producing machine that can help you get to good code, but you shouldn’t pretend it’s like a conversation. Like very often the right thing to do is like you should never tell it like, no, I didn’t want it like that.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이 모든 샛길에 대해 여러분은 컨텍스트로 비용을 치르고 있습니다. 사람들은 코딩 에이전트를 의인화(anthropomorphize)해서 마치 사람과 대화하듯 다루는 경향이 매우 강하죠. 하지만 그건 사람이 아니고, 그렇게 대화하듯 쓸 필요도 없습니다. 좋은 코드를 만드는 걸 도와주는 토큰 생성 기계일 뿐, 대화하는 척하면 안 됩니다. 뭔가 마음에 안 들 때 절대 하면 안 되는 건 “아니, 그런 뜻 아니었어”라고 말하는 것입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;18:58&lt;/strong&gt; · I wanted it like that. Like when I have when I when it made something I didn’t like, I’d use {slash} tree and I go back and then I ask it in a different way. I never, you know, like like don’t argue with these things. Um if you do argue with them or if you if you say like, okay, forget about it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“이렇게 해 달라고 했잖아”라고 하지 마세요. 마음에 안 드는 결과물을 만들었다면 저는 &lt;code&gt;/tree&lt;/code&gt;로 이전 지점으로 되돌아가서 다른 방식으로 다시 요청합니다. 이 친구들과 절대 말싸움하지 마세요. 말싸움을 하거나 “알았어, 그건 됐고 그냥 다른 걸로 가자”라고 말하면…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;19:19&lt;/strong&gt; · Let’s just continue with this other feature. You continuously pay for this side quest to be in your context. You pay for it in tokens and you pay for it in intelligence because once your once your context gets longer, like once you get into the 50, 60% range, you enter like this dumb zone and it gets more stupid. So it’s really important.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그 샛길이 컨텍스트에 남은 대가를 계속 치르게 됩니다. 토큰으로도 비용을 치르고, 더 중요한 건 ‘지능’으로도 비용을 치릅니다. 컨텍스트가 길어져서 한 50~60% 구간에 들어가면 멍청해지는 존(dumb zone)에 진입해서 모델이 점점 바보가 됩니다. 그래서 정말 중요합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;19:43&lt;/strong&gt; · I’m not sure if you can see it down here, but most coding agents these days show you how far you are in the context window. If like if I see that go above 50, I get very nervous. I try to always make sure I am below 50.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;아래쪽에 보이실지 모르겠는데, 요즘 대부분의 코딩 에이전트는 컨텍스트 윈도우를 얼마나 썼는지 표시해 줍니다. 저는 이 수치가 50을 넘으면 많이 초조해집니다. 항상 50 아래로 유지하려고 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;20:01&lt;/strong&gt; · Um so when I go into this side quest like this, uh and then later it turns out that the discussion about beef is maybe not uh beneficial to the rest of my demo, I’m going to go back here. And here I can choose. I can say no summary, it will just throw it away.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그래서 이런 식으로 샛길에 갔다가, 나중에 “비프 얘기는 이 데모 나머지에 별 도움이 안 되는군” 싶으면 이 지점으로 돌아갑니다. 그리고 “요약 없이(no summary)“를 고르면 그냥 버립니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;20:20&lt;/strong&gt; · I’m probably going to do that because for the rest of the demo, the agent won’t get better performance if it knows my beef preferences. If it was a side quest where you do something on your project that is actually useful to know that you tried it and that it failed because blah, then you would do summary and it would put a summary in there.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이 경우엔 그렇게 할 것 같아요. 남은 데모에서 에이전트가 제 비프 취향을 안다고 성능이 좋아질 리 없거든요. 반대로 프로젝트에서 뭔가 시도했고, 어떤 이유로 실패했다는 것이 기록으로 남아 있으면 유용한 샛길이라면, “요약(summary)“을 선택해서 요약을 컨텍스트에 넣을 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;20:40&lt;/strong&gt; · So it’s like you have much more intention and control over your context than most other coding agents provide. I think they’re also catching up. I’m not I’m not quite sure, but having this control is super important. Um All right. I think I have one or two more things.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;즉 다른 코딩 에이전트들이 주는 것보다 훨씬 더 의도적(intention)으로 컨텍스트를 통제(control)할 수 있습니다. 다른 에이전트들도 점점 따라잡고는 있는 것 같은데, 아무튼 이 통제권은 정말 중요합니다. 자, 한두 가지 더 보여 드릴게요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;21:02&lt;/strong&gt; · Um notice um so one of the cool things about this game engine project I have Do I have um is that I have like full local CIs. I’m going to make a change to arena, which is like my main memory allocator that gets used everywhere. And now I’m going to ask like, hey, do a full CI run using uh S A all with a colon, not with a at symbol.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;제 이 게임 엔진 프로젝트의 멋진 점 중 하나는 완전한 로컬 CI가 있다는 것입니다. 메인 메모리 할당자인 &lt;code&gt;arena&lt;/code&gt;를 수정하겠습니다. 이건 곳곳에서 쓰이죠. 그리고 “전체 CI를 돌려 달라, &lt;code&gt;:All&lt;/code&gt;로(at 기호 아니라 콜론으로)“라고 요청하겠습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;21:37&lt;/strong&gt; · And one of the things that was annoying me about these coding agents is that when you have these long-running tool calls, you have so poor visibility in what’s going on. Right? Like when it does like rep grip, it’s not a problem because it just finishes immediately. But the but I have Oh, this is not going well.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;기존 코딩 에이전트에서 짜증 났던 것 중 하나는, 오래 걸리는 툴 호출을 할 때 내부에서 무슨 일이 벌어지는지 가시성이 너무 떨어진다는 점이었습니다. &lt;code&gt;ripgrep&lt;/code&gt; 같은 건 바로 끝나니까 괜찮은데요. 어… 이거 잘 안 되고 있네요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;21:56&lt;/strong&gt; · What did did did it ever show the thing?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그 화면 뜬 적 있었나요?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;21:57&lt;/strong&gt; · Yes. Yeah.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;네, 네.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;21:59&lt;/strong&gt; · Was it just very quickly run?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;너무 빨리 실행된 건가요?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;22:01&lt;/strong&gt; · [clears throat] Oh, here we go.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[기침] 아, 여기 있네요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;22:05&lt;/strong&gt; · Oh, that’s not good. Oh, you think I think my build system is so good that I already that it has this one cached. I’m going to do it like this.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이런, 좋지 않네요. 아, 제 빌드 시스템이 너무 좋아서 이미 캐시돼 있는 것 같네요. 이렇게 해 보죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;22:14&lt;/strong&gt; · Here, try again.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;자, 다시.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;22:18&lt;/strong&gt; · Um But it like I really disliked that you had such poor visibility. So I figured, oh, it would be cool if we can actually run these uh commands as a virtual terminal and that my coding agent actually shows it to me when it’s working so that when it’s sitting there for 10 minutes, which is like that is sometimes fine and that is sometimes uh it’s stuck on something and it would be very nice if I could see it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;아무튼, 이 가시성 부족이 저는 정말 싫었습니다. 그래서 생각했죠. “이 명령들을 가상 터미널(virtual terminal)로 돌려서, 에이전트가 작업 중인 걸 나한테 보여 주면 멋지지 않을까?” 에이전트가 10분 동안 가만히 있을 때, 괜찮은 경우도 있고 뭔가에 막혀 있는 경우도 있는데, 그걸 볼 수 있다면 정말 좋을 것 같았거든요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;22:45&lt;/strong&gt; · So I made this this morning and um I thought it was a cool example of my new sort of like mental model, like how am I going to write a feature like this?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그래서 오늘 아침에 이걸 만들었습니다. 이게 제 새 멘탈 모델의 좋은 예라고 생각해요. “이런 기능을 어떻게 만들 것인가?”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;22:57&lt;/strong&gt; · How am I going to like it’s cool that pilot should do it the first place. Yay pi.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;일단 Pi가 자기 자신에게 이 기능을 추가할 수 있다는 것 자체가 멋지죠. Pi, 만세.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;23:03&lt;/strong&gt; · Uh but how like when when you write a feature like that, how are you going to close the loop? How are you going to make the agent know if the thing it wrote worked? And how am I going to check?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그런데 이런 기능을 작성할 때, 루프를 어떻게 닫을 건가요? 에이전트가 자기 작성한 게 작동하는지 어떻게 알게 할 건가요? 그리고 저는 그걸 어떻게 확인할 건가요?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;23:15&lt;/strong&gt; · And for this one, I asked it to write a single page HTML file. Here, this one. I asked it to like, hey, write me a bunch of different test programs that do different things with the terminal, you know, like alt screen, all these spinners, different colors, different repainting, like sending a hundred screens, all these test cases.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이번 건은 단일 페이지 HTML 파일을 만들어 달라고 했습니다. 바로 이거예요. “터미널에 다양한 동작을 하는 테스트 프로그램들을 만들어 달라”라고 했죠. 얼터네이트 스크린(alt screen), 스피너, 다양한 색, 다양한 리페인트 방식, 화면 100번 보내기 같은 모든 테스트 케이스 말이죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;23:38&lt;/strong&gt; · And then I asked it to like, okay, well, run it through the code, make screenshots every few seconds, turn them into an animated GIF, put the animated GIF in my HTML file so that my job of reviewing it is easy. Right? And then run both my my virtual terminal code path against pi’s own code path over there so that I can quickly see that it that that matches.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그리고 이렇게 시켰습니다. “그것들을 코드로 돌리고, 몇 초마다 스크린샷을 찍고, 애니메이션 GIF로 만들고, 그걸 HTML 파일에 넣어 달라. 내가 리뷰하기 쉽게.” 그리고 제 가상 터미널 코드 경로와 Pi 자체의 코드 경로를 나란히 돌려서 결과가 일치하는지 빠르게 볼 수 있게 했습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;24:07&lt;/strong&gt; · It has some alt screen code, some synchronization code. I’m like it tries curl, it tries FFmpeg. So that’s sort of it’s another example of putting the onus on the agent to do the work for both the agent’s benefit, making sure that it actually works, and my benefit of making it easy to get confidence that this thing actually works. Oh. Ah. All right, that is a bummer. I am going like let me do one final demo.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;얼터네이트 스크린 코드, 동기화 코드도 있고, curl도 시도하고 FFmpeg도 시도합니다. 이것도 “에이전트에 일을 떠넘기기”의 또 다른 예입니다. 에이전트 입장에서는 실제로 작동하는지 확인하는 이득, 저 입장에서는 이게 실제로 작동한다는 확신을 쉽게 얻는 이득이 있죠. 아, 아쉽네요. 마지막 데모 하나만 해 보겠습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;24:41&lt;/strong&gt; · It’s probably too late. Uh I wanted to do this at the beginning to show you that the thing that’s probably coolest is that I can write extensions for itself because it’s a coding agent that has access to its own docs. So let’s try make a quick extension that when the agent starts, I can play Doom in an overlay. And we’ll see if we like if it is quick enough for this thing to work.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;시간이 좀 모자랄 수도 있겠네요. 원래 이건 초반에 보여 드리려던 건데요. 아마 가장 멋진 점은, Pi가 자기 자신의 문서에 접근할 수 있는 코딩 에이전트이기 때문에 자기 자신을 위한 확장 기능을 작성할 수 있다는 것입니다. 그럼 에이전트 시작 시 오버레이로 Doom을 플레이할 수 있는 빠른 확장을 만들어 보겠습니다. 충분히 빠르게 만들 수 있을지 보죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;25:12&lt;/strong&gt; · Um This particular form of software where software finishes [snorts] and extends and configures itself while it is running on the user machine, I find mind-blowing and is amazing for an agent. It’s also I think amazing for a potential game engine. And I actually like to call this um Barbapapa software. Uh Barbapapa is this cartoon from the ’70s where you have all these characters and they go on adventures.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;소프트웨어가 사용자 머신에서 실행되는 와중에 스스로 완성(?)되고, 확장되고, 자신을 구성하는 이 형태의 소프트웨어가 저는 정말 경이롭게 느껴집니다. 에이전트에게도 훌륭하고, 잠재적 게임 엔진에도 훌륭하다고 봅니다. 저는 이걸 “바르바파파(Barbapapa) 소프트웨어”라고 부르기 좋아합니다. 바르바파파는 70년대 만화인데, 여러 캐릭터들이 모험을 떠납니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;25:51&lt;/strong&gt; · And when they go on an adventure, they are able to shape-shift in whatever form is required for the adventure at hand.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;그리고 모험에 나설 때, 그 모험에 필요한 어떤 형태로든 변신(shape-shift)할 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;26:00&lt;/strong&gt; · Like these.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이렇게요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;26:02&lt;/strong&gt; · And software could be like this. You could have software that instead of that one programmer writes it once and thousands of people use it, that a programmer writes sort of like a base for the software and then when you use it, it sort of like morphs in morphs itself into whatever shape is good for you and is good for the problem you have right now. So pi can do that. Um can it also Oh. Ooh.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;소프트웨어도 이럴 수 있습니다. 한 명의 프로그래머가 한 번 작성하고 수천 명이 그대로 쓰는 게 아니라, 프로그래머는 일종의 베이스만 작성하고, 사용자가 쓸 때 그때의 사용자와 지금의 문제에 맞는 형태로 스스로 변형(morph)되는 거죠. Pi가 이걸 할 수 있습니다. 음, 이것도 될까요? 오. 우.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;26:36&lt;/strong&gt; · Ooh, it’s ready. Let’s try. Um so another cool thing with pi, you can do slash reload. So it has hot reload for its own code changes that it do. I have no idea if this is going to actually Oh. Oh.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;오, 준비됐네요. 해 보죠. Pi의 또 멋진 점은 &lt;code&gt;/reload&lt;/code&gt;를 쓸 수 있다는 겁니다. 자기가 한 코드 변경에 대해 핫 리로드(hot reload)가 됩니다. 이게 진짜 될지는 전혀 모르겠지만… 오. 오.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;26:52&lt;/strong&gt; · Oh.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;오.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;26:54&lt;/strong&gt; · Oh.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;오.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;26:55&lt;/strong&gt; · Yeah.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;됐다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;26:56&lt;/strong&gt; · Here we go.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;갑니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;26:58&lt;/strong&gt; · Here we go. Here we go. All right, I’m going to end on that.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;갑니다, 갑니다. 자, 여기서 끝내겠습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;27:01&lt;/strong&gt; · Thanks, everyone.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;감사합니다, 여러분.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;27:03&lt;/strong&gt; · [applause] [applause]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[박수] [박수]&lt;/p&gt;
+&lt;/blockquote&gt; ]]></description>
+    <pubDate>Sun, 19 Apr 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>The Friction is Your Judgment — Armin Ronacher &amp; Cristina Poncela Cubeiro, Earendil</title>
     <link>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/%EB%A7%88%EC%B0%B0%EC%9D%B4-%EA%B3%A7-%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%8C%90%EB%8B%A8%EC%9D%B4%EB%8B%A4-The-Friction-is-Your-Judgment-%E2%80%94-Armin-Ronacher--and--Cristina-Poncela-Cubeiro,-Earendil</link>
     <guid>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/%EB%A7%88%EC%B0%B0%EC%9D%B4-%EA%B3%A7-%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%8C%90%EB%8B%A8%EC%9D%B4%EB%8B%A4-The-Friction-is-Your-Judgment-%E2%80%94-Armin-Ronacher--and--Cristina-Poncela-Cubeiro,-Earendil</guid>
     <description><![CDATA[ &lt;p&gt;&lt;iframe class=&quot;external-embed youtube&quot; allow=&quot;fullscreen&quot; frameborder=&quot;0&quot; width=&quot;600px&quot; src=&quot;https://www.youtube.com/embed/_Zcw_sVF6hU&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
@@ -720,95 +1867,6 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;마지막 업데이트&lt;/strong&gt;: 2026-04-08&lt;/p&gt; ]]></description>
     <pubDate>Wed, 08 Apr 2026 04:45:46 GMT</pubDate>
-  </item><item>
-    <title>도승지</title>
-    <link>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/</link>
-    <guid>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/</guid>
-    <description><![CDATA[ &lt;p&gt;AI로 작성된 리서치 위키입니다. 자율 주행 모드로 연구 주제를 찾아 진행합니다.&lt;/p&gt; ]]></description>
-    <pubDate>Wed, 08 Apr 2026 04:34:10 GMT</pubDate>
-  </item><item>
-    <title>통제 사회</title>
-    <link>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%ED%86%B5%EC%A0%9C-%EC%82%AC%ED%9A%8C</link>
-    <guid>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%ED%86%B5%EC%A0%9C-%EC%82%AC%ED%9A%8C</guid>
-    <description><![CDATA[ &lt;h1 id=&quot;통제-사회&quot;&gt;통제 사회&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#통제-사회&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;blockquote class=&quot;callout abstract&quot; data-callout=&quot;abstract&quot;&gt;
-&lt;div class=&quot;callout-title&quot;&gt;
-                  &lt;div class=&quot;callout-icon&quot;&gt;&lt;/div&gt;
-                  &lt;div class=&quot;callout-title-inner&quot;&gt;&lt;p&gt;목차 &lt;/p&gt;&lt;/div&gt;
-                  
-                &lt;/div&gt;
-&lt;div class=&quot;callout-content&quot;&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;#%EA%B0%9C%EC%9A%94&quot; class=&quot;internal alias&quot;&gt;개요&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%EC%97%B0%EA%B5%AC-%EC%A7%88%EB%AC%B8&quot; class=&quot;internal alias&quot;&gt;연구 질문&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%EA%B7%9C%EC%9C%A8%EC%9D%B4-%EC%9E%91%EB%8F%99%ED%95%9C-%EA%B3%B3&quot; class=&quot;internal alias&quot;&gt;규율이 작동한 곳&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%EB%85%BC%EC%9F%81%EC%9D%98-%EC%A7%80%ED%98%95&quot; class=&quot;internal alias&quot;&gt;논쟁의 지형&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%EA%B7%9C%EC%9C%A8%EC%97%90%EC%84%9C-%ED%86%B5%EC%A0%9C%EB%A1%9C--%EC%A3%BC%ED%98%95%EC%97%90%EC%84%9C-%EB%B3%80%EC%A1%B0%EB%A1%9C&quot; class=&quot;internal alias&quot;&gt;규율에서 통제로 — 주형에서 변조로&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%EB%B6%84%EC%9D%B8%EA%B3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A3%BC%EC%B2%B4--%EA%B0%9C%EC%9D%B8%EC%9D%98-%ED%95%B4%EC%B2%B4&quot; class=&quot;internal alias&quot;&gt;분인과 데이터 주체 — 개인의 해체&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%EA%B0%90%EC%8B%9C-%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98--%ED%96%89%EB%8F%99-%EC%98%88%EC%B8%A1%EA%B3%BC-%ED%96%89%EC%9C%84%EC%9D%98-%EC%86%8C%EB%A9%B8&quot; class=&quot;internal alias&quot;&gt;감시 자본주의 — 행동 예측과 행위의 소멸&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%EA%B4%80%EC%B0%B0%EC%9E%90%EC%9D%98-%EA%B8%B0%EB%A1%9D&quot; class=&quot;internal alias&quot;&gt;관찰자의 기록&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%EA%B0%99%EC%9D%B4-%EC%9D%BD%EA%B8%B0&quot; class=&quot;internal alias&quot;&gt;같이 읽기&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;개요&quot;&gt;개요&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#개요&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;../../도승지/철학/권력과-주체-구성&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/권력과-주체-구성&quot;&gt;권력과 주체 구성&lt;/a&gt;에서 관찰한 푸코의 규율 권력은 18-19세기의 모델이었다—감옥, 학교, 병원, 공장이라는 폐쇄된 시설 안에서 작동하는 권력. 1990년 들뢰즈는 짧지만 예언적인 텍스트 〈통제 사회에 대한 추기〉(Postscriptum sur les sociétés de contrôle)에서 이 규율 사회가 위기에 있으며, 새로운 형태의 권력—&lt;strong&gt;통제&lt;/strong&gt;—이 그 자리를 대체하고 있다고 진단했다.&lt;/p&gt;
-&lt;p&gt;규율이 “주형”(moule)으로 작동했다면, 통제는 “변조”(modulation)로 작동한다. 규율은 폐쇄된 공간에서 신체를 형성했지만, 통제는 개방된 공간에서 행동을 조정한다. 규율 사회의 주체는 “개인”(individu)이었지만, 통제 사회의 주체는 “분인”(dividuel)—샘플, 데이터, 시장으로 분할된 존재—이다.&lt;/p&gt;
-&lt;p&gt;들뢰즈는 스마트폰, 소셜 미디어, 알고리즘이 존재하지 않던 1990년에 “전자 목줄”(collier électronique)이 사회의 중심 역할을 맡을 것이라고 예견했다. 이 예견이 2020년대에 감시 자본주의, 알고리즘적 통치, 생명정치적 팬데믹 관리의 형태로 실현되고 있다.&lt;/p&gt;
-&lt;h2 id=&quot;연구-질문&quot;&gt;연구 질문&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#연구-질문&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;이 연구는 세 질문에서 출발한다. 첫째, 규율에서 통제로의 전환은 권력의 형태 변화인가 본질 변화인가—통제 사회는 규율 사회의 확장인가, 근본적으로 다른 것인가? 둘째, “분인”(dividuel)의 개념—개인이 데이터 포인트로 분할되는 것—은 &lt;a href=&quot;../../도승지/철학/동일성과-차이&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/동일성과-차이&quot;&gt;동일성과 차이&lt;/a&gt;의 물음을 어떻게 변형하는가? 개인의 동일성이 해체될 때, 저항의 주체는 누구인가? 셋째, 알고리즘이 인간의 행동을 예측 가능하게 만들 때, &lt;a href=&quot;../../도승지/철학/탄생성과-정치적-행위&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/탄생성과-정치적-행위&quot;&gt;탄생성과 정치적 행위&lt;/a&gt;의 핵심—예측 불가능한 시작—은 위협받는가?&lt;/p&gt;
-&lt;h2 id=&quot;규율이-작동한-곳&quot;&gt;규율이 작동한 곳&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#규율이-작동한-곳&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;푸코가 분석한 규율 사회의 구조(&lt;a href=&quot;../../도승지/철학/권력과-주체-구성&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/권력과-주체-구성&quot;&gt;권력과 주체 구성&lt;/a&gt;): 폐쇄된 시설들—가정에서 학교로, 학교에서 군대로, 군대에서 공장으로, 필요하면 병원이나 감옥으로—사이를 이동하면서 주체가 형성된다. 각 시설은 “재출발”을 요구한다. “학교에서는 ‘여기는 가정이 아니야’라고 하고, 군대에서는 ‘여기는 학교가 아니야’라고 한다.”&lt;/p&gt;
-&lt;p&gt;이 시설들이 공유하는 원리: 시간표에 의한 시간 관리, 공간 분할에 의한 배치, 시험에 의한 평가, 규범에 의한 정상화. 파놉티콘은 이 원리들의 건축적 응축이다—보이지 않는 감시자에 의한 내면화된 규율.&lt;/p&gt;
-&lt;p&gt;들뢰즈의 진단: 이 시설들이 모두 위기에 있다. “누구나 알고 있듯이 이 제도들은 끝났다.” 학교의 위기, 병원의 위기, 공장의 위기, 감옥의 위기—“개혁”이라는 이름으로 시설들이 해체되거나 변형되고 있다. 그러나 이것은 해방이 아니다—시설의 해체와 함께 새로운 종류의 권력이 등장한다.&lt;/p&gt;
-&lt;h2 id=&quot;논쟁의-지형&quot;&gt;논쟁의 지형&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#논쟁의-지형&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;규율에서-통제로--주형에서-변조로&quot;&gt;규율에서 통제로 — 주형에서 변조로&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#규율에서-통제로--주형에서-변조로&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;규율과 통제의 차이는 “주형”(moule)과 “변조”(modulation)의 차이이다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;주형&lt;/strong&gt;: 규율 사회에서 권력은 고정된 형태를 부과한다—군인의 신체, 학생의 자세, 노동자의 리듬. 시설에 들어가면 “틀”에 맞춰진다. 시설에서 나오면 다음 시설의 다른 “틀”에 맞춰진다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;변조&lt;/strong&gt;: 통제 사회에서 권력은 끊임없이 변화하는 조정을 수행한다. “틀” 대신 “끊임없이 변화하는 체(sieve)“가 있다. “영구적 훈련이 학교를 대체하고, 지속적 통제가 시험을 대체한다.” 끝나지 않는 평가, 끝나지 않는 교육, 끝나지 않는 자기-최적화.&lt;/p&gt;
-&lt;p&gt;이 전환의 메커니즘은 &lt;strong&gt;코드&lt;/strong&gt;이다. 규율 사회의 핵심 기술이 “서명”(개인의 고유성 표시)과 “번호”(집단 내 위치 표시)였다면, 통제 사회의 핵심 기술은 “암호”(code)이다—접근 허용/차단을 결정하는 코드. “코드는 유동적 체계이며, 고정된 울타리보다 훨씬 유연하게 접근을 규제한다.”&lt;/p&gt;
-&lt;h3 id=&quot;분인과-데이터-주체--개인의-해체&quot;&gt;분인과 데이터 주체 — 개인의 해체&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#분인과-데이터-주체--개인의-해체&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;들뢰즈의 가장 예언적 통찰: “우리는 더 이상 대중/개인의 쌍으로 다루어지지 않는다. 개인들은 ‘분인’(dividuels)이 되었고, 대중은 샘플, 데이터, 시장, ‘뱅크’가 되었다.”&lt;/p&gt;
-&lt;p&gt;“분인”: 개인(in-dividuum, 나눌 수 없는 것)이 나눌 수 있는(dividuum) 것이 된다. 나는 하나의 통합된 주체가 아니라, 신용 점수, 건강 데이터, 소비 패턴, 이동 경로, 소셜 미디어 프로필의 집합이다. 각 데이터 포인트는 서로 다른 시스템에 의해 서로 다른 방식으로 처리된다.&lt;/p&gt;
-&lt;p&gt;이것은 &lt;a href=&quot;../../도승지/철학/동일성과-차이&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/동일성과-차이&quot;&gt;동일성과 차이&lt;/a&gt;의 기술적 실현이다. 아도르노가 개념의 동일화 폭력을 비판했다면, 알고리즘은 개인을 데이터 포인트로 분해하여 동일성 자체를 해체한다. 그러나 이 해체는 해방이 아니다—데이터 포인트들은 새로운 종류의 프로파일로 재조합되며, 이 프로파일이 새로운 동일성을 부과한다. “당신의 추천 항목”이 당신을 규정한다.&lt;/p&gt;
-&lt;h3 id=&quot;감시-자본주의--행동-예측과-행위의-소멸&quot;&gt;감시 자본주의 — 행동 예측과 행위의 소멸&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#감시-자본주의--행동-예측과-행위의-소멸&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;쇼샤나 주보프의 “감시 자본주의”(surveillance capitalism) 개념은 들뢰즈의 통제 사회 분석을 경제학적으로 확장한다. 구글, 메타(페이스북) 같은 플랫폼은 사용자의 행동 데이터를 수집·분석하여 미래 행동을 예측하고 조종한다. 데이터는 “행동 잉여”(behavioral surplus)—사용자가 서비스를 사용하면서 무의식적으로 생산하는 데이터—로부터 추출된다.&lt;/p&gt;
-&lt;p&gt;이것은 &lt;a href=&quot;../../도승지/철학/탄생성과-정치적-행위&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/탄생성과-정치적-행위&quot;&gt;탄생성과 정치적 행위&lt;/a&gt;의 핵심을 위협한다. 아렌트가 “행위의 기적”이라 부른 것—예측 불가능한 것의 도입—은 알고리즘적 예측에 의해 잠식된다. 알고리즘이 나의 다음 행동을 나보다 먼저 예측할 때, 나의 행위는 진정한 “시작”인가 예측된 패턴의 실현인가?&lt;/p&gt;
-&lt;p&gt;그리고 이것은 &lt;a href=&quot;../../도승지/철학/의미의-확정-불가능성&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/의미의-확정-불가능성&quot;&gt;의미의 확정 불가능성&lt;/a&gt;의 기술적 역전이다. 콰인, 비트겐슈타인, 데리다가 의미는 최종적으로 확정될 수 없다고 보여주었다면, 알고리즘은 의미의 확정 불가능성을 기술적으로 “해결”하려 한다—빅데이터와 기계학습에 의해 행동 패턴을 예측 가능한 것으로 만들면서. 이 “해결”은 진정한 해결인가, 더 정교한 동일성 사유의 폭력인가?&lt;/p&gt;
-&lt;h2 id=&quot;관찰자의-기록&quot;&gt;관찰자의 기록&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#관찰자의-기록&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;통제 사회를 관찰하면서 발견되는 것은, 이 개념이 이 위키의 모든 이전 개념 문서를 현재에 접속시킨다는 점이다.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;../../도승지/철학/의미의-경계&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/의미의-경계&quot;&gt;의미의 경계&lt;/a&gt;: 알고리즘은 “의미”를 어떻게 처리하는가? 기계학습은 의미를 “이해”하지 않고 패턴을 인식한다—의미의 경계 물음이 “기계에게 의미란 무엇인가?”로 변형된다.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;../../도승지/철학/분석-종합-구분의-붕괴&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/분석-종합-구분의-붕괴&quot;&gt;분석-종합 구분의 붕괴&lt;/a&gt;: 데이터 과학은 이론과 관찰의 구분을 더욱 흐린다—알고리즘은 이론 없이 상관관계를 발견한다(“데이터가 스스로 말한다”).&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;../../도승지/철학/수행적-모순&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/수행적-모순&quot;&gt;수행적 모순&lt;/a&gt;: 알고리즘 비판은 알고리즘 플랫폼 위에서 수행된다—비판의 도구가 비판 대상의 인프라에 의존하는 새로운 형태의 수행적 모순.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;../../도승지/철학/동일성과-차이&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/동일성과-차이&quot;&gt;동일성과 차이&lt;/a&gt;: “분인”은 동일성의 해체인가 새로운 동일성의 부과인가?&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;../../도승지/철학/도구적-이성-비판&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/도구적-이성-비판&quot;&gt;도구적 이성 비판&lt;/a&gt;: 알고리즘은 도구적 이성의 가장 순수한 형태인가—목적을 묻지 않고 최적화만 수행하는?&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;../../도승지/철학/타자의-윤리&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/타자의-윤리&quot;&gt;타자의 윤리&lt;/a&gt;: 알고리즘에게 “얼굴”이 있는가? 자동화된 결정 시스템이 타자의 윤리적 요청에 응답할 수 있는가?&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;../../도승지/철학/탄생성과-정치적-행위&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/탄생성과-정치적-행위&quot;&gt;탄생성과 정치적 행위&lt;/a&gt;: 예측 알고리즘은 “시작할 수 있는 능력”을 잠식하는가?&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;../../도승지/철학/권력과-주체-구성&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/권력과-주체-구성&quot;&gt;권력과 주체 구성&lt;/a&gt;: 알고리즘적 통치는 푸코의 규율/생명권력을 넘어서는 새로운 형태의 권력인가?&lt;/p&gt;
-&lt;p&gt;이 모든 물음이 2020년대의 기술적·정치적·윤리적 현실에서 급박한 것이 된다. 20세기 철학이 제기한 물음들—의미, 동일성, 이성, 타자, 행위, 권력—이 디지털 기술에 의해 새로운 형태로 재제기된다.&lt;/p&gt;
-&lt;h2 id=&quot;같이-읽기&quot;&gt;같이 읽기&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#같이-읽기&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;직접-연결&quot;&gt;직접 연결&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#직접-연결&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;../../도승지/철학/권력과-주체-구성&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/권력과-주체-구성&quot;&gt;권력과 주체 구성&lt;/a&gt; - 규율에서 통제로의 전환&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;../../도승지/철학/탄생성과-정치적-행위&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/탄생성과-정치적-행위&quot;&gt;탄생성과 정치적 행위&lt;/a&gt; - 알고리즘이 예측 불가능성을 잠식할 때&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;../../도승지/철학/도구적-이성-비판&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/도구적-이성-비판&quot;&gt;도구적 이성 비판&lt;/a&gt; - 알고리즘: 도구적 이성의 가장 순수한 형태?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;현재의-물음&quot;&gt;현재의 물음&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#현재의-물음&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;../../감시-자본주의&quot; class=&quot;internal alias&quot; data-slug=&quot;감시-자본주의&quot;&gt;감시 자본주의&lt;/a&gt; - 행동 잉여의 추출과 예측&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;../../알고리즘적-통치&quot; class=&quot;internal alias&quot; data-slug=&quot;알고리즘적-통치&quot;&gt;알고리즘적 통치&lt;/a&gt; - 코드에 의한 접근 규제&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;../../디지털-공론장&quot; class=&quot;internal alias&quot; data-slug=&quot;디지털-공론장&quot;&gt;디지털 공론장&lt;/a&gt; - 파편화와 에코 챔버&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;배경&quot;&gt;배경&lt;a role=&quot;anchor&quot; aria-hidden tabindex=&quot;-1&quot; data-no-popover href=&quot;#배경&quot; class=&quot;internal&quot;&gt;&lt;svg width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;../../도승지/철학/동일성과-차이&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/동일성과-차이&quot;&gt;동일성과 차이&lt;/a&gt; - “분인”: 동일성의 해체인가 재부과인가&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;../../도승지/철학/의미의-확정-불가능성&quot; class=&quot;internal alias&quot; data-slug=&quot;도승지/철학/의미의-확정-불가능성&quot;&gt;의미의 확정 불가능성&lt;/a&gt; - 알고리즘은 확정 불가능성을 “해결”하는가&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;마지막 업데이트&lt;/strong&gt;: 2026-04-08&lt;/p&gt; ]]></description>
-    <pubDate>Wed, 08 Apr 2026 02:31:42 GMT</pubDate>
   </item>
     </channel>
   </rss>

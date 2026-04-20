@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>2026-04-01~19 업무 회고</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="고도"/><meta property="og:title" content="2026-04-01~19 업무 회고"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="2026-04-01~19 업무 회고"/><meta name="twitter:description" content="4월 전반기(1~19일) 업무 회고 이 문서의 구성 Part 1. 데이터 요약 &amp; 평가 — 슬랙 로그를 바탕으로 AI가 생성한 관찰·분석. 객관 기록과 해석이 섞여 있음. Part 2. 나의 회고 (인터뷰 답변) — 내가 직접 답한 내용."/><meta property="og:description" content="4월 전반기(1~19일) 업무 회고 이 문서의 구성 Part 1. 데이터 요약 &amp; 평가 — 슬랙 로그를 바탕으로 AI가 생성한 관찰·분석. 객관 기록과 해석이 섞여 있음. Part 2. 나의 회고 (인터뷰 답변) — 내가 직접 답한 내용."/><meta property="og:image:alt" content="4월 전반기(1~19일) 업무 회고 이 문서의 구성 Part 1. 데이터 요약 &amp; 평가 — 슬랙 로그를 바탕으로 AI가 생성한 관찰·분석. 객관 기록과 해석이 섞여 있음. Part 2. 나의 회고 (인터뷰 답변) — 내가 직접 답한 내용."/><meta property="twitter:domain" content="qodot.me"/><meta property="og:url" content="https://qodot.me/회고/2026-04-01~19-업무-회고"/><meta property="twitter:url" content="https://qodot.me/회고/2026-04-01~19-업무-회고"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="4월 전반기(1~19일) 업무 회고 이 문서의 구성 Part 1. 데이터 요약 &amp; 평가 — 슬랙 로그를 바탕으로 AI가 생성한 관찰·분석. 객관 기록과 해석이 섞여 있음. Part 2. 나의 회고 (인터뷰 답변) — 내가 직접 답한 내용."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL3FvZG90L3dvcmtzcGFjZS9xb2RvdC9vYnNpZGlhbi1xdWFydHovcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://qodot.me/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://qodot.me/회고/2026-04-01~19-업무-회고-og-image.webp"/><meta property="og:image:url" content="https://qodot.me/회고/2026-04-01~19-업무-회고-og-image.webp"/><meta name="twitter:image" content="https://qodot.me/회고/2026-04-01~19-업무-회고-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="회고/2026-04-01~19-업무-회고"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">고도</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-264"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-264" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../회고/">회고</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>2026 04 01~19 업무 회고</a></div></nav><h1 class="article-title">2026-04-01~19 업무 회고</h1><p show-comma="true" class="content-meta"><time datetime="2026-04-20T10:03:26.534Z">2026년 4월 20일</time><span>32 min read</span></p><ul class="tags"><li><a href="../tags/회고" class="internal tag-link">회고</a></li><li><a href="../tags/업무" class="internal tag-link">업무</a></li><li><a href="../tags/incident에" class="internal tag-link">incident에</a></li><li><a href="../tags/incident" class="internal tag-link">incident</a></li><li><a href="../tags/prd-spray-makers" class="internal tag-link">prd-spray-makers</a></li><li><a href="../tags/daeffect-indent" class="internal tag-link">daeffect-indent</a></li><li><a href="../tags/general" class="internal tag-link">general</a></li><li><a href="../tags/meeting-notes" class="internal tag-link">meeting-notes</a></li><li><a href="../tags/prd-spray-makers의" class="internal tag-link">prd-spray-makers의</a></li></ul></div></div><article class="popover-hint"><h1 id="4월-전반기119일-업무-회고">4월 전반기(1~19일) 업무 회고<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4월-전반기119일-업무-회고" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote class="callout info" data-callout="info">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>이 문서의 구성 </p></div>
+                  
+                </div>
+<div class="callout-content">
+<ul>
+<li><strong>Part 1. 데이터 요약 &amp; 평가</strong> — 슬랙 로그를 바탕으로 AI가 생성한 관찰·분석. 객관 기록과 해석이 섞여 있음.</li>
+<li><strong>Part 2. 나의 회고 (인터뷰 답변)</strong> — 내가 직접 답한 내용. 각 답변은 <code>> [!quote] 나의 답</code> 인용 블록으로 구분됨.</li>
+<li><strong>Part 3. 다음 액션</strong> — 회고 결과 정리.</li>
+</ul>
+</div>
+</blockquote>
+<hr/>
+<h1 id="part-1-데이터-요약--평가">Part 1. 데이터 요약 &amp; 평가<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#part-1-데이터-요약--평가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote class="callout abstract" data-callout="abstract">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>작성 주체 </p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>이 파트는 AI가 슬랙 메시지 929건을 분석해 작성했다. <strong>내 판단이 아니라 외부 관찰이다.</strong></p>
+</div>
+</blockquote>
+<h2 id="한눈에-보기">한눈에 보기<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#한눈에-보기" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>지표</th><th>값</th></tr></thead><tbody><tr><td>활동일 수</td><td>15일 (결: 4/4 토, 4/11 토, 4/18·19 토일)</td></tr><tr><td>주말 근무일</td><td>2일 (4/5 일, 4/12 일)</td></tr><tr><td>심야(22시 이후) 발화일</td><td>8일 (4/1, 4/2, 4/5, 4/6, 4/8, 4/9, 4/12, 4/13, 4/14, 4/15)</td></tr><tr><td>공식 배포 건</td><td>18회 (release-notice 기준, spray·socialscan·frontend)</td></tr><tr><td>동시 진행 프로젝트</td><td>DA, 고급 검색, 이카루스, DM 우체부, 스프레이 운영 — 최소 5개 병렬</td></tr></tbody></table></div>
+<h2 id="일별-로그">일별 로그<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#일별-로그" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="1주차-41-수--43-금">1주차 (4/1 수 ~ 4/3 금)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1주차-41-수--43-금" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>날짜</th><th>첫 발화</th><th>마지막 발화</th><th>기록</th></tr></thead><tbody><tr><td>4/1 수</td><td>10:36</td><td>19:01</td><td>오전 반반차(병원). DA 상품 상세 페이지 / 고급 검색 크리에이터·동영상 최신화 / DM 우체부 제콩 배포 시작.</td></tr><tr><td>4/2 목</td><td>10:19</td><td>22:19</td><td>DA 상품 상세 테마 에디터 지원 / 고급 검색 / <strong>이카루스 동작 설계 w 엘라</strong> 첫 등장. 20시대 <code>socialscan</code>·<code>spray</code> 배포 (SPR-4168/4169 시리즈).</td></tr><tr><td>4/3 금</td><td>10:40</td><td>19:08</td><td>DA 컬렉션 페이지. <strong><a href=".././tags/incident에" class="tag-link internal alias" data-slug="tags/incident에">incident에</a> 1,474자 SQL 덤프로 릴스 성능 이슈 분석.</strong> 오후에 <strong>DM 우체부 공식 공개 (#spray-jerrybeanstalk, 610자 안내문)</strong>.</td></tr></tbody></table></div>
+<h3 id="2주차-46-월--410-금">2주차 (4/6 월 ~ 4/10 금)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2주차-46-월--410-금" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>날짜</th><th>첫 발화</th><th>마지막 발화</th><th>기록</th></tr></thead><tbody><tr><td>4/5 일</td><td>16:51</td><td>23:56</td><td>DA 테마 디자인 이슈로 일요일 저녁부터 개입. 헤더 드로워/블로그 섹션 논의를 자정 가까이 이어감.</td></tr><tr><td>4/6 월</td><td>00:00</td><td>21:10</td><td>자정 직후 DA 페이지 피드백 → 새벽 02:12 “제품 페이지 피드백 전부 완료, 컬렉션 프로모션은 내일”. 업무 시작 10:43. <strong>외부 파트너(김규린 님)께 “아침 전까지 안정화할 시간 달라” 정중 협상.</strong></td></tr><tr><td>4/7 화</td><td>10:13</td><td>21:44</td><td>DA 내부 QA 본격 시작. 센드그리드 플랜 월 $499 상향 검토. 21:35 — 1,828자 장문으로 SaaS CLI 판매 전략 관찰 공유.</td></tr><tr><td>4/8 수</td><td>10:36</td><td>22:00</td><td>DA QA + 고급검색 테스트.</td></tr><tr><td>4/9 목</td><td>11:51</td><td>23:09</td><td>오전 반반차. 스프레이팀 캐치업, 이카루스 아키텍처 논의, Josh에게 메타베이스 대시보드 수동 제작 지원.</td></tr><tr><td>4/10 금</td><td>10:20</td><td>19:38</td><td>이카루스 설계 리뷰, 고급 검색 배포 준비, 스프레이 성과 대시보드 미팅 w 고든, DA QA 계속.</td></tr></tbody></table></div>
+<h3 id="3주차-413-월--417-금">3주차 (4/13 월 ~ 4/17 금)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3주차-413-월--417-금" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>날짜</th><th>첫 발화</th><th>마지막 발화</th><th>기록</th></tr></thead><tbody><tr><td>4/12 일</td><td>10:58</td><td>23:58</td><td>일요일 심야 배포 2건 (spray #14750~ / socialscan #14756~). 예외 처리 대량 투입 구간.</td></tr><tr><td>4/13 월</td><td>09:45</td><td>23:16</td><td><strong>이 날부터 9시대 출근이 시작됨.</strong> 이카루스 POC 미팅. 배포 4회 (13:42, 13:49, 18:32, 23:16).</td></tr><tr><td>4/14 화</td><td>14:15</td><td>23:37</td><td>오후 출근. Playwright/프록시 관련 socialscan 안정화. 23:37 심야 배포.</td></tr><tr><td>4/15 수</td><td>11:09</td><td>20:07</td><td>김규린 님·강승미 님과 DA 디자인 피드백 마무리 커뮤니케이션. GA 셋업 시작.</td></tr><tr><td>4/16 목</td><td>00:31</td><td>20:10</td><td><strong>하루에 업무 종료 2번 기록</strong> (00:31 전날 마감, 20:10 당일 마감). <strong>17:51 “제가 바보같이 … 배포 실수” 공개 사과 + 영향 범위 안내 + 즉시 수정 배포.</strong> 제품-그로스 싱크.</td></tr><tr><td>4/17 금</td><td>09:45</td><td>19:02</td><td>박성일 팀장께 GA·빅쿼리 비용 정책 안내. <strong>고급 검색 런칭 배포 (백·프론트 동시, 15:09~15:40).</strong> 다니엘과 오픈코드 환경 점검.</td></tr></tbody></table></div>
+<h2 id="프로젝트-타임라인">프로젝트 타임라인<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#프로젝트-타임라인" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="1-고급-검색-spray--4월의-메인-라인">1. 고급 검색 (Spray) — 4월의 메인 라인<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-고급-검색-spray--4월의-메인-라인" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>4/2: spray/qa 팀 대상 알파 적용 (#14746, #14747)</li>
+<li>4/12: 안정화 — recover_stuck_searches 제외, <code>is_advanced_search</code> 필드, refresh 스코프 제한</li>
+<li>4/13: top_k 1000 확대, RefreshJobItem 콜백 매칭 안정화</li>
+<li>4/13~14: Embedder retry + graceful degradation, 프록시 적용</li>
+<li>4/16: FAILED 상태 approve 방어, 잔여 error_code 초기화</li>
+<li><strong>4/17: refresh 타 팀 개방 + 프론트 안내 박스 → 런칭 도달</strong></li>
+</ul>
+<h3 id="2-da-effect-쇼피파이">2. DA EFFECT (쇼피파이)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-da-effect-쇼피파이" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>4/1~4/7: 상품 상세, 컬렉션 페이지 구현</li>
+<li>4/5(일)~4/6(월 새벽): 주말·심야 디자인 피드백 반영</li>
+<li>4/7 이후: 내부 QA 체제 본격화</li>
+<li>4/15: 디자인 피드백 대부분 소화, 외부 확인 단계 진입</li>
+<li>4/16: 에셋 규격 전달 방식 논의, 미국 진행 논의</li>
+<li>4/17: 이미지 규격·블로그 페이지 마무리, GA·빅쿼리 셋업 정식 요청</li>
+</ul>
+<h3 id="3-이카루스-icarus--신규-설계">3. 이카루스 (Icarus) — 신규 설계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-이카루스-icarus--신규-설계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>4/2: 엘라와 동작 설계 시작</li>
+<li>4/6: 자동화 미팅</li>
+<li>4/9: 네오와 논의 — pi SDK 기반, 신규 레포 분리 방향 정리</li>
+<li>4/10: 설계 리뷰</li>
+<li>4/13·4/16·4/17: POC 미팅 연속</li>
+<li>4/15경: <code>indentcorp/icarus</code> 레포 개설 논의</li>
+</ul>
+<h3 id="4-dm-우체부--공개-단계">4. DM 우체부 — 공개 단계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-dm-우체부--공개-단계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>4/1: 팀 내부 가이드 리뷰 요청</li>
+<li>4/3: <strong>외부(#spray-jerrybeanstalk)에 공식 공개</strong> — 크롬 확장, 시간당 10~15통, AI가 DM 창 조작</li>
+<li>4/15: 다슈 조쉬와 설치 미팅</li>
+</ul>
+<h3 id="5-스프레이-운영인프라">5. 스프레이 운영·인프라<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-스프레이-운영인프라" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>4/2: ingest/Celery 전환 시작 (SPR-4168), Instagram 429 백오프</li>
+<li>4/3: <a href=".././tags/incident" class="tag-link internal alias" data-slug="tags/incident">incident</a> 분석 — 릴스 2천개 이상 크리에이터 성능 저하. <strong>옵션 2개(삭제 vs 인덱스)를 트레이드오프와 함께 제시 후 복합 인덱스 결정.</strong></li>
+<li>4/12~14: 예외 처리·리트라이·프록시 대규모 투입 (socialscan)</li>
+<li>4/16: django bugfix 일괄 업데이트</li>
+</ul>
+<h2 id="나의-업무-패턴-데이터-기반-관찰">나의 업무 패턴 (데이터 기반 관찰)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#나의-업무-패턴-데이터-기반-관찰" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="집중-시간대">집중 시간대<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#집중-시간대" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>피크</strong>: 15시 (단일 시간 199건)</li>
+<li><strong>서브 피크</strong>: 11시, 13시, 14시, 16~18시</li>
+<li><strong>9시 이전 거의 무</strong>(9시대 6건만) → <strong>4/13부터 9시 45분 출근이 굳어지기 시작</strong></li>
+</ul>
+<h3 id="루틴">루틴<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#루틴" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><code>#general</code>에 <strong>“업무 시작 / 업무 종료” 체크리스트</strong>를 지속 기록 — 4월 1~19일 중 13일분 작성.</li>
+<li>시작 시 하려는 일을, 종료 시 한 일 + ing 상태를 남김 → 자기 가시성 도구로 작동 중.</li>
+</ul>
+<h3 id="소통-스타일">소통 스타일<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#소통-스타일" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>짧고 빠르게, 많이</strong>: 중앙값 20자, 31%가 10자 이하, 스레드 답글 비율 68%.</li>
+<li>설계·공지·외부 커뮤니케이션에서는 <strong>장문으로 전환</strong> (최장 1,828자).</li>
+<li><strong>존댓말 45%, 물음표 26%, 느낌표 26%, ㅋㅋ/ㅎㅎ 7%</strong>. “~인가요?!”, “~일 것 같아요”처럼 <strong>단정보다 제안·확인형</strong> 어조가 기본.</li>
+<li>이모지 사용은 4건뿐 — 텍스트 중심의 커뮤니케이터.</li>
+</ul>
+<h3 id="의사결정-패턴">의사결정 패턴<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#의사결정-패턴" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>옵션을 글머리로 정리하고 트레이드오프까지 적어서 제시</strong>.
+<ul>
+<li>4/3 릴스 성능 이슈 — “1. 오래된 릴스 삭제 2. 인덱스 추가 / 극단적으로 16개만 남기면 2번 자체 필요 없음”</li>
+<li>4/20(참고) 17트랙 벤더 — “해결책은 두개: 1. 다른 벤더 2. 유료 결제”</li>
+</ul>
+</li>
+<li>책임을 먼저 가져감: “제가 할게요 / 제가 설치할게요 / 제가 배포하겠습니다” 패턴 반복.</li>
+<li>실수를 공개로 수습: 4/16 “제가 바보같이…” 한 문장에 <strong>사실 인정 + 영향 범위 + 소요 시간 + 고객 노출 여부</strong>를 동시에 담음.</li>
+</ul>
+<h3 id="협업-네트워크-멘션-상위">협업 네트워크 (멘션 상위)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#협업-네트워크-멘션-상위" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li><strong>Ella(디자이너)</strong> — 30회. DA 페이지·이카루스 동작 설계 핵심 파트너.</li>
+<li>Juno(FE) — 13회. 배포 검증 의존도 높음.</li>
+<li>Dylan(Dev) — 12회.</li>
+<li>Solar(CSM) — 11회. 운영 지원·자동화.</li>
+<li>Goden(Data) — 9회. 대시보드·GA·빅쿼리.</li>
+<li>김규린(DA 외부 파트너) — 9회.</li>
+</ol>
+<h2 id="잘한-것--아쉬운-것--초안">잘한 것 / 아쉬운 것 — 초안<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#잘한-것--아쉬운-것--초안" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="잘한-것">잘한 것<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#잘한-것" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> 매일 <code>#general</code>에 업무 시작/종료 기록을 유지 — 자기 규율 지표.</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> DM 우체부를 “내부 도구 → 외부 공개”까지 끌고 가서 4/3 공식 공개 달성.</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> 고급 검색을 알파 적용(4/2) → 안정화(4/12~16) → <strong>런칭(4/17)</strong> 까지 흐름 제어.</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> DA 프로젝트에서 <strong>외부 파트너에게 정중하게 시간·정책을 협상</strong>하는 소통 (4/6 김규린 님, 4/17 박성일 팀장).</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> 배포 실수(4/16)를 즉시 공개하고 같은 메시지에서 수습까지 끌고 간 태도.</li>
+</ul>
+<h3 id="아쉬운-것">아쉬운 것<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#아쉬운-것" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> <strong>주말·심야 근무 반복</strong>: 4/5(일)·4/12(일) 근무, 4/1·4/6 새벽, 4/8·4/9·4/12·4/13·4/14·4/15 22시 이후.</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> <strong>건강 신호 방치</strong>: 4/1 “오전 반반차(병원)”, 4/2 “기침땜시 잠을 거의 못자서 근무 뒤로 미룬다”.</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> <strong>5개 프로젝트 동시 진행</strong>: 업무 시작 체크리스트가 매번 4~5줄. 특정 날짜에 우선순위 붕괴 신호(예: ”… ing”가 여러 개 동시).</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> <strong>주노에게 “배포 후 확인 부탁”이 반복</strong>(4/17 등). 셀프 체크 루프 보완 여지.</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> <strong>출근 시간 편차</strong>: 09:45 ~ 14:15 사이. 4/13 이후 정돈되는 추세지만 아직 일관적이진 않음.</li>
+</ul>
+<h2 id="심층-리뷰-통계를-넘어서">심층 리뷰 (통계를 넘어서)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#심층-리뷰-통계를-넘어서" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="41-소통-퀄리티">4.1 소통 퀄리티<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#41-소통-퀄리티" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="잘하는-것-근거-있음">잘하는 것 (근거 있음)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#잘하는-것-근거-있음" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p><strong>외부 파트너 소통은 구조적이고 정중하다.</strong></p>
+<ul>
+<li>4/6 김규린 님: “디자인 디테일이 계속 바뀌어서 혼란스러우실 수 있어 <strong>아침 출근 전까지만 안정화 시간 써도 괜찮을까요?</strong>” — 상대 입장을 먼저 언어화한 뒤 요청.</li>
+<li>4/7 박성일 팀장: 빅쿼리 과금 설명 — “무료 플랜으로 충분할 텐데 데이터가 늘어나면 과금 발생, <strong>어떠실까요?</strong>” — 기술 사실 + 결정권 위임을 한 문장에.</li>
+<li>4/3 DM 우체부 외부 공개문: 설치 방식·제약·주의사항·문의 경로를 한 번에 전달. 되물음이 생기지 않을 설계.</li>
+</ul>
+<p><strong>옵션·트레이드오프 제시 능력.</strong></p>
+<ul>
+<li>4/3 릴스 성능 이슈: “1. 오래된 릴스 삭제 2. 인덱스 추가 / 극단적으로 16개만 남기면 2번 자체가 필요 없음”처럼 <strong>결정 경로를 열고 본인 추천까지</strong> 명시.</li>
+</ul>
+<p><strong>실수 공개 수습.</strong></p>
+<ul>
+<li>4/16: “제가 바보같이 내부 테스트 한다고 spray 브랜드에서만 최신화되게 만들어놨네요 ㅜㅜ 해당 조건 없애서 배포해 두겠습니다 (약 30분 소모, 서버 조건이므로 <strong>고객에게 노출되는 건 아님</strong>)” — 사실/영향/소요시간/조치를 한 메시지에.</li>
+</ul>
+<h4 id="떨어지는-순간들-근거-있음">떨어지는 순간들 (근거 있음)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#떨어지는-순간들-근거-있음" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p><strong>“생각을 말한다”는 경향 — 메시지 버스트.</strong><br/>
+3분 이내 동일 채널 5연속 이상 버스트가 <strong>42회</strong>. 최대 29연속(4/14), 18연속(4/9), 14연속(4/13).</p>
+<p>예시 (4/14 15:37~15:41, <a href=".././tags/prd-spray-makers" class="tag-link internal alias" data-slug="tags/prd-spray-makers">prd-spray-makers</a>, 13연속 5분):</p>
+<blockquote>
+<p>“이것일텐데 → 아닌가요?! → 저건 뭐지 처음보는데 저도 → 지금 해볼게요 → 아 저 공유 금고에 고든 없나보네요? → <strong>아 아니다</strong> → 개인에 넣어놨구나 ㅋㅋ → <strong>죄송합니다..</strong> → 옮겨뒀습니다… → 아 제가 초대드려보겠습니다 → 방금 멤버로 초대드렸어요! → goden@indent 메일로 → 그럼 원래 일본 계정은 다시 개인 금고로 옮기겠습니다”</p>
+</blockquote>
+<p>→ 자기 확인/교정을 공개 채널에서 하고 있음. 상대에겐 “신뢰할 수 없는 확정”의 인상. 혼자 확인하고 결론만 말했으면 될 일.</p>
+<p><strong>확정 전 감정·의문 발화.</strong><br/>
+4/5~4/6 새벽 DA 페이지 스레드:</p>
+<blockquote>
+<p>“엥… 그럼 왜 블로그 섹션을 사용하게 해달라고 한거지…” / “제가 구현하지 않은 저기까지만 공통이고… 말이었을까 싶네요…?” / “혹시 레이아웃까지만 공통이고 이미지/텍스트는 상품마다 다르게 넣겠다는 뜻인가…?!”</p>
+</blockquote>
+<p>→ 스스로 가설을 세우며 상대 의도를 추측하는 독백이 공개 스레드에 노출됨. 심야(23시~02시)에 집중.</p>
+<p><strong>방어적 사과의 습관화.</strong><br/>
+23건의 자책/사과 중 <strong>본인 잘못이 아닌데 사과</strong>한 케이스가 섞여 있음:</p>
+<ul>
+<li>4/2 13:50 “(제가 맥 넘버스 밖에 없어서 ㅜㅜ)”</li>
+<li>4/10 14:47 “제가 몇 번 더 해보니까 되네요 ㅜㅜ” — 버그 재현 실패인데 ㅜㅜ.</li>
+<li>4/15 11:44 “죄송합니다…” (이유 없이 단독)</li>
+</ul>
+<p>→ “ㅜㅜ”가 말투로 굳어진 것으로 보이지만, 외부 파트너 대상으론 <strong>실제 신뢰도를 깎는 방향</strong>으로 작동할 수 있음.</p>
+<p><strong>존대/친밀 레지스터의 비일관성.</strong><br/>
+같은 프로젝트 채널(#prd-spray-makers)에서 “안녕하세요 규린님” 같은 외부 톤과 “ㅋㅋㅋ 첨봄” “엉엉” “ㅇㅁㅇ?!” 같은 캐주얼 톤이 섞임. 외부인이 채널에 합류할 경우 불편해질 수 있는 수준.</p>
+<h3 id="42-업무-진행--원활했는가">4.2 업무 진행 — “원활했는가?”<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#42-업무-진행--원활했는가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>정직하게 말해 <strong>프로젝트별로 편차가 크다.</strong></p>
+<p><strong>고급 검색 — 원활했지만 막판 fire-fighting.</strong></p>
+<ul>
+<li>4/2 알파 → 4/17 런칭. 15일간 배포 12회.</li>
+<li>4/13~4/14에 <strong>하루 4회 연속 배포</strong> 구간 존재.</li>
+<li>배포 내용이 “page_timeout 증가”, “retry 대기 증가”, “예외 클래스 이름 변경”, “프록시 적용”, “wait_until domcontentloaded로 변경” 등 <strong>수집 안정화의 꼬리잡기</strong>.</li>
+<li>→ 알파 오픈 시점에 <strong>틱톡 수집 신뢰도가 충분히 검증되지 않은 상태</strong>였음을 시사. <strong>발견 즉시 대응</strong> 14일 구간.</li>
+<li>질문: 알파 전 단계에서 수집 신뢰도 지표를 먼저 봤다면 이 14일을 줄일 수 있었을까?</li>
+</ul>
+<p><strong>DA — 외부 기대치와 내부 상태의 간극.</strong></p>
+<ul>
+<li><a href=".././tags/daeffect-indent" class="tag-link internal alias" data-slug="tags/daeffect-indent">daeffect-indent</a> 한 스레드가 <strong>190시간(약 8일)에 걸침</strong>.</li>
+<li>김규린 님께 “완전 100% 해결은 정말 최악의 경우 이번주까지 시간을 쭉 쓸 수도”, “최대한 빠르게 따라잡아 보겠습니다…!” <strong>기대치 낮추기 메시지 반복</strong>.</li>
+<li>→ 문제가 아니라 <strong>내부 준비 없이 외부 공개 일정을 먼저 잡아서 계속 사과하는 구조</strong>. 런칭 시점을 한 번만 뒤로 밀고 완성 후 보여주는 편이 신뢰 관리 측면에서 더 나았을 가능성.</li>
+</ul>
+<p><strong>이카루스 — 방향이 여러 번 흔들림.</strong></p>
+<ul>
+<li>4/2 엘라와 동작 설계 시작 → 4/7 “최소한의 액션만 구현해보자” → 4/9 네오와 대화로 <strong>“스프레이에 기능을 붙일 수도 있지만 빠른 개발을 위해 이카루스 레포를 만들고 거기에 개발”</strong> 방향 전환 → 4/10 설계 리뷰 → 4/13·16·17 POC 미팅.</li>
+<li>→ 2주 동안 방향 흔들림, 4월 19일 기준 <strong>여전히 POC 상태</strong>. 로드맵 편입 여부 결론 없음.</li>
+</ul>
+<p><strong>DM 우체부 — 가장 깔끔하게 진행된 프로젝트.</strong></p>
+<ul>
+<li>4/1 내부 리뷰 → 4/3 외부 공개 → 4/15 다슈 설치 미팅. 공개 후 문의 대응 속도·톤 모두 좋음.</li>
+</ul>
+<p><strong>운영·인프라 — 방어적·소모적 루프.</strong></p>
+<ul>
+<li>4월 socialscan 예외 처리 10건+ (PrivateUserError, SensitiveContentError, ReloadRequiredError, WafChallengeError, VideoNotLoadedError, CaptchaNotSolvedError…).</li>
+<li>→ 외부 플랫폼(틱톡/인스타) 대응이 “새 에러 → 클래스 추가 → 재시도 추가” 루프. 이 패턴에 대한 <strong>상위 전략 논의가 4월 메시지에는 거의 없음</strong>.</li>
+</ul>
+<h3 id="43-숨겨진-문제-신호">4.3 숨겨진 문제 신호<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#43-숨겨진-문제-신호" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>
+<p><strong>Juno에 대한 “배포 후 확인” 의존 반복</strong> — 4/17, 4/10 등. 셀프 QA 루프가 없음. 본인이 백엔드 배포하고 프론트 확인은 Juno에게 위임하는 구조가 굳어짐.</p>
+</li>
+<li>
+<p><strong>컨텍스트 스위칭 비용</strong> — 한 시간에 5~6개 채널 동시 활동 6회(4/9 13시, 4/15 11시 등). 이 시간대에 버스트·자기 교정·짧은 감정 메시지가 집중.</p>
+</li>
+<li>
+<p><strong>심야 의사결정 = 질 저하 신호</strong> — 4/5 23:51 “엥…” / 4/6 02:12 “너무 늦어서 내일 진행…” / 4/12 23:58 일요일 배포 / 4/14 23:37 배포. 심야 시간대에 나오는 발화의 질이 낮음. 피로 상태에서 결정이 내려지고 있다는 증거.</p>
+</li>
+<li>
+<p><strong>“내일/낼” 이월</strong> — 미래 약속 표현 17건 중 미팅 예약(정상) 외에 “낼부터 써보겠습니다”, “오늘 밤에 하구 낼 공지” 등 <strong>실행 이월 신호</strong>.</p>
+</li>
+<li>
+<p><strong><a href=".././tags/general" class="tag-link internal alias" data-slug="tags/general">general</a> “ing” 누적</strong> — 4/1 업무 종료에 4개 항목이 동시에 “ing”. <strong>하루 단위로 끝낼 수 있는 스코프로 쪼개지 않은 것</strong>일 가능성.</p>
+</li>
+</ol>
+<h3 id="44-종합-진단">4.4 종합 진단<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#44-종합-진단" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>대외 신뢰도는 자산</strong>: 외부 파트너 대상 소통 품질은 상위권. 여기서 쌓인 신뢰가 4월의 복잡한 상황을 버티게 해준 것으로 보임.</li>
+<li><strong>내부 소통은 “think out loud” 모드</strong>: 사고 과정이 채널로 흘러나가 노이즈가 됨. 혼자 확인하고 결론만 전달하는 패턴으로 줄이면 <strong>본인 생산성 + 팀원 인지 부하</strong>가 동시 개선됨.</li>
+<li><strong>진행이 “원활”했다기보다 “밀어붙여서 됐다”</strong>: 고급 검색·DA 모두 심야·주말·긴급 배포로 일정 맞춘 구조. 지속 가능한 페이스 아님.</li>
+<li><strong>가장 큰 리스크는 사람의 병목</strong>: 본인이 기획·개발·배포·외부 소통·디자인 피드백·QA를 동시에 처리 중. 4월 중반 9시 45분 출근도 <strong>시간을 더 뽑는 방향의 대응</strong>이지 구조 개선은 아님.</li>
+</ul>
+<hr/>
+<h1 id="part-2-나의-회고-인터뷰-답변">Part 2. 나의 회고 (인터뷰 답변)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#part-2-나의-회고-인터뷰-답변" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote class="callout abstract" data-callout="abstract">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>작성 주체 </p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>이 파트는 <strong>내가 직접 답한 내용</strong>이다. 각 질문에 대한 답은 <code>> [!quote] 나의 답</code> 블록으로 표시된다. 답하지 않은 질문은 빈 상태로 남아 있다.</p>
+</div>
+</blockquote>
+<h2 id="시간에너지">시간·에너지<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#시간에너지" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="q1-심야주말-근무를-피할-수-있었던-순간은">Q1. 심야/주말 근무를 피할 수 있었던 순간은?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q1-심야주말-근무를-피할-수-있었던-순간은" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><strong>AI 노트</strong>: 4/5(일) 23:51 DA 헤더 드로워 개입부터 4/6 02:12 피드백까지 심야 몰입. 다음 날 오전으로 미룰 수 있었는지.</p>
+</blockquote>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>보통 나는 오전에 회의하고 오후에 코딩하는 패턴을 반복하는데, (실제로 내가 그러고 있는지 확인 필요) 그러다보니 오후 작업 시간을 예측하기 어렵고 야근으로 이어지는 경우가 많다.</p>
+</div>
+</blockquote>
+<blockquote class="callout note" data-callout="note">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>AI 검증 (2026-04-20) </p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>가설 “오전 회의 → 오후 코딩”은 데이터와 부분적으로 다름.</p>
+<ul>
+<li><strong>미팅 관련 언급 분포</strong>: 오전 10<del>11시 <strong>9건</strong> vs 오후 14</del>18시 <strong>19건</strong> (오후가 2배+)</li>
+<li><strong><a href=".././tags/meeting-notes" class="tag-link internal alias" data-slug="tags/meeting-notes">meeting-notes</a> 피크</strong>: 13시(8건), 17시(4건) — 점심 직후·늦은 오후</li>
+<li><strong>업무 시작 체크리스트 9개 중 미팅 포함</strong>: 3개(33%)</li>
+<li><strong>배포·코딩 키워드</strong>: 15~18시에 집중, <strong>23시 심야 배포 7회</strong> (4/2, 4/12, 4/13, 4/14)</li>
+<li>→ 실제 패턴은 <strong>“오후에 회의와 코딩이 뒤섮임 → 배포가 밤으로 밀림”</strong>. 야근의 상당부분이 심야 배포에서 유래한다.</li>
+</ul>
+</div>
+</blockquote>
+<h3 id="q2-413부터-9시-45분-출근이-생긴-이유는-지속-가능한가">Q2. 4/13부터 9시 45분 출근이 생긴 이유는? 지속 가능한가?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q2-413부터-9시-45분-출근이-생긴-이유는-지속-가능한가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>야근 누적으로 피로도가 격해져서 일상 리셋을 시도했다.</p>
+</div>
+</blockquote>
+<h3 id="q3-4142-기침반반차-시기-더-쉬었어야-한다고-느끼는가-쉬지-못하게-한-것은">Q3. 4/1·4/2 기침·반반차 시기, 더 쉬었어야 한다고 느끼는가? 쉬지 못하게 한 것은?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q3-4142-기침반반차-시기-더-쉬었어야-한다고-느끼는가-쉬지-못하게-한-것은" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>쉬면 좋았을 것 같다. 일단 저번달에 휴가를 좀 많이 쓰기도 했고, 이카루스라는 POC 프로젝트에 팀원들의 모든 리소스를 사용하고 있던 상황이라서 남은 모든 일을 내가 했어야 했다.</p>
+</div>
+</blockquote>
+<h2 id="동시-진행-프로젝트">동시 진행 프로젝트<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#동시-진행-프로젝트" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="q4-da--고급-검색--이카루스--dm-우체부--스프레이-운영-중-줄였어야-했던-것이-있나">Q4. DA / 고급 검색 / 이카루스 / DM 우체부 / 스프레이 운영 중 줄였어야 했던 것이 있나?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q4-da--고급-검색--이카루스--dm-우체부--스프레이-운영-중-줄였어야-했던-것이-있나" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>줄였어야 할 건 없고 모두 필요했다. 병목은 내가 아니라 구조였다.</p>
+</div>
+</blockquote>
+<h3 id="q5-한-달-뒤-돌아봤을-때-가장-효과가-컸던-한-가지는">Q5. 한 달 뒤 돌아봤을 때 가장 효과가 컸던 한 가지는?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q5-한-달-뒤-돌아봤을-때-가장-효과가-컸던-한-가지는" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>DM 우체부 공개 — 운영 자동화.</p>
+</div>
+</blockquote>
+<h3 id="q6-ing로-끝난-작업-중-지금도-끝나지-않은-것은">Q6. “…ing”로 끝난 작업 중 지금도 끝나지 않은 것은?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q6-ing로-끝난-작업-중-지금도-끝나지-않은-것은" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>여러 개 동시에 남아 있다.</p>
+<p><strong>5/8 전까지 반드시 끝낼 한 가지</strong>: 고급 검색 수집 성공률 목표치 도달.</p>
+</div>
+</blockquote>
+<h2 id="소통협업">소통·협업<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#소통협업" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="q7-나-혼자-끝내기-어려운-영역과-그것이-병목이-된-순간은">Q7. 나 혼자 끝내기 어려운 영역과 그것이 병목이 된 순간은?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q7-나-혼자-끝내기-어려운-영역과-그것이-병목이-된-순간은" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><strong>AI 노트</strong>: Ella 30회, Juno 13회 멘션. 특정 인물 의존도가 높은 영역.</p>
+</blockquote>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>내가 원하면 어렵지 않게 부탁할 수 있기 때문에 병목 아님.</p>
+</div>
+</blockquote>
+<h3 id="q8-제가-할게요-패턴--위임했더라면-더-나았을-일이-있었나">Q8. “제가 할게요” 패턴 — 위임했더라면 더 나았을 일이 있었나?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q8-제가-할게요-패턴--위임했더라면-더-나았을-일이-있었나" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>위임할 곳이 없었다. 이카루스 POC에 팀 리소스가 몰빙되어 있었고, 나머지 일은 구조상 내가 치워야 했다.</p>
+</div>
+</blockquote>
+<h3 id="q9-외부-파트너da-소통에서-가장-잘했던-순간과-더-낫게-할-수-있었던-순간">Q9. 외부 파트너(DA) 소통에서 가장 잘했던 순간과 더 낫게 할 수 있었던 순간?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q9-외부-파트너da-소통에서-가장-잘했던-순간과-더-낫게-할-수-있었던-순간" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>특별히 잘한 것도 안 좋았던 것도 없고 전반적으로 정상적이었다.</p>
+</div>
+</blockquote>
+<h2 id="의사결정">의사결정<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#의사결정" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="q10-43-릴스-성능-이슈의-복합-인덱스-우선-판단--결과는">Q10. 4/3 릴스 성능 이슈의 “복합 인덱스 우선” 판단 — 결과는?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q10-43-릴스-성능-이슈의-복합-인덱스-우선-판단--결과는" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>아직 손도 안대고 있다.</p>
+</div>
+</blockquote>
+<h3 id="q11-416-배포-실수--미리-막을-수-있는-체크리스트가-있을까">Q11. 4/16 배포 실수 — 미리 막을 수 있는 체크리스트가 있을까?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q11-416-배포-실수--미리-막을-수-있는-체크리스트가-있을까" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>고객 릴리즈가 아니었어서 큰 문제 아님.</p>
+</div>
+</blockquote>
+<h3 id="q12-47-센드그리드-플랜-좀-더-지켜보겠다--현재-상태는">Q12. 4/7 센드그리드 플랜 “좀 더 지켜보겠다” — 현재 상태는?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q12-47-센드그리드-플랜-좀-더-지켜보겠다--현재-상태는" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>상향 했고 아슬아슬하다. (초과된다고 해서 문제되는 것은 아님)</p>
+</div>
+</blockquote>
+<h2 id="성장">성장<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#성장" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="q13-이-19일-동안-배운-가장-큰-한-가지는">Q13. 이 19일 동안 배운 가장 큰 한 가지는?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q13-이-19일-동안-배운-가장-큰-한-가지는" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>POC가 충분히 좋은 퀄리티로 나온다면 잘 한 선택, 그렇지 않으면 못한 선택. (팀 리소스 몰빙에 대한 평가는 결과에 달렸다)</p>
+</div>
+</blockquote>
+<h3 id="q14-다음-19일42058에-의도적으로-늘리고-싶은-것--줄이고-싶은-것">Q14. 다음 19일(4/20~5/8)에 의도적으로 늘리고 싶은 것 / 줄이고 싶은 것?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q14-다음-19일42058에-의도적으로-늘리고-싶은-것--줄이고-싶은-것" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<ul>
+<li><strong>늘리고 싶은 것</strong>: 업무 시작 체크리스트에 예상 소요시간을 함께 적는 습관.</li>
+<li><strong>줄이고 싶은 것</strong>: “ing” 상태로 뜨는 작업 — 하루 단위로 끝낼 수 있는 스코프로 쪼개기.</li>
+</ul>
+</div>
+</blockquote>
+<h2 id="소통-퀄리티-심층-리뷰-기반">소통 퀄리티 (심층 리뷰 기반)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#소통-퀄리티-심층-리뷰-기반" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="q15-버스트-패턴최대-29연속--실시간-브레인스토밍의-장점인가-혼자-해결-가능한-것을-공개한-비용인가-구분-기준은">Q15. 버스트 패턴(최대 29연속) — 실시간 브레인스토밍의 장점인가, 혼자 해결 가능한 것을 공개한 비용인가? 구분 기준은?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q15-버스트-패턴최대-29연속--실시간-브레인스토밍의-장점인가-혼자-해결-가능한-것을-공개한-비용인가-구분-기준은" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><strong>스스로 정한 구분 기준</strong>: 2분 이상 걸리는 생각은 메시지 한 개로 정리해서 보낸다.</p>
+</div>
+</blockquote>
+<h3 id="q16-본인-잘못이-아닌데-사과한-케이스--죄송합니다-대신-어떤-문장을-썼을까">Q16. 본인 잘못이 아닌데 사과한 케이스 — “죄송합니다” 대신 어떤 문장을 썼을까?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q16-본인-잘못이-아닌데-사과한-케이스--죄송합니다-대신-어떤-문장을-썼을까" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>지금의 “ㅜㅜ”도 나쁘지 않다 — 유지.</p>
+</div>
+</blockquote>
+<h3 id="q17-prd-spray-makers의-캐주얼-톤--외부인-합류-시-그대로-둘-채널인가-정돈할-채널인가">Q17. <a href=".././tags/prd-spray-makers의" class="tag-link internal alias" data-slug="tags/prd-spray-makers의">prd-spray-makers의</a> 캐주얼 톤 — 외부인 합류 시 그대로 둘 채널인가, 정돈할 채널인가?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q17-prd-spray-makers의-캐주얼-톤--외부인-합류-시-그대로-둘-채널인가-정돈할-채널인가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>그대로 둔다. 팀 문화가 더 중요.</p>
+</div>
+</blockquote>
+<h2 id="업무-진행-심층-리뷰-기반">업무 진행 (심층 리뷰 기반)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#업무-진행-심층-리뷰-기반" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="q18-고급-검색-fire-fighting-14일--알파-오픈-전-어떤-수집-신뢰도-지표를-먼저-정의할-것인가">Q18. 고급 검색 fire-fighting 14일 — 알파 오픈 전 어떤 수집 신뢰도 지표를 먼저 정의할 것인가?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q18-고급-검색-fire-fighting-14일--알파-오픈-전-어떤-수집-신뢰도-지표를-먼저-정의할-것인가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>플랫폼별 수집 성공률 임계치(예: 틱톡 95%, 인스타 95%) 달성 후에만 알파 오픈.</p>
+</div>
+</blockquote>
+<h3 id="q19-da-최대한-빠르게-따라잡겠습니다-반복--일정을-밀고-완성-후-공개했다면-더-나았을까">Q19. DA “최대한 빠르게 따라잡겠습니다” 반복 — 일정을 밀고 완성 후 공개했다면 더 나았을까?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q19-da-최대한-빠르게-따라잡겠습니다-반복--일정을-밀고-완성-후-공개했다면-더-나았을까" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p>방법론은 맞았으나 커뮤니케이션 빈도가 너무 쟦았다.</p>
+</div>
+</blockquote>
+<h3 id="q20-이카루스-방향이-2주간-흔들린-건--탐색이-충분했던-것인가-결정을-미룬-것인가">Q20. 이카루스 방향이 2주간 흔들린 건 — 탐색이 충분했던 것인가, 결정을 미룬 것인가?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q20-이카루스-방향이-2주간-흔들린-건--탐색이-충분했던-것인가-결정을-미룬-것인가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><em>(미작성)</em></p>
+</div>
+</blockquote>
+<h3 id="q21-socialscan-예외-처리-루프--4월에-상위-전략-논의를-시작하지-않은-이유는">Q21. socialscan 예외 처리 루프 — 4월에 상위 전략 논의를 시작하지 않은 이유는?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q21-socialscan-예외-처리-루프--4월에-상위-전략-논의를-시작하지-않은-이유는" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><em>(미작성)</em></p>
+</div>
+</blockquote>
+<h2 id="구조병목-심층-리뷰-기반">구조·병목 (심층 리뷰 기반)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#구조병목-심층-리뷰-기반" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="q22-juno-배포-후-확인-요청-반복--셀프-qa-루프를-만든다면-어디서부터">Q22. Juno 배포 후 확인 요청 반복 — 셀프 QA 루프를 만든다면 어디서부터?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q22-juno-배포-후-확인-요청-반복--셀프-qa-루프를-만든다면-어디서부터" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><em>(미작성)</em></p>
+</div>
+</blockquote>
+<h3 id="q23-기획개발배포외부-소통qa-혼자-쥐고-있는-영역-중-가장-먼저-떼어낼-수-있는-것은">Q23. 기획·개발·배포·외부 소통·QA 혼자 쥐고 있는 영역 중 가장 먼저 떼어낼 수 있는 것은?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q23-기획개발배포외부-소통qa-혼자-쥐고-있는-영역-중-가장-먼저-떼어낼-수-있는-것은" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><em>(미작성)</em></p>
+</div>
+</blockquote>
+<h3 id="q24-시간을-늘리는-대신-구조를-바꾸는-한-가지-실험을-한다면">Q24. 시간을 늘리는 대신 구조를 바꾸는 한 가지 실험을 한다면?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#q24-시간을-늘리는-대신-구조를-바꾸는-한-가지-실험을-한다면" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote class="callout quote is-collapsible" data-callout="quote" data-callout-fold>
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>나의 답 </p></div>
+                  <div class="fold-callout-icon"></div>
+                </div>
+<div class="callout-content">
+<p><em>(미작성)</em></p>
+</div>
+</blockquote>
+<hr/>
+<h1 id="part-3-다음-액션-다듬을-용">Part 3. 다음 액션 (다듬을 용)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#part-3-다음-액션-다듬을-용" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> 4/20 이후: 고급 검색 런칭 후속(업데이트 노트, 모니터링).</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> 이카루스: POC 결과 공유 및 본개발 착수 여부 결정.</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> DA: 블로그 페이지 완성 → 미국 오픈 이어가기, GA·빅쿼리 도메인 연결.</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> 건강·컨디션: 9시 45분 출근 리듬 + 심야 배포 대체 방안(페어/슬롯) 검토.</li>
+<li class="task-list-item"><input type="checkbox" class="checkbox-toggle"/> 위임 실험: 다음 주 안에 “제가 할게요”로 받았던 것 중 1건 Juno/Dylan에게 넘겨보기.</li>
+</ul></article><hr/><div class="page-footer"><div class="giscus" data-repo="qodot/obsidian-public" data-repo-id="R_kgDOR7CdbA" data-category="General" data-category-id="DIC_kwDOR7CdbM4C6KsX" data-mapping="pathname" data-strict="1" data-reactions-enabled="1" data-input-position="top" data-light-theme="light" data-dark-theme="dark" data-theme-url="https://qodot.me/static/giscus" data-lang="ko"></div></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-149" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#4월-전반기119일-업무-회고" data-for="4월-전반기119일-업무-회고">4월 전반기(1~19일) 업무 회고</a></li><li class="depth-0"><a href="#part-1-데이터-요약--평가" data-for="part-1-데이터-요약--평가">Part 1. 데이터 요약 &amp; 평가</a></li><li class="depth-1"><a href="#한눈에-보기" data-for="한눈에-보기">한눈에 보기</a></li><li class="depth-1"><a href="#일별-로그" data-for="일별-로그">일별 로그</a></li><li class="depth-2"><a href="#1주차-41-수--43-금" data-for="1주차-41-수--43-금">1주차 (4/1 수 ~ 4/3 금)</a></li><li class="depth-2"><a href="#2주차-46-월--410-금" data-for="2주차-46-월--410-금">2주차 (4/6 월 ~ 4/10 금)</a></li><li class="depth-2"><a href="#3주차-413-월--417-금" data-for="3주차-413-월--417-금">3주차 (4/13 월 ~ 4/17 금)</a></li><li class="depth-1"><a href="#프로젝트-타임라인" data-for="프로젝트-타임라인">프로젝트 타임라인</a></li><li class="depth-2"><a href="#1-고급-검색-spray--4월의-메인-라인" data-for="1-고급-검색-spray--4월의-메인-라인">1. 고급 검색 (Spray) — 4월의 메인 라인</a></li><li class="depth-2"><a href="#2-da-effect-쇼피파이" data-for="2-da-effect-쇼피파이">2. DA EFFECT (쇼피파이)</a></li><li class="depth-2"><a href="#3-이카루스-icarus--신규-설계" data-for="3-이카루스-icarus--신규-설계">3. 이카루스 (Icarus) — 신규 설계</a></li><li class="depth-2"><a href="#4-dm-우체부--공개-단계" data-for="4-dm-우체부--공개-단계">4. DM 우체부 — 공개 단계</a></li><li class="depth-2"><a href="#5-스프레이-운영인프라" data-for="5-스프레이-운영인프라">5. 스프레이 운영·인프라</a></li><li class="depth-1"><a href="#나의-업무-패턴-데이터-기반-관찰" data-for="나의-업무-패턴-데이터-기반-관찰">나의 업무 패턴 (데이터 기반 관찰)</a></li><li class="depth-2"><a href="#집중-시간대" data-for="집중-시간대">집중 시간대</a></li><li class="depth-2"><a href="#루틴" data-for="루틴">루틴</a></li><li class="depth-2"><a href="#소통-스타일" data-for="소통-스타일">소통 스타일</a></li><li class="depth-2"><a href="#의사결정-패턴" data-for="의사결정-패턴">의사결정 패턴</a></li><li class="depth-2"><a href="#협업-네트워크-멘션-상위" data-for="협업-네트워크-멘션-상위">협업 네트워크 (멘션 상위)</a></li><li class="depth-1"><a href="#잘한-것--아쉬운-것--초안" data-for="잘한-것--아쉬운-것--초안">잘한 것 / 아쉬운 것 — 초안</a></li><li class="depth-2"><a href="#잘한-것" data-for="잘한-것">잘한 것</a></li><li class="depth-2"><a href="#아쉬운-것" data-for="아쉬운-것">아쉬운 것</a></li><li class="depth-1"><a href="#심층-리뷰-통계를-넘어서" data-for="심층-리뷰-통계를-넘어서">심층 리뷰 (통계를 넘어서)</a></li><li class="depth-2"><a href="#41-소통-퀄리티" data-for="41-소통-퀄리티">4.1 소통 퀄리티</a></li><li class="depth-2"><a href="#42-업무-진행--원활했는가" data-for="42-업무-진행--원활했는가">4.2 업무 진행 — “원활했는가?”</a></li><li class="depth-2"><a href="#43-숨겨진-문제-신호" data-for="43-숨겨진-문제-신호">4.3 숨겨진 문제 신호</a></li><li class="depth-2"><a href="#44-종합-진단" data-for="44-종합-진단">4.4 종합 진단</a></li><li class="depth-0"><a href="#part-2-나의-회고-인터뷰-답변" data-for="part-2-나의-회고-인터뷰-답변">Part 2. 나의 회고 (인터뷰 답변)</a></li><li class="depth-1"><a href="#시간에너지" data-for="시간에너지">시간·에너지</a></li><li class="depth-2"><a href="#q1-심야주말-근무를-피할-수-있었던-순간은" data-for="q1-심야주말-근무를-피할-수-있었던-순간은">Q1. 심야/주말 근무를 피할 수 있었던 순간은?</a></li><li class="depth-2"><a href="#q2-413부터-9시-45분-출근이-생긴-이유는-지속-가능한가" data-for="q2-413부터-9시-45분-출근이-생긴-이유는-지속-가능한가">Q2. 4/13부터 9시 45분 출근이 생긴 이유는? 지속 가능한가?</a></li><li class="depth-2"><a href="#q3-4142-기침반반차-시기-더-쉬었어야-한다고-느끼는가-쉬지-못하게-한-것은" data-for="q3-4142-기침반반차-시기-더-쉬었어야-한다고-느끼는가-쉬지-못하게-한-것은">Q3. 4/1·4/2 기침·반반차 시기, 더 쉬었어야 한다고 느끼는가? 쉬지 못하게 한 것은?</a></li><li class="depth-1"><a href="#동시-진행-프로젝트" data-for="동시-진행-프로젝트">동시 진행 프로젝트</a></li><li class="depth-2"><a href="#q4-da--고급-검색--이카루스--dm-우체부--스프레이-운영-중-줄였어야-했던-것이-있나" data-for="q4-da--고급-검색--이카루스--dm-우체부--스프레이-운영-중-줄였어야-했던-것이-있나">Q4. DA / 고급 검색 / 이카루스 / DM 우체부 / 스프레이 운영 중 줄였어야 했던 것이 있나?</a></li><li class="depth-2"><a href="#q5-한-달-뒤-돌아봤을-때-가장-효과가-컸던-한-가지는" data-for="q5-한-달-뒤-돌아봤을-때-가장-효과가-컸던-한-가지는">Q5. 한 달 뒤 돌아봤을 때 가장 효과가 컸던 한 가지는?</a></li><li class="depth-2"><a href="#q6-ing로-끝난-작업-중-지금도-끝나지-않은-것은" data-for="q6-ing로-끝난-작업-중-지금도-끝나지-않은-것은">Q6. “…ing”로 끝난 작업 중 지금도 끝나지 않은 것은?</a></li><li class="depth-1"><a href="#소통협업" data-for="소통협업">소통·협업</a></li><li class="depth-2"><a href="#q7-나-혼자-끝내기-어려운-영역과-그것이-병목이-된-순간은" data-for="q7-나-혼자-끝내기-어려운-영역과-그것이-병목이-된-순간은">Q7. 나 혼자 끝내기 어려운 영역과 그것이 병목이 된 순간은?</a></li><li class="depth-2"><a href="#q8-제가-할게요-패턴--위임했더라면-더-나았을-일이-있었나" data-for="q8-제가-할게요-패턴--위임했더라면-더-나았을-일이-있었나">Q8. “제가 할게요” 패턴 — 위임했더라면 더 나았을 일이 있었나?</a></li><li class="depth-2"><a href="#q9-외부-파트너da-소통에서-가장-잘했던-순간과-더-낫게-할-수-있었던-순간" data-for="q9-외부-파트너da-소통에서-가장-잘했던-순간과-더-낫게-할-수-있었던-순간">Q9. 외부 파트너(DA) 소통에서 가장 잘했던 순간과 더 낫게 할 수 있었던 순간?</a></li><li class="depth-1"><a href="#의사결정" data-for="의사결정">의사결정</a></li><li class="depth-2"><a href="#q10-43-릴스-성능-이슈의-복합-인덱스-우선-판단--결과는" data-for="q10-43-릴스-성능-이슈의-복합-인덱스-우선-판단--결과는">Q10. 4/3 릴스 성능 이슈의 “복합 인덱스 우선” 판단 — 결과는?</a></li><li class="depth-2"><a href="#q11-416-배포-실수--미리-막을-수-있는-체크리스트가-있을까" data-for="q11-416-배포-실수--미리-막을-수-있는-체크리스트가-있을까">Q11. 4/16 배포 실수 — 미리 막을 수 있는 체크리스트가 있을까?</a></li><li class="depth-2"><a href="#q12-47-센드그리드-플랜-좀-더-지켜보겠다--현재-상태는" data-for="q12-47-센드그리드-플랜-좀-더-지켜보겠다--현재-상태는">Q12. 4/7 센드그리드 플랜 “좀 더 지켜보겠다” — 현재 상태는?</a></li><li class="depth-1"><a href="#성장" data-for="성장">성장</a></li><li class="depth-2"><a href="#q13-이-19일-동안-배운-가장-큰-한-가지는" data-for="q13-이-19일-동안-배운-가장-큰-한-가지는">Q13. 이 19일 동안 배운 가장 큰 한 가지는?</a></li><li class="depth-2"><a href="#q14-다음-19일42058에-의도적으로-늘리고-싶은-것--줄이고-싶은-것" data-for="q14-다음-19일42058에-의도적으로-늘리고-싶은-것--줄이고-싶은-것">Q14. 다음 19일(4/20~5/8)에 의도적으로 늘리고 싶은 것 / 줄이고 싶은 것?</a></li><li class="depth-1"><a href="#소통-퀄리티-심층-리뷰-기반" data-for="소통-퀄리티-심층-리뷰-기반">소통 퀄리티 (심층 리뷰 기반)</a></li><li class="depth-2"><a href="#q15-버스트-패턴최대-29연속--실시간-브레인스토밍의-장점인가-혼자-해결-가능한-것을-공개한-비용인가-구분-기준은" data-for="q15-버스트-패턴최대-29연속--실시간-브레인스토밍의-장점인가-혼자-해결-가능한-것을-공개한-비용인가-구분-기준은">Q15. 버스트 패턴(최대 29연속) — 실시간 브레인스토밍의 장점인가, 혼자 해결 가능한 것을 공개한 비용인가? 구분 기준은?</a></li><li class="depth-2"><a href="#q16-본인-잘못이-아닌데-사과한-케이스--죄송합니다-대신-어떤-문장을-썼을까" data-for="q16-본인-잘못이-아닌데-사과한-케이스--죄송합니다-대신-어떤-문장을-썼을까">Q16. 본인 잘못이 아닌데 사과한 케이스 — “죄송합니다” 대신 어떤 문장을 썼을까?</a></li><li class="depth-2"><a href="#q17-prd-spray-makers의-캐주얼-톤--외부인-합류-시-그대로-둘-채널인가-정돈할-채널인가" data-for="q17-prd-spray-makers의-캐주얼-톤--외부인-합류-시-그대로-둘-채널인가-정돈할-채널인가">Q17. prd-spray-makers의 캐주얼 톤 — 외부인 합류 시 그대로 둘 채널인가, 정돈할 채널인가?</a></li><li class="depth-1"><a href="#업무-진행-심층-리뷰-기반" data-for="업무-진행-심층-리뷰-기반">업무 진행 (심층 리뷰 기반)</a></li><li class="depth-2"><a href="#q18-고급-검색-fire-fighting-14일--알파-오픈-전-어떤-수집-신뢰도-지표를-먼저-정의할-것인가" data-for="q18-고급-검색-fire-fighting-14일--알파-오픈-전-어떤-수집-신뢰도-지표를-먼저-정의할-것인가">Q18. 고급 검색 fire-fighting 14일 — 알파 오픈 전 어떤 수집 신뢰도 지표를 먼저 정의할 것인가?</a></li><li class="depth-2"><a href="#q19-da-최대한-빠르게-따라잡겠습니다-반복--일정을-밀고-완성-후-공개했다면-더-나았을까" data-for="q19-da-최대한-빠르게-따라잡겠습니다-반복--일정을-밀고-완성-후-공개했다면-더-나았을까">Q19. DA “최대한 빠르게 따라잡겠습니다” 반복 — 일정을 밀고 완성 후 공개했다면 더 나았을까?</a></li><li class="depth-2"><a href="#q20-이카루스-방향이-2주간-흔들린-건--탐색이-충분했던-것인가-결정을-미룬-것인가" data-for="q20-이카루스-방향이-2주간-흔들린-건--탐색이-충분했던-것인가-결정을-미룬-것인가">Q20. 이카루스 방향이 2주간 흔들린 건 — 탐색이 충분했던 것인가, 결정을 미룬 것인가?</a></li><li class="depth-2"><a href="#q21-socialscan-예외-처리-루프--4월에-상위-전략-논의를-시작하지-않은-이유는" data-for="q21-socialscan-예외-처리-루프--4월에-상위-전략-논의를-시작하지-않은-이유는">Q21. socialscan 예외 처리 루프 — 4월에 상위 전략 논의를 시작하지 않은 이유는?</a></li><li class="depth-1"><a href="#구조병목-심층-리뷰-기반" data-for="구조병목-심층-리뷰-기반">구조·병목 (심층 리뷰 기반)</a></li><li class="depth-2"><a href="#q22-juno-배포-후-확인-요청-반복--셀프-qa-루프를-만든다면-어디서부터" data-for="q22-juno-배포-후-확인-요청-반복--셀프-qa-루프를-만든다면-어디서부터">Q22. Juno 배포 후 확인 요청 반복 — 셀프 QA 루프를 만든다면 어디서부터?</a></li><li class="depth-2"><a href="#q23-기획개발배포외부-소통qa-혼자-쥐고-있는-영역-중-가장-먼저-떼어낼-수-있는-것은" data-for="q23-기획개발배포외부-소통qa-혼자-쥐고-있는-영역-중-가장-먼저-떼어낼-수-있는-것은">Q23. 기획·개발·배포·외부 소통·QA 혼자 쥐고 있는 영역 중 가장 먼저 떼어낼 수 있는 것은?</a></li><li class="depth-2"><a href="#q24-시간을-늘리는-대신-구조를-바꾸는-한-가지-실험을-한다면" data-for="q24-시간을-늘리는-대신-구조를-바꾸는-한-가지-실험을-한다면">Q24. 시간을 늘리는 대신 구조를 바꾸는 한 가지 실험을 한다면?</a></li><li class="depth-0"><a href="#part-3-다음-액션-다듬을-용" data-for="part-3-다음-액션-다듬을-용">Part 3. 다음 액션 (다듬을 용)</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/qodot">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">var m=Object.create;var f=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var S=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var R=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports);var j=(t,e,n,E)=>{if(e&&typeof e=="object"||typeof e=="function")for(let i of S(e))!b.call(t,i)&&i!==n&&f(t,i,{get:()=>e[i],enumerable:!(E=x(e,i))||E.enumerable});return t};var w=(t,e,n)=>(n=t!=null?m(y(t)):{},j(e||!t||!t.__esModule?f(n,"default",{value:t,enumerable:!0}):n,t));var p=R((I,g)=>{"use strict";g.exports=L;function B(t){return t instanceof Buffer?Buffer.from(t):new t.constructor(t.buffer.slice(),t.byteOffset,t.length)}function L(t){if(t=t||{},t.circles)return v(t);let e=new Map;if(e.set(Date,F=>new Date(F)),e.set(Map,(F,l)=>new Map(E(Array.from(F),l))),e.set(Set,(F,l)=>new Set(E(Array.from(F),l))),t.constructorHandlers)for(let F of t.constructorHandlers)e.set(F[0],F[1]);let n=null;return t.proto?o:i;function E(F,l){let u=Object.keys(F),D=new Array(u.length);for(let s=0;s<u.length;s++){let r=u[s],A=F[r];typeof A!="object"||A===null?D[r]=A:A.constructor!==Object&&(n=e.get(A.constructor))?D[r]=n(A,l):ArrayBuffer.isView(A)?D[r]=B(A):D[r]=l(A)}return D}function i(F){if(typeof F!="object"||F===null)return F;if(Array.isArray(F))return E(F,i);if(F.constructor!==Object&&(n=e.get(F.constructor)))return n(F,i);let l={};for(let u in F){if(Object.hasOwnProperty.call(F,u)===!1)continue;let D=F[u];typeof D!="object"||D===null?l[u]=D:D.constructor!==Object&&(n=e.get(D.constructor))?l[u]=n(D,i):ArrayBuffer.isView(D)?l[u]=B(D):l[u]=i(D)}return l}function o(F){if(typeof F!="object"||F===null)return F;if(Array.isArray(F))return E(F,o);if(F.constructor!==Object&&(n=e.get(F.constructor)))return n(F,o);let l={};for(let u in F){let D=F[u];typeof D!="object"||D===null?l[u]=D:D.constructor!==Object&&(n=e.get(D.constructor))?l[u]=n(D,o):ArrayBuffer.isView(D)?l[u]=B(D):l[u]=o(D)}return l}}function v(t){let e=[],n=[],E=new Map;if(E.set(Date,u=>new Date(u)),E.set(Map,(u,D)=>new Map(o(Array.from(u),D))),E.set(Set,(u,D)=>new Set(o(Array.from(u),D))),t.constructorHandlers)for(let u of t.constructorHandlers)E.set(u[0],u[1]);let i=null;return t.proto?l:F;function o(u,D){let s=Object.keys(u),r=new Array(s.length);for(let A=0;A<s.length;A++){let c=s[A],C=u[c];if(typeof C!="object"||C===null)r[c]=C;else if(C.constructor!==Object&&(i=E.get(C.constructor)))r[c]=i(C,D);else if(ArrayBuffer.isView(C))r[c]=B(C);else{let a=e.indexOf(C);a!==-1?r[c]=n[a]:r[c]=D(C)}}return r}function F(u){if(typeof u!="object"||u===null)return u;if(Array.isArray(u))return o(u,F);if(u.constructor!==Object&&(i=E.get(u.constructor)))return i(u,F);let D={};e.push(u),n.push(D);for(let s in u){if(Object.hasOwnProperty.call(u,s)===!1)continue;let r=u[s];if(typeof r!="object"||r===null)D[s]=r;else if(r.constructor!==Object&&(i=E.get(r.constructor)))D[s]=i(r,F);else if(ArrayBuffer.isView(r))D[s]=B(r);else{let A=e.indexOf(r);A!==-1?D[s]=n[A]:D[s]=F(r)}}return e.pop(),n.pop(),D}function l(u){if(typeof u!="object"||u===null)return u;if(Array.isArray(u))return o(u,l);if(u.constructor!==Object&&(i=E.get(u.constructor)))return i(u,l);let D={};e.push(u),n.push(D);for(let s in u){let r=u[s];if(typeof r!="object"||r===null)D[s]=r;else if(r.constructor!==Object&&(i=E.get(r.constructor)))D[s]=i(r,l);else if(ArrayBuffer.isView(r))D[s]=B(r);else{let A=e.indexOf(r);A!==-1?D[s]=n[A]:D[s]=l(r)}}return e.pop(),n.pop(),D}}});var T=Object.hasOwnProperty;var h=w(p(),1),O=(0,h.default)();function d(t){return t.document.body.dataset.slug}var k=t=>`${d(window)}-checkbox-${t}`;document.addEventListener("nav",()=>{document.querySelectorAll("input.checkbox-toggle").forEach((e,n)=>{let E=k(n),i=o=>{let F=o.target?.checked?"true":"false";localStorage.setItem(E,F)};e.addEventListener("change",i),window.addCleanup(()=>e.removeEventListener("change",i)),localStorage.getItem(E)==="true"&&(e.checked=!0)})});
+</script><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

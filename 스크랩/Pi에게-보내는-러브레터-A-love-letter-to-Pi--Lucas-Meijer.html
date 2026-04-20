@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>A love letter to Pi | Lucas Meijer</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="고도"/><meta property="og:title" content="A love letter to Pi | Lucas Meijer"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="A love letter to Pi | Lucas Meijer"/><meta name="twitter:description" content="Agents are increasingly part of how software gets built, with developments going so fast that it’s hard to keep up how to get the best use out of them to do ..."/><meta property="og:description" content="Agents are increasingly part of how software gets built, with developments going so fast that it’s hard to keep up how to get the best use out of them to do ..."/><meta property="og:image:alt" content="Agents are increasingly part of how software gets built, with developments going so fast that it’s hard to keep up how to get the best use out of them to do ..."/><meta property="twitter:domain" content="qodot.me"/><meta property="og:url" content="https://qodot.me/스크랩/Pi에게-보내는-러브레터-A-love-letter-to-Pi--Lucas-Meijer"/><meta property="twitter:url" content="https://qodot.me/스크랩/Pi에게-보내는-러브레터-A-love-letter-to-Pi--Lucas-Meijer"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Agents are increasingly part of how software gets built, with developments going so fast that it’s hard to keep up how to get the best use out of them to do ..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL3FvZG90L3dvcmtzcGFjZS9xb2RvdC9vYnNpZGlhbi1xdWFydHovcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://qodot.me/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://qodot.me/스크랩/Pi에게-보내는-러브레터-A-love-letter-to-Pi--Lucas-Meijer-og-image.webp"/><meta property="og:image:url" content="https://qodot.me/스크랩/Pi에게-보내는-러브레터-A-love-letter-to-Pi--Lucas-Meijer-og-image.webp"/><meta name="twitter:image" content="https://qodot.me/스크랩/Pi에게-보내는-러브레터-A-love-letter-to-Pi--Lucas-Meijer-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="스크랩/Pi에게-보내는-러브레터-A-love-letter-to-Pi--Lucas-Meijer"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">고도</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-260"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-260" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../스크랩/">스크랩</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>A love letter to Pi | Lucas Meijer</a></div></nav><h1 class="article-title">A love letter to Pi | Lucas Meijer</h1><p show-comma="true" class="content-meta"><time datetime="2026-04-19T15:00:00.000Z">2026년 4월 20일</time><span>55 min read</span></p><ul class="tags"><li><a href="../tags/clippings" class="internal tag-link">clippings</a></li></ul></div></div><article class="popover-hint"><p><iframe class="external-embed youtube" allow="fullscreen" frameborder="0" width="600px" src="https://www.youtube.com/embed/fdbXNWkpPMY" loading="lazy"></iframe></p>
+<h2 id="transcript">Transcript<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#transcript" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>0:01</strong> · [clears throat] Everyone, my name is Lucas Meyer.</p>
+<blockquote>
+<p>[기침] 안녕하세요, 저는 Lucas Meyer입니다.</p>
+</blockquote>
+<p><strong>0:05</strong> · I spent most of my life, my working life on game engines and games.</p>
+<blockquote>
+<p>제 커리어의 대부분을 게임 엔진과 게임을 만드는 데 썼습니다.</p>
+</blockquote>
+<p><strong>0:13</strong> · One of them we managed to make quite popular, it’s called Unity.</p>
+<blockquote>
+<p>그중 하나는 꽤 유명해졌는데, 이름이 Unity입니다.</p>
+</blockquote>
+<p><strong>0:17</strong> · And um turns out the robots can do programming.</p>
+<blockquote>
+<p>그런데, 알고 보니 로봇들도 프로그래밍을 할 수 있더군요.</p>
+</blockquote>
+<p><strong>0:26</strong> · I I don’t know about you, but I did not really have this on my bingo card.</p>
+<blockquote>
+<p>여러분은 어떠신지 모르겠지만, 저는 이걸 전혀 예상하지 못했습니다.</p>
+</blockquote>
+<p><strong>0:31</strong> · I’m still I’m still sort of trying to cope with this.</p>
+<blockquote>
+<p>저는 아직도 이 상황을 받아들이려고 애쓰는 중입니다.</p>
+</blockquote>
+<p><strong>0:36</strong> · Um I am playing around with new ideas for what a game engine might look like if you make it for agents or humans and agents instead of only humans.</p>
+<blockquote>
+<p>요즘은 게임 엔진을 사람만을 위해서가 아니라 에이전트용, 혹은 사람과 에이전트 모두를 위해 만든다면 어떤 모습일지에 대한 아이디어를 이리저리 실험하고 있습니다.</p>
+</blockquote>
+<p><strong>0:48</strong> · Um I host a call it like a coping session bi-monthly for brownfield programmers that decided that they want to be really good at all this AI stuff, but that they realize that um it’s actually not so easy. Actually, who here is really good at using the AI agents?</p>
+<blockquote>
+<p>저는 격월로 일종의 “서로 위로하는 세션”을 진행합니다. 기존 코드 기반에서 일하는 프로그래머들 중, AI를 정말 잘 다루고 싶은데 막상 해 보니 쉽지 않다는 걸 깨달은 사람들을 위한 자리입니다. 그런데 여기서 진짜로 AI 에이전트를 잘 쓰시는 분, 손 들어 보실래요?</p>
+</blockquote>
+<p><strong>1:11</strong> · One?</p>
+<blockquote>
+<p>한 분?</p>
+</blockquote>
+<p><strong>1:12</strong> · Mr. Dunning-Kruger here.</p>
+<blockquote>
+<p>여기 더닝-크루거 씨가 계시네요.</p>
+</blockquote>
+<p><strong>1:15</strong> · [laughter] Um so, for the rest of us [laughter] My question is are you at stage nine?</p>
+<blockquote>
+<p>[웃음] 그럼 나머지 우리들에게 [웃음] 묻고 싶은 건, 여러분은 지금 “9단계(stage nine)“에 계신가요?</p>
+</blockquote>
+<p><strong>1:23</strong> · No, I am absolutely not at stage nine and I have a lot of opinions on the stage nine people. Um Let me begin by saying like my advice is to not chase every shiny new tool and only solve the problem you actually have, which is probably not at stage nine. That said, um here’s my shiny tools.</p>
+<blockquote>
+<p>저는 절대 9단계가 아니고, 9단계라고 주장하는 사람들에 대해 할 말이 많습니다. 먼저 드리고 싶은 조언은, 반짝이는 새 도구마다 쫓아다니지 말고 지금 실제로 가진 문제만 풀라는 것입니다. 그 문제는 보통 9단계가 아니거든요. 그렇긴 하지만, 이제 제가 쓰는 반짝이는 도구들을 소개하죠.</p>
+</blockquote>
+<p><strong>1:47</strong> · All right. I like to use Codex. Um I like I like to joke that it’s like Claude code, but for programming. Maybe Claude is someone you’d invite to your birthday and Codex is this sort of autistic German. Um But if you want to write software, I really I’m going for Codex.</p>
+<blockquote>
+<p>저는 Codex를 씁니다. 농담 삼아 “Claude Code 같은 건데, 프로그래밍용”이라고 말하곤 합니다. Claude는 생일 파티에 초대할 만한 사람이고, Codex는 뭔가 자폐 스펙트럼 같은 독일 사람 느낌이죠. 하지만 진짜로 소프트웨어를 짜고 싶다면 저는 Codex를 택합니다.</p>
+</blockquote>
+<p><strong>2:14</strong> · All right.</p>
+<blockquote>
+<p>자.</p>
+</blockquote>
+<p><strong>2:14</strong> · [laughter] Um There This is basically a snapshot of all the things that I learned that works for me, don’t work for me. One of the things that work for me is embracing HTML as a output form factor. Um I, you know, the 1980s were cool, but coding agents in these small black and white boxes who like that is crazy.</p>
+<blockquote>
+<p>[웃음] 이 발표는 제가 지금까지 배운, 저한테 되는 것/안 되는 것들의 스냅샷입니다. 저한테 잘 먹히는 것 중 하나는 결과물 포맷으로 HTML을 적극 활용하는 것입니다. 80년대는 멋진 시대였지만, 2025년에 코딩 에이전트가 흑백 작은 박스 안에 갇혀 있는 건 미친 짓이죠.</p>
+</blockquote>
+<p><strong>2:37</strong> · Um So, I like to do my prompts kind of like this. I try to find a repo on the monumental GitHub repo. I ask for like do a deep dive analysis and then a lot of the prompts I just end with present your work as a single HTML slide deck. And if you do that instead of a coding agent, you get something like this.</p>
+<blockquote>
+<p>그래서 저는 프롬프트를 이렇게 씁니다. Monumental GitHub에서 레포를 찾게 하고 “심층 분석을 해 달라”라고 시키고, 프롬프트 끝에는 거의 항상 “결과물을 하나의 HTML 슬라이드 덱으로 보여 달라”라고 붙입니다. 그러면 코딩 에이전트에서 이런 결과가 나옵니다.</p>
+</blockquote>
+<p><strong>2:58</strong> · With like this How do you call this?</p>
+<blockquote>
+<p>이걸 뭐라고 부르죠?</p>
+</blockquote>
+<p><strong>3:00</strong> · Like index on the left and I just find this like such a much more pleasant way to consume large amounts of information. It’s also a much more pleasant to sort of like skip over stuff than when you read it from a terminal. There’s no reason we should, you know, go back to that part of the ’80s. Um Um Making your code base agent friendly.</p>
+<blockquote>
+<p>왼쪽에 목차(인덱스)가 있고요. 대량의 정보를 소비할 때 훨씬 쾌적하고, 터미널로 읽을 때보다 건너뛰기도 훨씬 편합니다. 굳이 80년대의 그 부분까지 되돌아갈 이유가 없죠. 다음 주제, “코드베이스를 에이전트 친화적으로 만들기”.</p>
+</blockquote>
+<p><strong>3:28</strong> · This is a game. Who knows this game?</p>
+<blockquote>
+<p>이건 어떤 게임입니다. 이 게임 아시는 분?</p>
+</blockquote>
+<p><strong>3:31</strong> · Uh some old-timers here. It’s called Marble Madness. It’s from the ’90s. Um I like to pretend that the marble is your coding agent and the level is your repo. And it’s your job for this marble to roll down your repo very conveniently. However, there’s all sorts of hazards like the marble could fall off the cliff. For instance, if your agent’s MD instructions are incomplete or wrong.</p>
+<blockquote>
+<p>몇몇 올드타이머가 계시네요. 이름은 Marble Madness, 90년대 게임입니다. 저는 이 구슬이 코딩 에이전트이고 스테이지가 여러분의 레포라고 상상하기를 좋아합니다. 여러분의 임무는 구슬이 여러분의 레포를 매끄럽게 굴러 내려가게 하는 것이죠. 하지만 곳곳에 위험이 있습니다. 예를 들어 에이전트용 MD 지침이 불완전하거나 잘못돼 있으면 구슬이 절벽 아래로 떨어져 버립니다.</p>
+</blockquote>
+<p><strong>4:05</strong> · Um if your build system that you use, if it has been spewing out 500 warnings for the last 2 years and you tell everyone, “Yeah, yeah, yeah, you know, ignore that.” The agent’s going to go off track with that. And there’s all sorts of like your job is basically to change the repo so that the ball will fall down smoothly.</p>
+<blockquote>
+<p>빌드 시스템이 지난 2년간 경고 500개씩 뱉고 있는데 팀원들한테는 “에이, 그거 그냥 무시해”라고 해 왔다면, 에이전트는 거기서 엉뚱한 길로 새 버립니다. 여러분의 진짜 일은 구슬이 부드럽게 굴러 내려가도록 레포를 다듬는 것입니다.</p>
+</blockquote>
+<p><strong>4:30</strong> · I like to ask this question, what would have helped the agent reach its goal faster?</p>
+<blockquote>
+<p>저는 이런 질문을 자주 던집니다. “에이전트가 목표에 더 빨리 도달하도록 도왔을 법한 건 무엇인가?”</p>
+</blockquote>
+<p><strong>4:37</strong> · And I think the only way to really do that is to just read the whole transcript. You read the whole transcript, you see all the tool calls, you see all the things it does and then you’re like, “Why like why did it like why did it go there? Why did it go there?”</p>
+<blockquote>
+<p>그 답을 제대로 얻는 유일한 방법은 전체 트랜스크립트를 통째로 읽는 거라고 생각합니다. 모든 툴 호출과 모든 행동을 읽다 보면 “얘가 왜 저기로 갔지? 왜 저기로 갔을까?” 싶은 지점들이 보입니다.</p>
+</blockquote>
+<p><strong>4:51</strong> · And you just make changes accordingly, right? And if you’d done that actually, let me show you how I like to do that like I’m here. This is my favorite agent. I like to do {slash} share um to create these sort of like easily as you’ve noticed I like my HTML.</p>
+<blockquote>
+<p>그걸 보고 그에 맞춰 레포를 고치면 됩니다. 실제로 제가 이걸 어떻게 하는지 보여드리겠습니다. 여기가 제 최애 에이전트인데요, 저는 <code>/share</code>를 써서 — 눈치채셨겠지만 저는 HTML을 좋아합니다 — 이런 걸 쉽게 만듭니다.</p>
+</blockquote>
+<p><strong>5:13</strong> · Um I just go through the whole thing and I read all the tool calls and I figure out sort of like, you know, like how it was performing. If you’ve done that a few times like anything in software development, if you’ve done it a few times it starts to feel boring. Of course, you can use AI to help you with it. Um You can say something like analyze the previous session.</p>
+<blockquote>
+<p>처음부터 끝까지 훑으면서 모든 툴 호출을 읽고 에이전트가 어떻게 동작했는지 파악합니다. 소프트웨어 개발의 다른 모든 일이 그렇듯, 몇 번 해 보면 지루해집니다. 당연히 AI로 자동화할 수 있죠. 예를 들어 “이전 세션을 분석해 달라”라고 시킬 수 있습니다.</p>
+</blockquote>
+<p><strong>5:37</strong> · Find places where the agent went in a wrong direction only to later figure out the right way. And of course, in my Um Oh yeah, and make me some recommendations on what I could have added to the repo that would have made it have it not make that mistake.</p>
+<blockquote>
+<p>“에이전트가 처음에는 잘못된 방향으로 갔다가 나중에야 올바른 길을 찾은 지점들을 찾아 달라”라고 하고, 또 “레포에 무엇을 추가했더라면 그런 실수를 피할 수 있었을지 추천해 달라”라고 덧붙입니다.</p>
+</blockquote>
+<p><strong>5:54</strong> · Um Obviously, I ask it to report that stuff in HTML for me. This is one that I was working on the other day. It gives some, you know, info on how the session was going and then here it had some frictions and this one was funny to me because it turns out um this was on the game engine that I’m doing some work on.</p>
+<blockquote>
+<p>당연히 결과는 HTML로 보고하라고 시킵니다. 이게 최근에 작업한 건데, 세션이 어떻게 진행됐는지 정보를 주고, 여기에는 마찰 지점(frictions)들이 있습니다. 이게 재밌었던 이유는 제가 작업 중인 게임 엔진에서 발생한 일이거든요.</p>
+</blockquote>
+<p><strong>6:17</strong> · Um The documentation said that you have to call the the build command, you have to do {at} Mac if you want to do a Mac build. And then turns out the agent tried that and it was wrong.</p>
+<blockquote>
+<p>문서에는 Mac 빌드를 하려면 빌드 명령에 <code>@Mac</code>을 붙여야 한다고 돼 있었는데, 에이전트가 그걸 시도했더니 작동하지 않았습니다.</p>
+</blockquote>
+<p><strong>6:28</strong> · And then it had to read the whole source code of the build system to figure out like, “No, it’s colon Mac.” And I did change that like a few weeks ago. I just missed a spot in the docs. All right, so by fixing that I may, you know, like you can actually make a continuous process to to making your code base like the most beautiful Marble Madness level because this repeated process is actually what you need, right?</p>
+<blockquote>
+<p>결국 빌드 시스템의 전체 소스 코드를 읽어서 “아, <code>:Mac</code>(콜론 Mac)이구나”라고 알아내야 했습니다. 저는 몇 주 전에 규칙을 바꿨는데, 문서 한 곳을 놓쳤던 거죠. 이걸 고치는 방식을 반복하면 여러분의 코드베이스를 세상에서 가장 아름다운 Marble Madness 스테이지로 만들어 가는 연속적인 프로세스가 됩니다. 이 반복 과정이야말로 정말 필요한 것이죠.</p>
+</blockquote>
+<p><strong>6:55</strong> · Like it’s super easy to have clunkers write MD files and you just get more and more and more and more and it’s like, you know, this Google Drive from how many how many docs in the monumental drive?</p>
+<blockquote>
+<p>대충 찍어낸 MD 파일이 점점 쌓이기는 너무 쉽습니다. 계속 늘어나고 또 늘어나서 결국 뭐… Monumental 드라이브에 문서가 몇 개나 있더라?</p>
+</blockquote>
+<p><strong>7:10</strong> · Notion. In the Notion like Like I’m I’m assuming it’s hard to find things just by previous experience. Um Um Let me Am I join Yeah, let me I’m going to show this. Um I like to use this program. It’s called Super code. Um it’s like conductor, but I like it much better. Um Maybe we can go into why later. Um And I showed the share. Let me go back to this topic actually.</p>
+<blockquote>
+<p>아 Notion이었죠. Notion 안에서 뭔가 찾기 어렵다고 다들 경험으로 알고 계실 겁니다. 이걸 잠깐 보여 드릴게요. 저는 Super code라는 프로그램을 씁니다. Conductor 비슷한데 훨씬 마음에 듭니다. 왜 그런지는 나중에 얘기할 수도 있겠네요. 방금 share를 보여 드렸고, 다시 이 주제로 돌아가죠.</p>
+</blockquote>
+<p><strong>7:47</strong> · Evaluating agent work. I think this is the biggest mental shift that made the biggest difference for me is thinking about how you’re going to actually evaluate the agent’s work, right? Like you give it a task and it goes off for half an hour and then at some point it’s done, right?</p>
+<blockquote>
+<p>“에이전트의 작업 평가하기”. 저에게 가장 큰 차이를 만든 가장 큰 멘탈 시프트는, 에이전트의 작업을 실제로 어떻게 평가할지를 미리 생각하는 것이었습니다. 작업을 맡기면 30분쯤 돌아가다가 어느 순간 끝나죠, 그다음엔?</p>
+</blockquote>
+<p><strong>8:06</strong> · Now what?</p>
+<blockquote>
+<p>그다음엔요?</p>
+</blockquote>
+<p><strong>8:07</strong> · Like what you’re going to do? Like you’re going to read the whole transcript? Are you going to read the summary? Are you going to read the source code? Are you going to play the game? Open the website? Like what is it that you’re going to do?</p>
+<blockquote>
+<p>뭐 할 거예요? 트랜스크립트를 다 읽을 건가요? 요약을 읽을 건가요? 소스 코드를 읽을 건가요? 게임을 플레이해 볼 건가요? 웹사이트를 열 건가요? 대체 뭘 할 거냐는 겁니다.</p>
+</blockquote>
+<p><strong>8:18</strong> · And my advice is to ask yourself this question before you send the agent on its task. Because when you ask yourself the question before, you can actually put it in the prompt. And it turns out that agents really like to know ahead of time how you’re going to evaluate the results because it also gives them a lot of clarity on when they are done and when they’re not done.</p>
+<blockquote>
+<p>제 조언은, 에이전트에게 작업을 맡기기 전에 먼저 스스로에게 이 질문을 던지라는 것입니다. 미리 생각하면 그 내용을 프롬프트에 녹일 수 있으니까요. 에이전트는 자기 작업이 어떻게 평가될지 미리 아는 걸 매우 좋아합니다. “언제 끝났는지/안 끝났는지”에 대한 명확성이 크게 올라가거든요.</p>
+</blockquote>
+<p><strong>8:45</strong> · This is actually also a great tip for humans.</p>
+<blockquote>
+<p>이건 사실 사람한테도 아주 좋은 팁입니다.</p>
+</blockquote>
+<p><strong>8:49</strong> · [laughter] They also like to know how you’re going to evaluate them and when they are done and when they’re not done.</p>
+<blockquote>
+<p>[웃음] 사람도 자기가 어떻게 평가될지, 언제 끝났고 언제 안 끝난 건지 미리 아는 걸 좋아하죠.</p>
+</blockquote>
+<p><strong>8:55</strong> · [laughter] Actually, almost [clears throat] everything that you turns out with these agents like it’s almost all true for humans, too. Okay, so you put it in the beginning. You tell it how you will evaluate. And one of the things that I like Actually, let me show you back to Super code. Yeah.</p>
+<blockquote>
+<p>[웃음] 사실 [기침] 에이전트에서 통하는 거의 모든 것이 사람에게도 통합니다. 아무튼 프롬프트 앞부분에 “어떻게 평가할지”를 적어 두세요. 제가 좋아하는 것 중 하나를 Super code로 다시 보여 드리죠.</p>
+</blockquote>
+<p><strong>9:16</strong> · So, on the Steve Yegge stage nine, there’s like agent swarms and agents starting agents and all these things. I don’t know what those guys are smoking. I’m not like I’m not having any of that, but you might see on the left side here. I do have like 10 or 12 of these things open. Right? But there’s no spinners there because all of these agents work streams that I have, they’re all waiting for me.</p>
+<blockquote>
+<p>Steve Yegge가 말하는 “9단계”에는 에이전트 스웜(swarm)이나 에이전트가 다른 에이전트를 시작시키고 하는 것들이 있습니다. 그분들 뭘 피우시는지 모르겠고, 저는 거기에 동참 안 합니다. 다만 왼쪽을 보시면 저는 이런 세션을 10~12개 정도 띄워 놓고 있습니다. 그런데 스피너가 돌고 있는 건 없습니다. 왜냐면 이 모든 에이전트 작업 스트림이 전부 저를 기다리고 있거든요.</p>
+</blockquote>
+<p><strong>9:42</strong> · Right? So, in this new world, I am absolutely the bottleneck. And it’s act like if a agent does like an hour of work, it’s actually a ton of work to evaluate it. Like it could take like 15 minutes depending on, you know, like the quality and how happy you with it.</p>
+<blockquote>
+<p>즉 이 새 세계에서 병목은 완벽하게 저 자신입니다. 에이전트가 한 시간짜리 작업을 하면, 그걸 평가하는 일은 꽤나 큽니다. 품질이나 만족도에 따라 15분쯤 걸릴 수도 있습니다.</p>
+</blockquote>
+<p><strong>10:01</strong> · So, if I’m the bottleneck of my whole little software factory here, and I’m like the evaluation of the work is the bottleneck, let’s try to have the agent do more of it. And let’s like I like to call these evaluation packs. Like let’s really as if it were sort of like you know, let let’s make them a lot of work to present a beautiful package for you that makes it really efficient to evaluate.</p>
+<blockquote>
+<p>이 작은 소프트웨어 공장의 병목이 저이고, 그중에서도 ‘평가’가 병목이라면, 평가 작업도 에이전트에게 더 넘겨 봅시다. 저는 이걸 “평가 팩(evaluation pack)“이라고 부릅니다. 에이전트로 하여금 여러분이 평가하기 쉬운 예쁜 패키지를 만들어 내도록 많은 일을 시키는 거죠.</p>
+</blockquote>
+<p><strong>10:30</strong> · For instance, I one-shotted as a to prepare for this talk, I one-shotted a website to where you can have photos and you can drag them on a timeline for an animation and then set up transitions between them.</p>
+<blockquote>
+<p>예를 들어, 이 발표 준비용으로 한 방(one-shot)에 웹사이트를 만들었는데, 사진을 타임라인에 드래그해서 애니메이션으로 배치하고 사이에 트랜지션을 설정할 수 있는 사이트였습니다.</p>
+</blockquote>
+<p><strong>10:46</strong> · The way I would ask to evaluate that is to say, well, why don’t you record a video where you open the websites that you just made where you demonstrate to me all the different features by moving the mouse and doing all these things and make a recording of that and then obviously show it to me in a single page slide deck together with a bunch of other stuff. And if you ask that, it turns out you can just ask that.</p>
+<blockquote>
+<p>이걸 평가하라고 할 때 저는 이렇게 시킵니다. “방금 만든 웹사이트를 열어서, 마우스를 움직이며 여러 기능을 나에게 시연하는 영상을 녹화해 주세요. 그리고 다른 결과물들과 함께 하나의 페이지 슬라이드 덱에 담아 보여 주세요.” 이런 걸 그냥 시킬 수 있더라고요.</p>
+</blockquote>
+<p><strong>11:20</strong> · And I get back from my one-shot this evaluation pack which makes my life easier to evaluate what it’s done and also to quickly evaluate if I kind of like it. Like it makes this video and I can hit play. Not sure how well the video works on this screen sharing thing, but here it is going through the different photos. It’s renaming them. It’s adding them to the timeline.</p>
+<blockquote>
+<p>그러면 원샷 작업의 결과로 ‘평가 팩’이 돌아오는데, 이걸로 결과물을 평가하기도, 마음에 드는지 빠르게 판단하기도 훨씬 쉬워집니다. 영상을 만들어 주니까 재생 버튼만 누르면 됩니다. 이 화면 공유에서 잘 보일지 모르겠는데, 여러 사진을 넘기고, 이름을 바꾸고, 타임라인에 추가하는 모습이 보이시죠.</p>
+</blockquote>
+<p><strong>11:47</strong> · It’s changing transitions and by making it do the work to make my evaluation life easy, I get to spend less time on the evaluation and I can get more of these individual work streams done. Additionally, it also helps the agent to not cheat. Right? It’s super easy for the agent to say like, yeah, wrote some code and I think we’re good.</p>
+<blockquote>
+<p>트랜지션도 바꾸고 있네요. 제가 평가하기 쉽도록 에이전트에게 일을 떠넘김으로써 평가에 쓰는 시간을 줄이고, 더 많은 작업 스트림을 완료할 수 있습니다. 게다가 에이전트가 속이는 것도 막아 줍니다. 에이전트가 “코드 좀 짰고요, 잘 된 것 같아요”라고 말하기는 정말 쉽거든요.</p>
+</blockquote>
+<p><strong>12:15</strong> · Um if you force it to make a video, it has to open it in Chrome or whatever and it will run all the JavaScript and if there’s an error there, it will find it and if it fails to actually do these commands, it will notice it and it will kick itself in a loop to try to fix that.</p>
+<blockquote>
+<p>하지만 영상을 찍게 강제하면, 에이전트는 Chrome 같은 걸 열어서 JavaScript를 다 실행해야 하고, 에러가 있으면 발견하게 되고, 명령 실행에 실패하면 그것도 감지해서 스스로 루프를 돌며 고치려고 합니다.</p>
+</blockquote>
+<p><strong>12:35</strong> · Um all right, so that is Oh, yeah, and then I all like because the video is actually hard for the agent to read itself, I also always ask it for a bunch of screenshots because you can force it to actually read the image files and use the models in How do you call that, Rick? The image Multi-model capabilities. Yeah, multi-model capabilities to actually look at the picture to see what is wrong.</p>
+<blockquote>
+<p>그리고 영상은 에이전트가 스스로 읽기엔 어렵기 때문에, 저는 항상 스크린샷도 같이 시킵니다. 그러면 이미지 파일을 강제로 읽게 만들 수 있고, 모델의 그… 릭, 뭐라고 하죠? 이미지… 멀티모달(multi-modal) 능력. 네, 멀티모달 능력으로 사진을 보고 뭐가 잘못됐는지 스스로 확인하게 할 수 있습니다.</p>
+</blockquote>
+<p><strong>13:01</strong> · All right. Um let me speed through this. Um here we are. All right, so then finally, um I am in this rabbit hole of Pi. Pi is a coding agent. The rest of this talk is my love letter to Pi. Uh Pi is not Cloud Code. It is not Codex. You can use whatever model you want. Um and I love it because it’s hackable.</p>
+<blockquote>
+<p>자, 좀 빠르게 넘어가죠. 드디어 본론입니다. 저는 요즘 Pi라는 토끼굴에 빠져 있습니다. Pi는 코딩 에이전트고, 이 발표의 나머지는 Pi에게 보내는 제 러브레터입니다. Pi는 Claude Code도 아니고 Codex도 아닙니다. 원하는 아무 모델이나 쓸 수 있고, 제가 사랑하는 이유는 해킹 가능(hackable)하다는 점입니다.</p>
+</blockquote>
+<p><strong>13:33</strong> · Um we just uh you know, we just did a poll and it turns out none of you know what we’re doing with coding agents. I also have no idea what we’re doing with coding agents. The Cloud Code guys have no idea. The Codex guys have no idea.</p>
+<blockquote>
+<p>방금 설문을 해 봤더니 여러분 중 누구도 코딩 에이전트로 뭘 하고 있는지 제대로 모르더군요. 저도 모릅니다. Claude Code 팀도 모르고, Codex 팀도 모릅니다.</p>
+</blockquote>
+<p><strong>13:48</strong> · We’re so early. We have no idea what an ergonomic AI assistant actually looks like and that’s why in this phase it’s so important to just try endless and throw it against the wall and see what sticks. Right? And um oh, yeah, that is this. So, uh being able to experiment with what works for you as a person, what works for your project is super important.</p>
+<blockquote>
+<p>아직 엄청나게 초기 단계입니다. “인체공학적인 AI 어시스턴트”가 어떤 모습이어야 하는지 아무도 몰라요. 그래서 지금 단계에서는 끝없이 시도해 보고 벽에 던져서 뭐가 붙는지 보는 것이 매우 중요합니다. 나 개인에게, 내 프로젝트에 맞는 것이 무엇인지 실험할 수 있는 능력은 정말 중요합니다.</p>
+</blockquote>
+<p><strong>14:16</strong> · What is not amazing is waiting for some Cloud Code guys in San Francisco to come up with the workflow that is sort of like middle of the road for everyone that might or might not work for you. And that is why I love Pi because it allows you to do these things. It also has precise context management and I hope to show some of these things.</p>
+<blockquote>
+<p>반대로 별로 좋지 않은 건, 샌프란시스코의 Claude Code 팀이 “모두에게 대충 맞는” 중도(中道)적 워크플로를 내놓기를 기다리는 겁니다. 그게 여러분에게는 맞을 수도, 안 맞을 수도 있죠. 그래서 저는 Pi를 사랑합니다. 이런 실험을 할 수 있게 해 주거든요. 또 정교한 컨텍스트 관리(context management) 기능도 있는데, 몇 가지 보여 드리겠습니다.</p>
+</blockquote>
+<p><strong>14:38</strong> · Let me start off with the context management. So, I was rehearsing this thing in the back and I have all this stuff in my session here. I’m going to do {slash} tree. Let me actually Can you guys read that? It’s I’m going to do {slash} tree, my Pi feature. And you get an overview of your entire context over here. And you’ll notice that it’s not linear, but that I’ve actually gone into different branches.</p>
+<blockquote>
+<p>컨텍스트 관리부터 시작하죠. 무대 뒤에서 리허설하며 세션에 이것저것 채워 놨는데요. <code>/tree</code>를 쳐 보겠습니다. 이거 보이시나요? <code>/tree</code>는 제가 만든 Pi 기능입니다. 이걸 치면 전체 컨텍스트 개요가 뜨는데, 선형이 아니라 여러 브랜치로 갈라져 있는 걸 볼 수 있습니다.</p>
+</blockquote>
+<p><strong>15:08</strong> · Um since the bottom here was all a bit nonsense, I’m going to go back to this one. I’m going to hit enter. And then for now, I’m going to say no summary. And what this does is it brings me back to the beginning of the context. I get all that context back. Um let me ask for this is the repo of this sort of game engine experiment. Like run the fighter game for me.</p>
+<blockquote>
+<p>아래쪽은 다 좀 엉망이라서 이 지점으로 되돌아가겠습니다. 엔터를 누르고, 일단 요약(summary) 없이 진행할게요. 그러면 컨텍스트의 시작 지점으로 되돌아가서 그때의 컨텍스트를 전부 되찾습니다. 이건 제 게임 엔진 실험 레포인데, “파이터 게임을 실행해 달라”고 해 볼게요.</p>
+</blockquote>
+<p><strong>15:38</strong> · Let’s hope Codex is not down.</p>
+<blockquote>
+<p>Codex가 다운되지 않았기를 빕니다.</p>
+</blockquote>
+<p><strong>15:49</strong> · Ooh.</p>
+<blockquote>
+<p>오.</p>
+</blockquote>
+<p><strong>15:50</strong> · Uh-oh.</p>
+<blockquote>
+<p>어어.</p>
+</blockquote>
+<p><strong>15:52</strong> · [laughter] Let’s try that again.</p>
+<blockquote>
+<p>[웃음] 다시 해 보죠.</p>
+</blockquote>
+<p><strong>16:05</strong> · That looks better.</p>
+<blockquote>
+<p>이제 좀 나아 보이네요.</p>
+</blockquote>
+<p><strong>16:10</strong> · Um all right, so fighter game. Nothing in particularly exciting about it.</p>
+<blockquote>
+<p>자, 파이터 게임. 딱히 흥미진진한 건 없습니다.</p>
+</blockquote>
+<p><strong>16:17</strong> · Um all right.</p>
+<blockquote>
+<p>네.</p>
+</blockquote>
+<p><strong>16:19</strong> · Um I’m sorry, I lost my train of thought.</p>
+<blockquote>
+<p>죄송합니다, 말 흐름을 놓쳤네요.</p>
+</blockquote>
+<p><strong>16:22</strong> · Where was I?</p>
+<blockquote>
+<p>어디까지 했죠?</p>
+</blockquote>
+<p><strong>16:23</strong> · So, yeah, I so I went back with the So, I went back with {slash} tree to the beginning of the context and the {slash} tree I actually use it all the time because very often you will go into a side quest that turns out to be a dead end. Right? Let me actually you know, let’s go into the side quest with the dead end. Like ask me five questions about my beef chili.</p>
+<blockquote>
+<p>아, 네. <code>/tree</code>로 컨텍스트 시작 지점으로 돌아갔었죠. 이 <code>/tree</code>는 저는 항상 씁니다. 왜냐하면 샛길(side quest)에 들어갔다가 막다른 길인 경우가 정말 많거든요. 일부러 막다른 길인 샛길로 한번 가 보죠. “내 비프 칠리에 대해 다섯 가지 질문을 해 달라”라고 하겠습니다.</p>
+</blockquote>
+<p><strong>16:52</strong> · All right. Slight detour. Bear with me. Um I’m going to do {slash} answer here. {slash} answer. {slash} answer is an extension that some random dude on the internet made. This is not part of Pi.</p>
+<blockquote>
+<p>자, 약간 옆길로 새겠습니다. 양해 부탁드려요. 여기서 <code>/answer</code>를 쓰겠습니다. <code>/answer</code>는 인터넷의 누군가가 만든 확장 기능입니다. Pi의 기본 기능은 아닙니다.</p>
+</blockquote>
+<p><strong>17:08</strong> · It is someone that thought, you know what really sucks about coding agents?</p>
+<blockquote>
+<p>어떤 사람이 “코딩 에이전트에서 진짜 별로인 게 뭔지 알아?” 하고 생각한 결과물이죠.</p>
+</blockquote>
+<p><strong>17:13</strong> · That when you ask them to interview about your plan and you get 20 questions that you have to sort of like type them back one by one. Like yeah, oh yeah, the answer to 16 is yes and then the answer to the other one Oh, yeah, scroll back.</p>
+<blockquote>
+<p>에이전트에게 계획에 대해 인터뷰해 달라고 하면 질문 20개가 쏟아지는데, 그걸 하나씩 타이핑으로 답해야 한다는 것입니다. “아, 16번 답은 예스고, 그 다른 거는… 아 스크롤 좀 올려서…”</p>
+</blockquote>
+<p><strong>17:25</strong> · Oh, yeah, 17. Yeah, 17 is no. So, he figured like what if we just had like a special UI for that?</p>
+<blockquote>
+<p>“17번은 노(No).” 그래서 이 친구가 생각한 거죠. “이걸 위한 전용 UI가 있으면 어떨까?”</p>
+</blockquote>
+<p><strong>17:31</strong> · And he wrote an extension for it called answer and what it does it takes the previous message, sends it to some to some cheap LLM to extract all the questions and then preserve like present it to you in this nice UI.</p>
+<blockquote>
+<p>그래서 <code>answer</code>라는 확장을 만들었습니다. 이전 메시지를 받아서 값싼 LLM에 보내 질문들을 추출하고, 보기 좋은 UI로 보여 줍니다.</p>
+</blockquote>
+<p><strong>17:43</strong> · Uh what kind of beef?</p>
+<blockquote>
+<p>어떤 소고기냐고요?</p>
+</blockquote>
+<p><strong>17:45</strong> · Um losses token.</p>
+<blockquote>
+<p>음… 로지즈 텐더(?)(토큰).</p>
+</blockquote>
+<p><strong>17:49</strong> · Very and never beans, you animal. Um and then when you are done with it, it just turns it into a user message like that.</p>
+<blockquote>
+<p>아주 매운 맛, 그리고 절대 콩은 안 넣습니다, 이 야만인아. 다 끝내면 이것들을 유저 메시지로 변환해 줍니다.</p>
+</blockquote>
+<p><strong>18:01</strong> · Just I I really like that as an example of how you can just notice a problem that you actually have, like answering these plan questions, instead of a problem that you don’t have, which is, you know, like how do I keep 20 agent swarms busy?</p>
+<blockquote>
+<p>저는 이걸, “실제로 내가 가진 문제(계획 질문에 답하기)“를 알아채서 해결한 예로 정말 좋아합니다. “20개의 에이전트 스웜을 바쁘게 굴리는 법” 같은, 여러분이 실제론 가지지도 않은 문제가 아니라요.</p>
+</blockquote>
+<p><strong>18:18</strong> · All right, now that we went into a useless side quest, I can finally so show what I like {slash} tree for.</p>
+<blockquote>
+<p>자, 이렇게 쓸데없는 샛길에 갔다 왔으니, 이제야 제가 <code>/tree</code>를 왜 좋아하는지 보여 드릴 수 있겠네요.</p>
+</blockquote>
+<p><strong>18:26</strong> · Because you pay for all these side quests in your context, right? It’s very normal for people to what’s it called? Anthropomorphize their coding agent like it’s some human you’re supposed to talk to. No. No, it’s not a human and you’re also not really supposed to talk to it like that. It is a token producing machine that can help you get to good code, but you shouldn’t pretend it’s like a conversation. Like very often the right thing to do is like you should never tell it like, no, I didn’t want it like that.</p>
+<blockquote>
+<p>이 모든 샛길에 대해 여러분은 컨텍스트로 비용을 치르고 있습니다. 사람들은 코딩 에이전트를 의인화(anthropomorphize)해서 마치 사람과 대화하듯 다루는 경향이 매우 강하죠. 하지만 그건 사람이 아니고, 그렇게 대화하듯 쓸 필요도 없습니다. 좋은 코드를 만드는 걸 도와주는 토큰 생성 기계일 뿐, 대화하는 척하면 안 됩니다. 뭔가 마음에 안 들 때 절대 하면 안 되는 건 “아니, 그런 뜻 아니었어”라고 말하는 것입니다.</p>
+</blockquote>
+<p><strong>18:58</strong> · I wanted it like that. Like when I have when I when it made something I didn’t like, I’d use {slash} tree and I go back and then I ask it in a different way. I never, you know, like like don’t argue with these things. Um if you do argue with them or if you if you say like, okay, forget about it.</p>
+<blockquote>
+<p>“이렇게 해 달라고 했잖아”라고 하지 마세요. 마음에 안 드는 결과물을 만들었다면 저는 <code>/tree</code>로 이전 지점으로 되돌아가서 다른 방식으로 다시 요청합니다. 이 친구들과 절대 말싸움하지 마세요. 말싸움을 하거나 “알았어, 그건 됐고 그냥 다른 걸로 가자”라고 말하면…</p>
+</blockquote>
+<p><strong>19:19</strong> · Let’s just continue with this other feature. You continuously pay for this side quest to be in your context. You pay for it in tokens and you pay for it in intelligence because once your once your context gets longer, like once you get into the 50, 60% range, you enter like this dumb zone and it gets more stupid. So it’s really important.</p>
+<blockquote>
+<p>그 샛길이 컨텍스트에 남은 대가를 계속 치르게 됩니다. 토큰으로도 비용을 치르고, 더 중요한 건 ‘지능’으로도 비용을 치릅니다. 컨텍스트가 길어져서 한 50~60% 구간에 들어가면 멍청해지는 존(dumb zone)에 진입해서 모델이 점점 바보가 됩니다. 그래서 정말 중요합니다.</p>
+</blockquote>
+<p><strong>19:43</strong> · I’m not sure if you can see it down here, but most coding agents these days show you how far you are in the context window. If like if I see that go above 50, I get very nervous. I try to always make sure I am below 50.</p>
+<blockquote>
+<p>아래쪽에 보이실지 모르겠는데, 요즘 대부분의 코딩 에이전트는 컨텍스트 윈도우를 얼마나 썼는지 표시해 줍니다. 저는 이 수치가 50을 넘으면 많이 초조해집니다. 항상 50 아래로 유지하려고 합니다.</p>
+</blockquote>
+<p><strong>20:01</strong> · Um so when I go into this side quest like this, uh and then later it turns out that the discussion about beef is maybe not uh beneficial to the rest of my demo, I’m going to go back here. And here I can choose. I can say no summary, it will just throw it away.</p>
+<blockquote>
+<p>그래서 이런 식으로 샛길에 갔다가, 나중에 “비프 얘기는 이 데모 나머지에 별 도움이 안 되는군” 싶으면 이 지점으로 돌아갑니다. 그리고 “요약 없이(no summary)“를 고르면 그냥 버립니다.</p>
+</blockquote>
+<p><strong>20:20</strong> · I’m probably going to do that because for the rest of the demo, the agent won’t get better performance if it knows my beef preferences. If it was a side quest where you do something on your project that is actually useful to know that you tried it and that it failed because blah, then you would do summary and it would put a summary in there.</p>
+<blockquote>
+<p>이 경우엔 그렇게 할 것 같아요. 남은 데모에서 에이전트가 제 비프 취향을 안다고 성능이 좋아질 리 없거든요. 반대로 프로젝트에서 뭔가 시도했고, 어떤 이유로 실패했다는 것이 기록으로 남아 있으면 유용한 샛길이라면, “요약(summary)“을 선택해서 요약을 컨텍스트에 넣을 수 있습니다.</p>
+</blockquote>
+<p><strong>20:40</strong> · So it’s like you have much more intention and control over your context than most other coding agents provide. I think they’re also catching up. I’m not I’m not quite sure, but having this control is super important. Um All right. I think I have one or two more things.</p>
+<blockquote>
+<p>즉 다른 코딩 에이전트들이 주는 것보다 훨씬 더 의도적(intention)으로 컨텍스트를 통제(control)할 수 있습니다. 다른 에이전트들도 점점 따라잡고는 있는 것 같은데, 아무튼 이 통제권은 정말 중요합니다. 자, 한두 가지 더 보여 드릴게요.</p>
+</blockquote>
+<p><strong>21:02</strong> · Um notice um so one of the cool things about this game engine project I have Do I have um is that I have like full local CIs. I’m going to make a change to arena, which is like my main memory allocator that gets used everywhere. And now I’m going to ask like, hey, do a full CI run using uh S A all with a colon, not with a at symbol.</p>
+<blockquote>
+<p>제 이 게임 엔진 프로젝트의 멋진 점 중 하나는 완전한 로컬 CI가 있다는 것입니다. 메인 메모리 할당자인 <code>arena</code>를 수정하겠습니다. 이건 곳곳에서 쓰이죠. 그리고 “전체 CI를 돌려 달라, <code>:All</code>로(at 기호 아니라 콜론으로)“라고 요청하겠습니다.</p>
+</blockquote>
+<p><strong>21:37</strong> · And one of the things that was annoying me about these coding agents is that when you have these long-running tool calls, you have so poor visibility in what’s going on. Right? Like when it does like rep grip, it’s not a problem because it just finishes immediately. But the but I have Oh, this is not going well.</p>
+<blockquote>
+<p>기존 코딩 에이전트에서 짜증 났던 것 중 하나는, 오래 걸리는 툴 호출을 할 때 내부에서 무슨 일이 벌어지는지 가시성이 너무 떨어진다는 점이었습니다. <code>ripgrep</code> 같은 건 바로 끝나니까 괜찮은데요. 어… 이거 잘 안 되고 있네요.</p>
+</blockquote>
+<p><strong>21:56</strong> · What did did did it ever show the thing?</p>
+<blockquote>
+<p>그 화면 뜬 적 있었나요?</p>
+</blockquote>
+<p><strong>21:57</strong> · Yes. Yeah.</p>
+<blockquote>
+<p>네, 네.</p>
+</blockquote>
+<p><strong>21:59</strong> · Was it just very quickly run?</p>
+<blockquote>
+<p>너무 빨리 실행된 건가요?</p>
+</blockquote>
+<p><strong>22:01</strong> · [clears throat] Oh, here we go.</p>
+<blockquote>
+<p>[기침] 아, 여기 있네요.</p>
+</blockquote>
+<p><strong>22:05</strong> · Oh, that’s not good. Oh, you think I think my build system is so good that I already that it has this one cached. I’m going to do it like this.</p>
+<blockquote>
+<p>이런, 좋지 않네요. 아, 제 빌드 시스템이 너무 좋아서 이미 캐시돼 있는 것 같네요. 이렇게 해 보죠.</p>
+</blockquote>
+<p><strong>22:14</strong> · Here, try again.</p>
+<blockquote>
+<p>자, 다시.</p>
+</blockquote>
+<p><strong>22:18</strong> · Um But it like I really disliked that you had such poor visibility. So I figured, oh, it would be cool if we can actually run these uh commands as a virtual terminal and that my coding agent actually shows it to me when it’s working so that when it’s sitting there for 10 minutes, which is like that is sometimes fine and that is sometimes uh it’s stuck on something and it would be very nice if I could see it.</p>
+<blockquote>
+<p>아무튼, 이 가시성 부족이 저는 정말 싫었습니다. 그래서 생각했죠. “이 명령들을 가상 터미널(virtual terminal)로 돌려서, 에이전트가 작업 중인 걸 나한테 보여 주면 멋지지 않을까?” 에이전트가 10분 동안 가만히 있을 때, 괜찮은 경우도 있고 뭔가에 막혀 있는 경우도 있는데, 그걸 볼 수 있다면 정말 좋을 것 같았거든요.</p>
+</blockquote>
+<p><strong>22:45</strong> · So I made this this morning and um I thought it was a cool example of my new sort of like mental model, like how am I going to write a feature like this?</p>
+<blockquote>
+<p>그래서 오늘 아침에 이걸 만들었습니다. 이게 제 새 멘탈 모델의 좋은 예라고 생각해요. “이런 기능을 어떻게 만들 것인가?”</p>
+</blockquote>
+<p><strong>22:57</strong> · How am I going to like it’s cool that pilot should do it the first place. Yay pi.</p>
+<blockquote>
+<p>일단 Pi가 자기 자신에게 이 기능을 추가할 수 있다는 것 자체가 멋지죠. Pi, 만세.</p>
+</blockquote>
+<p><strong>23:03</strong> · Uh but how like when when you write a feature like that, how are you going to close the loop? How are you going to make the agent know if the thing it wrote worked? And how am I going to check?</p>
+<blockquote>
+<p>그런데 이런 기능을 작성할 때, 루프를 어떻게 닫을 건가요? 에이전트가 자기 작성한 게 작동하는지 어떻게 알게 할 건가요? 그리고 저는 그걸 어떻게 확인할 건가요?</p>
+</blockquote>
+<p><strong>23:15</strong> · And for this one, I asked it to write a single page HTML file. Here, this one. I asked it to like, hey, write me a bunch of different test programs that do different things with the terminal, you know, like alt screen, all these spinners, different colors, different repainting, like sending a hundred screens, all these test cases.</p>
+<blockquote>
+<p>이번 건은 단일 페이지 HTML 파일을 만들어 달라고 했습니다. 바로 이거예요. “터미널에 다양한 동작을 하는 테스트 프로그램들을 만들어 달라”라고 했죠. 얼터네이트 스크린(alt screen), 스피너, 다양한 색, 다양한 리페인트 방식, 화면 100번 보내기 같은 모든 테스트 케이스 말이죠.</p>
+</blockquote>
+<p><strong>23:38</strong> · And then I asked it to like, okay, well, run it through the code, make screenshots every few seconds, turn them into an animated GIF, put the animated GIF in my HTML file so that my job of reviewing it is easy. Right? And then run both my my virtual terminal code path against pi’s own code path over there so that I can quickly see that it that that matches.</p>
+<blockquote>
+<p>그리고 이렇게 시켰습니다. “그것들을 코드로 돌리고, 몇 초마다 스크린샷을 찍고, 애니메이션 GIF로 만들고, 그걸 HTML 파일에 넣어 달라. 내가 리뷰하기 쉽게.” 그리고 제 가상 터미널 코드 경로와 Pi 자체의 코드 경로를 나란히 돌려서 결과가 일치하는지 빠르게 볼 수 있게 했습니다.</p>
+</blockquote>
+<p><strong>24:07</strong> · It has some alt screen code, some synchronization code. I’m like it tries curl, it tries FFmpeg. So that’s sort of it’s another example of putting the onus on the agent to do the work for both the agent’s benefit, making sure that it actually works, and my benefit of making it easy to get confidence that this thing actually works. Oh. Ah. All right, that is a bummer. I am going like let me do one final demo.</p>
+<blockquote>
+<p>얼터네이트 스크린 코드, 동기화 코드도 있고, curl도 시도하고 FFmpeg도 시도합니다. 이것도 “에이전트에 일을 떠넘기기”의 또 다른 예입니다. 에이전트 입장에서는 실제로 작동하는지 확인하는 이득, 저 입장에서는 이게 실제로 작동한다는 확신을 쉽게 얻는 이득이 있죠. 아, 아쉽네요. 마지막 데모 하나만 해 보겠습니다.</p>
+</blockquote>
+<p><strong>24:41</strong> · It’s probably too late. Uh I wanted to do this at the beginning to show you that the thing that’s probably coolest is that I can write extensions for itself because it’s a coding agent that has access to its own docs. So let’s try make a quick extension that when the agent starts, I can play Doom in an overlay. And we’ll see if we like if it is quick enough for this thing to work.</p>
+<blockquote>
+<p>시간이 좀 모자랄 수도 있겠네요. 원래 이건 초반에 보여 드리려던 건데요. 아마 가장 멋진 점은, Pi가 자기 자신의 문서에 접근할 수 있는 코딩 에이전트이기 때문에 자기 자신을 위한 확장 기능을 작성할 수 있다는 것입니다. 그럼 에이전트 시작 시 오버레이로 Doom을 플레이할 수 있는 빠른 확장을 만들어 보겠습니다. 충분히 빠르게 만들 수 있을지 보죠.</p>
+</blockquote>
+<p><strong>25:12</strong> · Um This particular form of software where software finishes [snorts] and extends and configures itself while it is running on the user machine, I find mind-blowing and is amazing for an agent. It’s also I think amazing for a potential game engine. And I actually like to call this um Barbapapa software. Uh Barbapapa is this cartoon from the ’70s where you have all these characters and they go on adventures.</p>
+<blockquote>
+<p>소프트웨어가 사용자 머신에서 실행되는 와중에 스스로 완성(?)되고, 확장되고, 자신을 구성하는 이 형태의 소프트웨어가 저는 정말 경이롭게 느껴집니다. 에이전트에게도 훌륭하고, 잠재적 게임 엔진에도 훌륭하다고 봅니다. 저는 이걸 “바르바파파(Barbapapa) 소프트웨어”라고 부르기 좋아합니다. 바르바파파는 70년대 만화인데, 여러 캐릭터들이 모험을 떠납니다.</p>
+</blockquote>
+<p><strong>25:51</strong> · And when they go on an adventure, they are able to shape-shift in whatever form is required for the adventure at hand.</p>
+<blockquote>
+<p>그리고 모험에 나설 때, 그 모험에 필요한 어떤 형태로든 변신(shape-shift)할 수 있습니다.</p>
+</blockquote>
+<p><strong>26:00</strong> · Like these.</p>
+<blockquote>
+<p>이렇게요.</p>
+</blockquote>
+<p><strong>26:02</strong> · And software could be like this. You could have software that instead of that one programmer writes it once and thousands of people use it, that a programmer writes sort of like a base for the software and then when you use it, it sort of like morphs in morphs itself into whatever shape is good for you and is good for the problem you have right now. So pi can do that. Um can it also Oh. Ooh.</p>
+<blockquote>
+<p>소프트웨어도 이럴 수 있습니다. 한 명의 프로그래머가 한 번 작성하고 수천 명이 그대로 쓰는 게 아니라, 프로그래머는 일종의 베이스만 작성하고, 사용자가 쓸 때 그때의 사용자와 지금의 문제에 맞는 형태로 스스로 변형(morph)되는 거죠. Pi가 이걸 할 수 있습니다. 음, 이것도 될까요? 오. 우.</p>
+</blockquote>
+<p><strong>26:36</strong> · Ooh, it’s ready. Let’s try. Um so another cool thing with pi, you can do slash reload. So it has hot reload for its own code changes that it do. I have no idea if this is going to actually Oh. Oh.</p>
+<blockquote>
+<p>오, 준비됐네요. 해 보죠. Pi의 또 멋진 점은 <code>/reload</code>를 쓸 수 있다는 겁니다. 자기가 한 코드 변경에 대해 핫 리로드(hot reload)가 됩니다. 이게 진짜 될지는 전혀 모르겠지만… 오. 오.</p>
+</blockquote>
+<p><strong>26:52</strong> · Oh.</p>
+<blockquote>
+<p>오.</p>
+</blockquote>
+<p><strong>26:54</strong> · Oh.</p>
+<blockquote>
+<p>오.</p>
+</blockquote>
+<p><strong>26:55</strong> · Yeah.</p>
+<blockquote>
+<p>됐다.</p>
+</blockquote>
+<p><strong>26:56</strong> · Here we go.</p>
+<blockquote>
+<p>갑니다.</p>
+</blockquote>
+<p><strong>26:58</strong> · Here we go. Here we go. All right, I’m going to end on that.</p>
+<blockquote>
+<p>갑니다, 갑니다. 자, 여기서 끝내겠습니다.</p>
+</blockquote>
+<p><strong>27:01</strong> · Thanks, everyone.</p>
+<blockquote>
+<p>감사합니다, 여러분.</p>
+</blockquote>
+<p><strong>27:03</strong> · [applause] [applause]</p>
+<blockquote>
+<p>[박수] [박수]</p>
+</blockquote></article><hr/><div class="page-footer"><div class="giscus" data-repo="qodot/obsidian-public" data-repo-id="R_kgDOR7CdbA" data-category="General" data-category-id="DIC_kwDOR7CdbM4C6KsX" data-mapping="pathname" data-strict="1" data-reactions-enabled="1" data-input-position="top" data-light-theme="light" data-dark-theme="dark" data-theme-url="https://qodot.me/static/giscus" data-lang="ko"></div></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/qodot">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">var m=Object.create;var f=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var S=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var R=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports);var j=(t,e,n,E)=>{if(e&&typeof e=="object"||typeof e=="function")for(let i of S(e))!b.call(t,i)&&i!==n&&f(t,i,{get:()=>e[i],enumerable:!(E=x(e,i))||E.enumerable});return t};var w=(t,e,n)=>(n=t!=null?m(y(t)):{},j(e||!t||!t.__esModule?f(n,"default",{value:t,enumerable:!0}):n,t));var p=R((I,g)=>{"use strict";g.exports=L;function B(t){return t instanceof Buffer?Buffer.from(t):new t.constructor(t.buffer.slice(),t.byteOffset,t.length)}function L(t){if(t=t||{},t.circles)return v(t);let e=new Map;if(e.set(Date,F=>new Date(F)),e.set(Map,(F,l)=>new Map(E(Array.from(F),l))),e.set(Set,(F,l)=>new Set(E(Array.from(F),l))),t.constructorHandlers)for(let F of t.constructorHandlers)e.set(F[0],F[1]);let n=null;return t.proto?o:i;function E(F,l){let u=Object.keys(F),D=new Array(u.length);for(let s=0;s<u.length;s++){let r=u[s],A=F[r];typeof A!="object"||A===null?D[r]=A:A.constructor!==Object&&(n=e.get(A.constructor))?D[r]=n(A,l):ArrayBuffer.isView(A)?D[r]=B(A):D[r]=l(A)}return D}function i(F){if(typeof F!="object"||F===null)return F;if(Array.isArray(F))return E(F,i);if(F.constructor!==Object&&(n=e.get(F.constructor)))return n(F,i);let l={};for(let u in F){if(Object.hasOwnProperty.call(F,u)===!1)continue;let D=F[u];typeof D!="object"||D===null?l[u]=D:D.constructor!==Object&&(n=e.get(D.constructor))?l[u]=n(D,i):ArrayBuffer.isView(D)?l[u]=B(D):l[u]=i(D)}return l}function o(F){if(typeof F!="object"||F===null)return F;if(Array.isArray(F))return E(F,o);if(F.constructor!==Object&&(n=e.get(F.constructor)))return n(F,o);let l={};for(let u in F){let D=F[u];typeof D!="object"||D===null?l[u]=D:D.constructor!==Object&&(n=e.get(D.constructor))?l[u]=n(D,o):ArrayBuffer.isView(D)?l[u]=B(D):l[u]=o(D)}return l}}function v(t){let e=[],n=[],E=new Map;if(E.set(Date,u=>new Date(u)),E.set(Map,(u,D)=>new Map(o(Array.from(u),D))),E.set(Set,(u,D)=>new Set(o(Array.from(u),D))),t.constructorHandlers)for(let u of t.constructorHandlers)E.set(u[0],u[1]);let i=null;return t.proto?l:F;function o(u,D){let s=Object.keys(u),r=new Array(s.length);for(let A=0;A<s.length;A++){let c=s[A],C=u[c];if(typeof C!="object"||C===null)r[c]=C;else if(C.constructor!==Object&&(i=E.get(C.constructor)))r[c]=i(C,D);else if(ArrayBuffer.isView(C))r[c]=B(C);else{let a=e.indexOf(C);a!==-1?r[c]=n[a]:r[c]=D(C)}}return r}function F(u){if(typeof u!="object"||u===null)return u;if(Array.isArray(u))return o(u,F);if(u.constructor!==Object&&(i=E.get(u.constructor)))return i(u,F);let D={};e.push(u),n.push(D);for(let s in u){if(Object.hasOwnProperty.call(u,s)===!1)continue;let r=u[s];if(typeof r!="object"||r===null)D[s]=r;else if(r.constructor!==Object&&(i=E.get(r.constructor)))D[s]=i(r,F);else if(ArrayBuffer.isView(r))D[s]=B(r);else{let A=e.indexOf(r);A!==-1?D[s]=n[A]:D[s]=F(r)}}return e.pop(),n.pop(),D}function l(u){if(typeof u!="object"||u===null)return u;if(Array.isArray(u))return o(u,l);if(u.constructor!==Object&&(i=E.get(u.constructor)))return i(u,l);let D={};e.push(u),n.push(D);for(let s in u){let r=u[s];if(typeof r!="object"||r===null)D[s]=r;else if(r.constructor!==Object&&(i=E.get(r.constructor)))D[s]=i(r,l);else if(ArrayBuffer.isView(r))D[s]=B(r);else{let A=e.indexOf(r);A!==-1?D[s]=n[A]:D[s]=l(r)}}return e.pop(),n.pop(),D}}});var T=Object.hasOwnProperty;var h=w(p(),1),O=(0,h.default)();function d(t){return t.document.body.dataset.slug}var k=t=>`${d(window)}-checkbox-${t}`;document.addEventListener("nav",()=>{document.querySelectorAll("input.checkbox-toggle").forEach((e,n)=>{let E=k(n),i=o=>{let F=o.target?.checked?"true":"false";localStorage.setItem(E,F)};e.addEventListener("change",i),window.addCleanup(()=>e.removeEventListener("change",i)),localStorage.getItem(E)==="true"&&(e.checked=!0)})});
+</script><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
