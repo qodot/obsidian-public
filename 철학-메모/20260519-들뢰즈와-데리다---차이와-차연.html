@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>20260519 들뢰즈와 데리다 - 차이와 차연</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source Serif 4:ital,wght@0,400;0,600;1,400;1,600&amp;family=Noto Serif KR:wght@400;600&amp;family=JetBrains Mono:wght@400;600&amp;display=swap"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="고도"/><meta property="og:title" content="20260519 들뢰즈와 데리다 - 차이와 차연"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="20260519 들뢰즈와 데리다 - 차이와 차연"/><meta name="twitter:description" content="USER: 들뢰즈의 차이와 데리다의 차연은 같은 내용을 표현만 다르게 한 것 처럼 보이는데, 실제로는 어때? ASSISTANT: 짧게 말하면, 겹치지만 같은 말은 아닙니다. 둘 다 동일성, 원본, 완전한 현전을 의심한다는 점에서는 가깝습니다."/><meta property="og:description" content="USER: 들뢰즈의 차이와 데리다의 차연은 같은 내용을 표현만 다르게 한 것 처럼 보이는데, 실제로는 어때? ASSISTANT: 짧게 말하면, 겹치지만 같은 말은 아닙니다. 둘 다 동일성, 원본, 완전한 현전을 의심한다는 점에서는 가깝습니다."/><meta property="og:image:alt" content="USER: 들뢰즈의 차이와 데리다의 차연은 같은 내용을 표현만 다르게 한 것 처럼 보이는데, 실제로는 어때? ASSISTANT: 짧게 말하면, 겹치지만 같은 말은 아닙니다. 둘 다 동일성, 원본, 완전한 현전을 의심한다는 점에서는 가깝습니다."/><meta property="twitter:domain" content="qodot.me"/><meta property="og:url" content="https://qodot.me/철학-메모/20260519-들뢰즈와-데리다---차이와-차연"/><meta property="twitter:url" content="https://qodot.me/철학-메모/20260519-들뢰즈와-데리다---차이와-차연"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="USER: 들뢰즈의 차이와 데리다의 차연은 같은 내용을 표현만 다르게 한 것 처럼 보이는데, 실제로는 어때? ASSISTANT: 짧게 말하면, 겹치지만 같은 말은 아닙니다. 둘 다 동일성, 원본, 완전한 현전을 의심한다는 점에서는 가깝습니다."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL3FvZG90L3dvcmtzcGFjZS9xb2RvdC9vYnNpZGlhbi1xdWFydHovcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">
+    let contentIndexPromise
+    let searchIndexPromise
+    const fetchData = () => contentIndexPromise ??= fetch("../static/contentIndex.json").then(data => data.json())
+    const fetchSearchData = () => searchIndexPromise ??= fetch("../static/searchIndex.json").then(data => data.json())
+  </script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://qodot.me/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://qodot.me/철학-메모/20260519-들뢰즈와-데리다---차이와-차연-og-image.webp"/><meta property="og:image:url" content="https://qodot.me/철학-메모/20260519-들뢰즈와-데리다---차이와-차연-og-image.webp"/><meta name="twitter:image" content="https://qodot.me/철학-메모/20260519-들뢰즈와-데리다---차이와-차연-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="철학-메모/20260519-들뢰즈와-데리다---차이와-차연"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">고도</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-122"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-122" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../철학-메모/">철학 메모</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>20260519 들뢰즈와 데리다   차이와 차연</a></div></nav><h1 class="article-title">20260519 들뢰즈와 데리다 - 차이와 차연</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-18T15:00:00.000Z">2026년 5월 19일</time><span>36 min read</span></p></div></div><article class="popover-hint"><p>USER:<br/>
+들뢰즈의 차이와 데리다의 차연은 같은 내용을 표현만 다르게 한 것 처럼 보이는데, 실제로는 어때?</p>
+<p>ASSISTANT:<br/>
+짧게 말하면, <strong>겹치지만 같은 말은 아닙니다.</strong></p>
+<p>둘 다 <strong>동일성, 원본, 완전한 현전</strong>을 의심한다는 점에서는 가깝습니다. 차이가 부차적인 것이 아니라 사유의 중심이라는 점도 공유합니다.</p>
+<p>하지만 방향이 다릅니다.</p>
+<p><strong>들뢰즈의 차이</strong>는 더 존재론적입니다. 차이는 이미 있는 동일한 것들 사이의 차이가 아니라, 오히려 <strong>존재와 생성이 생겨나는 적극적 힘</strong>입니다. 차이는 생산합니다.</p>
+<p><strong>데리다의 차연</strong>은 더 기호론적이고 해체적입니다. 의미는 어떤 고정된 중심에서 바로 주어지는 것이 아니라, 다른 기호들과의 차이 속에서 생기고 동시에 계속 지연됩니다. 차연은 <strong>의미의 완전한 현전이 불가능함</strong>을 보여줍니다.</p>
+<p>그래서 정리하면:</p>
+<blockquote>
+<p>들뢰즈에게 차이는 세계를 생성하는 긍정적 원리이고,<br/>
+데리다에게 차연은 의미와 현전이 끝내 고정되지 않는 운동입니다.</p>
+</blockquote>
+<p>제 해석을 덧붙이면, 둘은 “동일성보다 차이가 근본적이다”라는 직관을 공유하지만, 들뢰즈는 그것으로 <strong>생성의 철학</strong>을 만들고, 데리다는 그것으로 <strong>현전의 형이상학을 해체</strong>합니다.</p>
+<p>USER:<br/>
+데리다의 “끝내 고정되지 않는 운동”이 결국 들뢰즈의 “세계를 생성하는 원리”인거 아냐?</p>
+<p>ASSISTANT:<br/>
+그렇게 <strong>연결해서 읽을 수는 있지만</strong>, 완전히 같지는 않습니다.</p>
+<p>데리다의 “끝내 고정되지 않는 운동”은 주로 <strong>의미가 성립하는 조건</strong>을 말합니다. 의미는 차이들의 관계 속에서 생기지만, 최종 의미로 닫히지 않습니다. 핵심은 <strong>현전의 불가능성</strong>입니다.</p>
+<p>들뢰즈의 “세계를 생성하는 원리”는 의미론을 넘어 <strong>존재 자체의 발생</strong>을 말합니다. 차이는 단지 의미를 미끄러뜨리는 것이 아니라, 강도·반복·생성·변이를 통해 현실을 만들어냅니다. 핵심은 <strong>생산적 생성</strong>입니다.</p>
+<p>그래서 질문처럼 말하면:</p>
+<blockquote>
+<p>데리다의 차연도 어떤 “생성”을 일으키지만,<br/>
+그것은 주로 의미의 생성이고,<br/>
+들뢰즈의 차이는 존재와 세계의 생성까지 겨냥합니다.</p>
+</blockquote>
+<p>제 해석으로는, 데리다의 차연을 들뢰즈적으로 확장하면 “생성 원리”처럼 보일 수 있습니다. 하지만 데리다는 그런 존재론적 원리로 고정되는 순간조차 의심할 가능성이 큽니다.</p>
+<p>USER:<br/>
+둘 다 같은 현상(의미의 성립 혹은 현전)의 다른 면을 보고 있는거야?</p>
+<p>ASSISTANT:<br/>
+어느 정도는 <strong>그렇게 볼 수 있습니다.</strong><br/>
+둘 다 “의미나 현전이 고정된 원천에서 바로 주어지지 않는다”는 같은 문제권을 봅니다.</p>
+<p>다만 초점이 다릅니다.</p>
+<p>데리다는 그 현상을 <strong>불안정성의 측면</strong>에서 봅니다.<br/>
+의미는 차이 속에서 생기지만, 완전히 자기 자신으로 현전하지 못하고 계속 미뤄집니다.</p>
+<p>들뢰즈는 그 현상을 <strong>생산성의 측면</strong>에서 봅니다.<br/>
+차이는 결핍이나 지연이 아니라, 새로운 의미·존재·사건을 낳는 힘입니다.</p>
+<p>그래서 압축하면:</p>
+<blockquote>
+<p>데리다는 “왜 의미는 완전히 닫히지 않는가?”를 보고,<br/>
+들뢰즈는 “그 열림은 무엇을 생성하는가?”를 봅니다.</p>
+</blockquote>
+<p>즉 <strong>같은 현상의 다른 면</strong>이라고 말할 수는 있지만, 들뢰즈는 그 현상을 의미론에 가두지 않고 존재론적 생성으로 넓힙니다.</p>
+<p>USER:<br/>
+데리다는 “왜 의미는 완전히 닫히지 않는가?”를 보고,<br/>
+들뢰즈는 “그 열림은 무엇을 생성하는가?”를 봅니다.</p>
+<p>가 ‘같은 현상의 다른 면’ 아냐? 뭐가 정확히 다른거야? 구체적으로 말해봐.</p>
+<p>ASSISTANT:<br/>
+맞아요. <strong>그렇게만 말하면 거의 같은 현상의 다른 면처럼 보입니다.</strong><br/>
+정확한 차이는 “열림”을 어디에 두느냐입니다.</p>
+<p>데리다에게 열림은 <strong>의미가 자기 근거를 완전히 확보하지 못하는 구조</strong>입니다. 예를 들어 “정의”라는 말은 다른 말들, 맥락, 사용, 흔적에 의존합니다. 그래서 “정의의 참된 의미”를 최종적으로 붙잡으려 하면 계속 미끄러집니다. 여기서 핵심은 <strong>어떤 의미도 순수하게 자기 자신으로 닫히지 못한다</strong>는 점입니다.</p>
+<p>들뢰즈에게 열림은 <strong>새로운 차이가 현실화되는 생성 과정</strong>입니다. 예를 들어 생명체, 욕망, 예술작품, 사회적 사건은 이미 있는 의미의 불안정성 때문에 생기는 것이 아니라, 강도와 힘들의 배치가 달라지면서 새로운 형태를 만들어냅니다. 여기서 핵심은 <strong>차이가 실제로 새로운 존재 방식을 생산한다</strong>는 점입니다.</p>
+<p>구체적 차이는 이겁니다.</p>
+<ol>
+<li>
+<p><strong>데리다의 차연은 ‘의미의 조건’을 건드립니다.</strong><br/>
+어떤 말이나 개념도 완전히 현전하지 않고, 다른 것들의 흔적에 의존합니다.</p>
+</li>
+<li>
+<p><strong>들뢰즈의 차이는 ‘존재의 발생’을 건드립니다.</strong><br/>
+차이는 말의 의미가 불안정하다는 수준이 아니라, 사물·몸·욕망·사건이 생겨나는 원리입니다.</p>
+</li>
+<li>
+<p><strong>데리다는 고정된 근거를 해체합니다.</strong><br/>
+“이것이 최종 의미다”라는 닫힘을 의심합니다.</p>
+</li>
+<li>
+<p><strong>들뢰즈는 생성의 기계를 설명합니다.</strong><br/>
+“어떤 힘들의 관계가 새로운 것을 만들어내는가”를 봅니다.</p>
+</li>
+</ol>
+<p>예를 들면, 한 시를 읽을 때:</p>
+<ul>
+<li>데리다는 그 시의 의미가 왜 하나로 확정될 수 없는지, 어떤 흔적과 차이가 의미를 계속 지연시키는지 봅니다.</li>
+<li>들뢰즈는 그 시가 독자의 감각, 욕망, 삶의 리듬을 어떻게 바꾸고 새로운 감응을 생산하는지 봅니다.</li>
+</ul>
+<p>그래서 “같은 현상의 다른 면”이라고 할 수는 있지만, 더 정확히는:</p>
+<blockquote>
+<p>데리다는 <strong>현전이 실패하는 구조</strong>를 보고,<br/>
+들뢰즈는 <strong>그 실패/열림을 넘어 차이가 실제로 생산하는 과정</strong>을 봅니다.</p>
+</blockquote>
+<p>둘은 만나는 지점이 있지만, 데리다는 “끝내 닫히지 않음”에 더 엄격하고, 들뢰즈는 “닫히지 않기 때문에 생성한다”가 아니라 애초에 차이를 <strong>긍정적 생산력</strong>으로 봅니다.</p>
+<p>USER:<br/>
+모든 존재/의미는 “차이 <span>→</span> 생성 <span>→</span> 의미 <span>→</span> 닫히지 않음”의 과정을 겪을거 아냐. 그렇게 치면 같은 현상의 다른 면이 왜 아닌건데?</p>
+<p>ASSISTANT:<br/>
+맞습니다. <strong>당신이 제시한 틀에서는 같은 현상의 다른 면이라고 볼 수 있습니다.</strong></p>
+<p>다만 “정확히 다른 점”은 이겁니다.</p>
+<blockquote>
+<p><strong>데리다는 그 과정을 하나의 생성 도식으로 안정화하는 것 자체를 의심하고,<br/>
+들뢰즈는 그 과정을 존재론적 생성 도식으로 적극 구성합니다.</strong></p>
+</blockquote>
+<p>즉 차이는 내용보다 <strong>철학적 사용법</strong>에 있습니다.</p>
+<p>당신의 도식:</p>
+<blockquote>
+<p>차이 → 생성 → 의미 → 닫히지 않음</p>
+</blockquote>
+<p>이걸 들뢰즈는 비교적 받아들일 수 있습니다. 차이가 있고, 그 차이가 생성하며, 그 결과 새로운 현실·의미·감각이 생깁니다.</p>
+<p>하지만 데리다는 여기서 조심할 겁니다. 왜냐하면 “차이 → 생성 → 의미”라고 말하는 순간, 차연이 마치 <strong>어떤 근원적 원리</strong>처럼 보이기 때문입니다. 데리다에게 차연은 “모든 것을 발생시키는 원리”라기보다, 어떤 원리도 완전히 자기 자신으로 현전할 수 없게 만드는 구조입니다.</p>
+<p>예를 들어 “정의”라는 개념을 보면:</p>
+<ul>
+<li>들뢰즈식으로는 “정의”라는 관념이 어떤 사회적 힘, 제도, 욕망, 사건 속에서 새롭게 생성된다고 봅니다.</li>
+<li>데리다식으로는 “정의”라는 말이 법, 폭력, 책임, 타자, 약속 같은 흔적들에 기대기 때문에 결코 최종 의미로 닫히지 않는다고 봅니다.</li>
+</ul>
+<p>둘 다 “고정된 의미는 없다”에 도달하지만,</p>
+<ul>
+<li>들뢰즈는 <strong>그러면 무엇이 생성되는가</strong>로 갑니다.</li>
+<li>데리다는 <strong>그 생성이라는 말도 어떻게 자기 근거를 못 갖는가</strong>를 봅니다.</li>
+</ul>
+<p>그래서 결론은 이렇습니다.</p>
+<p><strong>넓게 보면 같은 현상의 다른 면이 맞습니다.</strong><br/>
+하지만 엄밀히는, 들뢰즈는 그 현상을 <strong>생성의 존재론</strong>으로 만들고, 데리다는 그런 존재론적 정식화마저 <strong>해체 가능한 것으로 남겨둡니다.</strong></p>
+<p>USER:<br/>
+들뢰즈 입장에서는 ‘고정된 의미는 없다’고 하면서 어떻게 ‘존재론’이 가능하다는거야?</p>
+<p>ASSISTANT:<br/>
+들뢰즈에게 존재론은 <strong>고정된 의미들의 체계</strong>가 아니라 <strong>생성의 조건을 말하는 체계</strong>라서 가능합니다.</p>
+<p>핵심은 이겁니다.</p>
+<blockquote>
+<p>“고정된 의미는 없다”<br/>
+≠<br/>
+“아무 구조도 없다”</p>
+</blockquote>
+<p>들뢰즈는 동일한 본질이나 최종 의미는 거부하지만, 그렇다고 모든 것이 무질서하다고 보지는 않습니다. 그는 오히려 <strong>차이, 반복, 강도, 배치, 잠재성, 현실화</strong> 같은 개념으로 생성이 어떻게 일어나는지 설명하려 합니다.</p>
+<p>예를 들면 씨앗이 나무가 되는 과정에서 “나무의 고정된 의미”가 미리 완성되어 있다고 보지는 않습니다. 하지만 아무렇게나 되는 것도 아닙니다. 씨앗의 잠재성, 환경, 물, 빛, 온도, 유전적 구조, 우연한 조건들이 얽혀 특정한 현실화를 만듭니다.</p>
+<p>들뢰즈의 존재론은 이런 식입니다.</p>
+<ul>
+<li>고정된 본질은 없다.</li>
+<li>하지만 차이들이 작동하는 방식은 있다.</li>
+<li>생성은 임의적 혼돈이 아니라 조건과 힘들의 관계 속에서 일어난다.</li>
+<li>존재는 완성된 실체보다 <strong>되어감</strong>으로 이해해야 한다.</li>
+</ul>
+<p>그래서 들뢰즈 입장에서는 “의미가 고정되지 않는다”는 말이 존재론을 무너뜨리는 게 아니라, 오히려 전통적 존재론을 버리고 <strong>생성의 존재론</strong>을 세우게 만드는 출발점입니다.</p>
+<p>즉:</p>
+<blockquote>
+<p>들뢰즈의 존재론은 “무엇이 고정되어 있는가?”가 아니라<br/>
+“무엇이 어떤 조건에서 어떻게 되어가는가?”를 묻는 존재론입니다.</p>
+</blockquote>
+<p>USER:<br/>
+근데 그러면 들뢰즈의 ‘고정된 본질은 없다. 하지만 차이들이 작동하는 방식은 있다.‘는 주장에 데리다는 동의하지 않을거라는거야?</p>
+<p>ASSISTANT:<br/>
+아니요. <strong>그 문장 자체에는 데리다도 상당히 동의할 수 있습니다.</strong></p>
+<blockquote>
+<p>“고정된 본질은 없다. 하지만 차이들이 작동하는 방식은 있다.”</p>
+</blockquote>
+<p>데리다는 특히 앞부분에는 강하게 동의합니다. 그리고 뒷부분도 완전히 거부하지 않습니다. 실제로 데리다도 <strong>흔적, 반복 가능성, 차연, 보충</strong> 같은 구조를 말하니까요. 즉 의미가 아무렇게나 흩어지는 게 아니라, 의미가 성립하고 미끄러지는 일정한 조건이 있다는 점은 말합니다.</p>
+<p>차이는 여기입니다.</p>
+<p>들뢰즈는 그 “작동 방식”을 <strong>존재가 생성되는 긍정적 구조</strong>로 밀고 갑니다.<br/>
+예: 차이, 강도, 잠재성, 현실화가 세계를 생산한다.</p>
+<p>데리다는 그 “작동 방식”을 말하더라도, 그것을 <strong>존재론적 원리</strong>로 세우는 순간을 의심합니다.<br/>
+예: “차연이 의미를 발생시키는 근본 원리다”라고 말하면, 차연이 다시 하나의 근원처럼 굳어질 위험이 있습니다.</p>
+<p>그래서 정확히는:</p>
+<blockquote>
+<p>데리다는 “차이들이 작동하는 방식이 있다”에는 동의할 수 있지만,<br/>
+“그 작동 방식을 하나의 존재론으로 정식화할 수 있다”에는 조심스러울 겁니다.</p>
+</blockquote>
+<p>즉 데리다는 무질서를 말하는 게 아닙니다.<br/>
+다만 그는 “작동 방식”조차도 최종 이론, 근본 구조, 존재론적 원리로 고정되지 않는다고 보는 쪽입니다.</p>
+<p>USER:<br/>
+그럼 존재론까지 가지 말고 그냥 특정한 하나의 개념/존재에 대해서 한정해 말하면? 아까 말한 나무처럼.</p>
+<p>ASSISTANT:<br/>
+한 개념/존재로 한정하면, 둘은 훨씬 더 가까워집니다.<br/>
+나무 예로 말하면:</p>
+<p><strong>들뢰즈</strong>는 “이 나무가 어떻게 생성되었는가”를 봅니다.<br/>
+씨앗, 토양, 햇빛, 물, 유전적 잠재성, 주변 생태계 같은 힘들의 배치 속에서 이 나무가 특정한 형태로 현실화되었다고 봅니다. 핵심은 <strong>차이들이 실제 형상을 만들어낸다</strong>는 점입니다.</p>
+<p><strong>데리다</strong>는 “이 나무가 나무로 의미화되는 조건은 무엇인가”를 봅니다.<br/>
+우리가 이것을 “나무”라고 부를 때, 그 말은 숲, 식물, 생명, 목재, 자연, 인간 사용, 분류학 같은 다른 흔적들에 기대고 있습니다. 그래서 “나무의 의미”는 하나로 완전히 닫히지 않습니다.</p>
+<p>같은 대상을 두고 보면:</p>
+<ul>
+<li>들뢰즈: 이 존재는 어떤 차이들의 배치로 생성되었는가?</li>
+<li>데리다: 이 존재는 어떤 차이들의 흔적으로 의미화되는가?</li>
+</ul>
+<p>그러니까 특정한 하나의 대상에서는 <strong>거의 같은 현상의 다른 층위</strong>라고 말해도 됩니다.</p>
+<p>다만 차이는 여전히 있습니다.</p>
+<p>들뢰즈는 나무 자체의 <strong>발생과 변이</strong>를 말하고,<br/>
+데리다는 나무가 “나무”로 <strong>읽히고 명명되고 의미화되는 조건</strong>을 말합니다.</p>
+<p>즉 한정해서 말하면:</p>
+<blockquote>
+<p>들뢰즈는 존재의 생성 쪽,<br/>
+데리다는 의미의 성립 쪽을 본다.</p>
+</blockquote>
+<p>당신이 말하는 “같은 현상의 다른 면”이라는 표현은 이 수준에서는 꽤 타당합니다.</p>
+<p>USER:<br/>
+근데 그럼 들뢰즈 입장에서, ‘차이가 존재를 발생시킨다’는 데라다도 동의할만한 문장에서부터 어떻게 더 나아갔길래 데리다가 동의하지 못하는 부분까지 생기게 된거야?</p>
+<p>ASSISTANT:<br/>
+데리다가 못 따라가는 지점은 대략 여기입니다.</p>
+<p>출발점:</p>
+<blockquote>
+<p>어떤 존재는 고정된 본질이 아니라 차이들의 관계 속에서 성립한다.</p>
+</blockquote>
+<p>여기까지는 데리다도 동의할 수 있습니다.</p>
+<p>그런데 들뢰즈는 여기서 한 걸음 더 갑니다.</p>
+<blockquote>
+<p>그 차이들은 단순히 “의미를 가능하게 하는 관계”가 아니라, 실제 존재를 산출하는 <strong>실재적 힘/장/잠재성</strong>이다.</p>
+</blockquote>
+<p>예를 들어 나무를 보면:</p>
+<p>데리다는 이렇게 말할 수 있습니다.<br/>
+“나무”라는 동일성은 식물/동물, 자연/문화, 생명/사물, 숲/목재 같은 차이들의 흔적 속에서 성립한다. 그러므로 나무의 의미는 순수하게 닫히지 않는다.</p>
+<p>들뢰즈는 더 나아갑니다.<br/>
+이 나무는 수분, 빛, 유전적 변이, 온도, 토양, 생장 리듬 같은 <strong>강도적 차이들</strong>이 현실화된 결과다. 즉 차이는 단지 “나무를 의미화하는 조건”이 아니라, 이 나무를 실제로 만들어낸 발생 조건이다.</p>
+<p>문제는 여기입니다.</p>
+<p>들뢰즈는 그 발생 조건을 <strong>잠재성, 다양체, 강도, 현실화</strong> 같은 존재론적 개념으로 설명합니다.<br/>
+즉 “차이들의 장이 있고, 거기서 개체가 현실화된다”는 식의 철학을 세웁니다.</p>
+<p>데리다는 바로 그 순간을 의심합니다.</p>
+<p>왜냐하면 “차이들의 장”, “잠재성”, “생성 원리”라고 말하는 순간, 차이가 다시 어떤 <strong>근원적 구조</strong>처럼 굳어질 수 있기 때문입니다. 데리다에게 차연은 그런 식의 근원 자리를 차지하면 안 됩니다. 차연은 원리가 아니라, 원리라고 불리는 것들마저 완전히 자기 자신으로 닫히지 못하게 만드는 운동에 가깝습니다.</p>
+<p>그래서 차이는 이렇게 압축할 수 있습니다.</p>
+<blockquote>
+<p>데리다: 차이는 동일성이 성립하면서도 닫히지 못하게 하는 조건이다.<br/>
+들뢰즈: 차이는 개체와 사건을 실제로 산출하는 긍정적 발생 조건이다.</p>
+</blockquote>
+<p>즉 데리다가 동의하기 어려운 부분은 “차이가 있다”가 아니라, 들뢰즈가 그 차이를 <strong>실재적 생성 원리로 철학적으로 구성하는 방식</strong>입니다.</p>
+<p>USER:<br/>
+그렇군. 그러면 데리다의 그런 비판에 대해 들뢰즈는 뭐라고 할까?</p>
+<p>ASSISTANT:<br/>
+사실로 말하면, 들뢰즈가 이 쟁점에 대해 데리다에게 정식 반박문을 쓴 것은 아닙니다. 아래는 <strong>들뢰즈 철학에 근거한 재구성</strong>입니다.</p>
+<p>들뢰즈라면 아마 이렇게 답할 겁니다.</p>
+<blockquote>
+<p>“내가 말하는 차이는 새로운 근원이나 최종 원리가 아니다.<br/>
+그것은 모든 존재 뒤에 숨어 있는 하나의 원천이 아니라, 존재들이 실제로 갈라지고 변형되고 생성되는 내재적 과정이다.”</p>
+</blockquote>
+<p>즉 데리다가 “차이를 생성 원리로 세우면 다시 형이상학적 근원이 되는 것 아니냐”고 비판한다면, 들뢰즈는 이렇게 구분할 겁니다.</p>
+<p><strong>1. 차이는 초월적 근거가 아니다.</strong><br/>
+들뢰즈의 차이는 세계 바깥에서 세계를 설명하는 원리가 아닙니다. 세계 안에서 작동하는 힘들의 관계입니다. 그래서 “근원”이라기보다 “내재적 발생 조건”입니다.</p>
+<p><strong>2. 존재론은 고정된 체계가 아니라 생성의 지도다.</strong><br/>
+들뢰즈에게 존재론은 “이것이 궁극적 실체다”가 아니라 “이런 조건에서 이런 생성이 일어난다”를 그리는 방식입니다. 닫힌 이론이라기보다 발생 과정을 추적하는 철학입니다.</p>
+<p><strong>3. 데리다는 아직 ‘현전 비판’에 너무 묶여 있다고 볼 수 있다.</strong><br/>
+들뢰즈 입장에서는 데리다가 “현전은 불가능하다”, “의미는 닫히지 않는다”에 머무는 것처럼 보일 수 있습니다. 들뢰즈는 거기서 더 나아가 “그렇다면 어떤 새로운 삶, 감각, 존재가 만들어지는가?”를 묻습니다.</p>
+<p>그래서 들뢰즈식 답변을 한 문장으로 만들면:</p>
+<blockquote>
+<p>“차이를 원리로 세우는 게 문제가 아니라, 차이를 초월적 근거처럼 생각하는 게 문제다. 나는 차이를 근거가 아니라 생성 그 자체의 내재적 운동으로 말한다.”</p>
+</blockquote>
+<p>즉 데리다는 “그것도 또 하나의 근원화 아닌가?”라고 의심하고,<br/>
+들뢰즈는 “아니다, 나는 근원을 세우는 게 아니라 생성의 작동을 사유하는 것”이라고 답할 가능성이 큽니다.</p>
+<p>USER:<br/>
+근데 데리다가 말한 ‘차연’ 개념이 들뢰즈의 ‘차이와 발생’ 개념하고 뭐가 달라? 어차피 개념/의미/존재의 주변을 살펴보고 그 원리를 또 다른 개념으로서 설명한다는 점은 동일하잖아.</p>
+<p>ASSISTANT:<br/>
+맞아요. <strong>형식만 보면 동일합니다.</strong><br/>
+둘 다 어떤 것의 “주변 조건”을 보고, 그 작동을 다른 개념으로 설명합니다.</p>
+<p>차이는 <strong>그 개념이 하는 일</strong>입니다.</p>
+<p>데리다의 <strong>차연</strong>은 설명 원리라기보다, 설명 원리들이 왜 완전히 닫히지 않는지를 보여주는 이름입니다.<br/>
+즉 “의미는 이런 구조로 발생한다”라고 세우기보다는, “어떤 구조를 세워도 그것은 흔적, 반복, 맥락 차이에 의존하므로 완전히 자기 자신으로 고정되지 않는다”를 말합니다.</p>
+<p>들뢰즈의 <strong>차이/발생</strong>은 실제로 설명 원리로 작동합니다.<br/>
+“차이들이 강도, 잠재성, 배치 속에서 현실화되어 개체와 사건을 만든다”는 식으로, 생성의 메커니즘을 적극적으로 구성합니다.</p>
+<p>그래서 핵심 차이는 이겁니다.</p>
+<blockquote>
+<p>데리다의 차연은 <strong>원리화의 불안정성</strong>을 가리키고,<br/>
+들뢰즈의 차이는 <strong>발생의 원리</strong>로 쓰입니다.</p>
+</blockquote>
+<p>예를 들어 “나무”를 보면:</p>
+<ul>
+<li>데리다: “나무”라는 의미는 숲, 식물, 자연, 목재, 생명 같은 흔적들과 차이에 의해 성립하지만, 그 의미는 끝내 닫히지 않는다.</li>
+<li>들뢰즈: 이 나무는 빛, 물, 토양, 유전적 변이, 생장 강도 같은 차이들이 현실화한 결과다.</li>
+</ul>
+<p>둘 다 주변 조건을 봅니다.<br/>
+하지만 데리다는 <strong>그 조건화가 왜 완결될 수 없는가</strong>를 보고, 들뢰즈는 <strong>그 조건들이 무엇을 어떻게 만들어내는가</strong>를 봅니다.</p>
+<p>그러니까 “또 다른 개념으로 설명한다”는 점에서는 같지만, 데리다는 그 개념이 다시 중심이 되는 것을 계속 흔들고, 들뢰즈는 그 개념으로 생성의 철학을 세웁니다.</p>
+<p>USER:<br/>
+아니 그게 아니라 들뢰즈한테 존재의 생성을 설명하기 위해서 또다른 형이상학적 존재를 설정한 것은 잘못이다고 말할거라면 ‘차연’ 개념 역시 설정하면 안되는거 아니냐구</p>
+<p>ASSISTANT:<br/>
+맞습니다. <strong>그 비판은 데리다에게도 그대로 돌아갈 수 있습니다.</strong></p>
+<p>그래서 데리다는 “차연”을 보통의 개념처럼 세우지 않으려 합니다. 사실 데리다는 차연을 <strong>하나의 존재, 원리, 근원, 실체</strong>로 두면 안 된다고 봅니다. 그래서 차연은 “무엇이다”라고 고정 정의되는 개념이라기보다, 의미가 성립하면서 동시에 미끄러지는 작동을 가리키는 <strong>임시적 이름</strong>에 가깝습니다.</p>
+<p>즉 데리다의 방어는 이겁니다.</p>
+<blockquote>
+<p>“나는 차연이라는 또 다른 형이상학적 존재를 세우는 게 아니다.<br/>
+오히려 어떤 개념이든 그런 존재처럼 굳어지는 순간을 흔드는 이름으로 쓰는 것이다.”</p>
+</blockquote>
+<p>하지만 당신 말대로 문제가 남습니다.</p>
+<p>차연도 결국 이름 붙여지고, 설명에 쓰이고, 반복해서 호출됩니다. 그러면 실제로는 <strong>또 하나의 준-원리처럼 기능하는 것 아니냐</strong>고 물을 수 있습니다. 이 비판은 꽤 강합니다.</p>
+<p>그래서 정확히 말하면:</p>
+<ul>
+<li>데리다는 차연을 <strong>형이상학적 원리로 세우면 안 된다</strong>고 합니다.</li>
+<li>하지만 차연은 실제 글쓰기 안에서 <strong>원리처럼 작동하는 위험</strong>을 계속 가집니다.</li>
+<li>데리다는 그 위험을 “차연은 개념이 아니다”, “근원이 아니다”라고 계속 지우며 관리합니다.</li>
+<li>들뢰즈 입장에서는 아마 “그렇게 숨길 게 아니라 차라리 긍정적 발생 원리로 사유하자”고 할 수 있습니다.</li>
+</ul>
+<p>결론적으로, 당신 지적이 맞습니다.</p>
+<blockquote>
+<p>데리다가 들뢰즈에게 “너도 또 하나의 형이상학을 세운다”고 비판한다면,<br/>
+들뢰즈 쪽에서는 “너의 차연도 결국 같은 역할을 하는 것 아니냐”고 반박할 수 있습니다.</p>
+</blockquote>
+<p>둘의 차이는 “개념을 쓰느냐 안 쓰느냐”가 아닙니다.<br/>
+둘 다 씁니다. 차이는 데리다는 그 개념을 <strong>계속 지우며 쓰고</strong>, 들뢰즈는 그것을 <strong>적극적으로 구축하며 쓴다</strong>는 점입니다.</p>
+<p>USER:<br/>
+그니깐 말이야. “나는 차연이라는 또 다른 형이상학적 존재를 세우는 게 아니다. 오히려 어떤 개념이든 그런 존재처럼 굳어지는 순간을 흔드는 이름으로 쓰는 것이다.” 이렇게 말할거면 들뢰즈의 존재론은 왜 공격하는데?</p>
+<p>ASSISTANT:<br/>
+맞아요. 그래서 **“들뢰즈는 또 다른 형이상학을 세웠으니 틀렸다”**는 식의 데리다식 공격은 약합니다. 그 비판은 곧바로 <strong>차연도 준-원리 아니냐</strong>는 반격을 맞습니다.</p>
+<p>사실로 말하면, 데리다가 들뢰즈를 그 방식으로 체계적으로 공격한 것은 아닙니다. 우리가 말하는 건 가능한 데리다식 비판의 재구성입니다.</p>
+<p>더 정확한 데리다식 비판은 이 정도일 겁니다.</p>
+<blockquote>
+<p>“들뢰즈가 존재론을 세워서 문제”가 아니라,<br/>
+“들뢰즈의 존재론이 자기 개념들의 불안정성까지 충분히 드러내고 있느냐”가 문제다.</p>
+</blockquote>
+<p>즉 데리다는 들뢰즈에게 이렇게 물을 수 있습니다.</p>
+<ul>
+<li>“차이”</li>
+<li>“잠재성”</li>
+<li>“내재성”</li>
+<li>“생성”</li>
+<li>“다양체”</li>
+</ul>
+<p>이 개념들이 정말 열린 채로 작동하느냐?<br/>
+아니면 결국 새로운 근본어휘처럼 굳어지느냐?</p>
+<p>하지만 들뢰즈도 반박할 수 있습니다.</p>
+<blockquote>
+<p>“너의 차연도 결국 그런 근본어휘처럼 쓰이지 않느냐?<br/>
+나는 차라리 그 위험을 감수하고 긍정적 생성의 철학을 세우겠다.”</p>
+</blockquote>
+<p>그래서 결론은 이겁니다.</p>
+<p><strong>데리다가 들뢰즈를 단순히 ‘형이상학적 존재론’이라고 공격하면 설득력이 떨어집니다.</strong><br/>
+둘 다 개념을 만들고, 둘 다 그 개념이 원리처럼 기능할 위험을 가집니다.</p>
+<p>차이는 데리다는 그 위험을 <strong>계속 지우고 흔드는 방식</strong>으로 쓰고, 들뢰즈는 그 위험을 감수하면서 <strong>적극적으로 구축하는 방식</strong>으로 쓴다는 데 있습니다.</p>
+<p>USER:<br/>
+지금까지 나눈 대화를 raw 데이터 그대로 볼트에 ‘철학 메모’ 폴더를 만들고 그 안에 문서 저장해줘.</p></article><hr/><div class="page-footer"><div class="giscus" data-repo="qodot/obsidian-public" data-repo-id="R_kgDOR7CdbA" data-category="General" data-category-id="DIC_kwDOR7CdbM4C6KsX" data-mapping="pathname" data-strict="1" data-reactions-enabled="1" data-input-position="top" data-light-theme="light" data-dark-theme="dark" data-theme-url="https://qodot.me/static/giscus" data-lang="ko"></div></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/qodot">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">var m=Object.create;var f=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var S=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var R=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports);var j=(t,e,n,E)=>{if(e&&typeof e=="object"||typeof e=="function")for(let i of S(e))!b.call(t,i)&&i!==n&&f(t,i,{get:()=>e[i],enumerable:!(E=x(e,i))||E.enumerable});return t};var w=(t,e,n)=>(n=t!=null?m(y(t)):{},j(e||!t||!t.__esModule?f(n,"default",{value:t,enumerable:!0}):n,t));var p=R((I,g)=>{"use strict";g.exports=L;function B(t){return t instanceof Buffer?Buffer.from(t):new t.constructor(t.buffer.slice(),t.byteOffset,t.length)}function L(t){if(t=t||{},t.circles)return v(t);let e=new Map;if(e.set(Date,F=>new Date(F)),e.set(Map,(F,l)=>new Map(E(Array.from(F),l))),e.set(Set,(F,l)=>new Set(E(Array.from(F),l))),t.constructorHandlers)for(let F of t.constructorHandlers)e.set(F[0],F[1]);let n=null;return t.proto?o:i;function E(F,l){let u=Object.keys(F),D=new Array(u.length);for(let s=0;s<u.length;s++){let r=u[s],A=F[r];typeof A!="object"||A===null?D[r]=A:A.constructor!==Object&&(n=e.get(A.constructor))?D[r]=n(A,l):ArrayBuffer.isView(A)?D[r]=B(A):D[r]=l(A)}return D}function i(F){if(typeof F!="object"||F===null)return F;if(Array.isArray(F))return E(F,i);if(F.constructor!==Object&&(n=e.get(F.constructor)))return n(F,i);let l={};for(let u in F){if(Object.hasOwnProperty.call(F,u)===!1)continue;let D=F[u];typeof D!="object"||D===null?l[u]=D:D.constructor!==Object&&(n=e.get(D.constructor))?l[u]=n(D,i):ArrayBuffer.isView(D)?l[u]=B(D):l[u]=i(D)}return l}function o(F){if(typeof F!="object"||F===null)return F;if(Array.isArray(F))return E(F,o);if(F.constructor!==Object&&(n=e.get(F.constructor)))return n(F,o);let l={};for(let u in F){let D=F[u];typeof D!="object"||D===null?l[u]=D:D.constructor!==Object&&(n=e.get(D.constructor))?l[u]=n(D,o):ArrayBuffer.isView(D)?l[u]=B(D):l[u]=o(D)}return l}}function v(t){let e=[],n=[],E=new Map;if(E.set(Date,u=>new Date(u)),E.set(Map,(u,D)=>new Map(o(Array.from(u),D))),E.set(Set,(u,D)=>new Set(o(Array.from(u),D))),t.constructorHandlers)for(let u of t.constructorHandlers)E.set(u[0],u[1]);let i=null;return t.proto?l:F;function o(u,D){let s=Object.keys(u),r=new Array(s.length);for(let A=0;A<s.length;A++){let c=s[A],C=u[c];if(typeof C!="object"||C===null)r[c]=C;else if(C.constructor!==Object&&(i=E.get(C.constructor)))r[c]=i(C,D);else if(ArrayBuffer.isView(C))r[c]=B(C);else{let a=e.indexOf(C);a!==-1?r[c]=n[a]:r[c]=D(C)}}return r}function F(u){if(typeof u!="object"||u===null)return u;if(Array.isArray(u))return o(u,F);if(u.constructor!==Object&&(i=E.get(u.constructor)))return i(u,F);let D={};e.push(u),n.push(D);for(let s in u){if(Object.hasOwnProperty.call(u,s)===!1)continue;let r=u[s];if(typeof r!="object"||r===null)D[s]=r;else if(r.constructor!==Object&&(i=E.get(r.constructor)))D[s]=i(r,F);else if(ArrayBuffer.isView(r))D[s]=B(r);else{let A=e.indexOf(r);A!==-1?D[s]=n[A]:D[s]=F(r)}}return e.pop(),n.pop(),D}function l(u){if(typeof u!="object"||u===null)return u;if(Array.isArray(u))return o(u,l);if(u.constructor!==Object&&(i=E.get(u.constructor)))return i(u,l);let D={};e.push(u),n.push(D);for(let s in u){let r=u[s];if(typeof r!="object"||r===null)D[s]=r;else if(r.constructor!==Object&&(i=E.get(r.constructor)))D[s]=i(r,l);else if(ArrayBuffer.isView(r))D[s]=B(r);else{let A=e.indexOf(r);A!==-1?D[s]=n[A]:D[s]=l(r)}}return e.pop(),n.pop(),D}}});var T=Object.hasOwnProperty;var h=w(p(),1),O=(0,h.default)();function d(t){return t.document.body.dataset.slug}var k=t=>`${d(window)}-checkbox-${t}`;document.addEventListener("nav",()=>{document.querySelectorAll("input.checkbox-toggle").forEach((e,n)=>{let E=k(n),i=o=>{let F=o.target?.checked?"true":"false";localStorage.setItem(E,F)};e.addEventListener("change",i),window.addCleanup(()=>e.removeEventListener("change",i)),localStorage.getItem(E)==="true"&&(e.checked=!0)})});
+</script><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

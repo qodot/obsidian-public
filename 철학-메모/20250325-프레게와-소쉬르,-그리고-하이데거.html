@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>20250325 프레게와 소쉬르, 그리고 하이데거</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source Serif 4:ital,wght@0,400;0,600;1,400;1,600&amp;family=Noto Serif KR:wght@400;600&amp;family=JetBrains Mono:wght@400;600&amp;display=swap"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="고도"/><meta property="og:title" content="20250325 프레게와 소쉬르, 그리고 하이데거"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="20250325 프레게와 소쉬르, 그리고 하이데거"/><meta name="twitter:description" content="프레게와 소쉬르, 그리고 하이데거 프레게: 뜻(Sinn)과 지시체(Bedeutung) 지시체(Bedeutung): 표현이 가리키는 실제 대상. “샛별”과 “개밥바라기”의 지시체 = 금성이라는 천체. 뜻(Sinn): 지시체에 도달하는 인식 방식/경로."/><meta property="og:description" content="프레게와 소쉬르, 그리고 하이데거 프레게: 뜻(Sinn)과 지시체(Bedeutung) 지시체(Bedeutung): 표현이 가리키는 실제 대상. “샛별”과 “개밥바라기”의 지시체 = 금성이라는 천체. 뜻(Sinn): 지시체에 도달하는 인식 방식/경로."/><meta property="og:image:alt" content="프레게와 소쉬르, 그리고 하이데거 프레게: 뜻(Sinn)과 지시체(Bedeutung) 지시체(Bedeutung): 표현이 가리키는 실제 대상. “샛별”과 “개밥바라기”의 지시체 = 금성이라는 천체. 뜻(Sinn): 지시체에 도달하는 인식 방식/경로."/><meta property="twitter:domain" content="qodot.me"/><meta property="og:url" content="https://qodot.me/철학-메모/20250325-프레게와-소쉬르,-그리고-하이데거"/><meta property="twitter:url" content="https://qodot.me/철학-메모/20250325-프레게와-소쉬르,-그리고-하이데거"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="프레게와 소쉬르, 그리고 하이데거 프레게: 뜻(Sinn)과 지시체(Bedeutung) 지시체(Bedeutung): 표현이 가리키는 실제 대상. “샛별”과 “개밥바라기”의 지시체 = 금성이라는 천체. 뜻(Sinn): 지시체에 도달하는 인식 방식/경로."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL3FvZG90L3dvcmtzcGFjZS9xb2RvdC9vYnNpZGlhbi1xdWFydHovcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">
+    let contentIndexPromise
+    let searchIndexPromise
+    const fetchData = () => contentIndexPromise ??= fetch("../static/contentIndex.json").then(data => data.json())
+    const fetchSearchData = () => searchIndexPromise ??= fetch("../static/searchIndex.json").then(data => data.json())
+  </script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://qodot.me/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://qodot.me/철학-메모/20250325-프레게와-소쉬르,-그리고-하이데거-og-image.webp"/><meta property="og:image:url" content="https://qodot.me/철학-메모/20250325-프레게와-소쉬르,-그리고-하이데거-og-image.webp"/><meta name="twitter:image" content="https://qodot.me/철학-메모/20250325-프레게와-소쉬르,-그리고-하이데거-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="철학-메모/20250325-프레게와-소쉬르,-그리고-하이데거"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">고도</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center; min-width: 0;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-120"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-120" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../철학-메모/">철학 메모</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>20250325 프레게와 소쉬르, 그리고 하이데거</a></div></nav><h1 class="article-title">20250325 프레게와 소쉬르, 그리고 하이데거</h1><p show-comma="true" class="content-meta"><time datetime="2025-03-24T15:00:00.000Z">2025년 3월 25일</time><span>32 min read</span></p></div></div><article class="popover-hint"><h1 id="프레게와-소쉬르-그리고-하이데거">프레게와 소쉬르, 그리고 하이데거<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#프레게와-소쉬르-그리고-하이데거" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="프레게-뜻sinn과-지시체bedeutung">프레게: 뜻(Sinn)과 지시체(Bedeutung)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#프레게-뜻sinn과-지시체bedeutung" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>지시체(Bedeutung)</strong>: 표현이 가리키는 실제 대상. “샛별”과 “개밥바라기”의 지시체 = 금성이라는 천체.</li>
+<li><strong>뜻(Sinn)</strong>: 지시체에 도달하는 인식 방식/경로. “샛별” = 새벽에 뜨는 별, “개밥바라기” = 저녁에 뜨는 별.</li>
+<li>언어 <strong>외부의 실재</strong>를 전제하고, 같은 대상을 다른 방식으로 파악할 수 있다는 점을 설명한다.</li>
+</ul>
+<pre><code>표현 → 뜻 → 지시체
+</code></pre>
+<h2 id="소쉬르-기표signifiant와-기의signifié">소쉬르: 기표(signifiant)와 기의(signifié)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#소쉬르-기표signifiant와-기의signifié" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>기표(signifiant)</strong>: 음성적/시각적 형태 (소리 이미지)</li>
+<li><strong>기의(signifié)</strong>: 그 형태에 결합된 개념 (실재 대상이 아님)</li>
+<li>기호는 자의적(arbitrary)이며, 의미는 체계 내 <strong>차이(différence)</strong> 에서 발생한다.</li>
+</ul>
+<pre><code>기표 ↔ 기의  (동전의 양면, 분리 불가)
+</code></pre>
+<h3 id="기의의-핵심-차이와-가치">기의의 핵심: 차이와 가치<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#기의의-핵심-차이와-가치" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>기의는 자체적인 양(positive content)을 갖지 않는다. 다른 기의들과의 <strong>차이</strong>로만 정의된다.</p>
+<ul>
+<li>한국어 “양” = 살아있는 동물 + 고기</li>
+<li>영어 sheep = 살아있는 동물 / mutton = 고기</li>
+</ul>
+<p>“양”의 기의와 “sheep”의 기의는 같지 않다. 기의는 세계에 이미 존재하는 개념을 가져오는 게 아니라, <strong>언어 체계가 개념 공간을 자기 방식으로 잘라낸 결과</strong>다.</p>
+<p>소쉬르는 <strong>의미작용(signification)</strong> 과 <strong>가치(valeur)</strong> 를 구분한다.</p>
+<ul>
+<li>의미작용: 기표 ↔ 기의 (하나의 기호 내부 관계)</li>
+<li>가치: 기호 ↔ 기호 (체계 내 다른 기호들과의 관계)</li>
+</ul>
+<p>기의의 정체성은 의미작용이 아니라 <strong>가치</strong>에서 온다. 체스에서 나이트의 정체성이 재질이 아니라 다른 말들과의 관계와 규칙으로 결정되는 것과 같다.</p>
+<h2 id="프레게-vs-소쉬르">프레게 vs 소쉬르<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#프레게-vs-소쉬르" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th>프레게</th><th>소쉬르</th></tr></thead><tbody><tr><td><strong>외부 세계</strong></td><td>전제함 (지시체 = 실재 대상)</td><td>괄호침 (기의 ≠ 실재 대상)</td></tr><tr><td><strong>구조</strong></td><td>표현 → 뜻 → 지시체 (3항)</td><td>기표 ↔ 기의 (2항, 동전의 양면)</td></tr><tr><td><strong>목적</strong></td><td>진리값·논리적 의미 해명</td><td>언어 체계의 내적 구조 해명</td></tr></tbody></table></div>
+<p>프레게의 뜻은 <strong>“금성에 도달하는 길”</strong> 이고, 소쉬르의 기의는 <strong>“언어라는 지도가 그어놓은 경계선”</strong> 이다. 비슷한 위치에 놓을 수 있지만, 하나는 밖을 가리키고 하나는 안에서 순환한다.</p>
+<p>둘을 연결하면 이런 체인이 가능하다:</p>
+<pre><code>기표 → [기의 ≈ 뜻] → 지시체
+</code></pre>
+<p>오그던 &amp; 리처즈(1923)의 <strong>의미의 삼각형</strong>이 이 구조에 해당한다. 다만 소쉬르 본인이라면 화살표 오른쪽(→ 지시체)을 인정하지 않았을 것이다.</p>
+<h2 id="소쉬르와-하이데거의-접점">소쉬르와 하이데거의 접점<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#소쉬르와-하이데거의-접점" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>둘 다 <strong>“의미는 직접 주어지지 않고, 다른 것들과의 관계에서 발생한다”</strong> 는 입장을 공유한다.</p>
+<ul>
+<li><strong>소쉬르</strong>: 기의는 다른 기의들과의 차이에서 성립</li>
+<li><strong>하이데거</strong>: 존재자는 지시 연관 전체(Verweisungsganzheit) 속에서 의미를 가짐. 망치는 못·나무·짓기·거주하기의 관계망 속에서 비로소 “망치”다.</li>
+</ul>
+<p>공통의 적: <strong>“말 = 사물의 이름표”</strong> 라는 소박한 지시 이론.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th>소쉬르</th><th>하이데거</th></tr></thead><tbody><tr><td><strong>관심</strong></td><td>언어 체계의 구조</td><td>존재 자체의 드러남</td></tr><tr><td><strong>세계</strong></td><td>괄호침 (체계 밖은 논외)</td><td>핵심 주제 (세계-내-존재)</td></tr><tr><td><strong>시간</strong></td><td>공시적 체계 (시간 배제)</td><td>시간성이 존재의 지평</td></tr><tr><td><strong>언어의 지위</strong></td><td>분석 대상 (구조)</td><td>“존재의 집” — 존재가 열리는 사건(Ereignis)</td></tr></tbody></table></div>
+<h2 id="데리다의-종합-차연différance">데리다의 종합: 차연(différance)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#데리다의-종합-차연différance" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>이 유사성을 철학적으로 밀어붙인 것이 데리다다.</p>
+<ul>
+<li>소쉬르의 différence(차이) + 하이데거의 존재론적 차이 → <strong>différance(차연)</strong></li>
+<li>“의미는 현전(presence)하지 않고 끝없이 지연된다”</li>
+</ul>
+<p>소쉬르가 체계 안에서 순환하는 차이를 말했고, 하이데거가 존재의 은닉과 드러남을 말했는데, 데리다는 이 둘이 같은 것을 가리킨다고 보았다.</p>
+<h2 id="소쉬르의-차이-vs-데리다의-차연">소쉬르의 차이 vs 데리다의 차연<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#소쉬르의-차이-vs-데리다의-차연" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote>
+<p><em>Q. 소쉬르의 개념은 차이로만 성립한다는 말 너무 좋은데, 이게 데리다의 차연과 구체적으로 구분할 수 있는 말일까?</em></p>
+</blockquote>
+<p>같은 전제에서 출발해 정반대 결론에 도달한다.</p>
+<h3 id="소쉬르-차이가-의미를-만든다">소쉬르: 차이가 의미를 <strong>만든다</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#소쉬르-차이가-의미를-만든다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>차이가 체계 안에서 <strong>안정적으로</strong> 작동한다.</p>
+<ul>
+<li>“양” ≠ “소” ≠ “돼지” → 이 차이들이 각 기의를 확정</li>
+<li>체계가 주어지면, 각 기호의 가치는 고정된다</li>
+<li>차이들의 <strong>닫힌 체계</strong>가 의미를 보증한다</li>
+</ul>
+<p>소쉬르에게 차이는 <strong>질서의 원리</strong>다.</p>
+<h3 id="데리다-차이가-의미를-영원히-미완으로-둔다">데리다: 차이가 의미를 <strong>영원히 미완으로 둔다</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#데리다-차이가-의미를-영원히-미완으로-둔다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>différance는 두 가지 뜻을 동시에 품는다:</p>
+<ul>
+<li><strong>differ</strong> (다르다) — 공간적 차이</li>
+<li><strong>defer</strong> (지연하다) — 시간적 미룸</li>
+</ul>
+<p>데리다의 핵심 반론: 소쉬르가 말한 “차이들의 체계”가 정말 닫혀 있는가?</p>
+<ul>
+<li>“양”의 기의를 설명하려면 “소”와의 차이를 말해야 하고</li>
+<li>“소”를 설명하려면 또 다른 차이를 말해야 하고</li>
+<li>그 차이를 설명하려면 또 다른 차이를…</li>
+<li>→ 의미는 끝없이 지연된다. 최종적으로 “여기 있다”고 현전하는 기의는 없다.</li>
+</ul>
+<p>데리다에게 차이는 <strong>불안정성의 원리</strong>다.</p>
+<h3 id="요약">요약<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#요약" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p>소쉬르: 차이의 체계가 의미를 <strong>닫아준다</strong> (구조)<br/>
+데리다: 바로 그 차이 때문에 의미가 <strong>결코 닫히지 않는다</strong> (해체)</p>
+</blockquote>
+<h3 id="데리다의-급진성-닫힌-체계는-원리적으로-불가능하다">데리다의 급진성: 닫힌 체계는 원리적으로 불가능하다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#데리다의-급진성-닫힌-체계는-원리적으로-불가능하다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><em>Q. 데리다도 닫힌 체계를 가정하면 의미가 확정된다고 생각하는 것은 동일해? 단지 체계가 닫혀있다는 가정이 실제로는 그렇지 않기 때문에 의미가 확정되지 않는다고 생각하는거야?</em></p>
+</blockquote>
+<p>데리다의 주장은 “체계가 실제로는 열려 있다”는 경험적 관찰이 아니다. <strong>닫힌 체계라는 가정 자체가 차이의 논리와 양립 불가능하다</strong>는 구조적 논증이다.</p>
+<ul>
+<li>의미가 차이에서 온다 → 모든 기호는 자기가 아닌 것을 통해 정의된다</li>
+<li>어떤 기호도 순수하게 “자기 자신”일 수 없다 — 항상 타자의 흔적(trace)을 내포한다</li>
+<li>이것은 체계의 경계 문제가 아니라, 차이라는 원리 자체의 귀결이다</li>
+</ul>
+<p>소쉬르의 전제(“의미는 차이에서 온다”)를 끝까지 밀어붙이면, 소쉬르의 결론(“차이들이 안정적 체계를 이룬다”)이 자기모순에 빠진다. 차이가 의미를 만드는 바로 그 메커니즘이, 동시에 의미의 확정을 불가능하게 만든다.</p>
+<p>소쉬르를 외부에서 반박한 게 아니라, 소쉬르의 전제로 소쉬르의 결론을 해체한 것 — 이것이 “해체”의 전형적 작동 방식이다.</p>
+<h2 id="데리다-비판-메타-언어-없이-의미는-가능한가">데리다 비판: 메타 언어 없이 의미는 가능한가?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#데리다-비판-메타-언어-없이-의미는-가능한가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote>
+<p><em>Q. 데리다의 주장처럼 메타 언어 고정이 없는 상태를 전제한다면 차이로부터조차도 의미는 생성될 수 없는 거 아냐? 의미는 아예 제로, 언제나 0이어야 할 것 같은데.</em></p>
+</blockquote>
+<p>데리다의 논리를 끝까지 밀면 “어느 정도의 의미”라는 중간 지대는 없고, 의미는 0이어야 한다. 그런데 우리는 실제로 소통하고 있고, 의미는 분명히 작동하고 있다.</p>
+<h3 id="수행적-모순">수행적 모순<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#수행적-모순" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>“확정된 의미는 없다”는 명제가 스스로 확정된 의미를 주장하고 있다. 하버마스, 설(Searle) 등이 데리다에게 계속 제기한 핵심 반론이다.</p>
+<ul>
+<li>강하게 말하면(“의미는 확정 불가”) → 자기모순</li>
+<li>약하게 말하면(“의미는 완벽하게는 확정되지 않는다”) → 거의 당연한 말</li>
+</ul>
+<h3 id="데리다가-공유한-형이상학적-전제">데리다가 공유한 형이상학적 전제<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#데리다가-공유한-형이상학적-전제" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>데리다는 형이상학을 비판했지만, 핵심 전제 하나를 형이상학과 공유한다:</p>
+<pre><code>형이상학:      의미 성립에 외부 고정점 필요 → 있다 (신, 이데아, 초월적 기의)
+데리다:        의미 성립에 외부 고정점 필요 → 없다 → 의미 확정 불가
+비트겐슈타인:  외부 고정점 필요 없다 → 사용이 곧 의미
+</code></pre>
+<p>비트겐슈타인의 관점에서 보면, 데리다는 형이상학의 답을 부정했지만 질문 자체(“의미의 근거는 무엇인가?“)는 그대로 물려받았다. 잘못된 질문에 “없다”고 답한 것이지, 질문을 해체한 게 아니다.</p>
+<h2 id="데리다는-하이데거를-반만-계승했다">데리다는 하이데거를 반만 계승했다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#데리다는-하이데거를-반만-계승했다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote>
+<p><em>Q. 하이데거를 반만 계승한 거 같다. 의미가 관계(차이)에서 온다는 소쉬르의 주장에 동의한 것은 하이데거를 계승했지만, 의미에 메타 언어 고정이 필요하다는 주장은 전혀 하이데거가 아닌 거 같아.</em></p>
+</blockquote>
+<p>하이데거에게 의미는 외부 근거(Grund)를 요구하지 않는다. 우리는 이미 의미 있는 세계 안에 던져져(geworfen) 있다. “의미의 근거는 무엇인가?”라는 질문 자체가 형이상학의 함정이다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th>관계적 의미</th><th>외부 근거 요구</th></tr></thead><tbody><tr><td><strong>형이상학</strong></td><td>✗ (실체적 의미)</td><td>✓ → 있다</td></tr><tr><td><strong>데리다</strong></td><td>✓ (차이)</td><td>✓ → 없다 → 의미 불확정</td></tr><tr><td><strong>하이데거</strong></td><td>✓ (지시 연관)</td><td>✗ (질문 자체를 해체)</td></tr><tr><td><strong>비트겐슈타인</strong></td><td>✓ (사용)</td><td>✗ (질문 자체를 해소)</td></tr></tbody></table></div>
+<p>데리다는 형이상학의 답을 뒤집었지만, 하이데거와 비트겐슈타인은 형이상학의 질문을 해체했다. 해체주의자가 가장 덜 해체한 것이 형이상학의 질문 형식 자체였다는 아이러니.</p>
+<h2 id="그럼에도-데리다의-의의-해체적-읽기">그럼에도 데리다의 의의: 해체적 읽기<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#그럼에도-데리다의-의의-해체적-읽기" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote>
+<p><em>Q. 스승도 못 뛰어넘은 사람인 거 같은데, 그럼 데리다의 의의가 뭘까?</em></p>
+</blockquote>
+<p>데리다의 유산은 이론이 아니라 <strong>텍스트를 읽는 방법</strong>이다.</p>
+<h3 id="해체적-읽기란">해체적 읽기란<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#해체적-읽기란" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><em>Q. 전제와 결론 사이의 긴장이라는 말이 그냥 자기모순이라는 말하고 다른 말이야?</em></p>
+</blockquote>
+<p>논리적으로는 자기모순을 찾는 것과 같다. 차이는 태도다.</p>
+<ul>
+<li><strong>모순 지적</strong>: A이면서 not-A → 틀렸다 → 버린다</li>
+<li><strong>해체적 읽기</strong>: A이면서 not-A → 왜 이 모순이 필요했는지 묻는다 → 모순을 <strong>증상</strong>으로 읽는다</li>
+</ul>
+<h3 id="대표-사례-플라톤의-약국">대표 사례: 플라톤의 약국<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#대표-사례-플라톤의-약국" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><em>Q. 대표적인 사례 같은 게 있어?</em></p>
+</blockquote>
+<p>데리다의 『플라톤의 약국』(La pharmacie de Platon) — 플라톤의 『파이드로스』에 대한 읽기.</p>
+<p><strong>플라톤이 세운 위계</strong>: 말(speech) > 글(writing). 글은 기억의 독(pharmakon)이다.</p>
+<p><strong>데리다가 발견한 긴장들</strong>:</p>
+<ul>
+<li>pharmakon은 그리스어로 “약”이자 “독” — 플라톤이 “독”으로 고정하려 하지만 단어 자체가 거부한다</li>
+<li>글을 비판하는 논증이 글로 쓰여 있다</li>
+<li>말을 묘사할 때 “영혼에 새겨진 것”이라는 글쓰기의 비유를 쓴다</li>
+</ul>
+<blockquote>
+<p><em>Q. 거기서 그치면 그냥 자기모순 지적일 뿐 아니야?</em></p>
+</blockquote>
+<p>모순 지적에서 그치면: “플라톤이 모순적이다. 틀렸다.” → 끝.</p>
+<p>해체적 읽기가 더 가는 곳: <strong>위계의 역전</strong>.</p>
+<pre><code>플라톤:      말 > 글  (글은 말의 열등한 복사본)
+모순 지적:   말 > 글이 성립 안 한다 (틀렸다)
+해체적 읽기: 글이 말의 조건이다 → 글 > 말 (위계 역전)
+</code></pre>
+<p>“네가 깔아뭉갠 것이 사실은 네가 의존하는 것이다” — 배제된 것이 배제하는 것의 존립 조건이라는 발견. 데리다는 이 패턴이 서양 형이상학의 모든 이항대립(현전/부재, 자연/문화, 말/글)에서 반복된다고 보았다.</p>
+<h3 id="해체적-읽기의-실제-영향-철학보다-사회학에-가깝다">해체적 읽기의 실제 영향: 철학보다 사회학에 가깝다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#해체적-읽기의-실제-영향-철학보다-사회학에-가깝다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>해체적 읽기는 순수 철학보다 <strong>권력과 위계를 분석하는 도구</strong>로서 폭발적 영향을 미쳤다.</p>
+<ul>
+<li>젠더이론(주디스 버틀러), 탈식민연구(에드워드 사이드, 스피박), 비판법학(CLS), 문화연구</li>
+<li>문학비평: 신비평의 “텍스트의 통일된 의미를 찾는다” → 해체비평의 “텍스트가 자기 자신과 어긋나는 지점을 찾는다”</li>
+</ul>
+<h2 id="데리다의-일관된-패턴-유효한-관찰-과도한-결론">데리다의 일관된 패턴: 유효한 관찰, 과도한 결론<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#데리다의-일관된-패턴-유효한-관찰-과도한-결론" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote>
+<p><em>Q. 작가가 통제하지 못하는 영역이 있다고 해서 의도가 의미와 무관하다고 생각하는 건 지나치게 과장된 생각이야.</em></p>
+</blockquote>
+<p>이 대화에서 데리다에 대해 일관되게 드러난 구조:</p>
+<ul>
+<li>차이에서 의미가 온다 → <strong>(과잉)</strong> 의미는 확정 불가</li>
+<li>메타 언어 고정이 없다 → <strong>(과잉)</strong> 의미는 0이어야 한다</li>
+<li>텍스트에 저자가 통제 못하는 것이 있다 → <strong>(과잉)</strong> 의도는 무관하다</li>
+</ul>
+<p>매번 강하게 말하면 틀리고, 약하게 말하면 당연한 말이 되는 딜레마에 빠진다.</p>
+<p>다만, 만약 기존에 “작가가 통제하지 못하는 텍스트의 어떤 면”을 다들 모르고 있었다면, 그 존재를 드러낸 것은 데리다의 공이다. 결론이 과잉이더라도 관찰 자체가 새로웠다면 의의가 있다.</p>
+<h3 id="그런데-그-관찰은-새로운-것이었나">그런데 그 관찰은 새로운 것이었나?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#그런데-그-관찰은-새로운-것이었나" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><em>Q. 데리다 이전에 비슷한 말을 하는 사람은 없겠지?</em></p>
+</blockquote>
+<p>있다. 꽤 많다. 리쾨르가 이미 데리다 이전에 이 전통을 <strong>“의심의 해석학(hermeneutics of suspicion)”</strong> 이라 정리했다.</p>
+<ul>
+<li><strong>마르크스</strong>: 텍스트에는 저자가 의식하지 못하는 이데올로기적 모순이 있다</li>
+<li><strong>니체</strong>: 철학적 주장 뒤에는 저자가 통제하지 못하는 은폐된 비유와 권력 의지가 있다</li>
+<li><strong>프로이트</strong>: 말실수, 꿈, 증상 — 화자가 통제하지 못하는 텍스트를 읽어서 무의식을 드러낸다</li>
+<li><strong>슐라이어마허</strong>: “저자보다 저자를 더 잘 이해한다”는 해석학 원칙</li>
+<li><strong>하이데거</strong>: 존재론의 역사에 대한 파괴(Destruktion) — 해체(déconstruction)의 직접적 원형</li>
+<li><strong>바흐친</strong>: 텍스트에는 저자가 통제하지 못하는 다성성(polyphony)이 있다</li>
+</ul>
+<p>“텍스트에는 저자가 통제 못하는 면이 있다”는 관찰은 데리다 고유의 것이 아니다.</p>
+<h3 id="최종-평가">최종 평가<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#최종-평가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>관찰도 새롭지 않고, 결론은 과잉이라면 — 데리다의 고유한 기여는 결국 <strong>소쉬르 + 하이데거 + 의심의 해석학을 하나로 합친 패키징</strong>이었다는 것.</p>
+<h2 id="차연과-해체-그리고-로티의-비판">차연과 해체, 그리고 로티의 비판<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#차연과-해체-그리고-로티의-비판" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote>
+<p><em>Q. 차연과 해체는 어떻게 달라?</em></p>
+</blockquote>
+<pre><code>차연(différance):    의미는 왜 불안정한가 → 이론/진단
+해체(déconstruction): 그 불안정성을 텍스트에서 어떻게 드러내는가 → 방법/실천
+</code></pre>
+<p>차연이 원리이고, 해체가 그 원리에 기반한 작업이다. 아이러니하게도, 근거를 부정하는 사람이 자기 방법론의 근거를 세운 셈.</p>
+<h3 id="해체의-구체적-사례-미국-독립선언문">해체의 구체적 사례: 미국 독립선언문<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#해체의-구체적-사례-미국-독립선언문" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>데리다의 「독립선언문(Declarations of Independence)」(1986) 분석.</p>
+<p><strong>차연이 작동하는 지점</strong>: “We, the People”의 의미가 확정되지 않는다. 인민이 선언문에 권위를 부여하지만, 주권적 주체로서의 인민은 선언문에 의해 비로소 창설된다. 서명의 순간에 “인민”은 현전하지 않는다.</p>
+<p><strong>해체가 작동하는 지점</strong>: 선언문은 “이미 존재하는 인민을 대표한다”고 주장하지만, 실제로는 인민을 만들고 있다. 텍스트가 말하는 것(대표)과 하는 것(창설)이 어긋난다.</p>
+<blockquote>
+<p><em>Q. 여기서, 해체라는 액션이 어떻게 정치적 의미를 가지게 되는 거지?</em></p>
+</blockquote>
+<p>“인민”이 자연적 사실이 아니라 구성된 것이라면, 배제는 필연이 아니라 우연이 되고, 경계는 다시 그을 수 있게 된다.</p>
+<p>그러나 이 결론은 결국 “기존 질서는 비판 가능하고 더 포용적이어야 한다”는 자유민주주의 상식이다. 차연, 해체, 초월적 기의의 부재 같은 거대한 이론 장치가 필요한 말이 아니다. 로티의 비판이 정확히 이 지점이다.</p>
+<h3 id="로티의-데리다-비판">로티의 데리다 비판<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#로티의-데리다-비판" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>로티는 분석철학 출신이면서 데리다를 진지하게 읽은 드문 사람이다.</p>
+<ul>
+<li><strong>전기 vs 후기</strong>: 전기 데리다(『그라마톨로지』)는 형이상학에 맞서면서 형이상학에 갇혀 있고, 후기 데리다(『글라』)는 형이상학을 무시하면서 자유로워졌다. 로티는 후기를 더 높이 평가.</li>
+<li><strong>데리다 vs 비트겐슈타인</strong>: 비트겐슈타인은 사다리를 타고 올라간 뒤 사다리를 걷어찬 사람. 데리다는 사다리를 걷어차야 한다고 끝없이 논증하면서 사다리 위에 서 있는 사람.</li>
+<li><strong>사적 아이러니스트</strong>: 데리다는 기존 어휘의 우연성을 드러내는 데 탁월하지만, 이건 개인적 자기창조의 영역이지 공적·정치적 의미를 갖지 않는다.</li>
+<li><strong>결정적 평가</strong>: “데리다의 최고의 통찰은 철학도 하나의 글쓰기 장르일 뿐이라는 것인데, 이 실용적 관찰을 과잉 이론화했다.”</li>
+</ul>
+<p>데리다의 반응: 로티가 해체를 미국식 프래그머티즘으로 길들였다고 불만. 해체에는 진정한 철학적·정치적 stakes가 있다고 주장 — 정의는 해체 불가능하며(『법의 힘』), 도래할 민주주의(démocratie à venir)는 기존 질서에 대한 영구적 비판의 근거라고. 그러나 여기서도 같은 딜레마: “정의는 해체 불가능하다”는 데리다가 비판한 초월적 기의와 구조적으로 동일하고, “도래할 민주주의”는 강하게 말하면 정치적 허무주의, 약하게 말하면 민주주의 상식이다.</p>
+<p><strong>로티의 “우호적 비판”에 대한 주의</strong>: 로티가 “철학이 아니라 글쓰기”라고 한 것은 로티의 프레임 안에서만 칭찬이다. 로티는 철학 자체를 “토대를 찾으려는 헛된 시도”로 보고, 글쓰기를 더 높이 평가했다. 그래서 로티에게 “글쓰기다”는 “헛된 것을 넘어섰다”는 뜻이지만, 일반적으로는 격하이고, 데리다 본인에게는 모욕이었다. 로티는 데리다를 진지하게 읽은 뒤 철학에서 추방했다. “괜찮아, 더 좋은 곳으로 보내주는 거야”라고 했지만 그건 로티만의 생각이었다.</p>
+<p>그러나 여기서도 같은 딜레마: “정의는 해체 불가능하다”는 데리다가 비판한 초월적 기의와 구조적으로 동일하고, “도래할 민주주의”는 강하게 말하면 정치적 허무주의, 약하게 말하면 민주주의 상식이다.</p>
+<h3 id="데리다-최종-평가">데리다 최종 평가<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#데리다-최종-평가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>차연:        자기모순
+해체적 읽기:  상식
+정치적 주장:  상식
+</code></pre>
+<p>세 층위 모두에서 “데리다이기 때문에 가능한 것”이 없다.</p>
+<h3 id="데리다-트릴레마와-대륙철학의-반론">데리다 트릴레마와 대륙철학의 반론<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#데리다-트릴레마와-대륙철학의-반론" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>분석철학의 표준적 비판 — <strong>데리다 트릴레마</strong>:</p>
+<ol>
+<li>강하게 읽으면: 자기모순 (self-refuting)</li>
+<li>약하게 읽으면: 당연한 말 (trivially true)</li>
+<li>그 둘을 피하려고: 의도적 모호함 (deliberately obscurantist)</li>
+</ol>
+<p>대륙철학의 반론: 트릴레마는 명제적 참/거짓을 전제하는데, 그 전제 자체가 데리다가 문제 삼는 것이다. 데리다의 텍스트는 명제를 진술하는 게 아니라 의미의 불안정성을 수행(perform)한다.</p>
+<blockquote>
+<p><em>Q. 철학이 참/거짓이어야 한다는 건 하이데거 때부터 문제시되던 거 아냐?</em></p>
+</blockquote>
+<p>맞다. 하이데거는 명제적 참(Richtigkeit)과 진리(Aletheia/열어밝힘)를 구분했고, 대륙철학 전체가 명제적 참을 철학의 기준으로 보지 않는다. “명제로 평가하지 마라”는 데리다를 위한 특별 변론이 아니라 하이데거 이후 대륙철학의 기본 전제다.</p>
+<p>그러면 트릴레마보다 더 정확한 비판은: 분석철학의 기준(명제적 참)으로 실패한다는 게 아니라, <strong>하이데거의 기준(열어밝힘)으로도 고유한 기여를 입증하기 어렵다</strong>는 것.</p>
+<h2 id="차연은-하이데거의-열화판이다">차연은 하이데거의 열화판이다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#차연은-하이데거의-열화판이다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote>
+<p><em>Q. 차연은 하이데거의 세계내존재, 우선대개 같은 존재 방식 해석의 열화판인 거 같다.</em></p>
+</blockquote>
+<p>하이데거가 존재 전체의 의미 구조(세계, 시간, 몸, 죽음, 불안, 실존)를 기술했다면, 차연은 그중 언어/텍스트 층위만 떼어내서 하나의 원리로 추상화한 것이다.</p>
+<pre><code>하이데거: 세계 속에서 살아가는 존재의 의미 → 풍부함
+차연:     텍스트 속에서 미끄러지는 기호의 의미 → 빈약함
+</code></pre>
+<p>이 대화의 수렴적 결론: <strong>데리다는 하이데거를 텍스트론으로 축소한 사람이다.</strong></p>
+<p>반론으로 하이데거의 나치즘 문제가 제기되지만, 같은 도구를 비파시즘적으로 사용한 사람들(아렌트, 레비나스, 사르트르)이 존재한다는 것 자체가, 이론에 방향이 내장되어 있지 않다는 증거다. “~할 수 있다” ≠ “~할 수밖에 없다”.</p>
+<h2 id="해석학이-이미-했다-가다머">해석학이 이미 했다: 가다머<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#해석학이-이미-했다-가다머" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote>
+<p><em>Q. “해석학이 먼저다”라는 주장도 하이데거를 염두에 둔 거야?</em></p>
+</blockquote>
+<p>하이데거를 포함하지만 더 직접적으로는 가다머를 가리킨다. 가다머의 『진리와 방법』(1960)은 데리다 주요 저작(1967)보다 7년 앞선다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>데리다의 주장</th><th>가다머가 이미 한 말</th></tr></thead><tbody><tr><td>저자의 의도가 의미를 통제하지 못한다</td><td>의미는 텍스트와 독자의 지평 융합에서 발생</td></tr><tr><td>의미는 맥락에 따라 달라진다</td><td>이해는 항상 영향사 속에 있다</td></tr><tr><td>전제 없는 읽기는 불가능하다</td><td>선입견은 이해의 조건이다</td></tr><tr><td>의미는 완전히 확정되지 않는다</td><td>이해는 끝나지 않는 대화다</td></tr></tbody></table></div>
+<p>결정적 차이: 같은 출발점에서 가다머는 이해의 가능성을 긍정하고, 데리다는 불가능성을 강조한다.</p>
+<h3 id="1981년-가다머-데리다-만남">1981년 가다머-데리다 만남<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1981년-가다머-데리다-만남" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>가다머: “서로 이해하려는 선의를 전제하고 대화할 수 있다”</li>
+<li>데리다: “그 ‘선의’라는 전제 자체가 형이상학적이다”</li>
+<li>가다머: (당혹)</li>
+</ul>
+<p>데리다가 가다머를 비판했다는 사실 자체가 가다머의 논점을 증명한다. 비판이라는 행위가 이해를 전제하니까.</p>
+<pre><code>가다머: &quot;이해는 가능하다&quot;
+데리다: &quot;그 전제가 형이상학적이다&quot;
+가다머: &quot;그렇게 정확히 반박하는 걸 보니, 내 말을 이해한 거 같군&quot;
+데리다: ...
+</code></pre>
+<ul>
+<li>“이해했다” → 가다머가 맞음</li>
+<li>“이해 못 했다” → 반박이 성립하지 않음</li>
+<li>침묵 → 사실상 패배</li>
+</ul></article><hr/><div class="page-footer"><div class="giscus" data-repo="qodot/obsidian-public" data-repo-id="R_kgDOR7CdbA" data-category="General" data-category-id="DIC_kwDOR7CdbM4C6KsX" data-mapping="pathname" data-strict="1" data-reactions-enabled="1" data-input-position="top" data-light-theme="light" data-dark-theme="dark" data-theme-url="https://qodot.me/static/giscus" data-lang="ko"></div></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-16" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#프레게와-소쉬르-그리고-하이데거" data-for="프레게와-소쉬르-그리고-하이데거">프레게와 소쉬르, 그리고 하이데거</a></li><li class="depth-1"><a href="#프레게-뜻sinn과-지시체bedeutung" data-for="프레게-뜻sinn과-지시체bedeutung">프레게: 뜻(Sinn)과 지시체(Bedeutung)</a></li><li class="depth-1"><a href="#소쉬르-기표signifiant와-기의signifié" data-for="소쉬르-기표signifiant와-기의signifié">소쉬르: 기표(signifiant)와 기의(signifié)</a></li><li class="depth-2"><a href="#기의의-핵심-차이와-가치" data-for="기의의-핵심-차이와-가치">기의의 핵심: 차이와 가치</a></li><li class="depth-1"><a href="#프레게-vs-소쉬르" data-for="프레게-vs-소쉬르">프레게 vs 소쉬르</a></li><li class="depth-1"><a href="#소쉬르와-하이데거의-접점" data-for="소쉬르와-하이데거의-접점">소쉬르와 하이데거의 접점</a></li><li class="depth-1"><a href="#데리다의-종합-차연différance" data-for="데리다의-종합-차연différance">데리다의 종합: 차연(différance)</a></li><li class="depth-1"><a href="#소쉬르의-차이-vs-데리다의-차연" data-for="소쉬르의-차이-vs-데리다의-차연">소쉬르의 차이 vs 데리다의 차연</a></li><li class="depth-2"><a href="#소쉬르-차이가-의미를-만든다" data-for="소쉬르-차이가-의미를-만든다">소쉬르: 차이가 의미를 만든다</a></li><li class="depth-2"><a href="#데리다-차이가-의미를-영원히-미완으로-둔다" data-for="데리다-차이가-의미를-영원히-미완으로-둔다">데리다: 차이가 의미를 영원히 미완으로 둔다</a></li><li class="depth-2"><a href="#요약" data-for="요약">요약</a></li><li class="depth-2"><a href="#데리다의-급진성-닫힌-체계는-원리적으로-불가능하다" data-for="데리다의-급진성-닫힌-체계는-원리적으로-불가능하다">데리다의 급진성: 닫힌 체계는 원리적으로 불가능하다</a></li><li class="depth-1"><a href="#데리다-비판-메타-언어-없이-의미는-가능한가" data-for="데리다-비판-메타-언어-없이-의미는-가능한가">데리다 비판: 메타 언어 없이 의미는 가능한가?</a></li><li class="depth-2"><a href="#수행적-모순" data-for="수행적-모순">수행적 모순</a></li><li class="depth-2"><a href="#데리다가-공유한-형이상학적-전제" data-for="데리다가-공유한-형이상학적-전제">데리다가 공유한 형이상학적 전제</a></li><li class="depth-1"><a href="#데리다는-하이데거를-반만-계승했다" data-for="데리다는-하이데거를-반만-계승했다">데리다는 하이데거를 반만 계승했다</a></li><li class="depth-1"><a href="#그럼에도-데리다의-의의-해체적-읽기" data-for="그럼에도-데리다의-의의-해체적-읽기">그럼에도 데리다의 의의: 해체적 읽기</a></li><li class="depth-2"><a href="#해체적-읽기란" data-for="해체적-읽기란">해체적 읽기란</a></li><li class="depth-2"><a href="#대표-사례-플라톤의-약국" data-for="대표-사례-플라톤의-약국">대표 사례: 플라톤의 약국</a></li><li class="depth-2"><a href="#해체적-읽기의-실제-영향-철학보다-사회학에-가깝다" data-for="해체적-읽기의-실제-영향-철학보다-사회학에-가깝다">해체적 읽기의 실제 영향: 철학보다 사회학에 가깝다</a></li><li class="depth-1"><a href="#데리다의-일관된-패턴-유효한-관찰-과도한-결론" data-for="데리다의-일관된-패턴-유효한-관찰-과도한-결론">데리다의 일관된 패턴: 유효한 관찰, 과도한 결론</a></li><li class="depth-2"><a href="#그런데-그-관찰은-새로운-것이었나" data-for="그런데-그-관찰은-새로운-것이었나">그런데 그 관찰은 새로운 것이었나?</a></li><li class="depth-2"><a href="#최종-평가" data-for="최종-평가">최종 평가</a></li><li class="depth-1"><a href="#차연과-해체-그리고-로티의-비판" data-for="차연과-해체-그리고-로티의-비판">차연과 해체, 그리고 로티의 비판</a></li><li class="depth-2"><a href="#해체의-구체적-사례-미국-독립선언문" data-for="해체의-구체적-사례-미국-독립선언문">해체의 구체적 사례: 미국 독립선언문</a></li><li class="depth-2"><a href="#로티의-데리다-비판" data-for="로티의-데리다-비판">로티의 데리다 비판</a></li><li class="depth-2"><a href="#데리다-최종-평가" data-for="데리다-최종-평가">데리다 최종 평가</a></li><li class="depth-2"><a href="#데리다-트릴레마와-대륙철학의-반론" data-for="데리다-트릴레마와-대륙철학의-반론">데리다 트릴레마와 대륙철학의 반론</a></li><li class="depth-1"><a href="#차연은-하이데거의-열화판이다" data-for="차연은-하이데거의-열화판이다">차연은 하이데거의 열화판이다</a></li><li class="depth-1"><a href="#해석학이-이미-했다-가다머" data-for="해석학이-이미-했다-가다머">해석학이 이미 했다: 가다머</a></li><li class="depth-2"><a href="#1981년-가다머-데리다-만남" data-for="1981년-가다머-데리다-만남">1981년 가다머-데리다 만남</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/qodot">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">var m=Object.create;var f=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var S=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var R=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports);var j=(t,e,n,E)=>{if(e&&typeof e=="object"||typeof e=="function")for(let i of S(e))!b.call(t,i)&&i!==n&&f(t,i,{get:()=>e[i],enumerable:!(E=x(e,i))||E.enumerable});return t};var w=(t,e,n)=>(n=t!=null?m(y(t)):{},j(e||!t||!t.__esModule?f(n,"default",{value:t,enumerable:!0}):n,t));var p=R((I,g)=>{"use strict";g.exports=L;function B(t){return t instanceof Buffer?Buffer.from(t):new t.constructor(t.buffer.slice(),t.byteOffset,t.length)}function L(t){if(t=t||{},t.circles)return v(t);let e=new Map;if(e.set(Date,F=>new Date(F)),e.set(Map,(F,l)=>new Map(E(Array.from(F),l))),e.set(Set,(F,l)=>new Set(E(Array.from(F),l))),t.constructorHandlers)for(let F of t.constructorHandlers)e.set(F[0],F[1]);let n=null;return t.proto?o:i;function E(F,l){let u=Object.keys(F),D=new Array(u.length);for(let s=0;s<u.length;s++){let r=u[s],A=F[r];typeof A!="object"||A===null?D[r]=A:A.constructor!==Object&&(n=e.get(A.constructor))?D[r]=n(A,l):ArrayBuffer.isView(A)?D[r]=B(A):D[r]=l(A)}return D}function i(F){if(typeof F!="object"||F===null)return F;if(Array.isArray(F))return E(F,i);if(F.constructor!==Object&&(n=e.get(F.constructor)))return n(F,i);let l={};for(let u in F){if(Object.hasOwnProperty.call(F,u)===!1)continue;let D=F[u];typeof D!="object"||D===null?l[u]=D:D.constructor!==Object&&(n=e.get(D.constructor))?l[u]=n(D,i):ArrayBuffer.isView(D)?l[u]=B(D):l[u]=i(D)}return l}function o(F){if(typeof F!="object"||F===null)return F;if(Array.isArray(F))return E(F,o);if(F.constructor!==Object&&(n=e.get(F.constructor)))return n(F,o);let l={};for(let u in F){let D=F[u];typeof D!="object"||D===null?l[u]=D:D.constructor!==Object&&(n=e.get(D.constructor))?l[u]=n(D,o):ArrayBuffer.isView(D)?l[u]=B(D):l[u]=o(D)}return l}}function v(t){let e=[],n=[],E=new Map;if(E.set(Date,u=>new Date(u)),E.set(Map,(u,D)=>new Map(o(Array.from(u),D))),E.set(Set,(u,D)=>new Set(o(Array.from(u),D))),t.constructorHandlers)for(let u of t.constructorHandlers)E.set(u[0],u[1]);let i=null;return t.proto?l:F;function o(u,D){let s=Object.keys(u),r=new Array(s.length);for(let A=0;A<s.length;A++){let c=s[A],C=u[c];if(typeof C!="object"||C===null)r[c]=C;else if(C.constructor!==Object&&(i=E.get(C.constructor)))r[c]=i(C,D);else if(ArrayBuffer.isView(C))r[c]=B(C);else{let a=e.indexOf(C);a!==-1?r[c]=n[a]:r[c]=D(C)}}return r}function F(u){if(typeof u!="object"||u===null)return u;if(Array.isArray(u))return o(u,F);if(u.constructor!==Object&&(i=E.get(u.constructor)))return i(u,F);let D={};e.push(u),n.push(D);for(let s in u){if(Object.hasOwnProperty.call(u,s)===!1)continue;let r=u[s];if(typeof r!="object"||r===null)D[s]=r;else if(r.constructor!==Object&&(i=E.get(r.constructor)))D[s]=i(r,F);else if(ArrayBuffer.isView(r))D[s]=B(r);else{let A=e.indexOf(r);A!==-1?D[s]=n[A]:D[s]=F(r)}}return e.pop(),n.pop(),D}function l(u){if(typeof u!="object"||u===null)return u;if(Array.isArray(u))return o(u,l);if(u.constructor!==Object&&(i=E.get(u.constructor)))return i(u,l);let D={};e.push(u),n.push(D);for(let s in u){let r=u[s];if(typeof r!="object"||r===null)D[s]=r;else if(r.constructor!==Object&&(i=E.get(r.constructor)))D[s]=i(r,l);else if(ArrayBuffer.isView(r))D[s]=B(r);else{let A=e.indexOf(r);A!==-1?D[s]=n[A]:D[s]=l(r)}}return e.pop(),n.pop(),D}}});var T=Object.hasOwnProperty;var h=w(p(),1),O=(0,h.default)();function d(t){return t.document.body.dataset.slug}var k=t=>`${d(window)}-checkbox-${t}`;document.addEventListener("nav",()=>{document.querySelectorAll("input.checkbox-toggle").forEach((e,n)=>{let E=k(n),i=o=>{let F=o.target?.checked?"true":"false";localStorage.setItem(E,F)};e.addEventListener("change",i),window.addCleanup(()=>e.removeEventListener("change",i)),localStorage.getItem(E)==="true"&&(e.checked=!0)})});
+</script><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

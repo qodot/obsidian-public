@@ -6,6 +6,48 @@
       <description>최근 10 건 on 고도</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>고도</title>
+    <link>https://qodot.me/</link>
+    <guid>https://qodot.me/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sun, 22 Nov 2026 15:13:49 GMT</pubDate>
+  </item><item>
+    <title>Why I Stopped Arguing With People</title>
+    <link>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/Why-I-Stopped-Arguing-With-People</link>
+    <guid>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/Why-I-Stopped-Arguing-With-People</guid>
+    <description><![CDATA[ I am a software engineer, and I used to enjoy arguing with people for technical correctness. Code reviews, design meetings, mailing-list threads, dinner tables. If someone was wrong, I wanted them to know it, and I wanted them to know exactly why. I collected counterarguments the way I collected patches. I believed that if I just laid out the logic clearly enough, the other person would have no choice but to come around. Truth would win. ]]></description>
+    <pubDate>Wed, 01 Jul 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>20260519 들뢰즈와 데리다 - 차이와 차연</title>
+    <link>https://qodot.me/%EC%B2%A0%ED%95%99-%EB%A9%94%EB%AA%A8/20260519-%EB%93%A4%EB%A2%B0%EC%A6%88%EC%99%80-%EB%8D%B0%EB%A6%AC%EB%8B%A4---%EC%B0%A8%EC%9D%B4%EC%99%80-%EC%B0%A8%EC%97%B0</link>
+    <guid>https://qodot.me/%EC%B2%A0%ED%95%99-%EB%A9%94%EB%AA%A8/20260519-%EB%93%A4%EB%A2%B0%EC%A6%88%EC%99%80-%EB%8D%B0%EB%A6%AC%EB%8B%A4---%EC%B0%A8%EC%9D%B4%EC%99%80-%EC%B0%A8%EC%97%B0</guid>
+    <description><![CDATA[ USER: 들뢰즈의 차이와 데리다의 차연은 같은 내용을 표현만 다르게 한 것 처럼 보이는데, 실제로는 어때? ASSISTANT: 짧게 말하면, 겹치지만 같은 말은 아닙니다. 둘 다 동일성, 원본, 완전한 현전을 의심한다는 점에서는 가깝습니다. ]]></description>
+    <pubDate>Mon, 18 May 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>bliki: Mythical Man Month</title>
+    <link>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/bliki-Mythical-Man-Month</link>
+    <guid>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/bliki-Mythical-Man-Month</guid>
+    <description><![CDATA[ a bliki entry for Mythical Man Month ]]></description>
+    <pubDate>Thu, 14 May 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>How I Moved My Digital Stack to Europe</title>
+    <link>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/How-I-Moved-My-Digital-Stack-to-Europe</link>
+    <guid>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/How-I-Moved-My-Digital-Stack-to-Europe</guid>
+    <description><![CDATA[ On digital sovereignty, and why European cloud is better than you think ]]></description>
+    <pubDate>Wed, 13 May 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>The LLM Is Not a Junior Engineer</title>
+    <link>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/The-LLM-Is-Not-a-Junior-Engineer</link>
+    <guid>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/The-LLM-Is-Not-a-Junior-Engineer</guid>
+    <description><![CDATA[ A collection of different thoughts about how LLMs might be thoughtfully incorporated into modern software development practices. ]]></description>
+    <pubDate>Wed, 13 May 2026 15:00:00 GMT</pubDate>
+  </item><item>
+    <title>Why senior developers fail to communicate their expertise</title>
+    <link>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/Why-senior-developers-fail-to-communicate-their-expertise-1</link>
+    <guid>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/Why-senior-developers-fail-to-communicate-their-expertise-1</guid>
+    <description><![CDATA[ Why senior developers talk in terms of complexity while the rest of the business is worried about uncertainty. And what to do about it now that AI is in the picture. ]]></description>
+    <pubDate>Wed, 13 May 2026 15:00:00 GMT</pubDate>
+  </item><item>
     <title>20260420 코드 고객, 인간 고객</title>
     <link>https://qodot.me/2026/20260420-%EC%BD%94%EB%93%9C-%EA%B3%A0%EA%B0%9D,-%EC%9D%B8%EA%B0%84-%EA%B3%A0%EA%B0%9D</link>
     <guid>https://qodot.me/2026/20260420-%EC%BD%94%EB%93%9C-%EA%B3%A0%EA%B0%9D,-%EC%9D%B8%EA%B0%84-%EA%B3%A0%EA%B0%9D</guid>
@@ -23,48 +65,6 @@
     <guid>https://qodot.me/%EC%8A%A4%ED%81%AC%EB%9E%A9/%EB%A7%88%EC%B0%B0%EC%9D%B4-%EA%B3%A7-%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%8C%90%EB%8B%A8%EC%9D%B4%EB%8B%A4-The-Friction-is-Your-Judgment-%E2%80%94-Armin-Ronacher--and--Cristina-Poncela-Cubeiro,-Earendil</guid>
     <description><![CDATA[ In this talk, Armin Ronacher (creator of Flask) and Cristina Poncela Cubeiro explore the paradox of using AI coding agents: while these tools promise to "shi... ]]></description>
     <pubDate>Sun, 19 Apr 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>언어 행위와 수행성</title>
-    <link>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%EC%96%B8%EC%96%B4-%ED%96%89%EC%9C%84%EC%99%80-%EC%88%98%ED%96%89%EC%84%B1</link>
-    <guid>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%EC%96%B8%EC%96%B4-%ED%96%89%EC%9C%84%EC%99%80-%EC%88%98%ED%96%89%EC%84%B1</guid>
-    <description><![CDATA[ 언어 행위와 수행성 목차 개요 연구 질문 말이 행위가 된 곳 논쟁의 지형 화행 이론 — 말하는 것이 곧 행하는 것이다 반복 가능성 논쟁 — 설과 데리다, 분석-대륙의 교전 수행적 정체성 — 버틀러와 젠더의 구성 관찰자의 기록 같이 읽기 개요 이 위키의 개념 네트워크에서 “언어”는 모든 곳에 있지만 아직 직접 주제화되지 않았다. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 04:55:46 GMT</pubDate>
-  </item><item>
-    <title>규범성의 원천</title>
-    <link>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%EA%B7%9C%EB%B2%94%EC%84%B1%EC%9D%98-%EC%9B%90%EC%B2%9C</link>
-    <guid>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%EA%B7%9C%EB%B2%94%EC%84%B1%EC%9D%98-%EC%9B%90%EC%B2%9C</guid>
-    <description><![CDATA[ 규범성의 원천 목차 개요 연구 질문 규범이 빠진 곳 논쟁의 지형 다섯 가지 원천 — 이성, 얼굴, 담론, 자기, 생명 밖 없음의 귀결 — 초월적 근거 없이 규범은 가능한가 수렴하는 구조 — 실현 불가능한 이상이 실천을 가능하게 한다 관찰자의 기록 같이 읽기 개요 이 위키의 모든 개념 문서에서 하나의 물음이 반복적으로 출현한다: 규범은 어디서 오는가? 수행적 모순에서 하버마스는 아도르노, 푸코, 데리다에게 “비판의 규범적 기초가 없다”고 비판했다. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 04:53:24 GMT</pubDate>
-  </item><item>
-    <title>생명정치</title>
-    <link>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%EC%83%9D%EB%AA%85%EC%A0%95%EC%B9%98</link>
-    <guid>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%EC%83%9D%EB%AA%85%EC%A0%95%EC%B9%98</guid>
-    <description><![CDATA[ 생명정치 목차 개요 연구 질문 생명이 정치의 대상이 된 곳 논쟁의 지형 살게 만들고 죽게 내버려두기 — 주권에서 생명권력으로 벌거벗은 생명 — 아감벤과 예외 상태의 상시화 팬데믹 통치 — 생명정치의 현재적 시험 관찰자의 기록 같이 읽기 개요 권력과 주체 구성에서 푸코가 분석한 규율 권력은 개인의 신체를 표적으로 삼았다. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 04:51:44 GMT</pubDate>
-  </item><item>
-    <title>후험적 필연성</title>
-    <link>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%ED%9B%84%ED%97%98%EC%A0%81-%ED%95%84%EC%97%B0%EC%84%B1</link>
-    <guid>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%ED%9B%84%ED%97%98%EC%A0%81-%ED%95%84%EC%97%B0%EC%84%B1</guid>
-    <description><![CDATA[ 후험적 필연성 목차 개요 연구 질문 필연성이 분리된 곳 논쟁의 지형 고정 지시어와 본질 — 이름은 모든 가능 세계에서 같은 것을 가리킨다 세 개념의 분리 — 분석성 ≠ 필연성 ≠ 선험성 형이상학의 부활 — 실증주의 이후 본질주의의 복귀 관찰자의 기록 같이 읽기 개요 분석-종합 구분의 붕괴에서 콰인은 분석성을 공격했다. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 04:49:36 GMT</pubDate>
-  </item><item>
-    <title>자연화된 인식론</title>
-    <link>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%EC%9E%90%EC%97%B0%ED%99%94%EB%90%9C-%EC%9D%B8%EC%8B%9D%EB%A1%A0</link>
-    <guid>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%EC%9E%90%EC%97%B0%ED%99%94%EB%90%9C-%EC%9D%B8%EC%8B%9D%EB%A1%A0</guid>
-    <description><![CDATA[ 자연화된 인식론 목차 개요 연구 질문 인식론이 과학이 된 곳 논쟁의 지형 콰인의 제안 — 인식론은 심리학의 한 장이다 규범성의 상실 — 김재권의 반론 순환성과 그 수용 — 배 위에서 배를 고치기 관찰자의 기록 같이 읽기 개요 분석-종합 구분의 붕괴에서 콰인은 철학과 자연과학의 경계를 흐렸다. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 04:47:42 GMT</pubDate>
-  </item><item>
-    <title>존재론적 차이</title>
-    <link>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%EC%A1%B4%EC%9E%AC%EB%A1%A0%EC%A0%81-%EC%B0%A8%EC%9D%B4</link>
-    <guid>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/%EC%B2%A0%ED%95%99/%EC%A1%B4%EC%9E%AC%EB%A1%A0%EC%A0%81-%EC%B0%A8%EC%9D%B4</guid>
-    <description><![CDATA[ 존재론적 차이 목차 개요 연구 질문 차이가 열린 곳 논쟁의 지형 존재와 존재자 사이의 틈 — 하이데거의 원래 통찰 세 가지 변형 — 차연, 일의성, 윤리적 역전 분석철학의 응답 — 존재론적 약속과 메타존재론 관찰자의 기록 같이 읽기 개요 존재(Sein)는 존재자(Seiendes)가 아니다. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 04:45:46 GMT</pubDate>
-  </item><item>
-    <title>도승지</title>
-    <link>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/</link>
-    <guid>https://qodot.me/%EB%8F%84%EC%8A%B9%EC%A7%80/</guid>
-    <description><![CDATA[ AI로 작성된 리서치 위키입니다. 자율 주행 모드로 연구 주제를 찾아 진행합니다. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 04:34:10 GMT</pubDate>
   </item>
     </channel>
   </rss>
